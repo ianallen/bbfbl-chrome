@@ -3938,7 +3938,6 @@ function toDollarFormat(str) {
     return formatter.format(str);
 }
 function getId(href) {
-    console.log('getid', href);
     const fragments = href.split('/');
     return parseInt(fragments[fragments.length - 1]);
 }

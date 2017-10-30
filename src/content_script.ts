@@ -47,7 +47,6 @@ function toDollarFormat(str) {
 }
 
 function getId(href: string) {
-    console.log('getid', href)
     const fragments = href.split('/');
     return parseInt(fragments[fragments.length - 1])
 }
