@@ -3898,23 +3898,49 @@ const salaries_1 = __webpack_require__(1);
 const _ = __webpack_require__(7);
 $(function () {
     setInterval(render, 600);
+    const playerSelector = '.ysf-player-name';
+    const salariedSelector = ".bbfbl-salaried";
+    function rendered() {
+        return $(".bbfbl-salaried").length > 0;
+    }
     function render() {
-        const playerSelector = '.ysf-player-name';
-        if ($(".salaried").length > 0)
+        const rendered = $(salariedSelector).length > 0;
+        var val = $(salariedSelector);
+        if (rendered)
             return;
         const $players = $(playerSelector);
+        // console.log("players:", $players)
+        const teamSalaries = [];
         $players.each(function () {
             const $this = $(this);
             const href = $this.find('a').attr('href');
+            console.log(this);
             if (!href)
                 return;
             const playerData = _.find(salaries_1.default, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary17_18 : '$???';
+            const value = playerData ? playerData.salary17_18 : 0;
             $this.append(renderSalary(value));
-            $this.addClass('salaried');
+            $this.addClass('bbfbl-salaried');
+            teamSalaries.push(value);
         });
+        const totalSalary = sum(teamSalaries);
+        renderTotalSalary(totalSalary);
         const width = window.location.href.indexOf('players') > 0 ? 220 : 255;
         $('td .Ov-h ').css('width', width);
+    }
+    function sum(values) {
+        return values.reduce((total, salary) => { return total + salary; }, 0);
+    }
+    function renderTotalSalary(total) {
+        const color = total < 130000000 ? '#0d8d40' : '#f33131';
+        const css = {
+            'color': color,
+            'font-size': 10,
+            'font-weight': 500
+        };
+        const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
+        elem.css(css);
+        $('#team-card-info .team-card-stats li').append(elem);
     }
 });
 function renderSalary(str) {
