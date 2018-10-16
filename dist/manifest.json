@@ -17,7 +17,7 @@
 
   "content_scripts": [
       {
-          "matches": ["https://basketball.fantasysports.yahoo.com/nba/39876/*"], 
+          "matches": ["https://basketball.fantasysports.yahoo.com/nba/7901/*"], 
           "js": ["js/vendor.js", "js/content_script.js"],
           "css": ["styles/styles.css"],
           "run_at": "document_start"
@@ -30,6 +30,6 @@
 
   "permissions": [
     "storage",
-    "https://basketball.fantasysports.yahoo.com/nba/39876/*"
+    "https://basketball.fantasysports.yahoo.com/nba/7901/*"
   ]
 }
