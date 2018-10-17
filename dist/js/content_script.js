@@ -4096,7 +4096,6 @@ $(function () {
         return $(".bbfbl-salaried").length > 0;
     }
     function render() {
-        console.log("hello ???");
         const rendered = $(salariedSelector).length > 0;
         var val = $(salariedSelector);
         if (rendered)
@@ -4122,22 +4121,6 @@ $(function () {
         const width = window.location.href.indexOf('players') > 0 ? 220 : 255;
         $('td .Ov-h ').css('width', width);
     }
-    $('.player-status').on('click', function () {
-        let href = $(this).closest('.Grid-bind-end').find('.ysf-player-name a').attr('href');
-        console.log(href);
-        if (!href)
-            return;
-        const playerData = _.find(salaries_1.default, { yahoo_id: getId(href) });
-        const value = playerData ? playerData.salary18_19 : 0;
-        const container = $(`#playernote-LDRB-${playerData.yahoo_id}`);
-        console.log(container, container.length);
-        // while (container.length < 1) {
-        //     console.log('yeeee', playerData.yahoo_id)
-        //     //const elems = $.map(salaries, salary => $('<li>' + renderSalary(salary) + '</li>'));
-        //     const elem = $('<li>' + renderSalary(playerData.salary19_20) + '</li>')
-        //     container.append(elem)
-        // }
-    });
     function sum(values) {
         return values.reduce((total, salary) => { return total + salary; }, 0);
     }
@@ -4158,8 +4141,6 @@ $(function () {
         const container = $(`#playernote-LDRB-${playerid}`);
         console.log(container);
         if (container.length == 1) {
-            console.log('yeeee', playerid);
-            //const elems = $.map(salaries, salary => $('<li>' + renderSalary(salary) + '</li>'));
             const elem = $('<li>' + renderSalary(salary) + '</li>');
             container.append(elem);
         }
