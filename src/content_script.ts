@@ -44,7 +44,7 @@ $(function() {
         return values.reduce((total, salary) => { return total + salary}, 0);
     }
     function renderTotalSalary(total: number) {
-        const color = total < 130000000 ? '#0d8d40' : '#f33131'
+        const color = total < 132000000 ? '#0d8d40' : '#f33131'
         const css = {
             'color': color,
             'font-size': 10,
@@ -53,6 +53,7 @@ $(function() {
         const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
         elem.css(css);
         $('#team-card-info .Pstart-lg li')
+        .eq(0)
         .append(elem);
     }
     

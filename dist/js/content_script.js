@@ -4134,6 +4134,7 @@ $(function () {
         const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
         elem.css(css);
         $('#team-card-info .Pstart-lg li')
+            .eq(0)
             .append(elem);
     }
     function renderSalaryTable(playerid, salary) {
