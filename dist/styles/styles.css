@@ -31,8 +31,6 @@
   display: none;
   height: 0px;
   width: 800px;
-  /* background-color: lightgray; */
-  /* max-height: 700px; */
   transition: height 1s;
   overflow-x: hidden;
   position: absolute;
@@ -46,10 +44,10 @@
 }
 
 .salary-tool.show {
-  /* min-height: 500; */
   display: block;
-  height: 375px;
+  height: 390px;
 }
+
 
 .salary-tool-trigger.active {
   background-color: #d8571a;
@@ -57,9 +55,13 @@
   color: #fff
 }
 
+.salary-tool-trigger:hover {
+  background-color: #d8571a !important;
+} 
+
 .player-input {
-  /* margin-bottom: 5px; */
   display: block;
+  height: 25px;
   width: 220px;
 }
 
@@ -74,15 +76,11 @@
 .cancel {
   display: none;
   cursor: pointer;
-  /* background-color: pink; */
   border-radius: 3px;
 }
 
 .cancel.active {
   display: inline;
-  /* position: absolute; */
-  /* left: 155px; */
-  /* top: 150px; */
   color: darkred;
 }
 
@@ -94,12 +92,15 @@
 .player-display-wrap {
   display: flex;
   justify-content: space-between;
-  background-color: #0078ff30;
+  background-color: #a0c9f830;
   width: 220px;
   height: 100%;
   padding: 2px 5px;
-  /* margin-bottom: 5px; */
   border: 1px solid darkgreen;
+}
+
+.player-col {
+  max-height: 24px;
 }
 
 .tool-content table {
@@ -114,6 +115,7 @@
 .tool-content td, .tool-content th {
   text-align: center;
   height: 25px;
+  max-height: 25px;
   width: 160px;
 }
 
@@ -129,4 +131,8 @@
 
 .tool-content table, .tool-content th, .tool-content td {
   border: 1px solid #e7e7e7;
+}
+
+.warning {
+  color: darkred;
 }

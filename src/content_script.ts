@@ -254,18 +254,27 @@ function calculateSalaryForYear() {
                 sum += salary
             }
         })
-        $(year + "-sum").text(toDollarFormat(sum))
+        const sumEl = $(year + "-sum")
+        sumEl.text(toDollarFormat(sum))
+        if (sum > 139000000) {
+            sumEl.addClass("warning")
+        } else {
+            sumEl.removeClass("warning")
+        }
     })
 
 }
 
 function setupCancelButton() {
     $(".player-col").on("click", ".cancel",  function() {
-        var row = $(this).closest(".player-row")
+        // const anchor = $(this).closest('.')
+        const row = $(this).closest(".player-row")
+        row.hide();
         row.find("input").show()
         row.find("td.salary").text("").data("salary", 0)
         row.find(".player-display-wrap").remove();
         calculateSalaryForYear()
+        row.show()
     })
 }
 
