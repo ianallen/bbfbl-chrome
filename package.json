@@ -14,11 +14,14 @@
     "url": ""
   },
   "dependencies": {
+    "@types/jqueryui": "^1.12.8",
     "jquery": "~3.2.1",
+    "jquery-ui": "^1.12.1",
     "lodash": "^4.17.4",
     "moment": "~2.18.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
     "@types/chrome": "~0.0.49",
     "@types/jquery": "~3.2.13",
     "@types/lodash": "^4.14.80",

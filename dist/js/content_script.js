@@ -1,6 +1,7 @@
 webpackJsonp([0,1],[
 /* 0 */,
-/* 1 */
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8,4094 +9,4292 @@ webpackJsonp([0,1],[
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = [
     {
-        "yahoo_id": 4612,
         "name": "Stephen Curry",
-        "salary18_19": 37457154,
         "salary19_20": 40231758,
         "salary20_21": 43006362,
-        "salary21_22": 45780966
+        "salary21_22": 45780966,
+        "salary22_23": null,
+        "yahoo_id": 4612
     },
     {
-        "yahoo_id": 3930,
         "name": "Chris Paul",
-        "salary18_19": 35654150,
         "salary19_20": 38506482,
         "salary20_21": 41358814,
-        "salary21_22": 44211146
+        "salary21_22": 44211146,
+        "salary22_23": null,
+        "yahoo_id": 3930
     },
     {
-        "yahoo_id": 4390,
         "name": "Russell Westbrook",
-        "salary18_19": 35654150,
         "salary19_20": 38178000,
         "salary20_21": 41006000,
-        "salary21_22": 43848000
+        "salary21_22": 43848000,
+        "salary22_23": 46662000,
+        "yahoo_id": 4390
     },
     {
-        "yahoo_id": 3704,
+        "name": "John Wall",
+        "salary19_20": 37800000,
+        "salary20_21": 40824000,
+        "salary21_22": 43848000,
+        "salary22_23": 46872000,
+        "yahoo_id": 4716
+    },
+    {
+        "name": "James Harden",
+        "salary19_20": 37800000,
+        "salary20_21": 40824000,
+        "salary21_22": 43848000,
+        "salary22_23": 46872000,
+        "yahoo_id": 4563
+    },
+    {
         "name": "LeBron James",
-        "salary18_19": 35654150,
         "salary19_20": 37436858,
         "salary20_21": 39219565,
-        "salary21_22": 41002273
+        "salary21_22": 41002273,
+        "salary22_23": null,
+        "yahoo_id": 3704
     },
     {
-        "yahoo_id": 4561,
+        "name": "Kevin Durant",
+        "salary19_20": 37199000,
+        "salary20_21": 39058950,
+        "salary21_22": 40918900,
+        "salary22_23": 42778850,
+        "yahoo_id": 4244
+    },
+    {
+        "name": "Kemba Walker",
+        "salary19_20": 34379100,
+        "salary20_21": 32742000,
+        "salary21_22": 36016200,
+        "salary22_23": 37653300,
+        "yahoo_id": 4890
+    },
+    {
         "name": "Blake Griffin",
-        "salary18_19": 32088932,
         "salary19_20": 34234964,
         "salary20_21": 36595996,
-        "salary21_22": 38957028
+        "salary21_22": 38957028,
+        "salary22_23": null,
+        "yahoo_id": 4561
     },
     {
-        "yahoo_id": 4724,
-        "name": "Gordon Hayward",
-        "salary18_19": 31214295,
-        "salary19_20": 32700690,
-        "salary20_21": 34187085,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4152,
         "name": "Kyle Lowry",
-        "salary18_19": 31200000,
         "salary19_20": 33296296,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 30000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4152
     },
     {
-        "yahoo_id": 4725,
         "name": "Paul George",
-        "salary18_19": 30560700,
         "salary19_20": 33005556,
         "salary20_21": 35450412,
-        "salary21_22": 37895268
+        "salary21_22": 37895268,
+        "salary22_23": null,
+        "yahoo_id": 4725
     },
     {
-        "yahoo_id": 4246,
+        "name": "Klay Thompson",
+        "salary19_20": 32742000,
+        "salary20_21": 35361360,
+        "salary21_22": 37980720,
+        "salary22_23": 40600080,
+        "yahoo_id": 4892
+    },
+    {
+        "name": "Jimmy Butler",
+        "salary19_20": 32742000,
+        "salary20_21": 34379100,
+        "salary21_22": 36016200,
+        "salary22_23": 37653300,
+        "yahoo_id": 4912
+    },
+    {
+        "name": "Kawhi Leonard",
+        "salary19_20": 32742000,
+        "salary20_21": 34379100,
+        "salary21_22": 36016200,
+        "salary22_23": null,
+        "yahoo_id": 4896
+    },
+    {
+        "name": "Gordon Hayward",
+        "salary19_20": 32700690,
+        "salary20_21": 34187085,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4724
+    },
+    {
         "name": "Mike Conley",
-        "salary18_19": 30521116,
         "salary19_20": 32511623,
         "salary20_21": 34504132,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4246
     },
     {
-        "yahoo_id": 4563,
-        "name": "James Harden",
-        "salary18_19": 30431854,
-        "salary19_20": 37800000,
-        "salary20_21": 40824000,
-        "salary21_22": 43848000
+        "name": "Kyrie Irving",
+        "salary19_20": 31742000,
+        "salary20_21": 33329100,
+        "salary21_22": 34916200,
+        "salary22_23": 36503300,
+        "yahoo_id": 4840
     },
     {
-        "yahoo_id": 4244,
-        "name": "Kevin Durant",
-        "salary18_19": 30000000,
-        "salary19_20": 31500000,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Tobias Harris",
+        "salary19_20": 31034483,
+        "salary20_21": 33517241,
+        "salary21_22": 36000000,
+        "salary22_23": 38482759,
+        "yahoo_id": 4901
     },
     {
-        "yahoo_id": 4175,
+        "name": "Khris Middleton",
+        "salary19_20": 30603448,
+        "salary20_21": 33051724,
+        "salary21_22": 35500000,
+        "salary22_23": 37948276,
+        "yahoo_id": 5073
+    },
+    {
         "name": "Paul Millsap",
-        "salary18_19": 29730769,
         "salary19_20": 30500000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4175
     },
     {
-        "yahoo_id": 4245,
-        "name": "Al Horford",
-        "salary18_19": 28928710,
-        "salary19_20": 30123015,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5012,
         "name": "Damian Lillard",
-        "salary18_19": 27977689,
         "salary19_20": 29802321,
         "salary20_21": 31626953,
-        "salary21_22": null
+        "salary21_22": 43750000,
+        "salary22_23": 47250000,
+        "yahoo_id": 5012
     },
     {
-        "yahoo_id": 4614,
-        "name": "DeMar DeRozan",
-        "salary18_19": 27739975,
-        "salary19_20": 27739975,
-        "salary20_21": 27739975,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5154,
-        "name": "Otto Porter Jr.",
-        "salary18_19": 26011913,
-        "salary19_20": 27250576,
-        "salary20_21": 28489239,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4622,
-        "name": "Jrue Holiday",
-        "salary18_19": 25976111,
-        "salary19_20": 26131111,
-        "salary20_21": 26131111,
-        "salary21_22": 27020000
-    },
-    {
-        "yahoo_id": 5161,
-        "name": "CJ McCollum",
-        "salary18_19": 25759766,
-        "salary19_20": 27556959,
-        "salary20_21": 29354152,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5292,
-        "name": "Andrew Wiggins",
-        "salary18_19": 25467250,
-        "salary19_20": 27270000,
-        "salary20_21": 29290000,
-        "salary21_22": 31310000
-    },
-    {
-        "yahoo_id": 5294,
-        "name": "Joel Embiid",
-        "salary18_19": 25467250,
-        "salary19_20": 27270000,
-        "salary20_21": 29290000,
-        "salary21_22": 31310000
-    },
-    {
-        "yahoo_id": 5009,
-        "name": "Bradley Beal",
-        "salary18_19": 25434263,
-        "salary19_20": 27093019,
-        "salary20_21": 28751775,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5007,
-        "name": "Anthony Davis",
-        "salary18_19": 25434263,
-        "salary19_20": 27093019,
-        "salary20_21": 28751775,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5015,
-        "name": "Andre Drummond",
-        "salary18_19": 25434263,
-        "salary19_20": 27093019,
-        "salary20_21": 28751775,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4764,
-        "name": "Hassan Whiteside",
-        "salary18_19": 25434263,
-        "salary19_20": 27093018,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5352,
-        "name": "Nikola Jokic",
-        "salary18_19": 24605181,
-        "salary19_20": 27504630,
-        "salary20_21": 29542010,
-        "salary21_22": 31579390
-    },
-    {
-        "yahoo_id": 5163,
-        "name": "Steven Adams",
-        "salary18_19": 24157304,
-        "salary19_20": 25842697,
-        "salary20_21": 27528090,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5185,
-        "name": "Giannis Antetokounmpo",
-        "salary18_19": 24157304,
-        "salary19_20": 25842697,
-        "salary20_21": 27528090,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4391,
         "name": "Kevin Love",
-        "salary18_19": 24119025,
         "salary19_20": 28900000,
         "salary20_21": 31300000,
-        "salary21_22": 31300000
+        "salary21_22": 31300000,
+        "salary22_23": 28900000,
+        "yahoo_id": 4391
     },
     {
-        "yahoo_id": 4325,
-        "name": "Marc Gasol",
-        "salary18_19": 24119025,
-        "salary19_20": 25595700,
+        "name": "Nikola Vucevic",
+        "salary19_20": 28000000,
+        "salary20_21": 26000000,
+        "salary21_22": 24000000,
+        "salary22_23": 22000000,
+        "yahoo_id": 4897
+    },
+    {
+        "name": "Al Horford",
+        "salary19_20": 28000000,
+        "salary20_21": 27500000,
+        "salary21_22": 27000000,
+        "salary22_23": 26500000,
+        "yahoo_id": 4245
+    },
+    {
+        "name": "DeMar DeRozan",
+        "salary19_20": 27739975,
+        "salary20_21": 27739975,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4614
+    },
+    {
+        "name": "CJ McCollum",
+        "salary19_20": 27556959,
+        "salary20_21": 29354152,
+        "salary21_22": 30864198,
+        "salary22_23": 33333333,
+        "yahoo_id": 5161
+    },
+    {
+        "name": "Joel Embiid",
+        "salary19_20": 27504630,
+        "salary20_21": 29542010,
+        "salary21_22": 31579390,
+        "salary22_23": 33616770,
+        "yahoo_id": 5294
+    },
+    {
+        "name": "Kristaps Porzingis",
+        "salary19_20": 27285000,
+        "salary20_21": 29467800,
+        "salary21_22": 31650600,
+        "salary22_23": 33833400,
+        "yahoo_id": 5464
+    },
+    {
+        "name": "D'Angelo Russell",
+        "salary19_20": 27285000,
+        "salary20_21": 28649250,
+        "salary21_22": 30013500,
+        "salary22_23": 31377750,
+        "yahoo_id": 5433
+    },
+    {
+        "name": "Andrew Wiggins",
+        "salary19_20": 27270000,
+        "salary20_21": 29290000,
+        "salary21_22": 31310000,
+        "salary22_23": 33330000,
+        "yahoo_id": 5292
+    },
+    {
+        "name": "Otto Porter Jr.",
+        "salary19_20": 27250576,
+        "salary20_21": 28489239,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5154
+    },
+    {
+        "name": "Devin Booker",
+        "salary19_20": 27250000,
+        "salary20_21": 29430000,
+        "salary21_22": 31610000,
+        "salary22_23": 33790000,
+        "yahoo_id": 5473
+    },
+    {
+        "name": "Karl-Anthony Towns",
+        "salary19_20": 27250000,
+        "salary20_21": 29430000,
+        "salary21_22": 31610000,
+        "salary22_23": 33790000,
+        "yahoo_id": 5432
+    },
+    {
+        "name": "Bradley Beal",
+        "salary19_20": 27093019,
+        "salary20_21": 28751775,
+        "salary21_22": 34502130,
+        "salary22_23": 37262300,
+        "yahoo_id": 5009
+    },
+    {
+        "name": "Anthony Davis",
+        "salary19_20": 27093019,
+        "salary20_21": 28751775,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5007
+    },
+    {
+        "name": "Andre Drummond",
+        "salary19_20": 27093019,
+        "salary20_21": 28751775,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5015
+    },
+    {
+        "name": "Hassan Whiteside",
+        "salary19_20": 27093018,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4764
     },
     {
-        "yahoo_id": 4920,
-        "name": "Chandler Parsons",
-        "salary18_19": 24107258,
-        "salary19_20": 25102511,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Nikola Jokic",
+        "salary19_20": 26573595,
+        "salary20_21": 28542009,
+        "salary21_22": 30510423,
+        "salary22_23": 32478837,
+        "yahoo_id": 5352
     },
     {
-        "yahoo_id": 5013,
-        "name": "Harrison Barnes",
-        "salary18_19": 24107258,
-        "salary19_20": 25102512,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jrue Holiday",
+        "salary19_20": 26131111,
+        "salary20_21": 26131111,
+        "salary21_22": 27020000,
+        "salary22_23": null,
+        "yahoo_id": 4622
     },
     {
-        "yahoo_id": 4487,
-        "name": "Nicolas Batum",
-        "salary18_19": 24000000,
-        "salary19_20": 25565217,
-        "salary20_21": 27130434,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5197,
-        "name": "Rudy Gobert",
-        "salary18_19": 23241573,
-        "salary19_20": 25008427,
-        "salary20_21": 26525281,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4896,
-        "name": "Kawhi Leonard",
-        "salary18_19": 23114067,
-        "salary19_20": 21329752,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4497,
-        "name": "DeAndre Jordan",
-        "salary18_19": 22900000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4130,
         "name": "LaMarcus Aldridge",
-        "salary18_19": 22347015,
         "salary19_20": 26000000,
         "salary20_21": 24000000,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4130
     },
     {
-        "yahoo_id": 4486,
+        "name": "Steven Adams",
+        "salary19_20": 25842697,
+        "salary20_21": 27528090,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5163
+    },
+    {
+        "name": "Giannis Antetokounmpo",
+        "salary19_20": 25842697,
+        "salary20_21": 27528090,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5185
+    },
+    {
+        "name": "Marc Gasol",
+        "salary19_20": 25595700,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4325
+    },
+    {
+        "name": "Nicolas Batum",
+        "salary19_20": 25565217,
+        "salary20_21": 27130434,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4487
+    },
+    {
+        "name": "Chandler Parsons",
+        "salary19_20": 25102511,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4920
+    },
+    {
+        "name": "Rudy Gobert",
+        "salary19_20": 25008427,
+        "salary20_21": 26525281,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5197
+    },
+    {
         "name": "Serge Ibaka",
-        "salary18_19": 21666667,
         "salary19_20": 23271604,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4486
     },
     {
-        "yahoo_id": 5295,
-        "name": "Aaron Gordon",
-        "salary18_19": 21590909,
-        "salary19_20": 19863636,
-        "salary20_21": 18136364,
-        "salary21_22": 16409091
-    },
-    {
-        "yahoo_id": 4468,
         "name": "Danilo Gallinari",
-        "salary18_19": 21587579,
         "salary19_20": 22615559,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4468
     },
     {
-        "yahoo_id": 5153,
         "name": "Victor Oladipo",
-        "salary18_19": 21000000,
         "salary19_20": 21000000,
         "salary20_21": 21000000,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5153
     },
     {
-        "yahoo_id": 4912,
-        "name": "Jimmy Butler",
-        "salary18_19": 20445779,
-        "salary19_20": 19841627,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4483,
-        "name": "Ryan Anderson",
-        "salary18_19": 20421546,
-        "salary19_20": 15600000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4840,
-        "name": "Kyrie Irving",
-        "salary18_19": 20099189,
-        "salary19_20": 21329750,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5293,
-        "name": "Jabari Parker",
-        "salary18_19": 20000000,
+        "name": "Malcolm Brogdon",
         "salary19_20": 20000000,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 20700000,
+        "salary21_22": 21700000,
+        "salary22_23": 22600000,
+        "yahoo_id": 5667
     },
     {
-        "yahoo_id": 5324,
+        "name": "Terry Rozier",
+        "salary19_20": 19894737,
+        "salary20_21": 18900000,
+        "salary21_22": 17905263,
+        "salary22_23": null,
+        "yahoo_id": 5476
+    },
+    {
+        "name": "Aaron Gordon",
+        "salary19_20": 19863636,
+        "salary20_21": 18136364,
+        "salary21_22": 16409091,
+        "salary22_23": null,
+        "yahoo_id": 5295
+    },
+    {
         "name": "Zach LaVine",
-        "salary18_19": 19500000,
         "salary19_20": 19500000,
         "salary20_21": 19500000,
-        "salary21_22": 19500000
+        "salary21_22": 19500000,
+        "salary22_23": null,
+        "yahoo_id": 5324
     },
     {
-        "yahoo_id": 5376,
-        "name": "Tyler Johnson",
-        "salary18_19": 19245370,
-        "salary19_20": 19245370,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4716,
-        "name": "John Wall",
-        "salary18_19": 19169800,
-        "salary19_20": 37800000,
-        "salary20_21": 40824000,
-        "salary21_22": 43848000
-    },
-    {
-        "yahoo_id": 4488,
-        "name": "George Hill",
-        "salary18_19": 19000000,
-        "salary19_20": 18000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4624,
-        "name": "Jeff Teague",
-        "salary18_19": 19000000,
-        "salary19_20": 19000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4892,
-        "name": "Klay Thompson",
-        "salary18_19": 18988725,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3818,
-        "name": "Dwight Howard",
-        "salary18_19": 5337000,
-        "salary19_20": 5603850,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4899,
-        "name": "Enes Kanter",
-        "salary18_19": 18622514,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4694,
-        "name": "Wesley Matthews",
-        "salary18_19": 18622514,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4287,
-        "name": "Joakim Noah",
-        "salary18_19": 18530000,
-        "salary19_20": 19295000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5201,
-        "name": "Allen Crabbe",
-        "salary18_19": 18500000,
-        "salary19_20": 18500000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4507,
-        "name": "Goran Dragic",
-        "salary18_19": 18109175,
-        "salary19_20": 19217900,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5102,
         "name": "Kent Bazemore",
-        "salary18_19": 18089887,
         "salary19_20": 19269662,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5102
     },
     {
-        "yahoo_id": 4717,
+        "name": "Tyler Johnson",
+        "salary19_20": 19245370,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5376
+    },
+    {
+        "name": "Goran Dragic",
+        "salary19_20": 19217900,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4507
+    },
+    {
+        "name": "Jeff Teague",
+        "salary19_20": 19000000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4624
+    },
+    {
+        "name": "Harrison Barnes",
+        "salary19_20": 18973214,
+        "salary20_21": 20491071,
+        "salary21_22": 22008929,
+        "salary22_23": 23526786,
+        "yahoo_id": 5013
+    },
+    {
         "name": "Evan Turner",
-        "salary18_19": 17868852,
         "salary19_20": 18606557,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4717
     },
     {
-        "yahoo_id": 5069,
         "name": "Draymond Green",
-        "salary18_19": 17469565,
         "salary19_20": 18539130,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 22246956,
+        "salary21_22": 24026712,
+        "salary22_23": 25806469,
+        "yahoo_id": 5069
     },
     {
-        "yahoo_id": 4884,
         "name": "Tristan Thompson",
-        "salary18_19": 17469565,
         "salary19_20": 18539130,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4884
     },
     {
-        "yahoo_id": 5194,
+        "name": "Allen Crabbe",
+        "salary19_20": 18500000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5201
+    },
+    {
         "name": "Tim Hardaway Jr.",
-        "salary18_19": 17325000,
         "salary19_20": 18150000,
         "salary20_21": 18975000,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5194
     },
     {
-        "yahoo_id": 4906,
         "name": "Reggie Jackson",
-        "salary18_19": 17043478,
         "salary19_20": 18086956,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4906
     },
     {
-        "yahoo_id": 5054,
-        "name": "Evan Fournier",
-        "salary18_19": 17000000,
-        "salary19_20": 17000000,
-        "salary20_21": 17000000,
-        "salary21_22": null
+        "name": "Myles Turner",
+        "salary19_20": 18000000,
+        "salary20_21": 18000000,
+        "salary21_22": 18000000,
+        "salary22_23": 18000000,
+        "yahoo_id": 5471
     },
     {
-        "yahoo_id": 4888,
-        "name": "Bismack Biyombo",
-        "salary18_19": 17000000,
-        "salary19_20": 17000000,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Julius Randle",
+        "salary19_20": 18000000,
+        "salary20_21": 18900000,
+        "salary21_22": 19800000,
+        "salary22_23": null,
+        "yahoo_id": 5318
     },
     {
-        "yahoo_id": 4718,
-        "name": "Derrick Favors",
-        "salary18_19": 16900000,
-        "salary19_20": 16900000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3513,
-        "name": "Pau Gasol",
-        "salary18_19": 16800000,
-        "salary19_20": 16000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4886,
-        "name": "Jonas Valanciunas",
-        "salary18_19": 16539326,
-        "salary19_20": 17617977,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5330,
         "name": "Gary Harris",
-        "salary18_19": 16517857,
         "salary19_20": 17839286,
         "salary20_21": 19160714,
-        "salary21_22": 20482143
+        "salary21_22": 20482143,
+        "salary22_23": null,
+        "yahoo_id": 5330
     },
     {
-        "yahoo_id": 3826,
         "name": "Andre Iguodala",
-        "salary18_19": 16000000,
         "salary19_20": 17185185,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3826
     },
     {
-        "yahoo_id": 4794,
-        "name": "Timofey Mozgov",
-        "salary18_19": 16000000,
-        "salary19_20": 16720000,
+        "name": "Bojan Bogdanovic",
+        "salary19_20": 17000000,
+        "salary20_21": 17850000,
+        "salary21_22": 18700000,
+        "salary22_23": 19550000,
+        "yahoo_id": 4913
+    },
+    {
+        "name": "Evan Fournier",
+        "salary19_20": 17000000,
+        "salary20_21": 17000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5054
+    },
+    {
+        "name": "Bismack Biyombo",
+        "salary19_20": 17000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4888
     },
     {
-        "yahoo_id": 3954,
-        "name": "Ian Mahinmi",
-        "salary18_19": 15944154,
-        "salary19_20": 15450051,
+        "name": "Derrick Favors",
+        "salary19_20": 16900000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4718
     },
     {
-        "yahoo_id": 5187,
-        "name": "Dennis Schroder",
-        "salary18_19": 15500000,
-        "salary19_20": 15500000,
-        "salary20_21": 15500000,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4632,
-        "name": "DeMarre Carroll",
-        "salary18_19": 15400000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5336,
         "name": "Clint Capela",
-        "salary18_19": 15293104,
         "salary19_20": 16456522,
         "salary20_21": 17500000,
-        "salary21_22": 18543478
+        "salary21_22": 18543478,
+        "salary22_23": 19586957,
+        "yahoo_id": 5336
     },
     {
-        "yahoo_id": 5191,
         "name": "Gorgui Dieng",
-        "salary18_19": 15170787,
         "salary19_20": 16229213,
         "salary20_21": 17287640,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5191
     },
     {
-        "yahoo_id": 3860,
-        "name": "Trevor Ariza",
-        "salary18_19": 15000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4749,
-        "name": "Eric Bledsoe",
-        "salary18_19": 15000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4610,
         "name": "Ricky Rubio",
-        "salary18_19": 14975000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary19_20": 16190476,
+        "salary20_21": 17000000,
+        "salary21_22": 17809524,
+        "salary22_23": null,
+        "yahoo_id": 4610
     },
     {
-        "yahoo_id": 4901,
-        "name": "Tobias Harris",
-        "salary18_19": 14800000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jonas Valanciunas",
+        "salary19_20": 16000000,
+        "salary20_21": 15000000,
+        "salary21_22": 14000000,
+        "salary22_23": null,
+        "yahoo_id": 4886
     },
     {
-        "yahoo_id": 3835,
-        "name": "J.R. Smith",
-        "salary18_19": 14720000,
-        "salary19_20": 15680000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4621,
-        "name": "James Johnson",
-        "salary18_19": 14651700,
-        "salary19_20": 15349400,
-        "salary20_21": 16047100,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4889,
         "name": "Brandon Knight",
-        "salary18_19": 14631250,
         "salary19_20": 15643750,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4889
     },
     {
-        "yahoo_id": 4477,
-        "name": "Robin Lopez",
-        "salary18_19": 14357750,
-        "salary19_20": null,
+        "name": "Eric Bledsoe",
+        "salary19_20": 15625000,
+        "salary20_21": 16875000,
+        "salary21_22": 18125000,
+        "salary22_23": 19375000,
+        "yahoo_id": 4749
+    },
+    {
+        "name": "Kelly Oubre Jr.",
+        "salary19_20": 15625000,
+        "salary20_21": 14375000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5475
+    },
+    {
+        "name": "Dennis Schroder",
+        "salary19_20": 15500000,
+        "salary20_21": 15500000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5187
+    },
+    {
+        "name": "Ian Mahinmi",
+        "salary19_20": 15450051,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3954
     },
     {
-        "yahoo_id": 3824,
-        "name": "Luol Deng",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "James Johnson",
+        "salary19_20": 15349400,
+        "salary20_21": 16047100,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4621
     },
     {
-        "yahoo_id": 3928,
         "name": "Marvin Williams",
-        "salary18_19": 14087500,
         "salary19_20": 15006250,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3928
     },
     {
-        "yahoo_id": 4631,
-        "name": "Taj Gibson",
-        "salary18_19": 14000000,
-        "salary19_20": null,
+        "name": "Bobby Portis",
+        "salary19_20": 15000000,
+        "salary20_21": 15750000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5482
+    },
+    {
+        "name": "Marcus Morris",
+        "salary19_20": 15000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4895
     },
     {
-        "yahoo_id": 4795,
-        "name": "Jeremy Lin",
-        "salary18_19": 13768421,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Danny Green",
+        "salary19_20": 14634146,
+        "salary20_21": 15365854,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4651
     },
     {
-        "yahoo_id": 4290,
-        "name": "Thaddeus Young",
-        "salary18_19": 13764045,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4904,
-        "name": "Kenneth Faried",
-        "salary18_19": 13764045,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3512,
-        "name": "Tyson Chandler",
-        "salary18_19": 13585000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3983,
-        "name": "Marcin Gortat",
-        "salary18_19": 13565218,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5155,
         "name": "Cody Zeller",
-        "salary18_19": 13528090,
         "salary19_20": 14471910,
         "salary20_21": 15415730,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5155
     },
     {
-        "yahoo_id": 4469,
         "name": "Eric Gordon",
-        "salary18_19": 13500375,
         "salary19_20": 14057730,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 16869276,
+        "salary21_22": 18218818,
+        "salary22_23": 19568360,
+        "yahoo_id": 4469
     },
     {
-        "yahoo_id": 5393,
-        "name": "Joe Ingles",
-        "salary18_19": 13045455,
-        "salary19_20": 11954546,
-        "salary20_21": 10863637,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5073,
-        "name": "Khris Middleton",
-        "salary18_19": 13000000,
-        "salary19_20": 13000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5008,
-        "name": "Michael Kidd-Gilchrist",
-        "salary18_19": 13000000,
-        "salary19_20": 13000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5192,
         "name": "Mason Plumlee",
-        "salary18_19": 12917808,
         "salary19_20": 14041096,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5192
     },
     {
-        "yahoo_id": 4301,
-        "name": "Wilson Chandler",
-        "salary18_19": 12800562,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Rudy Gay",
+        "salary19_20": 14000000,
+        "salary20_21": 14000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4136
     },
     {
-        "yahoo_id": 4897,
-        "name": "Nikola Vucevic",
-        "salary18_19": 12750000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "JJ Redick",
+        "salary19_20": 13486300,
+        "salary20_21": 13013700,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4139
     },
     {
-        "yahoo_id": 5016,
-        "name": "Austin Rivers",
-        "salary18_19": 12650000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5357,
         "name": "Jordan Clarkson",
-        "salary18_19": 12500000,
         "salary19_20": 13437500,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5357
     },
     {
-        "yahoo_id": 5060,
-        "name": "Miles Plumlee",
-        "salary18_19": 12500000,
-        "salary19_20": 12500000,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Dewayne Dedmon",
+        "salary19_20": 13333334,
+        "salary20_21": 13333333,
+        "salary21_22": 13333333,
+        "salary22_23": null,
+        "yahoo_id": 5256
     },
     {
-        "yahoo_id": 4905,
-        "name": "Nikola Mirotic",
-        "salary18_19": 12500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4564,
-        "name": "Tyreke Evans",
-        "salary18_19": 12400000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4484,
-        "name": "Courtney Lee",
-        "salary18_19": 12253780,
-        "salary19_20": 12759670,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5193,
         "name": "Solomon Hill",
-        "salary18_19": 12252928,
         "salary19_20": 13258781,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5193
     },
     {
-        "yahoo_id": 4139,
-        "name": "JJ Redick",
-        "salary18_19": 12250000,
-        "salary19_20": null,
+        "name": "Justise Winslow",
+        "salary19_20": 13000000,
+        "salary20_21": 13000000,
+        "salary21_22": 13000000,
+        "salary22_23": null,
+        "yahoo_id": 5470
+    },
+    {
+        "name": "Michael Kidd-Gilchrist",
+        "salary19_20": 13000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5008
     },
     {
-        "yahoo_id": 5164,
-        "name": "Kelly Olynyk",
-        "salary18_19": 12137527,
-        "salary19_20": 11667885,
-        "salary20_21": 12198243,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5159,
-        "name": "Kentavious Caldwell-Pope",
-        "salary18_19": 12000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4750,
-        "name": "Avery Bradley",
-        "salary18_19": 12000000,
-        "salary19_20": 12960000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4890,
-        "name": "Kemba Walker",
-        "salary18_19": 12000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5074,
         "name": "Will Barton",
-        "salary18_19": 11830358,
         "salary19_20": 12960000,
         "salary20_21": 13920000,
-        "salary21_22": 14880000
+        "salary21_22": 14880000,
+        "salary22_23": null,
+        "yahoo_id": 5074
     },
     {
-        "yahoo_id": 5325,
-        "name": "T.J. Warren",
-        "salary18_19": 11750000,
-        "salary19_20": 10810000,
-        "salary20_21": 11750000,
-        "salary21_22": 12690000
+        "name": "Thaddeus Young",
+        "salary19_20": 12900000,
+        "salary20_21": 13545000,
+        "salary21_22": 14190000,
+        "salary22_23": null,
+        "yahoo_id": 4290
     },
     {
-        "yahoo_id": 3531,
-        "name": "Zach Randolph",
-        "salary18_19": 11692308,
-        "salary19_20": null,
+        "name": "Courtney Lee",
+        "salary19_20": 12759670,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4484
     },
     {
-        "yahoo_id": 5317,
+        "name": "Larry Nance Jr.",
+        "salary19_20": 12727273,
+        "salary20_21": 11709091,
+        "salary21_22": 10690909,
+        "salary22_23": 9672727,
+        "yahoo_id": 5487
+    },
+    {
         "name": "Marcus Smart",
-        "salary18_19": 11660716,
         "salary19_20": 12553471,
         "salary20_21": 13446428,
-        "salary21_22": 14339285
+        "salary21_22": 14339285,
+        "salary22_23": null,
+        "yahoo_id": 5317
     },
     {
-        "yahoo_id": 4660,
+        "name": "Terrence Ross",
+        "salary19_20": 12500000,
+        "salary20_21": 13500000,
+        "salary21_22": 12500000,
+        "salary22_23": 11500000,
+        "yahoo_id": 5014
+    },
+    {
+        "name": "Miles Plumlee",
+        "salary19_20": 12500000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5060
+    },
+    {
         "name": "Patty Mills",
-        "salary18_19": 11571429,
         "salary19_20": 12428571,
         "salary20_21": 13285714,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4660
     },
     {
-        "yahoo_id": 5010,
+        "name": "Patrick Beverley",
+        "salary19_20": 12345679,
+        "salary20_21": 13333333,
+        "salary21_22": 14320988,
+        "salary22_23": null,
+        "yahoo_id": 4647
+    },
+    {
+        "name": "Trevor Ariza",
+        "salary19_20": 12200000,
+        "salary20_21": 12800000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3860
+    },
+    {
         "name": "Dion Waiters",
-        "salary18_19": 11550000,
         "salary19_20": 12100000,
         "salary20_21": 12650000,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5010
     },
     {
-        "yahoo_id": 4893,
-        "name": "Alec Burks",
-        "salary18_19": 11536515,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Brook Lopez",
+        "salary19_20": 12093024,
+        "salary20_21": 12697675,
+        "salary21_22": 13302325,
+        "salary22_23": 13906976,
+        "yahoo_id": 4472
     },
     {
-        "yahoo_id": 5020,
-        "name": "John Henson",
-        "salary18_19": 11327466,
-        "salary19_20": 9732396,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4499,
-        "name": "Omer Asik",
-        "salary18_19": 11286516,
-        "salary19_20": 11977527,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5327,
         "name": "Jusuf Nurkic",
-        "salary18_19": 11111111,
         "salary19_20": 12000000,
         "salary20_21": 12000000,
-        "salary21_22": 12000000
+        "salary21_22": 12000000,
+        "salary22_23": null,
+        "yahoo_id": 5327
     },
     {
-        "yahoo_id": 4898,
-        "name": "Iman Shumpert",
-        "salary18_19": 11011234,
-        "salary19_20": null,
+        "name": "Cory Joseph",
+        "salary19_20": 12000000,
+        "salary20_21": 12600000,
+        "salary21_22": 12600000,
+        "salary22_23": null,
+        "yahoo_id": 4911
+    },
+    {
+        "name": "Joe Ingles",
+        "salary19_20": 11954546,
+        "salary20_21": 10863637,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5393
+    },
+    {
+        "name": "Kelly Olynyk",
+        "salary19_20": 11667885,
+        "salary20_21": 12198243,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5164
+    },
+    {
+        "name": "Moe Harkless",
+        "salary19_20": 11511234,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5021
     },
     {
-        "yahoo_id": 5190,
         "name": "Tony Snell",
-        "salary18_19": 10607143,
         "salary19_20": 11392857,
         "salary20_21": 12178571,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5190
     },
     {
-        "yahoo_id": 5017,
-        "name": "Meyers Leonard",
-        "salary18_19": 10595506,
-        "salary19_20": 11286515,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5014,
-        "name": "Terrence Ross",
-        "salary18_19": 10500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4913,
-        "name": "Bojan Bogdanovic",
-        "salary18_19": 10500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5253,
         "name": "Robert Covington",
-        "salary18_19": 10464092,
         "salary19_20": 11301219,
         "salary20_21": 12138345,
-        "salary21_22": 12975471
+        "salary21_22": 12975471,
+        "salary22_23": null,
+        "yahoo_id": 5253
     },
     {
-        "yahoo_id": 4136,
-        "name": "Rudy Gay",
-        "salary18_19": 10087200,
-        "salary19_20": null,
+        "name": "Meyers Leonard",
+        "salary19_20": 11286515,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5017
     },
     {
-        "yahoo_id": 4922,
-        "name": "Jon Leuer",
-        "salary18_19": 10002681,
-        "salary19_20": 9508043,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "T.J. Warren",
+        "salary19_20": 10810000,
+        "salary20_21": 11750000,
+        "salary21_22": 12690000,
+        "salary22_23": null,
+        "yahoo_id": 5325
     },
     {
-        "yahoo_id": 5196,
         "name": "Andre Roberson",
-        "salary18_19": 10000000,
         "salary19_20": 10740741,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5196
     },
     {
-        "yahoo_id": 4651,
-        "name": "Danny Green",
-        "salary18_19": 10000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Spencer Dinwiddie",
+        "salary19_20": 10600000,
+        "salary20_21": 11400000,
+        "salary21_22": 12300000,
+        "salary22_23": null,
+        "yahoo_id": 5349
     },
     {
-        "yahoo_id": 4626,
-        "name": "Darren Collison",
-        "salary18_19": 10000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jeremy Lamb",
+        "salary19_20": 10500000,
+        "salary20_21": 10500000,
+        "salary21_22": 10500000,
+        "salary22_23": null,
+        "yahoo_id": 5018
     },
     {
-        "yahoo_id": 5356,
         "name": "Dwight Powell",
-        "salary18_19": 9631250,
         "salary19_20": 10259375,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 10185185,
+        "salary21_22": 11000000,
+        "salary22_23": 11814815,
+        "yahoo_id": 5356
     },
     {
-        "yahoo_id": 5249,
-        "name": "Matthew Dellavedova",
-        "salary18_19": 9607500,
-        "salary19_20": 9607500,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5316,
-        "name": "Dante Exum",
-        "salary18_19": 9600000,
-        "salary19_20": 9600000,
-        "salary20_21": 9600000,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4300,
-        "name": "Jared Dudley",
-        "salary18_19": 9530000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5506,
         "name": "Norman Powell",
-        "salary18_19": 9367200,
         "salary19_20": 10116576,
         "salary20_21": 10865952,
-        "salary21_22": 11615328
+        "salary21_22": 11615328,
+        "salary22_23": null,
+        "yahoo_id": 5506
     },
     {
-        "yahoo_id": 5500,
         "name": "Josh Richardson",
-        "salary18_19": 9367200,
         "salary19_20": 10100000,
         "salary20_21": 10800000,
-        "salary21_22": 11600000
+        "salary21_22": 11600000,
+        "salary22_23": null,
+        "yahoo_id": 5500
     },
     {
-        "yahoo_id": 5338,
-        "name": "Bogdan Bogdanovic",
-        "salary18_19": 9000000,
-        "salary19_20": 8529386,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Tomas Satoransky",
+        "salary19_20": 10000000,
+        "salary20_21": 10000000,
+        "salary21_22": 10000000,
+        "salary22_23": null,
+        "yahoo_id": 5066
     },
     {
-        "yahoo_id": 4149,
-        "name": "Rajon Rondo",
-        "salary18_19": 9000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "DeAndre Jordan",
+        "salary19_20": 9881598,
+        "salary20_21": 10375678,
+        "salary21_22": 9881598,
+        "salary22_23": 9821842,
+        "yahoo_id": 4497
     },
     {
-        "yahoo_id": 4937,
-        "name": "E'Twaun Moore",
-        "salary18_19": 8808685,
-        "salary19_20": 8664928,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Taj Gibson",
+        "salary19_20": 9800000,
+        "salary20_21": 10290000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4631
     },
     {
-        "yahoo_id": 4485,
-        "name": "Kosta Koufos",
-        "salary18_19": 8739500,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Zion Williamson",
+        "salary19_20": 9757440,
+        "salary20_21": 10245480,
+        "salary21_22": 10733400,
+        "salary22_23": 13534817,
+        "yahoo_id": 6163
     },
     {
-        "yahoo_id": 5350,
-        "name": "Jerami Grant",
-        "salary18_19": 8653847,
-        "salary19_20": 9346153,
-        "salary20_21": 9346153,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5727,
-        "name": "Fred VanVleet",
-        "salary18_19": 8653847,
-        "salary19_20": 9000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5341,
-        "name": "Kyle Anderson",
-        "salary18_19": 8641000,
-        "salary19_20": 9073050,
-        "salary20_21": 9505100,
-        "salary21_22": 9937150
-    },
-    {
-        "yahoo_id": 5318,
-        "name": "Julius Randle",
-        "salary18_19": 8641000,
-        "salary19_20": 9073050,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4894,
-        "name": "Markieff Morris",
-        "salary18_19": 8600000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4473,
-        "name": "Jerryd Bayless",
-        "salary18_19": 8575916,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5522,
-        "name": "Cristiano Felicio",
-        "salary18_19": 8470980,
-        "salary19_20": 8156500,
-        "salary20_21": 7529020,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5763,
         "name": "Markelle Fultz",
-        "salary18_19": 8339880,
         "salary19_20": 9745200,
         "salary20_21": 12288697,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5763
     },
     {
-        "yahoo_id": 5344,
-        "name": "Joe Harris",
-        "salary18_19": 8333333,
-        "salary19_20": 7670000,
+        "name": "John Henson",
+        "salary19_20": 9732396,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5020
     },
     {
-        "yahoo_id": 3960,
-        "name": "C.J. Miles",
-        "salary18_19": 8333333,
-        "salary19_20": 8730158,
+        "name": "Matthew Dellavedova",
+        "salary19_20": 9607500,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5249
     },
     {
-        "yahoo_id": 3821,
-        "name": "Shaun Livingston",
-        "salary18_19": 8307692,
-        "salary19_20": 7692308,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Dante Exum",
+        "salary19_20": 9600000,
+        "salary20_21": 9600000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5316
     },
     {
-        "yahoo_id": 5958,
         "name": "Deandre Ayton",
-        "salary18_19": 8165160,
         "salary19_20": 9562920,
         "salary20_21": 10018200,
-        "salary21_22": 12632950
+        "salary21_22": 12632950,
+        "salary22_23": null,
+        "yahoo_id": 5958
     },
     {
-        "yahoo_id": 3971,
-        "name": "Lou Williams",
-        "salary18_19": 8000000,
-        "salary19_20": 8000000,
-        "salary20_21": 1500000,
-        "salary21_22": null
+        "name": "Delon Wright",
+        "salary19_20": 9473684,
+        "salary20_21": 9000000,
+        "salary21_22": 8526316,
+        "salary22_23": null,
+        "yahoo_id": 5480
     },
     {
-        "yahoo_id": 4682,
-        "name": "Garrett Temple",
-        "salary18_19": 8000000,
-        "salary19_20": null,
+        "name": "Jerami Grant",
+        "salary19_20": 9346153,
+        "salary20_21": 9346153,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5350
+    },
+    {
+        "name": "Al-Farouq Aminu",
+        "salary19_20": 9258000,
+        "salary20_21": 9720900,
+        "salary21_22": 10183800,
+        "salary22_23": null,
+        "yahoo_id": 4723
+    },
+    {
+        "name": "George Hill",
+        "salary19_20": 9133907,
+        "salary20_21": 9590602,
+        "salary21_22": 10047297,
+        "salary22_23": null,
+        "yahoo_id": 4488
+    },
+    {
+        "name": "Kyle Anderson",
+        "salary19_20": 9073050,
+        "salary20_21": 9505100,
+        "salary21_22": 9937150,
+        "salary22_23": null,
+        "yahoo_id": 5341
+    },
+    {
+        "name": "Fred VanVleet",
+        "salary19_20": 9000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5727
     },
     {
-        "yahoo_id": 4163,
-        "name": "P.J. Tucker",
-        "salary18_19": 7969537,
-        "salary19_20": 8349039,
-        "salary20_21": 7969537,
-        "salary21_22": null
+        "name": "Ja Morant",
+        "salary19_20": 8730240,
+        "salary20_21": 9166800,
+        "salary21_22": 9603360,
+        "salary22_23": 12119440,
+        "yahoo_id": 6164
     },
     {
-        "yahoo_id": 4911,
-        "name": "Cory Joseph",
-        "salary18_19": 7945000,
-        "salary19_20": null,
+        "name": "C.J. Miles",
+        "salary19_20": 8730158,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3960
     },
     {
-        "yahoo_id": 5262,
-        "name": "JaMychal Green",
-        "salary18_19": 7866667,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5432,
-        "name": "Karl-Anthony Towns",
-        "salary18_19": 7839435,
-        "salary19_20": 27250000,
-        "salary20_21": 29430000,
-        "salary21_22": 31610000
-    },
-    {
-        "yahoo_id": 3754,
-        "name": "Kyle Korver",
-        "salary18_19": 7560000,
-        "salary19_20": 7500000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5018,
-        "name": "Jeremy Lamb",
-        "salary18_19": 7488372,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4489,
-        "name": "Darrell Arthur",
-        "salary18_19": 7464912,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5764,
         "name": "Lonzo Ball",
-        "salary18_19": 7461960,
         "salary19_20": 8719320,
         "salary20_21": 11003782,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5764
     },
     {
-        "yahoo_id": 5322,
-        "name": "Doug McDermott",
-        "salary18_19": 7333334,
-        "salary19_20": 7333334,
-        "salary20_21": 7333333,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5068,
-        "name": "Jae Crowder",
-        "salary18_19": 7305825,
-        "salary19_20": 7815533,
+        "name": "E'Twaun Moore",
+        "salary19_20": 8664928,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4937
     },
     {
-        "yahoo_id": 5959,
         "name": "Marvin Bagley III",
-        "salary18_19": 7305600,
         "salary19_20": 8556120,
         "salary20_21": 8963640,
-        "salary21_22": 11312114
+        "salary21_22": 11312114,
+        "salary22_23": null,
+        "yahoo_id": 5959
     },
     {
-        "yahoo_id": 4471,
-        "name": "D.J. Augustin",
-        "salary18_19": 7250000,
-        "salary19_20": 7250000,
+        "name": "Bogdan Bogdanovic",
+        "salary19_20": 8529386,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5338
     },
     {
-        "yahoo_id": 5256,
-        "name": "Dewayne Dedmon",
-        "salary18_19": 7200000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Tyus Jones",
+        "salary19_20": 8408000,
+        "salary20_21": 7965100,
+        "salary21_22": 7522200,
+        "salary22_23": null,
+        "yahoo_id": 5484
     },
     {
-        "yahoo_id": 4966,
-        "name": "Lance Thomas",
-        "salary18_19": 7119650,
-        "salary19_20": 7583975,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "P.J. Tucker",
+        "salary19_20": 8349039,
+        "salary20_21": 7969537,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4163
     },
     {
-        "yahoo_id": 5433,
-        "name": "D'Angelo Russell",
-        "salary18_19": 7019698,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Cristiano Felicio",
+        "salary19_20": 8156500,
+        "salary20_21": 7529020,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5522
     },
     {
-        "yahoo_id": 5388,
-        "name": "Langston Galloway",
-        "salary18_19": 7000000,
-        "salary19_20": 7333333,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Ben Simmons",
+        "salary19_20": 8113930,
+        "salary20_21": 29250000,
+        "salary21_22": 31590000,
+        "salary22_23": 33930000,
+        "yahoo_id": 5600
     },
     {
-        "yahoo_id": 4926,
-        "name": "Davis Bertans",
-        "salary18_19": 7000000,
-        "salary19_20": 7000000,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Kentavious Caldwell-Pope",
+        "salary19_20": 8089282,
+        "salary20_21": 8493746,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5159
     },
     {
-        "yahoo_id": 3962,
-        "name": "Ersan Ilyasova",
-        "salary18_19": 7000000,
-        "salary19_20": 7000000,
-        "salary20_21": 7000000,
-        "salary21_22": null
+        "name": "Maxi Kleber",
+        "salary19_20": 8000000,
+        "salary20_21": 8250000,
+        "salary21_22": 8750000,
+        "salary22_23": 9000000,
+        "yahoo_id": 5892
     },
     {
-        "yahoo_id": 5524,
-        "name": "Boban Marjanovic",
-        "salary18_19": 7000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Lou Williams",
+        "salary19_20": 8000000,
+        "salary20_21": 8000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3971
     },
     {
-        "yahoo_id": 4723,
-        "name": "Al-Farouq Aminu",
-        "salary18_19": 6957105,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Elfrid Payton",
+        "salary19_20": 8000000,
+        "salary20_21": 8000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5321
     },
     {
-        "yahoo_id": 5765,
+        "name": "Thomas Bryant",
+        "salary19_20": 7936508,
+        "salary20_21": 8333333,
+        "salary21_22": 8730159,
+        "salary22_23": null,
+        "yahoo_id": 5855
+    },
+    {
+        "name": "RJ Barrett",
+        "salary19_20": 7839960,
+        "salary20_21": 8231760,
+        "salary21_22": 8623920,
+        "salary22_23": 10900635,
+        "yahoo_id": 6165
+    },
+    {
         "name": "Jayson Tatum",
-        "salary18_19": 6700800,
         "salary19_20": 7830000,
         "salary20_21": 9897120,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5765
     },
     {
-        "yahoo_id": 6014,
+        "name": "Jae Crowder",
+        "salary19_20": 7815533,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5068
+    },
+    {
+        "name": "Wayne Ellington",
+        "salary19_20": 7804878,
+        "salary20_21": 8195122,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4633
+    },
+    {
         "name": "Luka Doncic",
-        "salary18_19": 6560640,
         "salary19_20": 7683360,
         "salary20_21": 8049360,
-        "salary21_22": 10174391
+        "salary21_22": 10174391,
+        "salary22_23": null,
+        "yahoo_id": 6014
     },
     {
-        "yahoo_id": 4766,
-        "name": "Nemanja Bjelica",
-        "salary18_19": 6500000,
-        "salary19_20": 6825000,
-        "salary20_21": 7150000,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5465,
-        "name": "Mario Hezonja",
-        "salary18_19": 6500000,
-        "salary19_20": null,
+        "name": "Joe Harris",
+        "salary19_20": 7670000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5344
     },
     {
-        "yahoo_id": 5600,
-        "name": "Ben Simmons",
-        "salary18_19": 6434520,
-        "salary19_20": 8113930,
+        "name": "Seth Curry",
+        "salary19_20": 7441860,
+        "salary20_21": 7813953,
+        "salary21_22": 8186047,
+        "salary22_23": 8558140,
+        "yahoo_id": 5245
+    },
+    {
+        "name": "Doug McDermott",
+        "salary19_20": 7333334,
+        "salary20_21": 7333333,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5322
+    },
+    {
+        "name": "Langston Galloway",
+        "salary19_20": 7333333,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5388
     },
     {
-        "yahoo_id": 5875,
-        "name": "Milos Teodosic",
-        "salary18_19": 6300000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Derrick Rose",
+        "salary19_20": 7317073,
+        "salary20_21": 7682927,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4387
     },
     {
-        "yahoo_id": 4633,
-        "name": "Wayne Ellington",
-        "salary18_19": 6270000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4296,
-        "name": "Marco Belinelli",
-        "salary18_19": 6153846,
-        "salary19_20": 5846154,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4719,
-        "name": "Wesley Johnson",
-        "salary18_19": 6134520,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5766,
-        "name": "Josh Jackson",
-        "salary18_19": 6041520,
-        "salary19_20": 7059480,
-        "salary20_21": 8930242,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5492,
-        "name": "Montrezl Harrell",
-        "salary18_19": 6000000,
-        "salary19_20": 6000000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5526,
-        "name": "Jonathon Simmons",
-        "salary18_19": 6000000,
-        "salary19_20": 5700000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4800,
-        "name": "Ish Smith",
-        "salary18_19": 6000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6015,
-        "name": "Jaren Jackson Jr.",
-        "salary18_19": 5915040,
-        "salary19_20": 6927480,
-        "salary20_21": 7257360,
-        "salary21_22": 9180560
-    },
-    {
-        "yahoo_id": 5601,
         "name": "Brandon Ingram",
-        "salary18_19": 5757120,
         "salary19_20": 7265485,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5601
     },
     {
-        "yahoo_id": 4371,
-        "name": "Anthony Tolliver",
-        "salary18_19": 5750000,
-        "salary19_20": null,
+        "name": "D.J. Augustin",
+        "salary19_20": 7250000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4471
     },
     {
-        "yahoo_id": 5464,
-        "name": "Kristaps Porzingis",
-        "salary18_19": 5697054,
-        "salary19_20": null,
+        "name": "Darius Miller",
+        "salary19_20": 7250000,
+        "salary20_21": 7000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5080
+    },
+    {
+        "name": "De'Andre Hunter",
+        "salary19_20": 7068360,
+        "salary20_21": 7422000,
+        "salary21_22": 7775400,
+        "salary22_23": 9835881,
+        "yahoo_id": 6166
+    },
+    {
+        "name": "Josh Jackson",
+        "salary19_20": 7059480,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5766
     },
     {
-        "yahoo_id": 5767,
-        "name": "De'Aaron Fox",
-        "salary18_19": 5470920,
-        "salary19_20": 6392760,
-        "salary20_21": 8099627,
-        "salary21_22": null
+        "name": "DeMarre Carroll",
+        "salary19_20": 7000000,
+        "salary20_21": 6650000,
+        "salary21_22": 7000000,
+        "salary22_23": null,
+        "yahoo_id": 4632
     },
     {
-        "yahoo_id": 5158,
-        "name": "Ben McLemore",
-        "salary18_19": 5460000,
-        "salary19_20": null,
+        "name": "Davis Bertans",
+        "salary19_20": 7000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4926
     },
     {
-        "yahoo_id": 5202,
-        "name": "Alex Abrines",
-        "salary18_19": 5455236,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Ersan Ilyasova",
+        "salary19_20": 7000000,
+        "salary20_21": 7000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3962
     },
     {
-        "yahoo_id": 4729,
-        "name": "Patrick Patterson",
-        "salary18_19": 5451600,
-        "salary19_20": 5711200,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jaren Jackson Jr.",
+        "salary19_20": 6927480,
+        "salary20_21": 7257360,
+        "salary21_22": 9180560,
+        "salary22_23": null,
+        "yahoo_id": 6015
     },
     {
-        "yahoo_id": 4298,
-        "name": "Jason Smith",
-        "salary18_19": 5450000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Nemanja Bjelica",
+        "salary19_20": 6825000,
+        "salary20_21": 7150000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4766
     },
     {
-        "yahoo_id": 4895,
-        "name": "Marcus Morris",
-        "salary18_19": 5375000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6016,
-        "name": "Trae Young",
-        "salary18_19": 5356440,
-        "salary19_20": 6273000,
-        "salary20_21": 6571800,
-        "salary21_22": 8326471
-    },
-    {
-        "yahoo_id": 3818,
-        "name": "Dwight Howard",
-        "salary18_19": 5337000,
-        "salary19_20": 5603850,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4720,
-        "name": "DeMarcus Cousins",
-        "salary18_19": 5337000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4482,
-        "name": "Alexis Ajinca",
-        "salary18_19": 5285394,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4141,
-        "name": "Thabo Sefolosha",
-        "salary18_19": 5250000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5150,
-        "name": "Aron Baynes",
-        "salary18_19": 5193600,
-        "salary19_20": 5453280,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5602,
         "name": "Jaylen Brown",
-        "salary18_19": 5169960,
         "salary19_20": 6534829,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5602
     },
     {
-        "yahoo_id": 4647,
-        "name": "Patrick Beverley",
-        "salary18_19": 5027028,
-        "salary19_20": null,
+        "name": "Jabari Parker",
+        "salary19_20": 6500000,
+        "salary20_21": 6500000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5293
+    },
+    {
+        "name": "Ivica Zubac",
+        "salary19_20": 6481482,
+        "salary20_21": 7000000,
+        "salary21_22": 7518518,
+        "salary22_23": 7518518,
+        "yahoo_id": 5663
+    },
+    {
+        "name": "Darius Garland",
+        "salary19_20": 6400920,
+        "salary20_21": 6720720,
+        "salary21_22": 7040880,
+        "salary22_23": 8920795,
+        "yahoo_id": 6167
+    },
+    {
+        "name": "De'Aaron Fox",
+        "salary19_20": 6392760,
+        "salary20_21": 8099627,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5767
+    },
+    {
+        "name": "Trae Young",
+        "salary19_20": 6273000,
+        "salary20_21": 6571800,
+        "salary21_22": 8326471,
+        "salary22_23": null,
+        "yahoo_id": 6016
+    },
+    {
+        "name": "Montrezl Harrell",
+        "salary19_20": 6000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5492
     },
     {
-        "yahoo_id": 3527,
-        "name": "Tony Parker",
-        "salary18_19": 5000000,
-        "salary19_20": 5000000,
+        "name": "Ish Smith",
+        "salary19_20": 5853659,
+        "salary20_21": 6146341,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4800
+    },
+    {
+        "name": "Marco Belinelli",
+        "salary19_20": 5846154,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4296
     },
     {
-        "yahoo_id": 5214,
-        "name": "Mike Muscala",
-        "salary18_19": 5000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jarrett Culver",
+        "salary19_20": 5813640,
+        "salary20_21": 6104280,
+        "salary21_22": 6395160,
+        "salary22_23": 8109063,
+        "yahoo_id": 6168
     },
     {
-        "yahoo_id": 3252,
-        "name": "Dirk Nowitzki",
-        "salary18_19": 5000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5768,
         "name": "Jonathan Isaac",
-        "salary18_19": 4969080,
         "salary19_20": 5806440,
         "salary20_21": 7362566,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5768
     },
     {
-        "yahoo_id": 6017,
+        "name": "Rodney Hood",
+        "salary19_20": 5718000,
+        "salary20_21": 6003900,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5334
+    },
+    {
         "name": "Mohamed Bamba",
-        "salary18_19": 4865040,
         "salary19_20": 5697600,
         "salary20_21": 5969040,
-        "salary21_22": 7568742
+        "salary21_22": 7568742,
+        "salary22_23": null,
+        "yahoo_id": 6017
     },
     {
-        "yahoo_id": 5466,
-        "name": "Willie Cauley-Stein",
-        "salary18_19": 4696875,
-        "salary19_20": null,
+        "name": "Trey Lyles",
+        "salary19_20": 5500000,
+        "salary20_21": 5500000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5472
+    },
+    {
+        "name": "Aron Baynes",
+        "salary19_20": 5453280,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5150
     },
     {
-        "yahoo_id": 5635,
-        "name": "Dragan Bender",
-        "salary18_19": 4661280,
-        "salary19_20": 5896519,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5704,
-        "name": "Ron Baker",
-        "salary18_19": 4544400,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5769,
-        "name": "Lauri Markkanen",
-        "salary18_19": 4536120,
-        "salary19_20": 5300400,
-        "salary20_21": 6731508,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4771,
-        "name": "Lance Stephenson",
-        "salary18_19": 4449000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5083,
-        "name": "Kyle O'Quinn",
-        "salary18_19": 4449000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4728,
-        "name": "Ed Davis",
-        "salary18_19": 4449000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6018,
-        "name": "Wendell Carter Jr.",
-        "salary18_19": 4441200,
-        "salary19_20": 5201400,
-        "salary20_21": 5448840,
-        "salary21_22": 6920027
-    },
-    {
-        "yahoo_id": 5142,
-        "name": "Justin Holiday",
-        "salary18_19": 4384616,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5156,
-        "name": "Alex Len",
-        "salary18_19": 4350000,
-        "salary19_20": 4160000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5077,
-        "name": "Mike Scott",
-        "salary18_19": 4320500,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4498,
-        "name": "Luc Richard Mbah a Moute",
-        "salary18_19": 4320500,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5467,
-        "name": "Emmanuel Mudiay",
-        "salary18_19": 4294480,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5636,
         "name": "Kris Dunn",
-        "salary18_19": 4221000,
         "salary19_20": 5348007,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5636
     },
     {
-        "yahoo_id": 5821,
-        "name": "Frank Ntilikina",
-        "salary18_19": 4155720,
-        "salary19_20": 4855800,
-        "salary20_21": 6176578,
-        "salary21_22": null
+        "name": "Coby White",
+        "salary19_20": 5307120,
+        "salary20_21": 5572680,
+        "salary21_22": 5837760,
+        "salary22_23": 7413955,
+        "yahoo_id": 6169
     },
     {
-        "yahoo_id": 5351,
-        "name": "Glenn Robinson III",
-        "salary18_19": 4075000,
-        "salary19_20": 4150000,
+        "name": "Lauri Markkanen",
+        "salary19_20": 5300400,
+        "salary20_21": 6731508,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5769
+    },
+    {
+        "name": "Ryan Anderson",
+        "salary19_20": 5214583,
+        "salary20_21": 5214583,
+        "salary21_22": 5214584,
+        "salary22_23": null,
+        "yahoo_id": 4483
+    },
+    {
+        "name": "Wendell Carter Jr.",
+        "salary19_20": 5201400,
+        "salary20_21": 5448840,
+        "salary21_22": 6920027,
+        "salary22_23": null,
+        "yahoo_id": 6018
+    },
+    {
+        "name": "Pau Gasol",
+        "salary19_20": 5100000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3513
     },
     {
-        "yahoo_id": 6019,
-        "name": "Collin Sexton",
-        "salary18_19": 4068600,
-        "salary19_20": 4764960,
-        "salary20_21": 4991880,
-        "salary21_22": 6349671
+        "name": "Daniel Theis",
+        "salary19_20": 5000000,
+        "salary20_21": 5000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5880
     },
     {
-        "yahoo_id": 3832,
-        "name": "Al Jefferson",
-        "salary18_19": 4000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Jaxson Hayes",
+        "salary19_20": 4862040,
+        "salary20_21": 5105160,
+        "salary21_22": 5348280,
+        "salary22_23": 6803012,
+        "yahoo_id": 6170
     },
     {
-        "yahoo_id": 5468,
-        "name": "Stanley Johnson",
-        "salary18_19": 3940402,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5637,
         "name": "Buddy Hield",
-        "salary18_19": 3833760,
         "salary19_20": 4861208,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5637
     },
     {
-        "yahoo_id": 5822,
+        "name": "Frank Ntilikina",
+        "salary19_20": 4855800,
+        "salary20_21": 6176578,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5821
+    },
+    {
+        "name": "Ed Davis",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4728
+    },
+    {
+        "name": "Richaun Holmes",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5497
+    },
+    {
+        "name": "Frank Kaminsky",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5469
+    },
+    {
+        "name": "Mike Scott",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5077
+    },
+    {
+        "name": "Avery Bradley",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4750
+    },
+    {
+        "name": "Robin Lopez",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4477
+    },
+    {
+        "name": "JaMychal Green",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5262
+    },
+    {
+        "name": "Justin Holiday",
+        "salary19_20": 4767000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5142
+    },
+    {
+        "name": "Garrett Temple",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4682
+    },
+    {
+        "name": "Enes Kanter",
+        "salary19_20": 4767000,
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4899
+    },
+    {
+        "name": "Collin Sexton",
+        "salary19_20": 4764960,
+        "salary20_21": 4991880,
+        "salary21_22": 6349671,
+        "salary22_23": null,
+        "yahoo_id": 6019
+    },
+    {
+        "name": "Rodney McGruder",
+        "salary19_20": 4629630,
+        "salary20_21": 5000000,
+        "salary21_22": 5370370,
+        "salary22_23": null,
+        "yahoo_id": 5270
+    },
+    {
+        "name": "Kevon Looney",
+        "salary19_20": 4629630,
+        "salary20_21": 5000000,
+        "salary21_22": 5370370,
+        "salary22_23": null,
+        "yahoo_id": 5490
+    },
+    {
+        "name": "Rui Hachimura",
+        "salary19_20": 4469160,
+        "salary20_21": 4692840,
+        "salary21_22": 4916160,
+        "salary22_23": 6263188,
+        "yahoo_id": 6171
+    },
+    {
         "name": "Dennis Smith Jr.",
-        "salary18_19": 3819960,
         "salary19_20": 4463640,
         "salary20_21": 5686677,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5822
     },
     {
-        "yahoo_id": 6020,
+        "name": "Jamal Murray",
+        "salary19_20": 4444746,
+        "salary20_21": 29250000,
+        "salary21_22": 31590000,
+        "salary22_23": 33930000,
+        "yahoo_id": 5638
+    },
+    {
         "name": "Kevin Knox",
-        "salary18_19": 3739920,
         "salary19_20": 4380120,
         "salary20_21": 4588680,
-        "salary21_22": 5845978
+        "salary21_22": 5845978,
+        "salary22_23": null,
+        "yahoo_id": 6020
     },
     {
-        "yahoo_id": 4203,
-        "name": "J.J. Barea",
-        "salary18_19": 3710850,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Cam Reddish",
+        "salary19_20": 4245720,
+        "salary20_21": 4458000,
+        "salary21_22": 4670160,
+        "salary22_23": 5954454,
+        "yahoo_id": 6172
     },
     {
-        "yahoo_id": 3605,
-        "name": "Nene Hilario",
-        "salary18_19": 3651480,
-        "salary19_20": 3825360,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5823,
         "name": "Zach Collins",
-        "salary18_19": 3628920,
         "salary19_20": 4240200,
         "salary20_21": 5406255,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5823
     },
     {
-        "yahoo_id": 5469,
-        "name": "Frank Kaminsky",
-        "salary18_19": 3627842,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6021,
         "name": "Mikal Bridges",
-        "salary18_19": 3552960,
         "salary19_20": 4161000,
         "salary20_21": 4359000,
-        "salary21_22": 5557725
+        "salary21_22": 5557725,
+        "salary22_23": null,
+        "yahoo_id": 6021
     },
     {
-        "yahoo_id": 5095,
-        "name": "Mirza Teletovic",
-        "salary18_19": 3500000,
-        "salary19_20": 3500000,
-        "salary20_21": 3500000,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4388,
-        "name": "Michael Beasley",
-        "salary18_19": 3500000,
-        "salary19_20": null,
+        "name": "Alex Len",
+        "salary19_20": 4160000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5156
     },
     {
-        "yahoo_id": 5638,
-        "name": "Jamal Murray",
-        "salary18_19": 3499800,
-        "salary19_20": 4444746,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Cameron Johnson",
+        "salary19_20": 4033440,
+        "salary20_21": 4235160,
+        "salary21_22": 4437000,
+        "salary22_23": 5887899,
+        "yahoo_id": 6173
     },
     {
-        "yahoo_id": 5334,
-        "name": "Rodney Hood",
-        "salary18_19": 3472887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4646,
-        "name": "Jodie Meeks",
-        "salary18_19": 3454500,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5470,
-        "name": "Justise Winslow",
-        "salary18_19": 3448926,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5824,
         "name": "Malik Monk",
-        "salary18_19": 3447480,
         "salary19_20": 4028400,
         "salary20_21": 5345687,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5824
     },
     {
-        "yahoo_id": 5471,
-        "name": "Myles Turner",
-        "salary18_19": 3410284,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Dorian Finney-Smith",
+        "salary19_20": 4000000,
+        "salary20_21": 4000000,
+        "salary21_22": 4000000,
+        "salary22_23": null,
+        "yahoo_id": 5693
     },
     {
-        "yahoo_id": 4472,
-        "name": "Brook Lopez",
-        "salary18_19": 3382000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "JaVale McGee",
+        "salary19_20": 4000000,
+        "salary20_21": 4200000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4480
     },
     {
-        "yahoo_id": 6022,
+        "name": "Patrick McCaw",
+        "salary19_20": 4000000,
+        "salary20_21": 4000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5669
+    },
+    {
+        "name": "Reggie Bullock",
+        "salary19_20": 4000000,
+        "salary20_21": 4200000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5195
+    },
+    {
         "name": "Shai Gilgeous-Alexander",
-        "salary18_19": 3375360,
         "salary19_20": 3952920,
         "salary20_21": 4141320,
-        "salary21_22": 5495532
+        "salary21_22": 5495532,
+        "salary22_23": null,
+        "yahoo_id": 6022
     },
     {
-        "yahoo_id": 5472,
-        "name": "Trey Lyles",
-        "salary18_19": 3364249,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Nicolo Melli",
+        "salary19_20": 3902439,
+        "salary20_21": 4097561,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6270
     },
     {
-        "yahoo_id": 4721,
-        "name": "Ekpe Udoh",
-        "salary18_19": 3360000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "PJ Washington",
+        "salary19_20": 3831840,
+        "salary20_21": 4023600,
+        "salary21_22": 4215120,
+        "salary22_23": 5808435,
+        "yahoo_id": 6174
     },
     {
-        "yahoo_id": 5473,
-        "name": "Devin Booker",
-        "salary18_19": 3314365,
-        "salary19_20": 27250000,
-        "salary20_21": 29430000,
-        "salary21_22": 31610000
-    },
-    {
-        "yahoo_id": 5825,
         "name": "Luke Kennard",
-        "salary18_19": 3275280,
         "salary19_20": 3827160,
         "salary20_21": 5273826,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5825
     },
     {
-        "yahoo_id": 5474,
-        "name": "Cameron Payne",
-        "salary18_19": 3263294,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5282,
-        "name": "Troy Daniels",
-        "salary18_19": 3258539,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5475,
-        "name": "Kelly Oubre Jr.",
-        "salary18_19": 3208630,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6023,
         "name": "Miles Bridges",
-        "salary18_19": 3206640,
         "salary19_20": 3755400,
         "salary20_21": 3934320,
-        "salary21_22": 5421493
+        "salary21_22": 5421493,
+        "salary22_23": null,
+        "yahoo_id": 6023
     },
     {
-        "yahoo_id": 5639,
-        "name": "Marquese Chriss",
-        "salary18_19": 3206160,
-        "salary19_20": 4078236,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Tyler Herro",
+        "salary19_20": 3640200,
+        "salary20_21": 3822240,
+        "salary21_22": 4004280,
+        "salary22_23": 5722116,
+        "yahoo_id": 6175
     },
     {
-        "yahoo_id": 5066,
-        "name": "Tomas Satoransky",
-        "salary18_19": 3129187,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5726,
-        "name": "Bryn Forbes",
-        "salary18_19": 3125000,
-        "salary19_20": 2875000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5826,
         "name": "Donovan Mitchell",
-        "salary18_19": 3111480,
         "salary19_20": 3635760,
         "salary20_21": 5195501,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5826
     },
     {
-        "yahoo_id": 5476,
-        "name": "Terry Rozier",
-        "salary18_19": 3050390,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Stanley Johnson",
+        "salary19_20": 3623000,
+        "salary20_21": 3801000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5468
     },
     {
-        "yahoo_id": 6024,
-        "name": "Jerome Robinson",
-        "salary18_19": 3046200,
-        "salary19_20": 3567720,
-        "salary20_21": 3737520,
-        "salary21_22": 5340916
+        "name": "Jake Layman",
+        "salary19_20": 3581986,
+        "salary20_21": 3761085,
+        "salary21_22": 3940184,
+        "salary22_23": null,
+        "yahoo_id": 5678
     },
     {
-        "yahoo_id": 5720,
-        "name": "Yogi Ferrell",
-        "salary18_19": 3000000,
-        "salary19_20": 3150000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5321,
-        "name": "Elfrid Payton",
-        "salary18_19": 3000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5827,
-        "name": "Bam Adebayo",
-        "salary18_19": 2955840,
-        "salary19_20": 3454080,
-        "salary20_21": 5115492,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5640,
-        "name": "Jakob Poeltl",
-        "salary18_19": 2947320,
-        "salary19_20": 3754886,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6025,
-        "name": "Michael Porter Jr.",
-        "salary18_19": 2894160,
-        "salary19_20": 3389400,
-        "salary20_21": 3550800,
-        "salary21_22": 5258735
-    },
-    {
-        "yahoo_id": 5828,
-        "name": "Justin Jackson",
-        "salary18_19": 2807880,
-        "salary19_20": 3280920,
-        "salary20_21": 5029650,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5641,
         "name": "Thon Maker",
-        "salary18_19": 2799720,
         "salary19_20": 3569643,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5641
     },
     {
-        "yahoo_id": 5245,
-        "name": "Seth Curry",
-        "salary18_19": 2795000,
-        "salary19_20": null,
+        "name": "Jerome Robinson",
+        "salary19_20": 3567720,
+        "salary20_21": 3737520,
+        "salary21_22": 5340916,
+        "salary22_23": null,
+        "yahoo_id": 6024
+    },
+    {
+        "name": "Allonzo Trier",
+        "salary19_20": 3551100,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6140
     },
     {
-        "yahoo_id": 5491,
-        "name": "Cedi Osman",
-        "salary18_19": 2775000,
-        "salary19_20": 2907143,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Danuel House Jr.",
+        "salary19_20": 3540000,
+        "salary20_21": 3717000,
+        "salary21_22": 3894000,
+        "salary22_23": null,
+        "yahoo_id": 5728
     },
     {
-        "yahoo_id": 5478,
-        "name": "Sam Dekker",
-        "salary18_19": 2760095,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6026,
-        "name": "Troy Brown",
-        "salary18_19": 2749080,
-        "salary19_20": 3219480,
-        "salary20_21": 3372840,
-        "salary21_22": 5170564
-    },
-    {
-        "yahoo_id": 5829,
-        "name": "Justin Patton",
-        "salary18_19": 2667600,
-        "salary19_20": 3117240,
-        "salary20_21": 4781846,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5647,
-        "name": "Guerschon Yabusele",
-        "salary18_19": 2667600,
-        "salary19_20": 3117240,
-        "salary20_21": 4781846,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5642,
         "name": "Domantas Sabonis",
-        "salary18_19": 2659800,
         "salary19_20": 3529555,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5642
     },
     {
-        "yahoo_id": 5479,
-        "name": "Jerian Grant",
-        "salary18_19": 2639314,
-        "salary19_20": null,
+        "name": "Boban Marjanovic",
+        "salary19_20": 3500000,
+        "salary20_21": 3500000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5524
+    },
+    {
+        "name": "T.J. McConnell",
+        "salary19_20": 3500000,
+        "salary20_21": 3500000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5582
+    },
+    {
+        "name": "DeMarcus Cousins",
+        "salary19_20": 3500000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4720
     },
     {
-        "yahoo_id": 6027,
-        "name": "Zhaire Smith",
-        "salary18_19": 2611800,
-        "salary19_20": 3058800,
-        "salary20_21": 3204600,
-        "salary21_22": 4915856
-    },
-    {
-        "yahoo_id": 5480,
-        "name": "Delon Wright",
-        "salary18_19": 2536898,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5830,
-        "name": "D.J. Wilson",
-        "salary18_19": 2534280,
-        "salary19_20": 2961120,
-        "salary20_21": 4548280,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5323,
         "name": "Dario Saric",
-        "salary18_19": 2526840,
         "salary19_20": 3481986,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5323
     },
     {
-        "yahoo_id": 5643,
         "name": "Taurean Prince",
-        "salary18_19": 2526840,
         "salary19_20": 3481986,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5643
     },
     {
-        "yahoo_id": 5481,
-        "name": "Justin Anderson",
-        "salary18_19": 2516048,
-        "salary19_20": null,
+        "name": "Romeo Langford",
+        "salary19_20": 3458400,
+        "salary20_21": 3631200,
+        "salary21_22": 3804360,
+        "salary22_23": 5634257,
+        "yahoo_id": 6176
+    },
+    {
+        "name": "Bam Adebayo",
+        "salary19_20": 3454080,
+        "salary20_21": 5115492,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5827
+    },
+    {
+        "name": "Kyle Korver",
+        "salary19_20": 3440000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3754
     },
     {
-        "yahoo_id": 3380,
-        "name": "Manu Ginobili",
-        "salary18_19": 2500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Michael Porter Jr.",
+        "salary19_20": 3389400,
+        "salary20_21": 3550800,
+        "salary21_22": 5258735,
+        "salary22_23": null,
+        "yahoo_id": 6025
     },
     {
-        "yahoo_id": 4638,
-        "name": "Dante Cunningham",
-        "salary18_19": 2500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5195,
-        "name": "Reggie Bullock",
-        "salary18_19": 2500000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5482,
-        "name": "Bobby Portis",
-        "salary18_19": 2494346,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6028,
-        "name": "Donte DiVincenzo",
-        "salary18_19": 2481000,
-        "salary19_20": 2905800,
-        "salary20_21": 3044160,
-        "salary21_22": 4675830
-    },
-    {
-        "yahoo_id": 5483,
-        "name": "Rondae Hollis-Jefferson",
-        "salary18_19": 2470357,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5484,
-        "name": "Tyus Jones",
-        "salary18_19": 2444053,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5485,
-        "name": "Jarell Martin",
-        "salary18_19": 2416222,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5831,
-        "name": "TJ Leaf",
-        "salary18_19": 2407560,
-        "salary19_20": 2813280,
-        "salary20_21": 4326825,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4247,
-        "name": "Jeff Green",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3982,
-        "name": "Amir Johnson",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3931,
-        "name": "Raymond Felton",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3824,
-        "name": "Luol Deng",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3708,
-        "name": "Dwyane Wade",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3765,
-        "name": "Udonis Haslem",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4480,
-        "name": "JaVale McGee",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3706,
-        "name": "Carmelo Anthony",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3944,
-        "name": "Gerald Green",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3989,
-        "name": "Jose Calderon",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3745,
-        "name": "Zaza Pachulia",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3822,
-        "name": "Devin Harris",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3934,
-        "name": "Channing Frye",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3248,
-        "name": "Vince Carter",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3819,
-        "name": "Emeka Okafor",
-        "salary18_19": 100000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3948,
-        "name": "Jarrett Jack",
-        "salary18_19": 2393887,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6029,
-        "name": "Lonnie Walker IV",
-        "salary18_19": 2357160,
-        "salary19_20": 2760480,
-        "salary20_21": 2892000,
-        "salary21_22": 4447896
-    },
-    {
-        "yahoo_id": 3407,
-        "name": "Jamal Crawford",
-        "salary18_19": 2304226,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5832,
-        "name": "John Collins",
-        "salary18_19": 2299080,
-        "salary19_20": 2686560,
-        "salary20_21": 4137302,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5645,
         "name": "Denzel Valentine",
-        "salary18_19": 2280600,
         "salary19_20": 3377569,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5645
     },
     {
-        "yahoo_id": 5487,
-        "name": "Larry Nance Jr.",
-        "salary18_19": 2272391,
-        "salary19_20": null,
+        "name": "Sekou Doumbouya",
+        "salary19_20": 3285120,
+        "salary20_21": 3449400,
+        "salary21_22": 3613680,
+        "salary22_23": 5539771,
+        "yahoo_id": 6203
+    },
+    {
+        "name": "Justin Jackson",
+        "salary19_20": 3280920,
+        "salary20_21": 5029650,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5828
+    },
+    {
+        "name": "Troy Brown",
+        "salary19_20": 3219480,
+        "salary20_21": 3372840,
+        "salary21_22": 5170564,
+        "salary22_23": null,
+        "yahoo_id": 6026
+    },
+    {
+        "name": "Markieff Morris",
+        "salary19_20": 3200000,
+        "salary20_21": 3360000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4894
+    },
+    {
+        "name": "Jon Leuer",
+        "salary19_20": 3169348,
+        "salary20_21": 3169348,
+        "salary21_22": 3169347,
+        "salary22_23": null,
+        "yahoo_id": 4922
+    },
+    {
+        "name": "Yogi Ferrell",
+        "salary19_20": 3150000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5720
     },
     {
-        "yahoo_id": 6030,
-        "name": "Kevin Huerter",
-        "salary18_19": 2250960,
-        "salary19_20": 2636280,
-        "salary20_21": 2761920,
-        "salary21_22": 4253357
+        "name": "Zhaire Smith",
+        "salary19_20": 3058800,
+        "salary20_21": 3204600,
+        "salary21_22": 4915856,
+        "salary22_23": null,
+        "yahoo_id": 6027
     },
     {
-        "yahoo_id": 3966,
-        "name": "Monta Ellis",
-        "salary18_19": 2245400,
-        "salary19_20": 2245400,
-        "salary20_21": 2245400,
-        "salary21_22": 2245400
-    },
-    {
-        "yahoo_id": 5833,
-        "name": "Harry Giles",
-        "salary18_19": 2207040,
-        "salary19_20": 2578800,
-        "salary20_21": 3976510,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5080,
-        "name": "Darius Miller",
-        "salary18_19": 2205000,
-        "salary19_20": null,
+        "name": "Dwight Howard",
+        "salary19_20": 3039097,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3818
     },
     {
-        "yahoo_id": 4387,
-        "name": "Derrick Rose",
-        "salary18_19": 2176260,
-        "salary19_20": null,
+        "name": "Khem Birch",
+        "salary19_20": 3000000,
+        "salary20_21": 3000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5390
+    },
+    {
+        "name": "Ryan Arcidiacono",
+        "salary19_20": 3000000,
+        "salary20_21": 3000000,
+        "salary21_22": 3000000,
+        "salary22_23": null,
+        "yahoo_id": 5695
+    },
+    {
+        "name": "Quinn Cook",
+        "salary19_20": 3000000,
+        "salary20_21": 3000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5588
+    },
+    {
+        "name": "Nickeil Alexander-Walker",
+        "salary19_20": 2964840,
+        "salary20_21": 3113160,
+        "salary21_22": 3261480,
+        "salary22_23": 5009633,
+        "yahoo_id": 6205
+    },
+    {
+        "name": "D.J. Wilson",
+        "salary19_20": 2961120,
+        "salary20_21": 4548280,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5830
+    },
+    {
+        "name": "Cedi Osman",
+        "salary19_20": 2907143,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5491
     },
     {
-        "yahoo_id": 4628,
-        "name": "Omri Casspi",
-        "salary18_19": 2176260,
-        "salary19_20": null,
+        "name": "Donte DiVincenzo",
+        "salary19_20": 2905800,
+        "salary20_21": 3044160,
+        "salary21_22": 4675830,
+        "salary22_23": null,
+        "yahoo_id": 6028
+    },
+    {
+        "name": "Bryn Forbes",
+        "salary19_20": 2875000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5726
     },
     {
-        "yahoo_id": 5646,
-        "name": "Juancho Hernangomez",
-        "salary18_19": 2166360,
-        "salary19_20": 3321030,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Goga Bitadze",
+        "salary19_20": 2816760,
+        "salary20_21": 2957520,
+        "salary21_22": 3098400,
+        "salary22_23": 4765339,
+        "yahoo_id": 6206
     },
     {
-        "yahoo_id": 4722,
-        "name": "Greg Monroe",
-        "salary18_19": 2165481,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "TJ Leaf",
+        "salary19_20": 2813280,
+        "salary20_21": 4326825,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5831
     },
     {
-        "yahoo_id": 4644,
-        "name": "Jonas Jerebko",
-        "salary18_19": 2165481,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Lonnie Walker IV",
+        "salary19_20": 2760480,
+        "salary20_21": 2892000,
+        "salary21_22": 4447896,
+        "salary22_23": null,
+        "yahoo_id": 6029
     },
     {
-        "yahoo_id": 6031,
-        "name": "Josh Okogie",
-        "salary18_19": 2160720,
-        "salary19_20": 2530680,
-        "salary20_21": 2651040,
-        "salary21_22": 4087904
+        "name": "Alex Caruso",
+        "salary19_20": 2750000,
+        "salary20_21": 2750000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5754
     },
     {
-        "yahoo_id": 5217,
-        "name": "Raul Neto",
-        "salary18_19": 2150000,
-        "salary19_20": 2150000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 3643,
-        "name": "Matt Barnes",
-        "salary18_19": 2133542,
-        "salary19_20": 2133541,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5834,
-        "name": "Terrance Ferguson",
-        "salary18_19": 2118840,
-        "salary19_20": 2475840,
-        "salary20_21": 3944013,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6032,
-        "name": "Grayson Allen",
-        "salary18_19": 2074320,
-        "salary19_20": 2429400,
-        "salary20_21": 2545320,
-        "salary21_22": 4054695
-    },
-    {
-        "yahoo_id": 5835,
-        "name": "Jarrett Allen",
-        "salary18_19": 2034120,
-        "salary19_20": 2376840,
-        "salary20_21": 3909902,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4916,
-        "name": "Shelvin Mack",
-        "salary18_19": 1000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4942,
-        "name": "Isaiah Thomas",
-        "salary18_19": 2029463,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5893,
-        "name": "Torrey Craig",
-        "salary18_19": 2000000,
-        "salary19_20": 2100000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6033,
-        "name": "Chandler Hutchison",
-        "salary18_19": 1991520,
-        "salary19_20": 2332320,
-        "salary20_21": 2443440,
-        "salary21_22": 4019459
-    },
-    {
-        "yahoo_id": 5836,
-        "name": "OG Anunoby",
-        "salary18_19": 1952760,
-        "salary19_20": 2281800,
-        "salary20_21": 3872215,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5654,
-        "name": "Ante Zizic",
-        "salary18_19": 1952760,
-        "salary19_20": 2281800,
-        "salary20_21": 3872215,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5335,
-        "name": "Shabazz Napier",
-        "salary18_19": 1942422,
-        "salary19_20": 1845301,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5023,
-        "name": "Tyler Zeller",
-        "salary18_19": 1933941,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6034,
-        "name": "Aaron Holiday",
-        "salary18_19": 1911960,
-        "salary19_20": 2239200,
-        "salary20_21": 2345640,
-        "salary21_22": 3980551
-    },
-    {
-        "yahoo_id": 4932,
-        "name": "Lavoy Allen",
-        "salary18_19": 1893447,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4757,
-        "name": "Quincy Pondexter",
-        "salary18_19": 1893447,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5837,
-        "name": "Tyler Lydon",
-        "salary18_19": 1874640,
-        "salary19_20": 2190720,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5649,
-        "name": "Henry Ellenson",
-        "salary18_19": 1857480,
-        "salary19_20": 2856804,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6035,
-        "name": "Anfernee Simons",
-        "salary18_19": 1835520,
-        "salary19_20": 2149560,
-        "salary20_21": 2252040,
-        "salary21_22": 3938818
-    },
-    {
-        "yahoo_id": 5160,
-        "name": "Trey Burke",
-        "salary18_19": 1795015,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5650,
         "name": "Malik Beasley",
-        "salary18_19": 1773840,
         "salary19_20": 2731714,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5650
     },
     {
-        "yahoo_id": 6036,
-        "name": "Moritz Wagner",
-        "salary18_19": 1762080,
-        "salary19_20": 2063520,
-        "salary20_21": 3893618,
-        "salary21_22": 2161920
+        "name": "Luka Samanic",
+        "salary19_20": 2689920,
+        "salary20_21": 2824320,
+        "salary21_22": 2959080,
+        "salary22_23": 4556983,
+        "yahoo_id": 6207
     },
     {
-        "yahoo_id": 5157,
-        "name": "Nerlens Noel",
-        "salary18_19": 1757429,
-        "salary19_20": 1988119,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "John Collins",
+        "salary19_20": 2686560,
+        "salary20_21": 4137302,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5832
     },
     {
-        "yahoo_id": 5237,
-        "name": "Ian Clark",
-        "salary18_19": 1757429,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Kevin Huerter",
+        "salary19_20": 2636280,
+        "salary20_21": 2761920,
+        "salary21_22": 4253357,
+        "salary22_23": null,
+        "yahoo_id": 6030
     },
     {
-        "yahoo_id": 5162,
-        "name": "Michael Carter-Williams",
-        "salary18_19": 1757429,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4836,
-        "name": "Donald Sloan",
-        "salary18_19": 1757429,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5011,
-        "name": "Thomas Robinson",
-        "salary18_19": 1757429,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5839,
-        "name": "Caleb Swanigan",
-        "salary18_19": 1740000,
-        "salary19_20": 2033160,
-        "salary20_21": 3665787,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5657,
-        "name": "Furkan Korkmaz",
-        "salary18_19": 1740000,
-        "salary19_20": 2033160,
-        "salary20_21": 3665787,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6037,
-        "name": "Landry Shamet",
-        "salary18_19": 1703640,
-        "salary19_20": 1995120,
-        "salary20_21": 2090040,
-        "salary21_22": 3768342
-    },
-    {
-        "yahoo_id": 5651,
         "name": "Caris LeVert",
-        "salary18_19": 1702800,
         "salary19_20": 2625718,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 16203704,
+        "salary21_22": 17500000,
+        "salary22_23": 18796296,
+        "yahoo_id": 5651
     },
     {
-        "yahoo_id": 5849,
-        "name": "Jonah Bolden",
-        "salary18_19": 1690000,
-        "salary19_20": 1698450,
-        "salary20_21": 1766550,
-        "salary21_22": 1845000
+        "name": "Marko Guduric",
+        "salary19_20": 2625000,
+        "salary20_21": 2750000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6278
     },
     {
-        "yahoo_id": 5840,
-        "name": "Kyle Kuzma",
-        "salary18_19": 1689840,
-        "salary19_20": 1974600,
-        "salary20_21": 3562178,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5841,
-        "name": "Tony Bradley",
-        "salary18_19": 1679520,
-        "salary19_20": 1962360,
-        "salary20_21": 3542060,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5842,
-        "name": "Derrick White",
-        "salary18_19": 1667160,
-        "salary19_20": 1948080,
-        "salary20_21": 3516284,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4907,
-        "name": "MarShon Brooks",
-        "salary18_19": 1656092,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5349,
-        "name": "Spencer Dinwiddie",
-        "salary18_19": 1656092,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5843,
-        "name": "Josh Hart",
-        "salary18_19": 1655160,
-        "salary19_20": 1934160,
-        "salary20_21": 3491159,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6038,
-        "name": "Robert Williams",
-        "salary18_19": 1654440,
-        "salary19_20": 1937520,
-        "salary20_21": 2029920,
-        "salary21_22": 3661976
-    },
-    {
-        "yahoo_id": 6039,
-        "name": "Jacob Evans III",
-        "salary18_19": 1644240,
-        "salary19_20": 1925880,
-        "salary20_21": 2017320,
-        "salary21_22": 3641263
-    },
-    {
-        "yahoo_id": 5501,
-        "name": "Pat Connaughton",
-        "salary18_19": 1641000,
-        "salary19_20": 1719000,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5652,
         "name": "DeAndre' Bembry",
-        "salary18_19": 1634640,
         "salary19_20": 2603982,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5652
     },
     {
-        "yahoo_id": 6040,
-        "name": "Dzanan Musa",
-        "salary18_19": 1632240,
-        "salary19_20": 1911600,
-        "salary20_21": 2002800,
-        "salary21_22": 3615054
+        "name": "Matisse Thybulle",
+        "salary19_20": 2582160,
+        "salary20_21": 2711280,
+        "salary21_22": 2840160,
+        "salary22_23": 4379527,
+        "yahoo_id": 6208
     },
     {
-        "yahoo_id": 5319,
-        "name": "Nik Stauskas",
-        "salary18_19": 1621415,
-        "salary19_20": null,
+        "name": "Harry Giles",
+        "salary19_20": 2578800,
+        "salary20_21": 3976510,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5833
+    },
+    {
+        "name": "Jeff Green",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4247
     },
     {
-        "yahoo_id": 5220,
-        "name": "James Ennis III",
-        "salary18_19": 1621415,
-        "salary19_20": 1845301,
+        "name": "Anthony Tolliver",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4371
     },
     {
-        "yahoo_id": 5222,
-        "name": "Lorenzo Brown",
-        "salary18_19": 1621415,
-        "salary19_20": null,
+        "name": "Pau Gasol",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3513
     },
     {
-        "yahoo_id": 5320,
-        "name": "Noah Vonleh",
-        "salary18_19": 1621415,
-        "salary19_20": null,
+        "name": "Kyle Korver",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3754
     },
     {
-        "yahoo_id": 5414,
-        "name": "Tim Frazier",
-        "salary18_19": 1621415,
-        "salary19_20": null,
+        "name": "Wesley Matthews",
+        "salary19_20": 2564753,
+        "salary20_21": 2692991,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4694
+    },
+    {
+        "name": "Udonis Haslem",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3765
     },
     {
-        "yahoo_id": 5331,
-        "name": "Bruno Caboclo",
-        "salary18_19": 1621415,
-        "salary19_20": null,
+        "name": "Rajon Rondo",
+        "salary19_20": 2564753,
+        "salary20_21": 2619605,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4149
+    },
+    {
+        "name": "Jared Dudley",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4300
     },
     {
-        "yahoo_id": 6041,
-        "name": "Omari Spellman",
-        "salary18_19": 1620480,
-        "salary19_20": 1897800,
-        "salary20_21": 1988280,
-        "salary21_22": 3588845
-    },
-    {
-        "yahoo_id": 5903,
-        "name": "Luke Kornet",
-        "salary18_19": 1619000,
-        "salary19_20": null,
+        "name": "Tyson Chandler",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3512
     },
     {
-        "yahoo_id": 6051,
-        "name": "Rodions Kurucs",
-        "salary18_19": 1618320,
-        "salary19_20": 1699236,
-        "salary20_21": 1780152,
-        "salary21_22": 1861068
-    },
-    {
-        "yahoo_id": 5497,
-        "name": "Richaun Holmes",
-        "salary18_19": 1600520,
-        "salary19_20": null,
+        "name": "Gerald Green",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3944
     },
     {
-        "yahoo_id": 5582,
-        "name": "T.J. McConnell",
-        "salary18_19": 1600520,
-        "salary19_20": null,
+        "name": "Thabo Sefolosha",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4141
     },
     {
-        "yahoo_id": 5904,
-        "name": "Alfonzo McKinnie",
-        "salary18_19": 1349383,
-        "salary19_20": null,
+        "name": "J.J. Barea",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4203
     },
     {
-        "yahoo_id": 5653,
-        "name": "Malachi Richardson",
-        "salary18_19": 1569360,
-        "salary19_20": 2581597,
+        "name": "Wilson Chandler",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4301
     },
     {
-        "yahoo_id": 5490,
-        "name": "Kevon Looney",
-        "salary18_19": 1567007,
-        "salary19_20": null,
+        "name": "Vince Carter",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3248
     },
     {
-        "yahoo_id": 5536,
-        "name": "Salah Mejri",
-        "salary18_19": 1567007,
-        "salary19_20": null,
+        "name": "Ryan Anderson",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4483
     },
     {
-        "yahoo_id": 5434,
-        "name": "Jahlil Okafor",
-        "salary18_19": 1567007,
-        "salary19_20": 1702486,
+        "name": "Joe Johnson",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3520
     },
     {
-        "yahoo_id": 5417,
-        "name": "Jakarr Sampson",
-        "salary18_19": 1567007,
-        "salary19_20": null,
+        "name": "Dwight Howard",
+        "salary19_20": 2564753,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3818
     },
     {
-        "yahoo_id": 5346,
-        "name": "Jarnell Stokes",
-        "salary18_19": 1567007,
-        "salary19_20": null,
+        "name": "Josh Okogie",
+        "salary19_20": 2530680,
+        "salary20_21": 2651040,
+        "salary21_22": 4087904,
+        "salary22_23": null,
+        "yahoo_id": 6031
+    },
+    {
+        "name": "Vincent Poirier",
+        "salary19_20": 2505793,
+        "salary20_21": 2619207,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6260
+    },
+    {
+        "name": "Rondae Hollis-Jefferson",
+        "salary19_20": 2500000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5483
     },
     {
-        "yahoo_id": 5593,
-        "name": "Briante Weber",
-        "salary18_19": 1567007,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Brandon Clarke",
+        "salary19_20": 2478840,
+        "salary20_21": 2602920,
+        "salary21_22": 2726880,
+        "salary22_23": 4343920,
+        "yahoo_id": 6209
     },
     {
-        "yahoo_id": 5488,
-        "name": "R.J. Hunter",
-        "salary18_19": 1567007,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Terrance Ferguson",
+        "salary19_20": 2475840,
+        "salary20_21": 3944013,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5834
     },
     {
-        "yahoo_id": 5660,
-        "name": "Dejounte Murray",
-        "salary18_19": 1544951,
-        "salary19_20": 2321735,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Grayson Allen",
+        "salary19_20": 2429400,
+        "salary20_21": 2545320,
+        "salary21_22": 4054695,
+        "salary22_23": null,
+        "yahoo_id": 6032
     },
     {
-        "yahoo_id": 5658,
+        "name": "Grant Williams",
+        "salary19_20": 2379840,
+        "salary20_21": 2498760,
+        "salary21_22": 2617800,
+        "salary22_23": 4306281,
+        "yahoo_id": 6210
+    },
+    {
+        "name": "Jarrett Allen",
+        "salary19_20": 2376840,
+        "salary20_21": 3909902,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5835
+    },
+    {
         "name": "Pascal Siakam",
-        "salary18_19": 1544951,
         "salary19_20": 2351839,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary20_21": 29000000,
+        "salary21_22": 31320000,
+        "salary22_23": 33640000,
+        "yahoo_id": 5658
     },
     {
-        "yahoo_id": 5662,
-        "name": "Deyonta Davis",
-        "salary18_19": 1544951,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5659,
         "name": "Skal Labissiere",
-        "salary18_19": 1544951,
         "salary19_20": 2338847,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5659
     },
     {
-        "yahoo_id": 5678,
-        "name": "Jake Layman",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Chandler Hutchison",
+        "salary19_20": 2332320,
+        "salary20_21": 2443440,
+        "salary21_22": 4019459,
+        "salary22_23": null,
+        "yahoo_id": 6033
+    },
+    {
+        "name": "Patrick Patterson",
+        "salary19_20": 2331593,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4729
     },
     {
-        "yahoo_id": 5648,
-        "name": "Wade Baldwin IV",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Dejounte Murray",
+        "salary19_20": 2321735,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5660
     },
     {
-        "yahoo_id": 5655,
-        "name": "Timothe Luwawu-Cabarrot",
-        "salary18_19": 1544951,
-        "salary19_20": 2529684,
+        "name": "Isaiah Thomas",
+        "salary19_20": 2320044,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4942
     },
     {
-        "yahoo_id": 5664,
-        "name": "Cheick Diallo",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Alec Burks",
+        "salary19_20": 2320044,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4893
     },
     {
-        "yahoo_id": 5667,
-        "name": "Malcolm Brogdon",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Lance Thomas",
+        "salary19_20": 2320044,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4966
     },
     {
-        "yahoo_id": 5270,
-        "name": "Rodney McGruder",
-        "salary18_19": 1544951,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5708,
-        "name": "Wayne Selden Jr.",
-        "salary18_19": 1544951,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5663,
-        "name": "Ivica Zubac",
-        "salary18_19": 1544951,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5661,
         "name": "Damian Jones",
-        "salary18_19": 1544951,
         "salary19_20": 2305057,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5661
     },
     {
-        "yahoo_id": 5588,
-        "name": "Quinn Cook",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Darius Bazley",
+        "salary19_20": 2284800,
+        "salary20_21": 2399160,
+        "salary21_22": 2513040,
+        "salary22_23": 4264629,
+        "yahoo_id": 6211
+    },
+    {
+        "name": "OG Anunoby",
+        "salary19_20": 2281800,
+        "salary20_21": 3872215,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5836
+    },
+    {
+        "name": "Ante Zizic",
+        "salary19_20": 2281800,
+        "salary20_21": 3872215,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5654
+    },
+    {
+        "name": "Aaron Holiday",
+        "salary19_20": 2239200,
+        "salary20_21": 2345640,
+        "salary21_22": 3980551,
+        "salary22_23": null,
+        "yahoo_id": 6034
+    },
+    {
+        "name": "Luke Kornet",
+        "salary19_20": 2195122,
+        "salary20_21": 2304878,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5903
+    },
+    {
+        "name": "Ty Jerome",
+        "salary19_20": 2193480,
+        "salary20_21": 2303040,
+        "salary21_22": 2412840,
+        "salary22_23": 4220057,
+        "yahoo_id": 6212
+    },
+    {
+        "name": "Willie Cauley-Stein",
+        "salary19_20": 2177483,
+        "salary20_21": 2286357,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5466
+    },
+    {
+        "name": "Austin Rivers",
+        "salary19_20": 2174318,
+        "salary20_21": 2369663,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5016
+    },
+    {
+        "name": "Anfernee Simons",
+        "salary19_20": 2149560,
+        "salary20_21": 2252040,
+        "salary21_22": 3938818,
+        "salary22_23": null,
+        "yahoo_id": 6035
+    },
+    {
+        "name": "Nassir Little",
+        "salary19_20": 2105520,
+        "salary20_21": 2210640,
+        "salary21_22": 2316240,
+        "salary22_23": 4171548,
+        "yahoo_id": 6213
+    },
+    {
+        "name": "Torrey Craig",
+        "salary19_20": 2100000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5893
     },
     {
-        "yahoo_id": 5668,
-        "name": "Chinanu Onuaku",
-        "salary18_19": 1512601,
-        "salary19_20": null,
+        "name": "Moritz Wagner",
+        "salary19_20": 2063520,
+        "salary20_21": 3893618,
+        "salary21_22": 2161920,
+        "salary22_23": null,
+        "yahoo_id": 6036
+    },
+    {
+        "name": "Dylan Windler",
+        "salary19_20": 2035800,
+        "salary20_21": 2137440,
+        "salary21_22": 2239200,
+        "salary22_23": 4037278,
+        "yahoo_id": 6214
+    },
+    {
+        "name": "Caleb Swanigan",
+        "salary19_20": 2033160,
+        "salary20_21": 3665787,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5839
+    },
+    {
+        "name": "Kyle O'Quinn",
+        "salary19_20": 2028594,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5083
     },
     {
-        "yahoo_id": 5693,
-        "name": "Dorian Finney-Smith",
-        "salary18_19": 1544951,
-        "salary19_20": null,
+        "name": "Michael Carter-Williams",
+        "salary19_20": 2028594,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5162
     },
     {
-        "yahoo_id": 5495,
+        "name": "Nerlens Noel",
+        "salary19_20": 2028594,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5157
+    },
+    {
+        "name": "Mike Muscala",
+        "salary19_20": 2028594,
+        "salary20_21": 2283034,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5214
+    },
+    {
+        "name": "Troy Daniels",
+        "salary19_20": 2028594,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5282
+    },
+    {
+        "name": "Trey Burke",
+        "salary19_20": 2028594,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5160
+    },
+    {
+        "name": "Edmond Sumner",
+        "salary19_20": 2000000,
+        "salary20_21": 2160000,
+        "salary21_22": 2320000,
+        "salary22_23": null,
+        "yahoo_id": 5865
+    },
+    {
+        "name": "Noah Vonleh",
+        "salary19_20": 2000000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5320
+    },
+    {
+        "name": "Avery Bradley",
+        "salary19_20": 2000000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4750
+    },
+    {
+        "name": "Landry Shamet",
+        "salary19_20": 1995120,
+        "salary20_21": 2090040,
+        "salary21_22": 3768342,
+        "salary22_23": null,
+        "yahoo_id": 6037
+    },
+    {
+        "name": "Mfiondu Kabengele",
+        "salary19_20": 1977000,
+        "salary20_21": 2075880,
+        "salary21_22": 2174880,
+        "salary22_23": 3923484,
+        "yahoo_id": 6215
+    },
+    {
+        "name": "Kyle Kuzma",
+        "salary19_20": 1974600,
+        "salary20_21": 3562178,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5840
+    },
+    {
+        "name": "Jordan Poole",
+        "salary19_20": 1964760,
+        "salary20_21": 2063280,
+        "salary21_22": 2161440,
+        "salary22_23": 3901399,
+        "yahoo_id": 6216
+    },
+    {
+        "name": "Tony Bradley",
+        "salary19_20": 1962360,
+        "salary20_21": 3542060,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5841
+    },
+    {
+        "name": "Keldon Johnson",
+        "salary19_20": 1950600,
+        "salary20_21": 2048040,
+        "salary21_22": 2145720,
+        "salary22_23": 3873025,
+        "yahoo_id": 6217
+    },
+    {
+        "name": "Derrick White",
+        "salary19_20": 1948080,
+        "salary20_21": 3516284,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5842
+    },
+    {
+        "name": "Robert Williams",
+        "salary19_20": 1937520,
+        "salary20_21": 2029920,
+        "salary21_22": 3661976,
+        "salary22_23": null,
+        "yahoo_id": 6038
+    },
+    {
+        "name": "Josh Hart",
+        "salary19_20": 1934160,
+        "salary20_21": 3491159,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5843
+    },
+    {
+        "name": "Jacob Evans III",
+        "salary19_20": 1925880,
+        "salary20_21": 2017320,
+        "salary21_22": 3641263,
+        "salary22_23": null,
+        "yahoo_id": 6039
+    },
+    {
+        "name": "Dzanan Musa",
+        "salary19_20": 1911600,
+        "salary20_21": 2002800,
+        "salary21_22": 3615054,
+        "salary22_23": null,
+        "yahoo_id": 6040
+    },
+    {
+        "name": "Omari Spellman",
+        "salary19_20": 1897800,
+        "salary20_21": 1988280,
+        "salary21_22": 3588845,
+        "salary22_23": null,
+        "yahoo_id": 6041
+    },
+    {
+        "name": "James Ennis III",
+        "salary19_20": 1882867,
+        "salary20_21": 2071978,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5220
+    },
+    {
+        "name": "Shabazz Napier",
+        "salary19_20": 1882867,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5335
+    },
+    {
+        "name": "Glenn Robinson III",
+        "salary19_20": 1882867,
+        "salary20_21": 2071978,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5351
+    },
+    {
+        "name": "Tim Frazier",
+        "salary19_20": 1882867,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5414
+    },
+    {
+        "name": "Ben McLemore",
+        "salary19_20": 1882867,
+        "salary20_21": 2130023,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5158
+    },
+    {
+        "name": "Bruno Caboclo",
+        "salary19_20": 1845301,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5331
+    },
+    {
+        "name": "Mario Hezonja",
+        "salary19_20": 1737145,
+        "salary20_21": 1882867,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5465
+    },
+    {
+        "name": "Emmanuel Mudiay",
+        "salary19_20": 1737145,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5467
+    },
+    {
+        "name": "Raul Neto",
+        "salary19_20": 1737145,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5217
+    },
+    {
+        "name": "Jakarr Sampson",
+        "salary19_20": 1737145,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5417
+    },
+    {
+        "name": "Cameron Payne",
+        "salary19_20": 1737145,
+        "salary20_21": 1977011,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5474
+    },
+    {
+        "name": "Pat Connaughton",
+        "salary19_20": 1723050,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5501
+    },
+    {
+        "name": "Jahlil Okafor",
+        "salary19_20": 1702486,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5434
+    },
+    {
+        "name": "Rodions Kurucs",
+        "salary19_20": 1699236,
+        "salary20_21": 1780152,
+        "salary21_22": 1861068,
+        "salary22_23": null,
+        "yahoo_id": 6051
+    },
+    {
+        "name": "Jonah Bolden",
+        "salary19_20": 1698450,
+        "salary20_21": 1766550,
+        "salary21_22": 1845000,
+        "salary22_23": null,
+        "yahoo_id": 5849
+    },
+    {
+        "name": "Cheick Diallo",
+        "salary19_20": 1678854,
+        "salary20_21": 1824003,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5664
+    },
+    {
+        "name": "Treveon Graham",
+        "salary19_20": 1678854,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5539
+    },
+    {
+        "name": "David Nwaba",
+        "salary19_20": 1678854,
+        "salary20_21": 1824003,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5762
+    },
+    {
+        "name": "Dragan Bender",
+        "salary19_20": 1678854,
+        "salary20_21": 1824003,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5635
+    },
+    {
+        "name": "Marquese Chriss",
+        "salary19_20": 1678854,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5639
+    },
+    {
         "name": "Willy Hernangomez",
-        "salary18_19": 1544951,
-        "salary19_20": 1701735,
+        "salary19_20": 1676735,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5495
     },
     {
-        "yahoo_id": 5504,
-        "name": "Andrew Harrison",
-        "salary18_19": 1544951,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Isaac Bonga",
+        "salary19_20": 1663861,
+        "salary20_21": 1416852,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6050
     },
     {
-        "yahoo_id": 5681,
+        "name": "Derrick Jones Jr.",
+        "salary19_20": 1645357,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5747
+    },
+    {
+        "name": "Jordan McRae",
+        "salary19_20": 1645357,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5370
+    },
+    {
         "name": "Georges Niang",
-        "salary18_19": 1512601,
         "salary19_20": 1645357,
         "salary20_21": 1783557,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5681
     },
     {
-        "yahoo_id": 5747,
-        "name": "Derrick Jones Jr.",
-        "salary18_19": 1512601,
-        "salary19_20": 1645357,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5762,
-        "name": "David Nwaba",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5539,
-        "name": "Treveon Graham",
-        "salary18_19": 1512601,
-        "salary19_20": 1645357,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5583,
         "name": "Christian Wood",
-        "salary18_19": 1512601,
-        "salary19_20": null,
+        "salary19_20": 1645357,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5583
     },
     {
-        "yahoo_id": 5697,
-        "name": "Okaro White",
-        "salary18_19": 1512601,
-        "salary19_20": null,
+        "name": "Furkan Korkmaz",
+        "salary19_20": 1620564,
+        "salary20_21": 1762796,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5657
+    },
+    {
+        "name": "Jordan Bell",
+        "salary19_20": 1620564,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5851
     },
     {
-        "yahoo_id": 5668,
-        "name": "Chinanu Onuaku",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Justin Patton",
+        "salary19_20": 1620564,
+        "salary20_21": 1762796,
+        "salary21_22": 1910860,
+        "salary22_23": null,
+        "yahoo_id": 5829
     },
     {
-        "yahoo_id": 5739,
-        "name": "Gary Payton II",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5204,
-        "name": "Isaiah Canaan",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5709,
-        "name": "Troy Williams",
-        "salary18_19": 122741,
-        "salary19_20": 122741,
-        "salary20_21": 122741,
-        "salary21_22": 122741
-    },
-    {
-        "yahoo_id": 5089,
-        "name": "Darius Johnson-Odom",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4962,
-        "name": "Xavier Silas",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5740,
         "name": "Isaiah Taylor",
-        "salary18_19": 1512601,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "salary19_20": 1620564,
+        "salary20_21": 1762796,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5740
     },
     {
-        "yahoo_id": 5665,
+        "name": "Tyler Lydon",
+        "salary19_20": 1620564,
+        "salary20_21": 1762796,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5837
+    },
+    {
         "name": "Tyler Ulis",
-        "salary18_19": 1512601,
-        "salary19_20": null,
+        "salary19_20": 1620564,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5665
     },
     {
-        "yahoo_id": 5751,
-        "name": "Marcus Georges-Hunt",
-        "salary18_19": 1512601,
-        "salary19_20": null,
+        "name": "C.J. Williams",
+        "salary19_20": 1620564,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5738
     },
     {
-        "yahoo_id": 6058,
-        "name": "Sviatoslav Mykhailiuk",
-        "salary18_19": 1487694,
-        "salary19_20": 1416852,
+        "name": "Abdel Nader",
+        "salary19_20": 1618520,
+        "salary20_21": 1752950,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5689
+    },
+    {
+        "name": "Damyean Dotson",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5857
+    },
+    {
+        "name": "Frank Jackson",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5844
+    },
+    {
+        "name": "Sterling Brown",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5859
+    },
+    {
+        "name": "Dillon Brooks",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5858
+    },
+    {
+        "name": "Dwayne Bacon",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5853
+    },
+    {
+        "name": "Semi Ojeleye",
+        "salary19_20": 1618520,
+        "salary20_21": 1752950,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5850
+    },
+    {
+        "name": "Ivan Rabb",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5848
+    },
+    {
+        "name": "Royce O'Neale",
+        "salary19_20": 1618520,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5905
+    },
+    {
+        "name": "Monte Morris",
+        "salary19_20": 1588231,
         "salary20_21": 1663861,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5864
     },
     {
-        "yahoo_id": 6047,
+        "name": "Malcolm Miller",
+        "salary19_20": 1588231,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5564
+    },
+    {
+        "name": "Chris Boucher",
+        "salary19_20": 1588231,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5894
+    },
+    {
+        "name": "Tyrone Wallace",
+        "salary19_20": 1588231,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5691
+    },
+    {
+        "name": "Alfonzo McKinnie",
+        "salary19_20": 1588231,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5904
+    },
+    {
         "name": "Mitchell Robinson",
-        "salary18_19": 1485440,
         "salary19_20": 1559712,
         "salary20_21": 1663861,
-        "salary21_22": 1802057
+        "salary21_22": 1802057,
+        "salary22_23": null,
+        "yahoo_id": 6047
     },
     {
-        "yahoo_id": 5851,
-        "name": "Jordan Bell",
-        "salary18_19": 1378252,
-        "salary19_20": null,
+        "name": "Isaiah Roby",
+        "salary19_20": 1500000,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6233
+    },
+    {
+        "name": "Nigel Williams-Goss",
+        "salary19_20": 1500000,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 5868
+    },
+    {
+        "name": "Shake Milton",
+        "salary19_20": 1445697,
+        "salary20_21": 1701593,
+        "salary21_22": 1846738,
+        "salary22_23": 1997718,
+        "yahoo_id": 6065
+    },
+    {
+        "name": "Thanasis Antetokounmpo",
+        "salary19_20": 1445697,
+        "salary20_21": 1701593,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5362
+    },
+    {
+        "name": "Theo Pinson",
+        "salary19_20": 1445697,
+        "salary20_21": 1701593,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6083
+    },
+    {
+        "name": "Brad Wanamaker",
+        "salary19_20": 1445697,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4969
     },
     {
-        "yahoo_id": 5844,
-        "name": "Frank Jackson",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5855,
-        "name": "Thomas Bryant",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5847,
-        "name": "Frank Mason III",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5845,
-        "name": "Davon Reed",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5390,
-        "name": "Khem Birch",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5689,
-        "name": "Abdel Nader",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": 1752950,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5857,
-        "name": "Damyean Dotson",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5859,
-        "name": "Sterling Brown",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5848,
-        "name": "Ivan Rabb",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5858,
-        "name": "Dillon Brooks",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5861,
-        "name": "Sindarius Thornwell",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5852,
-        "name": "Jawun Evans",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5860,
-        "name": "Ike Anigbogu",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5892,
-        "name": "Maxi Kleber",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5853,
-        "name": "Dwayne Bacon",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5850,
-        "name": "Semi Ojeleye",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": 1752950,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5880,
-        "name": "Daniel Theis",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5854,
-        "name": "Tyler Dorsey",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5746,
-        "name": "Shaquille Harrison",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5905,
-        "name": "Royce O'Neale",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5674,
-        "name": "Zhou Qi",
-        "salary18_19": 1378242,
-        "salary19_20": 1618520,
-        "salary20_21": 1752950,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5925,
-        "name": "Antonius Cleveland",
-        "salary18_19": 1378242,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5864,
-        "name": "Monte Morris",
-        "salary18_19": 1349383,
-        "salary19_20": 1588231,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5876,
-        "name": "Antonio Blakeney",
-        "salary18_19": 1349383,
-        "salary19_20": 1588231,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5869,
-        "name": "Jabari Bird",
-        "salary18_19": 1349383,
-        "salary19_20": 1588231,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5687,
-        "name": "Daniel Hamilton",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5706,
-        "name": "Chasson Randle",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5353,
-        "name": "Nick Johnson",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5259,
-        "name": "Kalin Lucas",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5866,
-        "name": "Kadeem Allen",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5281,
-        "name": "James Nunnally",
-        "salary18_19": 1349383,
-        "salary19_20": 1588231,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5919,
-        "name": "Rodney Purvis",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5691,
-        "name": "Tyrone Wallace",
-        "salary18_19": 1349383,
-        "salary19_20": 1588231,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5888,
-        "name": "Ben Moore",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5904,
-        "name": "Alfonzo McKinnie",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5898,
-        "name": "Kobi Simmons",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5695,
-        "name": "Ryan Arcidiacono",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5899,
-        "name": "Derrick Walton Jr.",
-        "salary18_19": 1349383,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6042,
-        "name": "Elie Okobo",
-        "salary18_19": 1238464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": 1802057
-    },
-    {
-        "yahoo_id": 6044,
-        "name": "Jalen Brunson",
-        "salary18_19": 1230000,
-        "salary19_20": 1416582,
-        "salary20_21": 1663861,
-        "salary21_22": 1802057
-    },
-    {
-        "yahoo_id": 6046,
-        "name": "Melvin Frazier",
-        "salary18_19": 1050000,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6050,
-        "name": "Isaac Bonga",
-        "salary18_19": 1000000,
-        "salary19_20": 1663861,
-        "salary20_21": 1416852,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4916,
-        "name": "Shelvin Mack",
-        "salary18_19": 1000000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4915,
-        "name": "Kyle Singler",
-        "salary18_19": 999200,
-        "salary19_20": 999200,
-        "salary20_21": 999200,
-        "salary21_22": 999200
-    },
-    {
-        "yahoo_id": 6045,
-        "name": "Devonte' Graham",
-        "salary18_19": 988464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6057,
-        "name": "De'Anthony Melton",
-        "salary18_19": 949000,
-        "salary19_20": 1416852,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6048,
-        "name": "Gary Trent Jr.",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6056,
-        "name": "Hamidou Diallo",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6059,
-        "name": "Keita Bates-Diop",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6043,
-        "name": "Jevon Carter",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6053,
-        "name": "Bruce Brown Jr.",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6052,
-        "name": "Jarred Vanderbilt",
-        "salary18_19": 838464,
-        "salary19_20": 1663861,
-        "salary20_21": 1416852,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6067,
-        "name": "Ray Spalding",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": 1802057
-    },
-    {
-        "yahoo_id": 6049,
-        "name": "Khyri Thomas",
-        "salary18_19": 838464,
-        "salary19_20": 838464,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6060,
-        "name": "Chimezie Metu",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6061,
-        "name": "Alize Johnson",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5856,
-        "name": "Isaiah Hartenstein",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6084,
         "name": "Ryan Broekhoff",
-        "salary18_19": 838464,
         "salary19_20": 1443842,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6084
     },
     {
-        "yahoo_id": 4969,
-        "name": "Brad Wanamaker",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5915,
-        "name": "Isaiah Briscoe",
-        "salary18_19": 838464,
-        "salary19_20": 1663861,
-        "salary20_21": 838464,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6119,
-        "name": "Chris Chiozza",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6106,
-        "name": "Tiwian Kendley",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6120,
-        "name": "Jairus Lyles",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5690,
-        "name": "Isaiah Cousins",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6087,
-        "name": "Isaac Haas",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5895,
-        "name": "Cameron Oliver",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6113,
-        "name": "Braian Angola-Rodas",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6077,
-        "name": "Garlon Green",
-        "salary18_19": 838464,
-        "salary19_20": 1416852,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 6076,
         "name": "Kenrich Williams",
-        "salary18_19": 838464,
+        "salary19_20": 1443842,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6076
+    },
+    {
+        "name": "Gary Trent Jr.",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6048
+    },
+    {
+        "name": "Chimezie Metu",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6060
+    },
+    {
+        "name": "Elie Okobo",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": 1802057,
+        "salary22_23": null,
+        "yahoo_id": 6042
+    },
+    {
+        "name": "Jevon Carter",
         "salary19_20": 1416852,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6043
     },
     {
-        "yahoo_id": 6093,
-        "name": "Doral Moore",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Melvin Frazier",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6046
+    },
+    {
+        "name": "Deonte Burton",
+        "salary19_20": 1416852,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6072
     },
     {
-        "yahoo_id": 6098,
-        "name": "Markel Crawford",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Hamidou Diallo",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6056
+    },
+    {
+        "name": "Keita Bates-Diop",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6059
+    },
+    {
+        "name": "De'Anthony Melton",
+        "salary19_20": 1416852,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6057
     },
     {
-        "yahoo_id": 6102,
-        "name": "Brandon Goodwin",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Alize Johnson",
+        "salary19_20": 1416852,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6061
     },
     {
-        "yahoo_id": 6115,
-        "name": "Johnathan Williams",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
+        "name": "Bruce Brown Jr.",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6053
     },
     {
-        "yahoo_id": 6121,
+        "name": "Jarred Vanderbilt",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6052
+    },
+    {
+        "name": "Devonte' Graham",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6045
+    },
+    {
+        "name": "Duncan Robinson",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6073
+    },
+    {
+        "name": "Isaiah Hartenstein",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5856
+    },
+    {
         "name": "Gary Clark",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6121
+    },
+    {
+        "name": "Kendrick Nunn",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6114
+    },
+    {
+        "name": "Jalen Brunson",
+        "salary19_20": 1416582,
+        "salary20_21": 1663861,
+        "salary21_22": 1802057,
+        "salary22_23": null,
+        "yahoo_id": 6044
+    },
+    {
+        "name": "Bruno Fernando",
+        "salary19_20": 1400000,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6222
+    },
+    {
+        "name": "Jaylen Nowell",
+        "salary19_20": 1400000,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6231
+    },
+    {
+        "name": "Kevin Porter Jr.",
+        "salary19_20": 1290960,
+        "salary20_21": 2033160,
+        "salary21_22": 2130240,
+        "salary22_23": 3845083,
+        "yahoo_id": 6218
+    },
+    {
+        "name": "Carsen Edwards",
+        "salary19_20": 1200000,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6221
+    },
+    {
+        "name": "Cody Martin",
+        "salary19_20": 1173310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6224
+    },
+    {
+        "name": "George Hill",
+        "salary19_20": 1000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4488
     },
     {
-        "yahoo_id": 6096,
-        "name": "Marcus Derrickson",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Terance Mann",
+        "salary19_20": 1000000,
+        "salary20_21": 1517984,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6236
+    },
+    {
+        "name": "Jonathon Simmons",
+        "salary19_20": 1000000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5526
     },
     {
-        "yahoo_id": 6097,
-        "name": "Zach Lofton",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Admiral Schofield",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6230
+    },
+    {
+        "name": "KZ Okpala",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6220
+    },
+    {
+        "name": "Eric Paschall",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6229
+    },
+    {
+        "name": "Nicolas Claxton",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6219
+    },
+    {
+        "name": "Justin James",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6228
+    },
+    {
+        "name": "Jalen Lecque",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6251
+    },
+    {
+        "name": "Ignas Brazdeikis",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6235
+    },
+    {
+        "name": "Talen Horton-Tucker",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6234
+    },
+    {
+        "name": "Daniel Gafford",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6226
+    },
+    {
+        "name": "Alen Smailagic",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6227
+    },
+    {
+        "name": "Matt Thomas",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6264
+    },
+    {
+        "name": "Miye Oni",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6246
+    },
+    {
+        "name": "Terence Davis",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6280
+    },
+    {
+        "name": "Naz Reid",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "yahoo_id": 6253
+    },
+    {
+        "name": "Dewan Hernandez",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6247
+    },
+    {
+        "name": "Justin Robinson",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6279
+    },
+    {
+        "name": "Stanton Kidd",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6263
+    },
+    {
+        "name": "Shaquille Harrison",
+        "salary19_20": 898310,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5746
     },
     {
-        "yahoo_id": 6127,
-        "name": "Bonzie Colson",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Javonte Green",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6269
+    },
+    {
+        "name": "William Howard",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6262
+    },
+    {
+        "name": "Caleb Martin",
+        "salary19_20": 898310,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6275
+    },
+    {
+        "name": "Khyri Thomas",
+        "salary19_20": 838464,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6049
+    },
+    {
+        "name": "Patrick Patterson",
+        "salary19_20": 737067,
+        "salary20_21": 737067,
+        "salary21_22": 737066,
+        "salary22_23": null,
+        "yahoo_id": 4729
+    },
+    {
+        "name": "Jemerrio Jones",
+        "salary19_20": 199000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6160
     },
     {
-        "yahoo_id": 6125,
-        "name": "Zach Smith",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Yante Maten",
+        "salary19_20": 100000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6116
     },
     {
-        "yahoo_id": 6123,
-        "name": "Joe Chealey",
-        "salary18_19": 838464,
-        "salary19_20": null,
+        "name": "Jaylen Adams",
+        "salary19_20": 100000,
         "salary20_21": null,
-        "salary21_22": null
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6118
     },
     {
-        "yahoo_id": 6108,
-        "name": "Kaiser Gates",
-        "salary18_19": 838464,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 4726,
-        "name": "Cole Aldrich",
-        "salary18_19": 685341,
-        "salary19_20": 685340,
-        "salary20_21": 685340,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5508,
-        "name": "Dakari Johnson",
-        "salary18_19": 459414,
-        "salary19_20": 459414,
-        "salary20_21": 459414,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5709,
-        "name": "Troy Williams",
-        "salary18_19": 122741,
-        "salary19_20": 122741,
-        "salary20_21": 122741,
-        "salary21_22": 122741
-    },
-    {
-        "yahoo_id": 3819,
-        "name": "Emeka Okafor",
-        "salary18_19": 100000,
-        "salary19_20": null,
-        "salary20_21": null,
-        "salary21_22": null
-    },
-    {
-        "yahoo_id": 5676,
         "name": "Demetrius Jackson",
-        "salary18_19": 92857,
         "salary19_20": 92857,
         "salary20_21": 92857,
-        "salary21_22": 92857
+        "salary21_22": 92857,
+        "salary22_23": 92857,
+        "yahoo_id": 5676
     }
 ];
 
 
 /***/ }),
-/* 2 */,
 /* 3 */,
 /* 4 */,
 /* 5 */,
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery UI Keycode 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+
+//>>label: Keycode
+//>>group: Core
+//>>description: Provide keycodes as keynames
+//>>docs: http://api.jqueryui.com/jQuery.ui.keyCode/
+
+( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(0), __webpack_require__(1) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+} ( function( $ ) {
+return $.ui.keyCode = {
+	BACKSPACE: 8,
+	COMMA: 188,
+	DELETE: 46,
+	DOWN: 40,
+	END: 35,
+	ENTER: 13,
+	ESCAPE: 27,
+	HOME: 36,
+	LEFT: 37,
+	PAGE_DOWN: 34,
+	PAGE_UP: 33,
+	PERIOD: 190,
+	RIGHT: 39,
+	SPACE: 32,
+	TAB: 9,
+	UP: 38
+};
+
+} ) );
+
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery UI Position 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/position/
+ */
+
+//>>label: Position
+//>>group: Core
+//>>description: Positions elements relative to other elements.
+//>>docs: http://api.jqueryui.com/position/
+//>>demos: http://jqueryui.com/position/
+
+( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(0), __webpack_require__(1) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+}( function( $ ) {
+( function() {
+var cachedScrollbarWidth,
+	max = Math.max,
+	abs = Math.abs,
+	rhorizontal = /left|center|right/,
+	rvertical = /top|center|bottom/,
+	roffset = /[\+\-]\d+(\.[\d]+)?%?/,
+	rposition = /^\w+/,
+	rpercent = /%$/,
+	_position = $.fn.position;
+
+function getOffsets( offsets, width, height ) {
+	return [
+		parseFloat( offsets[ 0 ] ) * ( rpercent.test( offsets[ 0 ] ) ? width / 100 : 1 ),
+		parseFloat( offsets[ 1 ] ) * ( rpercent.test( offsets[ 1 ] ) ? height / 100 : 1 )
+	];
+}
+
+function parseCss( element, property ) {
+	return parseInt( $.css( element, property ), 10 ) || 0;
+}
+
+function getDimensions( elem ) {
+	var raw = elem[ 0 ];
+	if ( raw.nodeType === 9 ) {
+		return {
+			width: elem.width(),
+			height: elem.height(),
+			offset: { top: 0, left: 0 }
+		};
+	}
+	if ( $.isWindow( raw ) ) {
+		return {
+			width: elem.width(),
+			height: elem.height(),
+			offset: { top: elem.scrollTop(), left: elem.scrollLeft() }
+		};
+	}
+	if ( raw.preventDefault ) {
+		return {
+			width: 0,
+			height: 0,
+			offset: { top: raw.pageY, left: raw.pageX }
+		};
+	}
+	return {
+		width: elem.outerWidth(),
+		height: elem.outerHeight(),
+		offset: elem.offset()
+	};
+}
+
+$.position = {
+	scrollbarWidth: function() {
+		if ( cachedScrollbarWidth !== undefined ) {
+			return cachedScrollbarWidth;
+		}
+		var w1, w2,
+			div = $( "<div " +
+				"style='display:block;position:absolute;width:50px;height:50px;overflow:hidden;'>" +
+				"<div style='height:100px;width:auto;'></div></div>" ),
+			innerDiv = div.children()[ 0 ];
+
+		$( "body" ).append( div );
+		w1 = innerDiv.offsetWidth;
+		div.css( "overflow", "scroll" );
+
+		w2 = innerDiv.offsetWidth;
+
+		if ( w1 === w2 ) {
+			w2 = div[ 0 ].clientWidth;
+		}
+
+		div.remove();
+
+		return ( cachedScrollbarWidth = w1 - w2 );
+	},
+	getScrollInfo: function( within ) {
+		var overflowX = within.isWindow || within.isDocument ? "" :
+				within.element.css( "overflow-x" ),
+			overflowY = within.isWindow || within.isDocument ? "" :
+				within.element.css( "overflow-y" ),
+			hasOverflowX = overflowX === "scroll" ||
+				( overflowX === "auto" && within.width < within.element[ 0 ].scrollWidth ),
+			hasOverflowY = overflowY === "scroll" ||
+				( overflowY === "auto" && within.height < within.element[ 0 ].scrollHeight );
+		return {
+			width: hasOverflowY ? $.position.scrollbarWidth() : 0,
+			height: hasOverflowX ? $.position.scrollbarWidth() : 0
+		};
+	},
+	getWithinInfo: function( element ) {
+		var withinElement = $( element || window ),
+			isWindow = $.isWindow( withinElement[ 0 ] ),
+			isDocument = !!withinElement[ 0 ] && withinElement[ 0 ].nodeType === 9,
+			hasOffset = !isWindow && !isDocument;
+		return {
+			element: withinElement,
+			isWindow: isWindow,
+			isDocument: isDocument,
+			offset: hasOffset ? $( element ).offset() : { left: 0, top: 0 },
+			scrollLeft: withinElement.scrollLeft(),
+			scrollTop: withinElement.scrollTop(),
+			width: withinElement.outerWidth(),
+			height: withinElement.outerHeight()
+		};
+	}
+};
+
+$.fn.position = function( options ) {
+	if ( !options || !options.of ) {
+		return _position.apply( this, arguments );
+	}
+
+	// Make a copy, we don't want to modify arguments
+	options = $.extend( {}, options );
+
+	var atOffset, targetWidth, targetHeight, targetOffset, basePosition, dimensions,
+		target = $( options.of ),
+		within = $.position.getWithinInfo( options.within ),
+		scrollInfo = $.position.getScrollInfo( within ),
+		collision = ( options.collision || "flip" ).split( " " ),
+		offsets = {};
+
+	dimensions = getDimensions( target );
+	if ( target[ 0 ].preventDefault ) {
+
+		// Force left top to allow flipping
+		options.at = "left top";
+	}
+	targetWidth = dimensions.width;
+	targetHeight = dimensions.height;
+	targetOffset = dimensions.offset;
+
+	// Clone to reuse original targetOffset later
+	basePosition = $.extend( {}, targetOffset );
+
+	// Force my and at to have valid horizontal and vertical positions
+	// if a value is missing or invalid, it will be converted to center
+	$.each( [ "my", "at" ], function() {
+		var pos = ( options[ this ] || "" ).split( " " ),
+			horizontalOffset,
+			verticalOffset;
+
+		if ( pos.length === 1 ) {
+			pos = rhorizontal.test( pos[ 0 ] ) ?
+				pos.concat( [ "center" ] ) :
+				rvertical.test( pos[ 0 ] ) ?
+					[ "center" ].concat( pos ) :
+					[ "center", "center" ];
+		}
+		pos[ 0 ] = rhorizontal.test( pos[ 0 ] ) ? pos[ 0 ] : "center";
+		pos[ 1 ] = rvertical.test( pos[ 1 ] ) ? pos[ 1 ] : "center";
+
+		// Calculate offsets
+		horizontalOffset = roffset.exec( pos[ 0 ] );
+		verticalOffset = roffset.exec( pos[ 1 ] );
+		offsets[ this ] = [
+			horizontalOffset ? horizontalOffset[ 0 ] : 0,
+			verticalOffset ? verticalOffset[ 0 ] : 0
+		];
+
+		// Reduce to just the positions without the offsets
+		options[ this ] = [
+			rposition.exec( pos[ 0 ] )[ 0 ],
+			rposition.exec( pos[ 1 ] )[ 0 ]
+		];
+	} );
+
+	// Normalize collision option
+	if ( collision.length === 1 ) {
+		collision[ 1 ] = collision[ 0 ];
+	}
+
+	if ( options.at[ 0 ] === "right" ) {
+		basePosition.left += targetWidth;
+	} else if ( options.at[ 0 ] === "center" ) {
+		basePosition.left += targetWidth / 2;
+	}
+
+	if ( options.at[ 1 ] === "bottom" ) {
+		basePosition.top += targetHeight;
+	} else if ( options.at[ 1 ] === "center" ) {
+		basePosition.top += targetHeight / 2;
+	}
+
+	atOffset = getOffsets( offsets.at, targetWidth, targetHeight );
+	basePosition.left += atOffset[ 0 ];
+	basePosition.top += atOffset[ 1 ];
+
+	return this.each( function() {
+		var collisionPosition, using,
+			elem = $( this ),
+			elemWidth = elem.outerWidth(),
+			elemHeight = elem.outerHeight(),
+			marginLeft = parseCss( this, "marginLeft" ),
+			marginTop = parseCss( this, "marginTop" ),
+			collisionWidth = elemWidth + marginLeft + parseCss( this, "marginRight" ) +
+				scrollInfo.width,
+			collisionHeight = elemHeight + marginTop + parseCss( this, "marginBottom" ) +
+				scrollInfo.height,
+			position = $.extend( {}, basePosition ),
+			myOffset = getOffsets( offsets.my, elem.outerWidth(), elem.outerHeight() );
+
+		if ( options.my[ 0 ] === "right" ) {
+			position.left -= elemWidth;
+		} else if ( options.my[ 0 ] === "center" ) {
+			position.left -= elemWidth / 2;
+		}
+
+		if ( options.my[ 1 ] === "bottom" ) {
+			position.top -= elemHeight;
+		} else if ( options.my[ 1 ] === "center" ) {
+			position.top -= elemHeight / 2;
+		}
+
+		position.left += myOffset[ 0 ];
+		position.top += myOffset[ 1 ];
+
+		collisionPosition = {
+			marginLeft: marginLeft,
+			marginTop: marginTop
+		};
+
+		$.each( [ "left", "top" ], function( i, dir ) {
+			if ( $.ui.position[ collision[ i ] ] ) {
+				$.ui.position[ collision[ i ] ][ dir ]( position, {
+					targetWidth: targetWidth,
+					targetHeight: targetHeight,
+					elemWidth: elemWidth,
+					elemHeight: elemHeight,
+					collisionPosition: collisionPosition,
+					collisionWidth: collisionWidth,
+					collisionHeight: collisionHeight,
+					offset: [ atOffset[ 0 ] + myOffset[ 0 ], atOffset [ 1 ] + myOffset[ 1 ] ],
+					my: options.my,
+					at: options.at,
+					within: within,
+					elem: elem
+				} );
+			}
+		} );
+
+		if ( options.using ) {
+
+			// Adds feedback as second argument to using callback, if present
+			using = function( props ) {
+				var left = targetOffset.left - position.left,
+					right = left + targetWidth - elemWidth,
+					top = targetOffset.top - position.top,
+					bottom = top + targetHeight - elemHeight,
+					feedback = {
+						target: {
+							element: target,
+							left: targetOffset.left,
+							top: targetOffset.top,
+							width: targetWidth,
+							height: targetHeight
+						},
+						element: {
+							element: elem,
+							left: position.left,
+							top: position.top,
+							width: elemWidth,
+							height: elemHeight
+						},
+						horizontal: right < 0 ? "left" : left > 0 ? "right" : "center",
+						vertical: bottom < 0 ? "top" : top > 0 ? "bottom" : "middle"
+					};
+				if ( targetWidth < elemWidth && abs( left + right ) < targetWidth ) {
+					feedback.horizontal = "center";
+				}
+				if ( targetHeight < elemHeight && abs( top + bottom ) < targetHeight ) {
+					feedback.vertical = "middle";
+				}
+				if ( max( abs( left ), abs( right ) ) > max( abs( top ), abs( bottom ) ) ) {
+					feedback.important = "horizontal";
+				} else {
+					feedback.important = "vertical";
+				}
+				options.using.call( this, props, feedback );
+			};
+		}
+
+		elem.offset( $.extend( position, { using: using } ) );
+	} );
+};
+
+$.ui.position = {
+	fit: {
+		left: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.isWindow ? within.scrollLeft : within.offset.left,
+				outerWidth = within.width,
+				collisionPosLeft = position.left - data.collisionPosition.marginLeft,
+				overLeft = withinOffset - collisionPosLeft,
+				overRight = collisionPosLeft + data.collisionWidth - outerWidth - withinOffset,
+				newOverRight;
+
+			// Element is wider than within
+			if ( data.collisionWidth > outerWidth ) {
+
+				// Element is initially over the left side of within
+				if ( overLeft > 0 && overRight <= 0 ) {
+					newOverRight = position.left + overLeft + data.collisionWidth - outerWidth -
+						withinOffset;
+					position.left += overLeft - newOverRight;
+
+				// Element is initially over right side of within
+				} else if ( overRight > 0 && overLeft <= 0 ) {
+					position.left = withinOffset;
+
+				// Element is initially over both left and right sides of within
+				} else {
+					if ( overLeft > overRight ) {
+						position.left = withinOffset + outerWidth - data.collisionWidth;
+					} else {
+						position.left = withinOffset;
+					}
+				}
+
+			// Too far left -> align with left edge
+			} else if ( overLeft > 0 ) {
+				position.left += overLeft;
+
+			// Too far right -> align with right edge
+			} else if ( overRight > 0 ) {
+				position.left -= overRight;
+
+			// Adjust based on position and margin
+			} else {
+				position.left = max( position.left - collisionPosLeft, position.left );
+			}
+		},
+		top: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.isWindow ? within.scrollTop : within.offset.top,
+				outerHeight = data.within.height,
+				collisionPosTop = position.top - data.collisionPosition.marginTop,
+				overTop = withinOffset - collisionPosTop,
+				overBottom = collisionPosTop + data.collisionHeight - outerHeight - withinOffset,
+				newOverBottom;
+
+			// Element is taller than within
+			if ( data.collisionHeight > outerHeight ) {
+
+				// Element is initially over the top of within
+				if ( overTop > 0 && overBottom <= 0 ) {
+					newOverBottom = position.top + overTop + data.collisionHeight - outerHeight -
+						withinOffset;
+					position.top += overTop - newOverBottom;
+
+				// Element is initially over bottom of within
+				} else if ( overBottom > 0 && overTop <= 0 ) {
+					position.top = withinOffset;
+
+				// Element is initially over both top and bottom of within
+				} else {
+					if ( overTop > overBottom ) {
+						position.top = withinOffset + outerHeight - data.collisionHeight;
+					} else {
+						position.top = withinOffset;
+					}
+				}
+
+			// Too far up -> align with top
+			} else if ( overTop > 0 ) {
+				position.top += overTop;
+
+			// Too far down -> align with bottom edge
+			} else if ( overBottom > 0 ) {
+				position.top -= overBottom;
+
+			// Adjust based on position and margin
+			} else {
+				position.top = max( position.top - collisionPosTop, position.top );
+			}
+		}
+	},
+	flip: {
+		left: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.offset.left + within.scrollLeft,
+				outerWidth = within.width,
+				offsetLeft = within.isWindow ? within.scrollLeft : within.offset.left,
+				collisionPosLeft = position.left - data.collisionPosition.marginLeft,
+				overLeft = collisionPosLeft - offsetLeft,
+				overRight = collisionPosLeft + data.collisionWidth - outerWidth - offsetLeft,
+				myOffset = data.my[ 0 ] === "left" ?
+					-data.elemWidth :
+					data.my[ 0 ] === "right" ?
+						data.elemWidth :
+						0,
+				atOffset = data.at[ 0 ] === "left" ?
+					data.targetWidth :
+					data.at[ 0 ] === "right" ?
+						-data.targetWidth :
+						0,
+				offset = -2 * data.offset[ 0 ],
+				newOverRight,
+				newOverLeft;
+
+			if ( overLeft < 0 ) {
+				newOverRight = position.left + myOffset + atOffset + offset + data.collisionWidth -
+					outerWidth - withinOffset;
+				if ( newOverRight < 0 || newOverRight < abs( overLeft ) ) {
+					position.left += myOffset + atOffset + offset;
+				}
+			} else if ( overRight > 0 ) {
+				newOverLeft = position.left - data.collisionPosition.marginLeft + myOffset +
+					atOffset + offset - offsetLeft;
+				if ( newOverLeft > 0 || abs( newOverLeft ) < overRight ) {
+					position.left += myOffset + atOffset + offset;
+				}
+			}
+		},
+		top: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.offset.top + within.scrollTop,
+				outerHeight = within.height,
+				offsetTop = within.isWindow ? within.scrollTop : within.offset.top,
+				collisionPosTop = position.top - data.collisionPosition.marginTop,
+				overTop = collisionPosTop - offsetTop,
+				overBottom = collisionPosTop + data.collisionHeight - outerHeight - offsetTop,
+				top = data.my[ 1 ] === "top",
+				myOffset = top ?
+					-data.elemHeight :
+					data.my[ 1 ] === "bottom" ?
+						data.elemHeight :
+						0,
+				atOffset = data.at[ 1 ] === "top" ?
+					data.targetHeight :
+					data.at[ 1 ] === "bottom" ?
+						-data.targetHeight :
+						0,
+				offset = -2 * data.offset[ 1 ],
+				newOverTop,
+				newOverBottom;
+			if ( overTop < 0 ) {
+				newOverBottom = position.top + myOffset + atOffset + offset + data.collisionHeight -
+					outerHeight - withinOffset;
+				if ( newOverBottom < 0 || newOverBottom < abs( overTop ) ) {
+					position.top += myOffset + atOffset + offset;
+				}
+			} else if ( overBottom > 0 ) {
+				newOverTop = position.top - data.collisionPosition.marginTop + myOffset + atOffset +
+					offset - offsetTop;
+				if ( newOverTop > 0 || abs( newOverTop ) < overBottom ) {
+					position.top += myOffset + atOffset + offset;
+				}
+			}
+		}
+	},
+	flipfit: {
+		left: function() {
+			$.ui.position.flip.left.apply( this, arguments );
+			$.ui.position.fit.left.apply( this, arguments );
+		},
+		top: function() {
+			$.ui.position.flip.top.apply( this, arguments );
+			$.ui.position.fit.top.apply( this, arguments );
+		}
+	}
+};
+
+} )();
+
+return $.ui.position;
+
+} ) );
+
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(0), __webpack_require__(1) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+} ( function( $ ) {
+return $.ui.safeActiveElement = function( document ) {
+	var activeElement;
+
+	// Support: IE 9 only
+	// IE9 throws an "Unspecified error" accessing document.activeElement from an <iframe>
+	try {
+		activeElement = document.activeElement;
+	} catch ( error ) {
+		activeElement = document.body;
+	}
+
+	// Support: IE 9 - 11 only
+	// IE may return null instead of an element
+	// Interestingly, this only seems to occur when NOT in an iframe
+	if ( !activeElement ) {
+		activeElement = document.body;
+	}
+
+	// Support: IE 11 only
+	// IE11 returns a seemingly empty object in some cases when accessing
+	// document.activeElement from an <iframe>
+	if ( !activeElement.nodeName ) {
+		activeElement = document.body;
+	}
+
+	return activeElement;
+};
+
+} ) );
+
+
+/***/ }),
+/* 9 */,
+/* 10 */,
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const $ = __webpack_require__(0);
-const salaries_1 = __webpack_require__(1);
-const _ = __webpack_require__(7);
+const salaries_1 = __webpack_require__(2);
+const _ = __webpack_require__(12);
+__webpack_require__(14);
 $(function () {
-    setInterval(render, 600);
+    setInterval(renderSalaryTool, 200);
+    setInterval(renderSalaries, 200);
     const playerSelector = '.ysf-player-name';
     const salariedSelector = ".bbfbl-salaried";
+    const MAX_SALARY_CUTOFF = 139000000;
     function rendered() {
         return $(".bbfbl-salaried").length > 0;
     }
-    function render() {
+    function renderSalaries() {
         const rendered = $(salariedSelector).length > 0;
         var val = $(salariedSelector);
         if (rendered)
@@ -4108,7 +4307,7 @@ $(function () {
             if (!href)
                 return;
             const playerData = _.find(salaries_1.default, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary18_19 : 0;
+            const value = playerData ? playerData.salary19_20 : 0;
             $this.append(renderSalary(value));
             $this.addClass('bbfbl-salaried');
             teamSalaries.push(value);
@@ -4118,14 +4317,14 @@ $(function () {
             const totalSalary = sum(teamSalaries);
             renderTotalSalary(totalSalary);
         }
-        const width = window.location.href.indexOf('players') > 0 ? 220 : 255;
+        const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
         $('td .Ov-h ').css('width', width);
     }
     function sum(values) {
         return values.reduce((total, salary) => { return total + salary; }, 0);
     }
     function renderTotalSalary(total) {
-        const color = total < 130000000 ? '#0d8d40' : '#f33131';
+        const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
         const css = {
             'color': color,
             'font-size': 10,
@@ -4158,6 +4357,8 @@ function renderSalary(str) {
     return $el;
 }
 function toDollarFormat(str) {
+    if (!str)
+        return "-";
     if (str === '???')
         return str;
     const formatter = new Intl.NumberFormat('en-US', {
@@ -4171,10 +4372,201 @@ function getId(href) {
     const fragments = href.split('/');
     return parseInt(fragments[fragments.length - 1]);
 }
+function renderSalaryTool() {
+    const rendered = $(".js-salary-tool-trigger").length > 0;
+    if (rendered)
+        return;
+    const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
+    const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
+    setupContainer();
+    const triggerAnchor = $(".Bdrbot .Ta-end");
+    trigger.on("click", function (e) {
+        onSalaryToolTriggerClick(e);
+    });
+    triggerAnchor.append(trigger);
+    // toolContainer.insertAfter(toolAnchor)
+    // Make it easy to dismiss
+    $("body *:not('.salary-tool-trigger')").on("click", function (e) {
+        const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
+        console.log(e.target);
+        const isTrigger = $(e.target).hasClass("salary-tool-trigger");
+        const isCancel = $(e.target).hasClass("cancel");
+        if (!isWithinTool && !isTrigger && !isCancel) {
+            $(".salary-tool").removeClass("show");
+            $(".salary-tool-trigger").removeClass("active");
+        }
+    });
+    renderToolBody();
+    setupAutoComplete();
+    setupCancelButton();
+    calculateSalaryForYear();
+    // cleanUp()
+    prepopulateSalaryTool();
+}
+function setupContainer() {
+    const toolContainer = $('<div class="js-salary-tool-container salary-tool arrow box"></div>');
+    const toolAnchor = $("header.Bdrbot");
+    toolContainer.insertAfter(toolAnchor);
+    return toolContainer;
+}
+function onSalaryToolTriggerClick(e) {
+    console.log("clicked", e.target);
+    $(e.target).toggleClass("active");
+    var activeCss = {
+        "height": 500
+    };
+    var hiddenCss = {
+        "height": 0
+    };
+    var toolContainer = $(".salary-tool");
+    toolContainer.toggleClass("show");
+}
+function renderToolBody() {
+    var contentContainer = $('<div class="tool-content ui-widget"></div>');
+    let table = `
+                <table>
+                <thead>
+                    <tr>
+                        <th>Player</td>
+                        <th>Salary 2019 - 2020</td>
+                        <th>Salary 2020 - 2021</td>
+                        <th>Salary 2021 - 2022</td>
+                        <th>Salary 2022 - 2023</td>            
+                    </tr>
+                </thead>
+                <tbody>`;
+    for (var i = 0; i < 12; i++) {
+        let row = `<tr class="player-row player-row-${i}">
+                        <td class="player-col"><input class="player-input player-${i}"></td>
+                        <td class="salary salary-19"></td>
+                        <td class="salary salary-20"></td>
+                        <td class="salary salary-21"></td>
+                        <td class="salary salary-22"></td>
+                  </tr>`;
+        table += row;
+    }
+    let footer = `</tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="salary-footer xt"><strong>Total</strong></td>
+                            <td class="salary-footer salary-19-sum"></td>
+                            <td class="salary-footer salary-20-sum"></td>
+                            <td class="salary-footer salary-21-sum"></td>
+                            <td class="salary-footer salary-22-sum"></td>
+                        </tr>
+                    </tfoot>
+                    </table>`;
+    table += footer;
+    contentContainer.append(table);
+    $(".salary-tool").append(contentContainer);
+}
+function setupAutoComplete() {
+    var source = salaries_1.default.map(s => {
+        return {
+            label: s.name,
+            value: s.name,
+            id: s.yahoo_id,
+            salary19_20: s.salary19_20,
+            salary20_21: s.salary20_21,
+            salary21_22: s.salary21_22,
+            salary22_23: s.salary22_23,
+            salares: [s.salary19_20, s.salary20_21, s.salary21_22, s.salary22_23]
+        };
+    });
+    $(".player-input").autocomplete({
+        source: source,
+        minLength: 2,
+        select: function (event, ui) {
+            const wrapper = generatePlayerWrapper(ui.item.label);
+            var row = $(this).closest(".player-row");
+            row.find(".player-col").append(wrapper);
+            // Replace with static selection
+            $(this).hide();
+            row.find("td.salary").text("");
+            row.find("td.salary")
+                .each(function (i, el) {
+                $(el).text(toDollarFormat(ui.item.salares[i]));
+                $(el).data("salary", ui.item.salares[i]);
+            });
+            row.find(".cancel").addClass("active");
+            // Need to recalc whenever new selection is made
+            calculateSalaryForYear();
+            //  Reset raw selection
+            $(this).val("");
+            return false;
+        }
+    });
+}
+function calculateSalaryForYear() {
+    var totals = [".salary-19", ".salary-20", ".salary-21", ".salary-22"];
+    totals.forEach(function (year) {
+        let sum = 0;
+        $(year).each(function () {
+            const salary = $(this).data("salary");
+            if (salary) {
+                sum += salary;
+            }
+        });
+        $(year + "-sum").text(toDollarFormat(sum));
+    });
+}
+function setupCancelButton() {
+    $(".player-col").on("click", ".cancel", function () {
+        var row = $(this).closest(".player-row");
+        row.find("input").show();
+        row.find("td.salary").text("").data("salary", 0);
+        row.find(".player-display-wrap").remove();
+        calculateSalaryForYear();
+    });
+}
+function isPlayerElement(el) {
+    const href = getHref(el);
+    return href != null;
+}
+function getHref(el) {
+    const $el = $(el);
+    return $el.find('a').attr('href');
+}
+function getPlayerSalaryInfo(el) {
+    const href = getHref(el);
+    return _.find(salaries_1.default, { yahoo_id: getId(href) });
+}
+function prepopulateSalaryTool() {
+    const playerSelector = '.ysf-player-name';
+    // Track index of players we find ont he page
+    let playerIdx = 0;
+    $(playerSelector).each(function (i) {
+        if (!isPlayerElement(this)) {
+            return;
+        }
+        // Update row for player
+        const playerData = getPlayerSalaryInfo(this);
+        var row = $(".salary-tool .player-row").eq(playerIdx);
+        row.find(".player-input").hide();
+        const wrapper = generatePlayerWrapper(playerData.name);
+        row.find(".player-col").append(wrapper);
+        // Append salaries
+        var salares = [playerData.salary19_20, playerData.salary20_21, playerData.salary21_22, playerData.salary22_23];
+        row.find("td.salary")
+            .each(function (n, el) {
+            $(el).text(toDollarFormat(salares[n]));
+            $(el).data("salary", salares[n]);
+        });
+        row.find(".cancel").addClass("active");
+        playerIdx++;
+    });
+    calculateSalaryForYear();
+}
+function generatePlayerWrapper(label) {
+    const wrapperClass = "player-display-wrap";
+    const wrapper = $(`<div><span>${label}</span><span class="cancel">x</span></div>`);
+    wrapper.addClass(wrapperClass);
+    return wrapper;
+}
 
 
 /***/ }),
-/* 7 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -4191,7 +4583,7 @@ function getId(href) {
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.17.4';
+  var VERSION = '4.17.11';
 
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
@@ -4322,7 +4714,6 @@ function getId(href) {
   /** Used to match property names within property paths. */
   var reIsDeepProp = /\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,
       reIsPlainProp = /^\w*$/,
-      reLeadingDot = /^\./,
       rePropName = /[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g;
 
   /**
@@ -4422,8 +4813,8 @@ function getId(href) {
       reOptMod = rsModifier + '?',
       rsOptVar = '[' + rsVarRange + ']?',
       rsOptJoin = '(?:' + rsZWJ + '(?:' + [rsNonAstral, rsRegional, rsSurrPair].join('|') + ')' + rsOptVar + reOptMod + ')*',
-      rsOrdLower = '\\d*(?:(?:1st|2nd|3rd|(?![123])\\dth)\\b)',
-      rsOrdUpper = '\\d*(?:(?:1ST|2ND|3RD|(?![123])\\dTH)\\b)',
+      rsOrdLower = '\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])',
+      rsOrdUpper = '\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])',
       rsSeq = rsOptVar + reOptMod + rsOptJoin,
       rsEmoji = '(?:' + [rsDingbat, rsRegional, rsSurrPair].join('|') + ')' + rsSeq,
       rsSymbol = '(?:' + [rsNonAstral + rsCombo + '?', rsCombo, rsRegional, rsSurrPair, rsAstral].join('|') + ')';
@@ -4456,7 +4847,7 @@ function getId(href) {
   var reHasUnicode = RegExp('[' + rsZWJ + rsAstralRange  + rsComboRange + rsVarRange + ']');
 
   /** Used to detect strings that need a more robust regexp to match words. */
-  var reHasUnicodeWord = /[a-z][A-Z]|[A-Z]{2,}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
+  var reHasUnicodeWord = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
 
   /** Used to assign default `context` object properties. */
   var contextProps = [
@@ -4616,6 +5007,14 @@ function getId(href) {
   /** Used to access faster Node.js helpers. */
   var nodeUtil = (function() {
     try {
+      // Use `util.types` for Node.js 10+.
+      var types = freeModule && freeModule.require && freeModule.require('util').types;
+
+      if (types) {
+        return types;
+      }
+
+      // Legacy `process.binding('util')` for Node.js < 10.
       return freeProcess && freeProcess.binding && freeProcess.binding('util');
     } catch (e) {}
   }());
@@ -4629,34 +5028,6 @@ function getId(href) {
       nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
 
   /*--------------------------------------------------------------------------*/
-
-  /**
-   * Adds the key-value `pair` to `map`.
-   *
-   * @private
-   * @param {Object} map The map to modify.
-   * @param {Array} pair The key-value pair to add.
-   * @returns {Object} Returns `map`.
-   */
-  function addMapEntry(map, pair) {
-    // Don't return `map.set` because it's not chainable in IE 11.
-    map.set(pair[0], pair[1]);
-    return map;
-  }
-
-  /**
-   * Adds `value` to `set`.
-   *
-   * @private
-   * @param {Object} set The set to modify.
-   * @param {*} value The value to add.
-   * @returns {Object} Returns `set`.
-   */
-  function addSetEntry(set, value) {
-    // Don't return `set.add` because it's not chainable in IE 11.
-    set.add(value);
-    return set;
-  }
 
   /**
    * A faster alternative to `Function#apply`, this function invokes `func`
@@ -6856,7 +7227,7 @@ function getId(href) {
           if (!cloneableTags[tag]) {
             return object ? value : {};
           }
-          result = initCloneByTag(value, tag, baseClone, isDeep);
+          result = initCloneByTag(value, tag, isDeep);
         }
       }
       // Check for circular references and return its corresponding clone.
@@ -6866,6 +7237,22 @@ function getId(href) {
         return stacked;
       }
       stack.set(value, result);
+
+      if (isSet(value)) {
+        value.forEach(function(subValue) {
+          result.add(baseClone(subValue, bitmask, customizer, subValue, value, stack));
+        });
+
+        return result;
+      }
+
+      if (isMap(value)) {
+        value.forEach(function(subValue, key) {
+          result.set(key, baseClone(subValue, bitmask, customizer, key, value, stack));
+        });
+
+        return result;
+      }
 
       var keysFunc = isFull
         ? (isFlat ? getAllKeysIn : getAllKeys)
@@ -7794,7 +8181,7 @@ function getId(href) {
         }
         else {
           var newValue = customizer
-            ? customizer(object[key], srcValue, (key + ''), object, source, stack)
+            ? customizer(safeGet(object, key), srcValue, (key + ''), object, source, stack)
             : undefined;
 
           if (newValue === undefined) {
@@ -7821,8 +8208,8 @@ function getId(href) {
      *  counterparts.
      */
     function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, stack) {
-      var objValue = object[key],
-          srcValue = source[key],
+      var objValue = safeGet(object, key),
+          srcValue = safeGet(source, key),
           stacked = stack.get(srcValue);
 
       if (stacked) {
@@ -7865,7 +8252,7 @@ function getId(href) {
           if (isArguments(objValue)) {
             newValue = toPlainObject(objValue);
           }
-          else if (!isObject(objValue) || (srcIndex && isFunction(objValue))) {
+          else if (!isObject(objValue) || isFunction(objValue)) {
             newValue = initCloneObject(srcValue);
           }
         }
@@ -8731,20 +9118,6 @@ function getId(href) {
     }
 
     /**
-     * Creates a clone of `map`.
-     *
-     * @private
-     * @param {Object} map The map to clone.
-     * @param {Function} cloneFunc The function to clone values.
-     * @param {boolean} [isDeep] Specify a deep clone.
-     * @returns {Object} Returns the cloned map.
-     */
-    function cloneMap(map, isDeep, cloneFunc) {
-      var array = isDeep ? cloneFunc(mapToArray(map), CLONE_DEEP_FLAG) : mapToArray(map);
-      return arrayReduce(array, addMapEntry, new map.constructor);
-    }
-
-    /**
      * Creates a clone of `regexp`.
      *
      * @private
@@ -8755,20 +9128,6 @@ function getId(href) {
       var result = new regexp.constructor(regexp.source, reFlags.exec(regexp));
       result.lastIndex = regexp.lastIndex;
       return result;
-    }
-
-    /**
-     * Creates a clone of `set`.
-     *
-     * @private
-     * @param {Object} set The set to clone.
-     * @param {Function} cloneFunc The function to clone values.
-     * @param {boolean} [isDeep] Specify a deep clone.
-     * @returns {Object} Returns the cloned set.
-     */
-    function cloneSet(set, isDeep, cloneFunc) {
-      var array = isDeep ? cloneFunc(setToArray(set), CLONE_DEEP_FLAG) : setToArray(set);
-      return arrayReduce(array, addSetEntry, new set.constructor);
     }
 
     /**
@@ -10365,7 +10724,7 @@ function getId(href) {
      */
     function initCloneArray(array) {
       var length = array.length,
-          result = array.constructor(length);
+          result = new array.constructor(length);
 
       // Add properties assigned by `RegExp#exec`.
       if (length && typeof array[0] == 'string' && hasOwnProperty.call(array, 'index')) {
@@ -10392,16 +10751,15 @@ function getId(href) {
      * Initializes an object clone based on its `toStringTag`.
      *
      * **Note:** This function only supports cloning values with tags of
-     * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+     * `Boolean`, `Date`, `Error`, `Map`, `Number`, `RegExp`, `Set`, or `String`.
      *
      * @private
      * @param {Object} object The object to clone.
      * @param {string} tag The `toStringTag` of the object to clone.
-     * @param {Function} cloneFunc The function to clone values.
      * @param {boolean} [isDeep] Specify a deep clone.
      * @returns {Object} Returns the initialized clone.
      */
-    function initCloneByTag(object, tag, cloneFunc, isDeep) {
+    function initCloneByTag(object, tag, isDeep) {
       var Ctor = object.constructor;
       switch (tag) {
         case arrayBufferTag:
@@ -10420,7 +10778,7 @@ function getId(href) {
           return cloneTypedArray(object, isDeep);
 
         case mapTag:
-          return cloneMap(object, isDeep, cloneFunc);
+          return new Ctor;
 
         case numberTag:
         case stringTag:
@@ -10430,7 +10788,7 @@ function getId(href) {
           return cloneRegExp(object);
 
         case setTag:
-          return cloneSet(object, isDeep, cloneFunc);
+          return new Ctor;
 
         case symbolTag:
           return cloneSymbol(object);
@@ -10477,10 +10835,13 @@ function getId(href) {
      * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
      */
     function isIndex(value, length) {
+      var type = typeof value;
       length = length == null ? MAX_SAFE_INTEGER : length;
+
       return !!length &&
-        (typeof value == 'number' || reIsUint.test(value)) &&
-        (value > -1 && value % 1 == 0 && value < length);
+        (type == 'number' ||
+          (type != 'symbol' && reIsUint.test(value))) &&
+            (value > -1 && value % 1 == 0 && value < length);
     }
 
     /**
@@ -10815,6 +11176,22 @@ function getId(href) {
     }
 
     /**
+     * Gets the value at `key`, unless `key` is "__proto__".
+     *
+     * @private
+     * @param {Object} object The object to query.
+     * @param {string} key The key of the property to get.
+     * @returns {*} Returns the property value.
+     */
+    function safeGet(object, key) {
+      if (key == '__proto__') {
+        return;
+      }
+
+      return object[key];
+    }
+
+    /**
      * Sets metadata for `func`.
      *
      * **Note:** If this function becomes hot, i.e. is invoked a lot in a short
@@ -10930,11 +11307,11 @@ function getId(href) {
      */
     var stringToPath = memoizeCapped(function(string) {
       var result = [];
-      if (reLeadingDot.test(string)) {
+      if (string.charCodeAt(0) === 46 /* . */) {
         result.push('');
       }
-      string.replace(rePropName, function(match, number, quote, string) {
-        result.push(quote ? string.replace(reEscapeChar, '$1') : (number || match));
+      string.replace(rePropName, function(match, number, quote, subString) {
+        result.push(quote ? subString.replace(reEscapeChar, '$1') : (number || match));
       });
       return result;
     });
@@ -14542,9 +14919,11 @@ function getId(href) {
       function remainingWait(time) {
         var timeSinceLastCall = time - lastCallTime,
             timeSinceLastInvoke = time - lastInvokeTime,
-            result = wait - timeSinceLastCall;
+            timeWaiting = wait - timeSinceLastCall;
 
-        return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+        return maxing
+          ? nativeMin(timeWaiting, maxWait - timeSinceLastInvoke)
+          : timeWaiting;
       }
 
       function shouldInvoke(time) {
@@ -16976,9 +17355,35 @@ function getId(href) {
      * _.defaults({ 'a': 1 }, { 'b': 2 }, { 'a': 3 });
      * // => { 'a': 1, 'b': 2 }
      */
-    var defaults = baseRest(function(args) {
-      args.push(undefined, customDefaultsAssignIn);
-      return apply(assignInWith, undefined, args);
+    var defaults = baseRest(function(object, sources) {
+      object = Object(object);
+
+      var index = -1;
+      var length = sources.length;
+      var guard = length > 2 ? sources[2] : undefined;
+
+      if (guard && isIterateeCall(sources[0], sources[1], guard)) {
+        length = 1;
+      }
+
+      while (++index < length) {
+        var source = sources[index];
+        var props = keysIn(source);
+        var propsIndex = -1;
+        var propsLength = props.length;
+
+        while (++propsIndex < propsLength) {
+          var key = props[propsIndex];
+          var value = object[key];
+
+          if (value === undefined ||
+              (eq(value, objectProto[key]) && !hasOwnProperty.call(object, key))) {
+            object[key] = source[key];
+          }
+        }
+      }
+
+      return object;
     });
 
     /**
@@ -17375,6 +17780,11 @@ function getId(href) {
      * // => { '1': 'c', '2': 'b' }
      */
     var invert = createInverter(function(result, value, key) {
+      if (value != null &&
+          typeof value.toString != 'function') {
+        value = nativeObjectToString.call(value);
+      }
+
       result[value] = key;
     }, constant(identity));
 
@@ -17405,6 +17815,11 @@ function getId(href) {
      * // => { 'group1': ['a', 'c'], 'group2': ['b'] }
      */
     var invertBy = createInverter(function(result, value, key) {
+      if (value != null &&
+          typeof value.toString != 'function') {
+        value = nativeObjectToString.call(value);
+      }
+
       if (hasOwnProperty.call(result, value)) {
         result[value].push(key);
       } else {
@@ -21263,10 +21678,10 @@ function getId(href) {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8), __webpack_require__(3)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(5)(module)))
 
 /***/ }),
-/* 8 */
+/* 13 */
 /***/ (function(module, exports) {
 
 var g;
@@ -21292,5 +21707,1436 @@ try {
 module.exports = g;
 
 
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery UI Autocomplete 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+
+//>>label: Autocomplete
+//>>group: Widgets
+//>>description: Lists suggested words as the user is typing.
+//>>docs: http://api.jqueryui.com/autocomplete/
+//>>demos: http://jqueryui.com/autocomplete/
+//>>css.structure: ../../themes/base/core.css
+//>>css.structure: ../../themes/base/autocomplete.css
+//>>css.theme: ../../themes/base/theme.css
+
+( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+			__webpack_require__(0),
+			__webpack_require__(15),
+			__webpack_require__(6),
+			__webpack_require__(7),
+			__webpack_require__(8),
+			__webpack_require__(1),
+			__webpack_require__(3)
+		], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+}( function( $ ) {
+
+$.widget( "ui.autocomplete", {
+	version: "1.12.1",
+	defaultElement: "<input>",
+	options: {
+		appendTo: null,
+		autoFocus: false,
+		delay: 300,
+		minLength: 1,
+		position: {
+			my: "left top",
+			at: "left bottom",
+			collision: "none"
+		},
+		source: null,
+
+		// Callbacks
+		change: null,
+		close: null,
+		focus: null,
+		open: null,
+		response: null,
+		search: null,
+		select: null
+	},
+
+	requestIndex: 0,
+	pending: 0,
+
+	_create: function() {
+
+		// Some browsers only repeat keydown events, not keypress events,
+		// so we use the suppressKeyPress flag to determine if we've already
+		// handled the keydown event. #7269
+		// Unfortunately the code for & in keypress is the same as the up arrow,
+		// so we use the suppressKeyPressRepeat flag to avoid handling keypress
+		// events when we know the keydown event was used to modify the
+		// search term. #7799
+		var suppressKeyPress, suppressKeyPressRepeat, suppressInput,
+			nodeName = this.element[ 0 ].nodeName.toLowerCase(),
+			isTextarea = nodeName === "textarea",
+			isInput = nodeName === "input";
+
+		// Textareas are always multi-line
+		// Inputs are always single-line, even if inside a contentEditable element
+		// IE also treats inputs as contentEditable
+		// All other element types are determined by whether or not they're contentEditable
+		this.isMultiLine = isTextarea || !isInput && this._isContentEditable( this.element );
+
+		this.valueMethod = this.element[ isTextarea || isInput ? "val" : "text" ];
+		this.isNewMenu = true;
+
+		this._addClass( "ui-autocomplete-input" );
+		this.element.attr( "autocomplete", "off" );
+
+		this._on( this.element, {
+			keydown: function( event ) {
+				if ( this.element.prop( "readOnly" ) ) {
+					suppressKeyPress = true;
+					suppressInput = true;
+					suppressKeyPressRepeat = true;
+					return;
+				}
+
+				suppressKeyPress = false;
+				suppressInput = false;
+				suppressKeyPressRepeat = false;
+				var keyCode = $.ui.keyCode;
+				switch ( event.keyCode ) {
+				case keyCode.PAGE_UP:
+					suppressKeyPress = true;
+					this._move( "previousPage", event );
+					break;
+				case keyCode.PAGE_DOWN:
+					suppressKeyPress = true;
+					this._move( "nextPage", event );
+					break;
+				case keyCode.UP:
+					suppressKeyPress = true;
+					this._keyEvent( "previous", event );
+					break;
+				case keyCode.DOWN:
+					suppressKeyPress = true;
+					this._keyEvent( "next", event );
+					break;
+				case keyCode.ENTER:
+
+					// when menu is open and has focus
+					if ( this.menu.active ) {
+
+						// #6055 - Opera still allows the keypress to occur
+						// which causes forms to submit
+						suppressKeyPress = true;
+						event.preventDefault();
+						this.menu.select( event );
+					}
+					break;
+				case keyCode.TAB:
+					if ( this.menu.active ) {
+						this.menu.select( event );
+					}
+					break;
+				case keyCode.ESCAPE:
+					if ( this.menu.element.is( ":visible" ) ) {
+						if ( !this.isMultiLine ) {
+							this._value( this.term );
+						}
+						this.close( event );
+
+						// Different browsers have different default behavior for escape
+						// Single press can mean undo or clear
+						// Double press in IE means clear the whole form
+						event.preventDefault();
+					}
+					break;
+				default:
+					suppressKeyPressRepeat = true;
+
+					// search timeout should be triggered before the input value is changed
+					this._searchTimeout( event );
+					break;
+				}
+			},
+			keypress: function( event ) {
+				if ( suppressKeyPress ) {
+					suppressKeyPress = false;
+					if ( !this.isMultiLine || this.menu.element.is( ":visible" ) ) {
+						event.preventDefault();
+					}
+					return;
+				}
+				if ( suppressKeyPressRepeat ) {
+					return;
+				}
+
+				// Replicate some key handlers to allow them to repeat in Firefox and Opera
+				var keyCode = $.ui.keyCode;
+				switch ( event.keyCode ) {
+				case keyCode.PAGE_UP:
+					this._move( "previousPage", event );
+					break;
+				case keyCode.PAGE_DOWN:
+					this._move( "nextPage", event );
+					break;
+				case keyCode.UP:
+					this._keyEvent( "previous", event );
+					break;
+				case keyCode.DOWN:
+					this._keyEvent( "next", event );
+					break;
+				}
+			},
+			input: function( event ) {
+				if ( suppressInput ) {
+					suppressInput = false;
+					event.preventDefault();
+					return;
+				}
+				this._searchTimeout( event );
+			},
+			focus: function() {
+				this.selectedItem = null;
+				this.previous = this._value();
+			},
+			blur: function( event ) {
+				if ( this.cancelBlur ) {
+					delete this.cancelBlur;
+					return;
+				}
+
+				clearTimeout( this.searching );
+				this.close( event );
+				this._change( event );
+			}
+		} );
+
+		this._initSource();
+		this.menu = $( "<ul>" )
+			.appendTo( this._appendTo() )
+			.menu( {
+
+				// disable ARIA support, the live region takes care of that
+				role: null
+			} )
+			.hide()
+			.menu( "instance" );
+
+		this._addClass( this.menu.element, "ui-autocomplete", "ui-front" );
+		this._on( this.menu.element, {
+			mousedown: function( event ) {
+
+				// prevent moving focus out of the text field
+				event.preventDefault();
+
+				// IE doesn't prevent moving focus even with event.preventDefault()
+				// so we set a flag to know when we should ignore the blur event
+				this.cancelBlur = true;
+				this._delay( function() {
+					delete this.cancelBlur;
+
+					// Support: IE 8 only
+					// Right clicking a menu item or selecting text from the menu items will
+					// result in focus moving out of the input. However, we've already received
+					// and ignored the blur event because of the cancelBlur flag set above. So
+					// we restore focus to ensure that the menu closes properly based on the user's
+					// next actions.
+					if ( this.element[ 0 ] !== $.ui.safeActiveElement( this.document[ 0 ] ) ) {
+						this.element.trigger( "focus" );
+					}
+				} );
+			},
+			menufocus: function( event, ui ) {
+				var label, item;
+
+				// support: Firefox
+				// Prevent accidental activation of menu items in Firefox (#7024 #9118)
+				if ( this.isNewMenu ) {
+					this.isNewMenu = false;
+					if ( event.originalEvent && /^mouse/.test( event.originalEvent.type ) ) {
+						this.menu.blur();
+
+						this.document.one( "mousemove", function() {
+							$( event.target ).trigger( event.originalEvent );
+						} );
+
+						return;
+					}
+				}
+
+				item = ui.item.data( "ui-autocomplete-item" );
+				if ( false !== this._trigger( "focus", event, { item: item } ) ) {
+
+					// use value to match what will end up in the input, if it was a key event
+					if ( event.originalEvent && /^key/.test( event.originalEvent.type ) ) {
+						this._value( item.value );
+					}
+				}
+
+				// Announce the value in the liveRegion
+				label = ui.item.attr( "aria-label" ) || item.value;
+				if ( label && $.trim( label ).length ) {
+					this.liveRegion.children().hide();
+					$( "<div>" ).text( label ).appendTo( this.liveRegion );
+				}
+			},
+			menuselect: function( event, ui ) {
+				var item = ui.item.data( "ui-autocomplete-item" ),
+					previous = this.previous;
+
+				// Only trigger when focus was lost (click on menu)
+				if ( this.element[ 0 ] !== $.ui.safeActiveElement( this.document[ 0 ] ) ) {
+					this.element.trigger( "focus" );
+					this.previous = previous;
+
+					// #6109 - IE triggers two focus events and the second
+					// is asynchronous, so we need to reset the previous
+					// term synchronously and asynchronously :-(
+					this._delay( function() {
+						this.previous = previous;
+						this.selectedItem = item;
+					} );
+				}
+
+				if ( false !== this._trigger( "select", event, { item: item } ) ) {
+					this._value( item.value );
+				}
+
+				// reset the term after the select event
+				// this allows custom select handling to work properly
+				this.term = this._value();
+
+				this.close( event );
+				this.selectedItem = item;
+			}
+		} );
+
+		this.liveRegion = $( "<div>", {
+			role: "status",
+			"aria-live": "assertive",
+			"aria-relevant": "additions"
+		} )
+			.appendTo( this.document[ 0 ].body );
+
+		this._addClass( this.liveRegion, null, "ui-helper-hidden-accessible" );
+
+		// Turning off autocomplete prevents the browser from remembering the
+		// value when navigating through history, so we re-enable autocomplete
+		// if the page is unloaded before the widget is destroyed. #7790
+		this._on( this.window, {
+			beforeunload: function() {
+				this.element.removeAttr( "autocomplete" );
+			}
+		} );
+	},
+
+	_destroy: function() {
+		clearTimeout( this.searching );
+		this.element.removeAttr( "autocomplete" );
+		this.menu.element.remove();
+		this.liveRegion.remove();
+	},
+
+	_setOption: function( key, value ) {
+		this._super( key, value );
+		if ( key === "source" ) {
+			this._initSource();
+		}
+		if ( key === "appendTo" ) {
+			this.menu.element.appendTo( this._appendTo() );
+		}
+		if ( key === "disabled" && value && this.xhr ) {
+			this.xhr.abort();
+		}
+	},
+
+	_isEventTargetInWidget: function( event ) {
+		var menuElement = this.menu.element[ 0 ];
+
+		return event.target === this.element[ 0 ] ||
+			event.target === menuElement ||
+			$.contains( menuElement, event.target );
+	},
+
+	_closeOnClickOutside: function( event ) {
+		if ( !this._isEventTargetInWidget( event ) ) {
+			this.close();
+		}
+	},
+
+	_appendTo: function() {
+		var element = this.options.appendTo;
+
+		if ( element ) {
+			element = element.jquery || element.nodeType ?
+				$( element ) :
+				this.document.find( element ).eq( 0 );
+		}
+
+		if ( !element || !element[ 0 ] ) {
+			element = this.element.closest( ".ui-front, dialog" );
+		}
+
+		if ( !element.length ) {
+			element = this.document[ 0 ].body;
+		}
+
+		return element;
+	},
+
+	_initSource: function() {
+		var array, url,
+			that = this;
+		if ( $.isArray( this.options.source ) ) {
+			array = this.options.source;
+			this.source = function( request, response ) {
+				response( $.ui.autocomplete.filter( array, request.term ) );
+			};
+		} else if ( typeof this.options.source === "string" ) {
+			url = this.options.source;
+			this.source = function( request, response ) {
+				if ( that.xhr ) {
+					that.xhr.abort();
+				}
+				that.xhr = $.ajax( {
+					url: url,
+					data: request,
+					dataType: "json",
+					success: function( data ) {
+						response( data );
+					},
+					error: function() {
+						response( [] );
+					}
+				} );
+			};
+		} else {
+			this.source = this.options.source;
+		}
+	},
+
+	_searchTimeout: function( event ) {
+		clearTimeout( this.searching );
+		this.searching = this._delay( function() {
+
+			// Search if the value has changed, or if the user retypes the same value (see #7434)
+			var equalValues = this.term === this._value(),
+				menuVisible = this.menu.element.is( ":visible" ),
+				modifierKey = event.altKey || event.ctrlKey || event.metaKey || event.shiftKey;
+
+			if ( !equalValues || ( equalValues && !menuVisible && !modifierKey ) ) {
+				this.selectedItem = null;
+				this.search( null, event );
+			}
+		}, this.options.delay );
+	},
+
+	search: function( value, event ) {
+		value = value != null ? value : this._value();
+
+		// Always save the actual value, not the one passed as an argument
+		this.term = this._value();
+
+		if ( value.length < this.options.minLength ) {
+			return this.close( event );
+		}
+
+		if ( this._trigger( "search", event ) === false ) {
+			return;
+		}
+
+		return this._search( value );
+	},
+
+	_search: function( value ) {
+		this.pending++;
+		this._addClass( "ui-autocomplete-loading" );
+		this.cancelSearch = false;
+
+		this.source( { term: value }, this._response() );
+	},
+
+	_response: function() {
+		var index = ++this.requestIndex;
+
+		return $.proxy( function( content ) {
+			if ( index === this.requestIndex ) {
+				this.__response( content );
+			}
+
+			this.pending--;
+			if ( !this.pending ) {
+				this._removeClass( "ui-autocomplete-loading" );
+			}
+		}, this );
+	},
+
+	__response: function( content ) {
+		if ( content ) {
+			content = this._normalize( content );
+		}
+		this._trigger( "response", null, { content: content } );
+		if ( !this.options.disabled && content && content.length && !this.cancelSearch ) {
+			this._suggest( content );
+			this._trigger( "open" );
+		} else {
+
+			// use ._close() instead of .close() so we don't cancel future searches
+			this._close();
+		}
+	},
+
+	close: function( event ) {
+		this.cancelSearch = true;
+		this._close( event );
+	},
+
+	_close: function( event ) {
+
+		// Remove the handler that closes the menu on outside clicks
+		this._off( this.document, "mousedown" );
+
+		if ( this.menu.element.is( ":visible" ) ) {
+			this.menu.element.hide();
+			this.menu.blur();
+			this.isNewMenu = true;
+			this._trigger( "close", event );
+		}
+	},
+
+	_change: function( event ) {
+		if ( this.previous !== this._value() ) {
+			this._trigger( "change", event, { item: this.selectedItem } );
+		}
+	},
+
+	_normalize: function( items ) {
+
+		// assume all items have the right format when the first item is complete
+		if ( items.length && items[ 0 ].label && items[ 0 ].value ) {
+			return items;
+		}
+		return $.map( items, function( item ) {
+			if ( typeof item === "string" ) {
+				return {
+					label: item,
+					value: item
+				};
+			}
+			return $.extend( {}, item, {
+				label: item.label || item.value,
+				value: item.value || item.label
+			} );
+		} );
+	},
+
+	_suggest: function( items ) {
+		var ul = this.menu.element.empty();
+		this._renderMenu( ul, items );
+		this.isNewMenu = true;
+		this.menu.refresh();
+
+		// Size and position menu
+		ul.show();
+		this._resizeMenu();
+		ul.position( $.extend( {
+			of: this.element
+		}, this.options.position ) );
+
+		if ( this.options.autoFocus ) {
+			this.menu.next();
+		}
+
+		// Listen for interactions outside of the widget (#6642)
+		this._on( this.document, {
+			mousedown: "_closeOnClickOutside"
+		} );
+	},
+
+	_resizeMenu: function() {
+		var ul = this.menu.element;
+		ul.outerWidth( Math.max(
+
+			// Firefox wraps long text (possibly a rounding bug)
+			// so we add 1px to avoid the wrapping (#7513)
+			ul.width( "" ).outerWidth() + 1,
+			this.element.outerWidth()
+		) );
+	},
+
+	_renderMenu: function( ul, items ) {
+		var that = this;
+		$.each( items, function( index, item ) {
+			that._renderItemData( ul, item );
+		} );
+	},
+
+	_renderItemData: function( ul, item ) {
+		return this._renderItem( ul, item ).data( "ui-autocomplete-item", item );
+	},
+
+	_renderItem: function( ul, item ) {
+		return $( "<li>" )
+			.append( $( "<div>" ).text( item.label ) )
+			.appendTo( ul );
+	},
+
+	_move: function( direction, event ) {
+		if ( !this.menu.element.is( ":visible" ) ) {
+			this.search( null, event );
+			return;
+		}
+		if ( this.menu.isFirstItem() && /^previous/.test( direction ) ||
+				this.menu.isLastItem() && /^next/.test( direction ) ) {
+
+			if ( !this.isMultiLine ) {
+				this._value( this.term );
+			}
+
+			this.menu.blur();
+			return;
+		}
+		this.menu[ direction ]( event );
+	},
+
+	widget: function() {
+		return this.menu.element;
+	},
+
+	_value: function() {
+		return this.valueMethod.apply( this.element, arguments );
+	},
+
+	_keyEvent: function( keyEvent, event ) {
+		if ( !this.isMultiLine || this.menu.element.is( ":visible" ) ) {
+			this._move( keyEvent, event );
+
+			// Prevents moving cursor to beginning/end of the text field in some browsers
+			event.preventDefault();
+		}
+	},
+
+	// Support: Chrome <=50
+	// We should be able to just use this.element.prop( "isContentEditable" )
+	// but hidden elements always report false in Chrome.
+	// https://code.google.com/p/chromium/issues/detail?id=313082
+	_isContentEditable: function( element ) {
+		if ( !element.length ) {
+			return false;
+		}
+
+		var editable = element.prop( "contentEditable" );
+
+		if ( editable === "inherit" ) {
+		  return this._isContentEditable( element.parent() );
+		}
+
+		return editable === "true";
+	}
+} );
+
+$.extend( $.ui.autocomplete, {
+	escapeRegex: function( value ) {
+		return value.replace( /[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&" );
+	},
+	filter: function( array, term ) {
+		var matcher = new RegExp( $.ui.autocomplete.escapeRegex( term ), "i" );
+		return $.grep( array, function( value ) {
+			return matcher.test( value.label || value.value || value );
+		} );
+	}
+} );
+
+// Live region extension, adding a `messages` option
+// NOTE: This is an experimental API. We are still investigating
+// a full solution for string manipulation and internationalization.
+$.widget( "ui.autocomplete", $.ui.autocomplete, {
+	options: {
+		messages: {
+			noResults: "No search results.",
+			results: function( amount ) {
+				return amount + ( amount > 1 ? " results are" : " result is" ) +
+					" available, use up and down arrow keys to navigate.";
+			}
+		}
+	},
+
+	__response: function( content ) {
+		var message;
+		this._superApply( arguments );
+		if ( this.options.disabled || this.cancelSearch ) {
+			return;
+		}
+		if ( content && content.length ) {
+			message = this.options.messages.results( content.length );
+		} else {
+			message = this.options.messages.noResults;
+		}
+		this.liveRegion.children().hide();
+		$( "<div>" ).text( message ).appendTo( this.liveRegion );
+	}
+} );
+
+return $.ui.autocomplete;
+
+} ) );
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery UI Menu 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+
+//>>label: Menu
+//>>group: Widgets
+//>>description: Creates nestable menus.
+//>>docs: http://api.jqueryui.com/menu/
+//>>demos: http://jqueryui.com/menu/
+//>>css.structure: ../../themes/base/core.css
+//>>css.structure: ../../themes/base/menu.css
+//>>css.theme: ../../themes/base/theme.css
+
+( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+			__webpack_require__(0),
+			__webpack_require__(6),
+			__webpack_require__(7),
+			__webpack_require__(8),
+			__webpack_require__(16),
+			__webpack_require__(1),
+			__webpack_require__(3)
+		], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+}( function( $ ) {
+
+return $.widget( "ui.menu", {
+	version: "1.12.1",
+	defaultElement: "<ul>",
+	delay: 300,
+	options: {
+		icons: {
+			submenu: "ui-icon-caret-1-e"
+		},
+		items: "> *",
+		menus: "ul",
+		position: {
+			my: "left top",
+			at: "right top"
+		},
+		role: "menu",
+
+		// Callbacks
+		blur: null,
+		focus: null,
+		select: null
+	},
+
+	_create: function() {
+		this.activeMenu = this.element;
+
+		// Flag used to prevent firing of the click handler
+		// as the event bubbles up through nested menus
+		this.mouseHandled = false;
+		this.element
+			.uniqueId()
+			.attr( {
+				role: this.options.role,
+				tabIndex: 0
+			} );
+
+		this._addClass( "ui-menu", "ui-widget ui-widget-content" );
+		this._on( {
+
+			// Prevent focus from sticking to links inside menu after clicking
+			// them (focus should always stay on UL during navigation).
+			"mousedown .ui-menu-item": function( event ) {
+				event.preventDefault();
+			},
+			"click .ui-menu-item": function( event ) {
+				var target = $( event.target );
+				var active = $( $.ui.safeActiveElement( this.document[ 0 ] ) );
+				if ( !this.mouseHandled && target.not( ".ui-state-disabled" ).length ) {
+					this.select( event );
+
+					// Only set the mouseHandled flag if the event will bubble, see #9469.
+					if ( !event.isPropagationStopped() ) {
+						this.mouseHandled = true;
+					}
+
+					// Open submenu on click
+					if ( target.has( ".ui-menu" ).length ) {
+						this.expand( event );
+					} else if ( !this.element.is( ":focus" ) &&
+							active.closest( ".ui-menu" ).length ) {
+
+						// Redirect focus to the menu
+						this.element.trigger( "focus", [ true ] );
+
+						// If the active item is on the top level, let it stay active.
+						// Otherwise, blur the active item since it is no longer visible.
+						if ( this.active && this.active.parents( ".ui-menu" ).length === 1 ) {
+							clearTimeout( this.timer );
+						}
+					}
+				}
+			},
+			"mouseenter .ui-menu-item": function( event ) {
+
+				// Ignore mouse events while typeahead is active, see #10458.
+				// Prevents focusing the wrong item when typeahead causes a scroll while the mouse
+				// is over an item in the menu
+				if ( this.previousFilter ) {
+					return;
+				}
+
+				var actualTarget = $( event.target ).closest( ".ui-menu-item" ),
+					target = $( event.currentTarget );
+
+				// Ignore bubbled events on parent items, see #11641
+				if ( actualTarget[ 0 ] !== target[ 0 ] ) {
+					return;
+				}
+
+				// Remove ui-state-active class from siblings of the newly focused menu item
+				// to avoid a jump caused by adjacent elements both having a class with a border
+				this._removeClass( target.siblings().children( ".ui-state-active" ),
+					null, "ui-state-active" );
+				this.focus( event, target );
+			},
+			mouseleave: "collapseAll",
+			"mouseleave .ui-menu": "collapseAll",
+			focus: function( event, keepActiveItem ) {
+
+				// If there's already an active item, keep it active
+				// If not, activate the first item
+				var item = this.active || this.element.find( this.options.items ).eq( 0 );
+
+				if ( !keepActiveItem ) {
+					this.focus( event, item );
+				}
+			},
+			blur: function( event ) {
+				this._delay( function() {
+					var notContained = !$.contains(
+						this.element[ 0 ],
+						$.ui.safeActiveElement( this.document[ 0 ] )
+					);
+					if ( notContained ) {
+						this.collapseAll( event );
+					}
+				} );
+			},
+			keydown: "_keydown"
+		} );
+
+		this.refresh();
+
+		// Clicks outside of a menu collapse any open menus
+		this._on( this.document, {
+			click: function( event ) {
+				if ( this._closeOnDocumentClick( event ) ) {
+					this.collapseAll( event );
+				}
+
+				// Reset the mouseHandled flag
+				this.mouseHandled = false;
+			}
+		} );
+	},
+
+	_destroy: function() {
+		var items = this.element.find( ".ui-menu-item" )
+				.removeAttr( "role aria-disabled" ),
+			submenus = items.children( ".ui-menu-item-wrapper" )
+				.removeUniqueId()
+				.removeAttr( "tabIndex role aria-haspopup" );
+
+		// Destroy (sub)menus
+		this.element
+			.removeAttr( "aria-activedescendant" )
+			.find( ".ui-menu" ).addBack()
+				.removeAttr( "role aria-labelledby aria-expanded aria-hidden aria-disabled " +
+					"tabIndex" )
+				.removeUniqueId()
+				.show();
+
+		submenus.children().each( function() {
+			var elem = $( this );
+			if ( elem.data( "ui-menu-submenu-caret" ) ) {
+				elem.remove();
+			}
+		} );
+	},
+
+	_keydown: function( event ) {
+		var match, prev, character, skip,
+			preventDefault = true;
+
+		switch ( event.keyCode ) {
+		case $.ui.keyCode.PAGE_UP:
+			this.previousPage( event );
+			break;
+		case $.ui.keyCode.PAGE_DOWN:
+			this.nextPage( event );
+			break;
+		case $.ui.keyCode.HOME:
+			this._move( "first", "first", event );
+			break;
+		case $.ui.keyCode.END:
+			this._move( "last", "last", event );
+			break;
+		case $.ui.keyCode.UP:
+			this.previous( event );
+			break;
+		case $.ui.keyCode.DOWN:
+			this.next( event );
+			break;
+		case $.ui.keyCode.LEFT:
+			this.collapse( event );
+			break;
+		case $.ui.keyCode.RIGHT:
+			if ( this.active && !this.active.is( ".ui-state-disabled" ) ) {
+				this.expand( event );
+			}
+			break;
+		case $.ui.keyCode.ENTER:
+		case $.ui.keyCode.SPACE:
+			this._activate( event );
+			break;
+		case $.ui.keyCode.ESCAPE:
+			this.collapse( event );
+			break;
+		default:
+			preventDefault = false;
+			prev = this.previousFilter || "";
+			skip = false;
+
+			// Support number pad values
+			character = event.keyCode >= 96 && event.keyCode <= 105 ?
+				( event.keyCode - 96 ).toString() : String.fromCharCode( event.keyCode );
+
+			clearTimeout( this.filterTimer );
+
+			if ( character === prev ) {
+				skip = true;
+			} else {
+				character = prev + character;
+			}
+
+			match = this._filterMenuItems( character );
+			match = skip && match.index( this.active.next() ) !== -1 ?
+				this.active.nextAll( ".ui-menu-item" ) :
+				match;
+
+			// If no matches on the current filter, reset to the last character pressed
+			// to move down the menu to the first item that starts with that character
+			if ( !match.length ) {
+				character = String.fromCharCode( event.keyCode );
+				match = this._filterMenuItems( character );
+			}
+
+			if ( match.length ) {
+				this.focus( event, match );
+				this.previousFilter = character;
+				this.filterTimer = this._delay( function() {
+					delete this.previousFilter;
+				}, 1000 );
+			} else {
+				delete this.previousFilter;
+			}
+		}
+
+		if ( preventDefault ) {
+			event.preventDefault();
+		}
+	},
+
+	_activate: function( event ) {
+		if ( this.active && !this.active.is( ".ui-state-disabled" ) ) {
+			if ( this.active.children( "[aria-haspopup='true']" ).length ) {
+				this.expand( event );
+			} else {
+				this.select( event );
+			}
+		}
+	},
+
+	refresh: function() {
+		var menus, items, newSubmenus, newItems, newWrappers,
+			that = this,
+			icon = this.options.icons.submenu,
+			submenus = this.element.find( this.options.menus );
+
+		this._toggleClass( "ui-menu-icons", null, !!this.element.find( ".ui-icon" ).length );
+
+		// Initialize nested menus
+		newSubmenus = submenus.filter( ":not(.ui-menu)" )
+			.hide()
+			.attr( {
+				role: this.options.role,
+				"aria-hidden": "true",
+				"aria-expanded": "false"
+			} )
+			.each( function() {
+				var menu = $( this ),
+					item = menu.prev(),
+					submenuCaret = $( "<span>" ).data( "ui-menu-submenu-caret", true );
+
+				that._addClass( submenuCaret, "ui-menu-icon", "ui-icon " + icon );
+				item
+					.attr( "aria-haspopup", "true" )
+					.prepend( submenuCaret );
+				menu.attr( "aria-labelledby", item.attr( "id" ) );
+			} );
+
+		this._addClass( newSubmenus, "ui-menu", "ui-widget ui-widget-content ui-front" );
+
+		menus = submenus.add( this.element );
+		items = menus.find( this.options.items );
+
+		// Initialize menu-items containing spaces and/or dashes only as dividers
+		items.not( ".ui-menu-item" ).each( function() {
+			var item = $( this );
+			if ( that._isDivider( item ) ) {
+				that._addClass( item, "ui-menu-divider", "ui-widget-content" );
+			}
+		} );
+
+		// Don't refresh list items that are already adapted
+		newItems = items.not( ".ui-menu-item, .ui-menu-divider" );
+		newWrappers = newItems.children()
+			.not( ".ui-menu" )
+				.uniqueId()
+				.attr( {
+					tabIndex: -1,
+					role: this._itemRole()
+				} );
+		this._addClass( newItems, "ui-menu-item" )
+			._addClass( newWrappers, "ui-menu-item-wrapper" );
+
+		// Add aria-disabled attribute to any disabled menu item
+		items.filter( ".ui-state-disabled" ).attr( "aria-disabled", "true" );
+
+		// If the active item has been removed, blur the menu
+		if ( this.active && !$.contains( this.element[ 0 ], this.active[ 0 ] ) ) {
+			this.blur();
+		}
+	},
+
+	_itemRole: function() {
+		return {
+			menu: "menuitem",
+			listbox: "option"
+		}[ this.options.role ];
+	},
+
+	_setOption: function( key, value ) {
+		if ( key === "icons" ) {
+			var icons = this.element.find( ".ui-menu-icon" );
+			this._removeClass( icons, null, this.options.icons.submenu )
+				._addClass( icons, null, value.submenu );
+		}
+		this._super( key, value );
+	},
+
+	_setOptionDisabled: function( value ) {
+		this._super( value );
+
+		this.element.attr( "aria-disabled", String( value ) );
+		this._toggleClass( null, "ui-state-disabled", !!value );
+	},
+
+	focus: function( event, item ) {
+		var nested, focused, activeParent;
+		this.blur( event, event && event.type === "focus" );
+
+		this._scrollIntoView( item );
+
+		this.active = item.first();
+
+		focused = this.active.children( ".ui-menu-item-wrapper" );
+		this._addClass( focused, null, "ui-state-active" );
+
+		// Only update aria-activedescendant if there's a role
+		// otherwise we assume focus is managed elsewhere
+		if ( this.options.role ) {
+			this.element.attr( "aria-activedescendant", focused.attr( "id" ) );
+		}
+
+		// Highlight active parent menu item, if any
+		activeParent = this.active
+			.parent()
+				.closest( ".ui-menu-item" )
+					.children( ".ui-menu-item-wrapper" );
+		this._addClass( activeParent, null, "ui-state-active" );
+
+		if ( event && event.type === "keydown" ) {
+			this._close();
+		} else {
+			this.timer = this._delay( function() {
+				this._close();
+			}, this.delay );
+		}
+
+		nested = item.children( ".ui-menu" );
+		if ( nested.length && event && ( /^mouse/.test( event.type ) ) ) {
+			this._startOpening( nested );
+		}
+		this.activeMenu = item.parent();
+
+		this._trigger( "focus", event, { item: item } );
+	},
+
+	_scrollIntoView: function( item ) {
+		var borderTop, paddingTop, offset, scroll, elementHeight, itemHeight;
+		if ( this._hasScroll() ) {
+			borderTop = parseFloat( $.css( this.activeMenu[ 0 ], "borderTopWidth" ) ) || 0;
+			paddingTop = parseFloat( $.css( this.activeMenu[ 0 ], "paddingTop" ) ) || 0;
+			offset = item.offset().top - this.activeMenu.offset().top - borderTop - paddingTop;
+			scroll = this.activeMenu.scrollTop();
+			elementHeight = this.activeMenu.height();
+			itemHeight = item.outerHeight();
+
+			if ( offset < 0 ) {
+				this.activeMenu.scrollTop( scroll + offset );
+			} else if ( offset + itemHeight > elementHeight ) {
+				this.activeMenu.scrollTop( scroll + offset - elementHeight + itemHeight );
+			}
+		}
+	},
+
+	blur: function( event, fromFocus ) {
+		if ( !fromFocus ) {
+			clearTimeout( this.timer );
+		}
+
+		if ( !this.active ) {
+			return;
+		}
+
+		this._removeClass( this.active.children( ".ui-menu-item-wrapper" ),
+			null, "ui-state-active" );
+
+		this._trigger( "blur", event, { item: this.active } );
+		this.active = null;
+	},
+
+	_startOpening: function( submenu ) {
+		clearTimeout( this.timer );
+
+		// Don't open if already open fixes a Firefox bug that caused a .5 pixel
+		// shift in the submenu position when mousing over the caret icon
+		if ( submenu.attr( "aria-hidden" ) !== "true" ) {
+			return;
+		}
+
+		this.timer = this._delay( function() {
+			this._close();
+			this._open( submenu );
+		}, this.delay );
+	},
+
+	_open: function( submenu ) {
+		var position = $.extend( {
+			of: this.active
+		}, this.options.position );
+
+		clearTimeout( this.timer );
+		this.element.find( ".ui-menu" ).not( submenu.parents( ".ui-menu" ) )
+			.hide()
+			.attr( "aria-hidden", "true" );
+
+		submenu
+			.show()
+			.removeAttr( "aria-hidden" )
+			.attr( "aria-expanded", "true" )
+			.position( position );
+	},
+
+	collapseAll: function( event, all ) {
+		clearTimeout( this.timer );
+		this.timer = this._delay( function() {
+
+			// If we were passed an event, look for the submenu that contains the event
+			var currentMenu = all ? this.element :
+				$( event && event.target ).closest( this.element.find( ".ui-menu" ) );
+
+			// If we found no valid submenu ancestor, use the main menu to close all
+			// sub menus anyway
+			if ( !currentMenu.length ) {
+				currentMenu = this.element;
+			}
+
+			this._close( currentMenu );
+
+			this.blur( event );
+
+			// Work around active item staying active after menu is blurred
+			this._removeClass( currentMenu.find( ".ui-state-active" ), null, "ui-state-active" );
+
+			this.activeMenu = currentMenu;
+		}, this.delay );
+	},
+
+	// With no arguments, closes the currently active menu - if nothing is active
+	// it closes all menus.  If passed an argument, it will search for menus BELOW
+	_close: function( startMenu ) {
+		if ( !startMenu ) {
+			startMenu = this.active ? this.active.parent() : this.element;
+		}
+
+		startMenu.find( ".ui-menu" )
+			.hide()
+			.attr( "aria-hidden", "true" )
+			.attr( "aria-expanded", "false" );
+	},
+
+	_closeOnDocumentClick: function( event ) {
+		return !$( event.target ).closest( ".ui-menu" ).length;
+	},
+
+	_isDivider: function( item ) {
+
+		// Match hyphen, em dash, en dash
+		return !/[^\-\u2014\u2013\s]/.test( item.text() );
+	},
+
+	collapse: function( event ) {
+		var newItem = this.active &&
+			this.active.parent().closest( ".ui-menu-item", this.element );
+		if ( newItem && newItem.length ) {
+			this._close();
+			this.focus( event, newItem );
+		}
+	},
+
+	expand: function( event ) {
+		var newItem = this.active &&
+			this.active
+				.children( ".ui-menu " )
+					.find( this.options.items )
+						.first();
+
+		if ( newItem && newItem.length ) {
+			this._open( newItem.parent() );
+
+			// Delay so Firefox will not hide activedescendant change in expanding submenu from AT
+			this._delay( function() {
+				this.focus( event, newItem );
+			} );
+		}
+	},
+
+	next: function( event ) {
+		this._move( "next", "first", event );
+	},
+
+	previous: function( event ) {
+		this._move( "prev", "last", event );
+	},
+
+	isFirstItem: function() {
+		return this.active && !this.active.prevAll( ".ui-menu-item" ).length;
+	},
+
+	isLastItem: function() {
+		return this.active && !this.active.nextAll( ".ui-menu-item" ).length;
+	},
+
+	_move: function( direction, filter, event ) {
+		var next;
+		if ( this.active ) {
+			if ( direction === "first" || direction === "last" ) {
+				next = this.active
+					[ direction === "first" ? "prevAll" : "nextAll" ]( ".ui-menu-item" )
+					.eq( -1 );
+			} else {
+				next = this.active
+					[ direction + "All" ]( ".ui-menu-item" )
+					.eq( 0 );
+			}
+		}
+		if ( !next || !next.length || !this.active ) {
+			next = this.activeMenu.find( this.options.items )[ filter ]();
+		}
+
+		this.focus( event, next );
+	},
+
+	nextPage: function( event ) {
+		var item, base, height;
+
+		if ( !this.active ) {
+			this.next( event );
+			return;
+		}
+		if ( this.isLastItem() ) {
+			return;
+		}
+		if ( this._hasScroll() ) {
+			base = this.active.offset().top;
+			height = this.element.height();
+			this.active.nextAll( ".ui-menu-item" ).each( function() {
+				item = $( this );
+				return item.offset().top - base - height < 0;
+			} );
+
+			this.focus( event, item );
+		} else {
+			this.focus( event, this.activeMenu.find( this.options.items )
+				[ !this.active ? "first" : "last" ]() );
+		}
+	},
+
+	previousPage: function( event ) {
+		var item, base, height;
+		if ( !this.active ) {
+			this.next( event );
+			return;
+		}
+		if ( this.isFirstItem() ) {
+			return;
+		}
+		if ( this._hasScroll() ) {
+			base = this.active.offset().top;
+			height = this.element.height();
+			this.active.prevAll( ".ui-menu-item" ).each( function() {
+				item = $( this );
+				return item.offset().top - base + height > 0;
+			} );
+
+			this.focus( event, item );
+		} else {
+			this.focus( event, this.activeMenu.find( this.options.items ).first() );
+		}
+	},
+
+	_hasScroll: function() {
+		return this.element.outerHeight() < this.element.prop( "scrollHeight" );
+	},
+
+	select: function( event ) {
+
+		// TODO: It should never be possible to not have an active item at this
+		// point, but the tests don't trigger mouseenter before click.
+		this.active = this.active || $( event.target ).closest( ".ui-menu-item" );
+		var ui = { item: this.active };
+		if ( !this.active.has( ".ui-menu" ).length ) {
+			this.collapseAll( event, true );
+		}
+		this._trigger( "select", event, ui );
+	},
+
+	_filterMenuItems: function( character ) {
+		var escapedCharacter = character.replace( /[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&" ),
+			regex = new RegExp( "^" + escapedCharacter, "i" );
+
+		return this.activeMenu
+			.find( this.options.items )
+
+				// Only match on items, not dividers or other content (#10571)
+				.filter( ".ui-menu-item" )
+					.filter( function() {
+						return regex.test(
+							$.trim( $( this ).children( ".ui-menu-item-wrapper" ).text() ) );
+					} );
+	}
+} );
+
+} ) );
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery UI Unique ID 1.12.1
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+
+//>>label: uniqueId
+//>>group: Core
+//>>description: Functions to generate and remove uniqueId's
+//>>docs: http://api.jqueryui.com/uniqueId/
+
+( function( factory ) {
+	if ( true ) {
+
+		// AMD. Register as an anonymous module.
+		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(0), __webpack_require__(1) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+} ( function( $ ) {
+
+return $.fn.extend( {
+	uniqueId: ( function() {
+		var uuid = 0;
+
+		return function() {
+			return this.each( function() {
+				if ( !this.id ) {
+					this.id = "ui-id-" + ( ++uuid );
+				}
+			} );
+		};
+	} )(),
+
+	removeUniqueId: function() {
+		return this.each( function() {
+			if ( /^ui-id-\d+$/.test( this.id ) ) {
+				$( this ).removeAttr( "id" );
+			}
+		} );
+	}
+} );
+
+} ) );
+
+
 /***/ })
-],[6]);
+],[11]);

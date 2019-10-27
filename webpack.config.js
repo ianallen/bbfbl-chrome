@@ -8,7 +8,7 @@ module.exports = {
         content_script: path.join(__dirname, 'src/content_script.ts'),
         background: path.join(__dirname, 'src/background.ts'),
         salary: path.join(__dirname, 'src/salaries.ts'),
-        vendor: ['moment', 'jquery']
+        vendor: ['moment', 'jquery', 'jquery-ui']
     },
     output: {
         path: path.join(__dirname, 'dist/js'),
