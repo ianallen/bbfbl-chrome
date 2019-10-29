@@ -4294,15 +4294,22 @@ const salaries_1 = __webpack_require__(2);
 const _ = __webpack_require__(12);
 __webpack_require__(14);
 $(function () {
-    setInterval(renderSalaryTool, 700);
-    setInterval(renderSalaries, 700);
+    setInterval(renderBbfbl, 500);
     const playerSelector = '.ysf-player-name';
     const salariedSelector = ".bbfbl-salaried";
     const MAX_SALARY_CUTOFF = 139000000;
-    let isSalarySet = false;
-    let isToolRendered = false;
     let canDisplaySalaries = null;
     let canDisplayTool = null;
+    let url = window.location.href;
+    function renderBbfbl() {
+        if ($("body").hasClass('bbfbl') && url == window.location.href) {
+            return;
+        }
+        renderSalaries();
+        renderSalaryTool();
+        $("body").addClass('bbfbl');
+        url = window.location.href;
+    }
     function renderSalaries() {
         if (canDisplaySalaries === null) {
             const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
@@ -4315,9 +4322,10 @@ $(function () {
                 canDisplaySalaries = false;
             }
         }
-        if (isSalarySet || !canDisplaySalaries) {
+        if (!canDisplaySalaries) {
             return;
         }
+        console.log("rendering bbfbl salary...");
         const $players = $(playerSelector);
         const teamSalaries = [];
         $players.each(function () {
@@ -4338,7 +4346,6 @@ $(function () {
         }
         const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
         $('td .Ov-h ').css('width', width);
-        isSalarySet = true;
     }
     function sum(values) {
         return values.reduce((total, salary) => { return total + salary; }, 0);
@@ -4357,11 +4364,12 @@ $(function () {
             .append(elem);
     }
     function renderSalaryTool() {
+        console.log("rendering bbfbl tool...");
         if (canDisplayTool === null) {
             const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
             canDisplayTool = isPlayerPage;
         }
-        if (isToolRendered || !canDisplayTool) {
+        if (!canDisplayTool) {
             return;
         }
         const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
@@ -4387,7 +4395,6 @@ $(function () {
         setupCancelButton();
         calculateSalaryForYear();
         prepopulateSalaryTool();
-        isToolRendered = true;
     }
 });
 function renderSalary(str) {

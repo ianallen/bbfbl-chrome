@@ -3,4 +3,7 @@ function checkTab(tabId, data, tab: chrome.tabs.Tab) {
     chrome.pageAction.show(tabId);
   }
 }
+
+
+
 chrome.tabs.onUpdated.addListener(checkTab);
