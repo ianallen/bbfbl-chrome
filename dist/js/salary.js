@@ -1880,6 +1880,14 @@ exports.default = [
         "yahoo_id": 5678
     },
     {
+        "name": "Jakob Poeltl",
+        "salary19_20": 3754886,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5640
+    },
+    {
         "name": "Thon Maker",
         "salary19_20": 3569643,
         "salary20_21": null,

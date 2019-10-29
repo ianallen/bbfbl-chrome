@@ -1881,6 +1881,14 @@ exports.default = [
         "yahoo_id": 5678
     },
     {
+        "name": "Jakob Poeltl",
+        "salary19_20": 3754886,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5640
+    },
+    {
         "name": "Thon Maker",
         "salary19_20": 3569643,
         "salary20_21": null,
@@ -4286,19 +4294,30 @@ const salaries_1 = __webpack_require__(2);
 const _ = __webpack_require__(12);
 __webpack_require__(14);
 $(function () {
-    setInterval(renderSalaryTool, 200);
-    setInterval(renderSalaries, 200);
+    setInterval(renderSalaryTool, 700);
+    setInterval(renderSalaries, 700);
     const playerSelector = '.ysf-player-name';
     const salariedSelector = ".bbfbl-salaried";
     const MAX_SALARY_CUTOFF = 139000000;
-    function rendered() {
-        return $(".bbfbl-salaried").length > 0;
-    }
+    let isSalarySet = false;
+    let isToolRendered = false;
+    let canDisplaySalaries = null;
+    let canDisplayTool = null;
     function renderSalaries() {
-        const rendered = $(salariedSelector).length > 0;
-        var val = $(salariedSelector);
-        if (rendered)
+        if (canDisplaySalaries === null) {
+            const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
+            const isResearchPage = window.location.pathname.indexOf("/research") > 0;
+            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+            if (isPlayerListPage || isResearchPage || isPlayerPage) {
+                canDisplaySalaries = true;
+            }
+            else {
+                canDisplaySalaries = false;
+            }
+        }
+        if (isSalarySet || !canDisplaySalaries) {
             return;
+        }
         const $players = $(playerSelector);
         const teamSalaries = [];
         $players.each(function () {
@@ -4319,6 +4338,7 @@ $(function () {
         }
         const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
         $('td .Ov-h ').css('width', width);
+        isSalarySet = true;
     }
     function sum(values) {
         return values.reduce((total, salary) => { return total + salary; }, 0);
@@ -4336,14 +4356,38 @@ $(function () {
             .eq(0)
             .append(elem);
     }
-    function renderSalaryTable(playerid, salary) {
-        console.log(playerid);
-        const container = $(`#playernote-LDRB-${playerid}`);
-        console.log(container);
-        if (container.length == 1) {
-            const elem = $('<li>' + renderSalary(salary) + '</li>');
-            container.append(elem);
+    function renderSalaryTool() {
+        if (canDisplayTool === null) {
+            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+            canDisplayTool = isPlayerPage;
         }
+        if (isToolRendered || !canDisplayTool) {
+            return;
+        }
+        const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
+        const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
+        setupContainer();
+        const triggerAnchor = $(".Bdrbot .Ta-end");
+        trigger.on("click", function (e) {
+            onSalaryToolTriggerClick(e);
+        });
+        triggerAnchor.append(trigger);
+        // Make it easy to dismiss
+        $("body *:not('.salary-tool-trigger')").on("click", function (e) {
+            const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
+            const isTrigger = $(e.target).hasClass("salary-tool-trigger");
+            const isCancel = $(e.target).hasClass("cancel");
+            if (!isWithinTool && !isTrigger && !isCancel) {
+                $(".salary-tool").removeClass("show");
+                $(".salary-tool-trigger").removeClass("active");
+            }
+        });
+        renderToolBody();
+        setupAutoComplete();
+        setupCancelButton();
+        calculateSalaryForYear();
+        prepopulateSalaryTool();
+        isToolRendered = true;
     }
 });
 function renderSalary(str) {
@@ -4372,37 +4416,6 @@ function getId(href) {
     const fragments = href.split('/');
     return parseInt(fragments[fragments.length - 1]);
 }
-function renderSalaryTool() {
-    const rendered = $(".js-salary-tool-trigger").length > 0;
-    if (rendered)
-        return;
-    const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
-    const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
-    setupContainer();
-    const triggerAnchor = $(".Bdrbot .Ta-end");
-    trigger.on("click", function (e) {
-        onSalaryToolTriggerClick(e);
-    });
-    triggerAnchor.append(trigger);
-    // toolContainer.insertAfter(toolAnchor)
-    // Make it easy to dismiss
-    $("body *:not('.salary-tool-trigger')").on("click", function (e) {
-        const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
-        console.log(e.target);
-        const isTrigger = $(e.target).hasClass("salary-tool-trigger");
-        const isCancel = $(e.target).hasClass("cancel");
-        if (!isWithinTool && !isTrigger && !isCancel) {
-            $(".salary-tool").removeClass("show");
-            $(".salary-tool-trigger").removeClass("active");
-        }
-    });
-    renderToolBody();
-    setupAutoComplete();
-    setupCancelButton();
-    calculateSalaryForYear();
-    // cleanUp()
-    prepopulateSalaryTool();
-}
 function setupContainer() {
     const toolContainer = $('<div class="js-salary-tool-container salary-tool arrow box"></div>');
     const toolAnchor = $("header.Bdrbot");
@@ -4410,7 +4423,6 @@ function setupContainer() {
     return toolContainer;
 }
 function onSalaryToolTriggerClick(e) {
-    console.log("clicked", e.target);
     $(e.target).toggleClass("active");
     var activeCss = {
         "height": 500
@@ -4551,6 +4563,10 @@ function prepopulateSalaryTool() {
         }
         // Update row for player
         const playerData = getPlayerSalaryInfo(this);
+        if (!playerData) {
+            console.log("Missing salary for:", this, playerData);
+            return;
+        }
         var row = $(".salary-tool .player-row").eq(playerIdx);
         row.find(".player-input").hide();
         const wrapper = generatePlayerWrapper(playerData.name);
