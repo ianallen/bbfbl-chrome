@@ -376,6 +376,14 @@ exports.default = [
         "yahoo_id": 5197
     },
     {
+        "name": "Harrison Barnes",
+        "salary19_20": 24147727,
+        "salary20_21": 22215909,
+        "salary21_22": 20284091,
+        "salary22_23": 18352273,
+        "yahoo_id": 5013
+    },
+    {
         "name": "Serge Ibaka",
         "salary19_20": 23271604,
         "salary20_21": null,
@@ -464,14 +472,6 @@ exports.default = [
         "yahoo_id": 4624
     },
     {
-        "name": "Harrison Barnes",
-        "salary19_20": 18973214,
-        "salary20_21": 20491071,
-        "salary21_22": 22008929,
-        "salary22_23": 23526786,
-        "yahoo_id": 5013
-    },
-    {
         "name": "Evan Turner",
         "salary19_20": 18606557,
         "salary20_21": null,
@@ -544,6 +544,14 @@ exports.default = [
         "yahoo_id": 5330
     },
     {
+        "name": "Derrick Favors",
+        "salary19_20": 17650000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4718
+    },
+    {
         "name": "Andre Iguodala",
         "salary19_20": 17185185,
         "salary20_21": null,
@@ -574,14 +582,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 4888
-    },
-    {
-        "name": "Derrick Favors",
-        "salary19_20": 16900000,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4718
     },
     {
         "name": "Clint Capela",
@@ -678,14 +678,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5482
-    },
-    {
-        "name": "Marcus Morris",
-        "salary19_20": 15000000,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4895
     },
     {
         "name": "Danny Green",
@@ -891,7 +883,7 @@ exports.default = [
         "name": "Joe Ingles",
         "salary19_20": 11954546,
         "salary20_21": 10863637,
-        "salary21_22": null,
+        "salary21_22": 14000000,
         "salary22_23": null,
         "yahoo_id": 5393
     },
@@ -1394,9 +1386,9 @@ exports.default = [
     {
         "name": "Jaylen Brown",
         "salary19_20": 6534829,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary20_21": 22991071,
+        "salary21_22": 24830357,
+        "salary22_23": 26669643,
         "yahoo_id": 5602
     },
     {
@@ -1536,28 +1528,12 @@ exports.default = [
         "yahoo_id": 5769
     },
     {
-        "name": "Ryan Anderson",
-        "salary19_20": 5214583,
-        "salary20_21": 5214583,
-        "salary21_22": 5214584,
-        "salary22_23": null,
-        "yahoo_id": 4483
-    },
-    {
         "name": "Wendell Carter Jr.",
         "salary19_20": 5201400,
         "salary20_21": 5448840,
         "salary21_22": 6920027,
         "salary22_23": null,
         "yahoo_id": 6018
-    },
-    {
-        "name": "Pau Gasol",
-        "salary19_20": 5100000,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 3513
     },
     {
         "name": "Daniel Theis",
@@ -1578,9 +1554,9 @@ exports.default = [
     {
         "name": "Buddy Hield",
         "salary19_20": 4861208,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary20_21": 24431818,
+        "salary21_22": 22477273,
+        "salary22_23": 20522727,
         "yahoo_id": 5637
     },
     {
@@ -1880,14 +1856,6 @@ exports.default = [
         "yahoo_id": 5678
     },
     {
-        "name": "Jakob Poeltl",
-        "salary19_20": 3754886,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5640
-    },
-    {
         "name": "Thon Maker",
         "salary19_20": 3569643,
         "salary20_21": null,
@@ -1922,9 +1890,9 @@ exports.default = [
     {
         "name": "Domantas Sabonis",
         "salary19_20": 3529555,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary20_21": 17187500,
+        "salary21_22": 18562500,
+        "salary22_23": 19937500,
         "yahoo_id": 5642
     },
     {
@@ -1952,20 +1920,20 @@ exports.default = [
         "yahoo_id": 4720
     },
     {
+        "name": "Taurean Prince",
+        "salary19_20": 3481986,
+        "salary20_21": 13942308,
+        "salary21_22": 15057692,
+        "salary22_23": null,
+        "yahoo_id": 5643
+    },
+    {
         "name": "Dario Saric",
         "salary19_20": 3481986,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5323
-    },
-    {
-        "name": "Taurean Prince",
-        "salary19_20": 3481986,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5643
     },
     {
         "name": "Romeo Langford",
@@ -2114,9 +2082,9 @@ exports.default = [
     {
         "name": "Cedi Osman",
         "salary19_20": 2907143,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary20_21": 8750000,
+        "salary21_22": 8050000,
+        "salary22_23": 7350000,
         "yahoo_id": 5491
     },
     {
@@ -2234,18 +2202,10 @@ exports.default = [
     {
         "name": "Harry Giles",
         "salary19_20": 2578800,
-        "salary20_21": 3976510,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5833
-    },
-    {
-        "name": "Jeff Green",
-        "salary19_20": 2564753,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
-        "yahoo_id": 4247
+        "yahoo_id": 5833
     },
     {
         "name": "Anthony Tolliver",
@@ -2256,12 +2216,12 @@ exports.default = [
         "yahoo_id": 4371
     },
     {
-        "name": "Pau Gasol",
+        "name": "Wesley Matthews",
         "salary19_20": 2564753,
-        "salary20_21": null,
+        "salary20_21": 2692991,
         "salary21_22": null,
         "salary22_23": null,
-        "yahoo_id": 3513
+        "yahoo_id": 4694
     },
     {
         "name": "Kyle Korver",
@@ -2272,14 +2232,6 @@ exports.default = [
         "yahoo_id": 3754
     },
     {
-        "name": "Wesley Matthews",
-        "salary19_20": 2564753,
-        "salary20_21": 2692991,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4694
-    },
-    {
         "name": "Udonis Haslem",
         "salary19_20": 2564753,
         "salary20_21": null,
@@ -2288,20 +2240,20 @@ exports.default = [
         "yahoo_id": 3765
     },
     {
-        "name": "Rajon Rondo",
-        "salary19_20": 2564753,
-        "salary20_21": 2619605,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4149
-    },
-    {
         "name": "Jared Dudley",
         "salary19_20": 2564753,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 4300
+    },
+    {
+        "name": "Rajon Rondo",
+        "salary19_20": 2564753,
+        "salary20_21": 2619605,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 4149
     },
     {
         "name": "Tyson Chandler",
@@ -2350,22 +2302,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 3248
-    },
-    {
-        "name": "Ryan Anderson",
-        "salary19_20": 2564753,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4483
-    },
-    {
-        "name": "Joe Johnson",
-        "salary19_20": 2564753,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 3520
     },
     {
         "name": "Dwight Howard",
@@ -2474,9 +2410,9 @@ exports.default = [
     {
         "name": "Dejounte Murray",
         "salary19_20": 2321735,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary20_21": 14285714,
+        "salary21_22": 15428571,
+        "salary22_23": 16571429,
         "yahoo_id": 5660
     },
     {
@@ -2494,14 +2430,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 4893
-    },
-    {
-        "name": "Lance Thomas",
-        "salary19_20": 2320044,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 4966
     },
     {
         "name": "Damian Jones",
@@ -2530,7 +2458,7 @@ exports.default = [
     {
         "name": "Ante Zizic",
         "salary19_20": 2281800,
-        "salary20_21": 3872215,
+        "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5654
@@ -2576,6 +2504,14 @@ exports.default = [
         "yahoo_id": 5016
     },
     {
+        "name": "Carmelo Anthony",
+        "salary19_20": 2159029,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3706
+    },
+    {
         "name": "Anfernee Simons",
         "salary19_20": 2149560,
         "salary20_21": 2252040,
@@ -2602,8 +2538,8 @@ exports.default = [
     {
         "name": "Moritz Wagner",
         "salary19_20": 2063520,
-        "salary20_21": 3893618,
-        "salary21_22": 2161920,
+        "salary20_21": 2161920,
+        "salary21_22": 3893618,
         "salary22_23": null,
         "yahoo_id": 6036
     },
@@ -2618,7 +2554,7 @@ exports.default = [
     {
         "name": "Caleb Swanigan",
         "salary19_20": 2033160,
-        "salary20_21": 3665787,
+        "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5839
@@ -2640,20 +2576,20 @@ exports.default = [
         "yahoo_id": 5162
     },
     {
-        "name": "Nerlens Noel",
-        "salary19_20": 2028594,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5157
-    },
-    {
         "name": "Mike Muscala",
         "salary19_20": 2028594,
         "salary20_21": 2283034,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5214
+    },
+    {
+        "name": "Nerlens Noel",
+        "salary19_20": 2028594,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5157
     },
     {
         "name": "Troy Daniels",
@@ -2872,14 +2808,6 @@ exports.default = [
         "yahoo_id": 5417
     },
     {
-        "name": "Cameron Payne",
-        "salary19_20": 1737145,
-        "salary20_21": 1977011,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5474
-    },
-    {
         "name": "Pat Connaughton",
         "salary19_20": 1723050,
         "salary20_21": null,
@@ -2928,14 +2856,6 @@ exports.default = [
         "yahoo_id": 5539
     },
     {
-        "name": "David Nwaba",
-        "salary19_20": 1678854,
-        "salary20_21": 1824003,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5762
-    },
-    {
         "name": "Dragan Bender",
         "salary19_20": 1678854,
         "salary20_21": 1824003,
@@ -2960,12 +2880,12 @@ exports.default = [
         "yahoo_id": 5495
     },
     {
-        "name": "Isaac Bonga",
-        "salary19_20": 1663861,
-        "salary20_21": 1416852,
+        "name": "Jordan McRae",
+        "salary19_20": 1645357,
+        "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
-        "yahoo_id": 6050
+        "yahoo_id": 5370
     },
     {
         "name": "Derrick Jones Jr.",
@@ -2976,12 +2896,12 @@ exports.default = [
         "yahoo_id": 5747
     },
     {
-        "name": "Jordan McRae",
+        "name": "Christian Wood",
         "salary19_20": 1645357,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
-        "yahoo_id": 5370
+        "yahoo_id": 5583
     },
     {
         "name": "Georges Niang",
@@ -2990,14 +2910,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5681
-    },
-    {
-        "name": "Christian Wood",
-        "salary19_20": 1645357,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5583
     },
     {
         "name": "Furkan Korkmaz",
@@ -3022,38 +2934,6 @@ exports.default = [
         "salary21_22": 1910860,
         "salary22_23": null,
         "yahoo_id": 5829
-    },
-    {
-        "name": "Isaiah Taylor",
-        "salary19_20": 1620564,
-        "salary20_21": 1762796,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5740
-    },
-    {
-        "name": "Tyler Lydon",
-        "salary19_20": 1620564,
-        "salary20_21": 1762796,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5837
-    },
-    {
-        "name": "Tyler Ulis",
-        "salary19_20": 1620564,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5665
-    },
-    {
-        "name": "C.J. Williams",
-        "salary19_20": 1620564,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5738
     },
     {
         "name": "Abdel Nader",
@@ -3112,36 +2992,12 @@ exports.default = [
         "yahoo_id": 5850
     },
     {
-        "name": "Ivan Rabb",
-        "salary19_20": 1618520,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5848
-    },
-    {
         "name": "Royce O'Neale",
         "salary19_20": 1618520,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 5905
-    },
-    {
-        "name": "Monte Morris",
-        "salary19_20": 1588231,
-        "salary20_21": 1663861,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5864
-    },
-    {
-        "name": "Malcolm Miller",
-        "salary19_20": 1588231,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 5564
     },
     {
         "name": "Chris Boucher",
@@ -3152,12 +3008,20 @@ exports.default = [
         "yahoo_id": 5894
     },
     {
-        "name": "Tyrone Wallace",
+        "name": "Malcolm Miller",
         "salary19_20": 1588231,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
-        "yahoo_id": 5691
+        "yahoo_id": 5564
+    },
+    {
+        "name": "Monte Morris",
+        "salary19_20": 1588231,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5864
     },
     {
         "name": "Alfonzo McKinnie",
@@ -3224,20 +3088,20 @@ exports.default = [
         "yahoo_id": 4969
     },
     {
+        "name": "Derrick Walton Jr.",
+        "salary19_20": 1445697,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5899
+    },
+    {
         "name": "Ryan Broekhoff",
         "salary19_20": 1443842,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 6084
-    },
-    {
-        "name": "Kenrich Williams",
-        "salary19_20": 1443842,
-        "salary20_21": null,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 6076
     },
     {
         "name": "Gary Trent Jr.",
@@ -3248,6 +3112,14 @@ exports.default = [
         "yahoo_id": 6048
     },
     {
+        "name": "Isaac Bonga",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6050
+    },
+    {
         "name": "Chimezie Metu",
         "salary19_20": 1416852,
         "salary20_21": 1663861,
@@ -3256,20 +3128,20 @@ exports.default = [
         "yahoo_id": 6060
     },
     {
-        "name": "Elie Okobo",
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": 1802057,
-        "salary22_23": null,
-        "yahoo_id": 6042
-    },
-    {
         "name": "Jevon Carter",
         "salary19_20": 1416852,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 6043
+    },
+    {
+        "name": "Elie Okobo",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": 1802057,
+        "salary22_23": null,
+        "yahoo_id": 6042
     },
     {
         "name": "Melvin Frazier",
@@ -3296,12 +3168,28 @@ exports.default = [
         "yahoo_id": 6056
     },
     {
+        "name": "Kenrich Williams",
+        "salary19_20": 1416852,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6076
+    },
+    {
         "name": "Keita Bates-Diop",
         "salary19_20": 1416852,
         "salary20_21": 1663861,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 6059
+    },
+    {
+        "name": "Duncan Robinson",
+        "salary19_20": 1416852,
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6073
     },
     {
         "name": "De'Anthony Melton",
@@ -3342,14 +3230,6 @@ exports.default = [
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 6045
-    },
-    {
-        "name": "Duncan Robinson",
-        "salary19_20": 1416852,
-        "salary20_21": 1663861,
-        "salary21_22": null,
-        "salary22_23": null,
-        "yahoo_id": 6073
     },
     {
         "name": "Isaiah Hartenstein",
@@ -3398,6 +3278,14 @@ exports.default = [
         "salary21_22": 1782621,
         "salary22_23": 1930681,
         "yahoo_id": 6231
+    },
+    {
+        "name": "Amile Jefferson",
+        "salary19_20": 1355851,
+        "salary20_21": 1701593,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5920
     },
     {
         "name": "Kevin Porter Jr.",
@@ -3576,14 +3464,6 @@ exports.default = [
         "yahoo_id": 6279
     },
     {
-        "name": "Stanton Kidd",
-        "salary19_20": 898310,
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "yahoo_id": 6263
-    },
-    {
         "name": "Shaquille Harrison",
         "salary19_20": 898310,
         "salary20_21": null,
@@ -3600,20 +3480,20 @@ exports.default = [
         "yahoo_id": 6269
     },
     {
-        "name": "William Howard",
-        "salary19_20": 898310,
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "yahoo_id": 6262
-    },
-    {
         "name": "Caleb Martin",
         "salary19_20": 898310,
         "salary20_21": 1517981,
         "salary21_22": 1782621,
         "salary22_23": null,
         "yahoo_id": 6275
+    },
+    {
+        "name": "Wenyen Gabriel",
+        "salary19_20": 898310,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6092
     },
     {
         "name": "Khyri Thomas",
@@ -3632,12 +3512,60 @@ exports.default = [
         "yahoo_id": 4729
     },
     {
+        "name": "Rayjon Tucker",
+        "salary19_20": 578573,
+        "salary20_21": 1517981,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6337
+    },
+    {
+        "name": "Chris Clemons",
+        "salary19_20": 568422,
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "yahoo_id": 6312
+    },
+    {
+        "name": "Max Strus",
+        "salary19_20": 415414,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6267
+    },
+    {
+        "name": "Ivan Rabb",
+        "salary19_20": 371758,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5848
+    },
+    {
+        "name": "Joe Johnson",
+        "salary19_20": 220000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 3520
+    },
+    {
         "name": "Jemerrio Jones",
         "salary19_20": 199000,
         "salary20_21": null,
         "salary21_22": null,
         "salary22_23": null,
         "yahoo_id": 6160
+    },
+    {
+        "name": "Cameron Payne",
+        "salary19_20": 150000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5474
     },
     {
         "name": "Yante Maten",
@@ -3662,6 +3590,54 @@ exports.default = [
         "salary21_22": 92857,
         "salary22_23": 92857,
         "yahoo_id": 5676
+    },
+    {
+        "name": "William Howard",
+        "salary19_20": 50000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 6262
+    },
+    {
+        "name": "Isaiah Taylor",
+        "salary19_20": 50000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5740
+    },
+    {
+        "name": "Tyler Lydon",
+        "salary19_20": 50000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5837
+    },
+    {
+        "name": "Hollis Thompson",
+        "salary19_20": 50000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5106
+    },
+    {
+        "name": "Tyler Ulis",
+        "salary19_20": 50000,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5665
+    },
+    {
+        "name": "Jakob Poeltl",
+        "salary19_20": 3754886,
+        "salary20_21": null,
+        "salary21_22": null,
+        "salary22_23": null,
+        "yahoo_id": 5640
     }
 ];
 
