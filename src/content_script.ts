@@ -187,8 +187,8 @@ function renderToolBody() {
                     </tr>
                 </thead>
                 <tbody>`
-
-    for (var i = 0; i < 12; i++) {
+    const $players = $('.ysf-player-name');
+    for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
                         <td class="salary salary-19"></td>
