@@ -15,10 +15,10 @@
   },
   "dependencies": {
     "@types/jqueryui": "^1.12.8",
-    "jquery": "~3.2.1",
+    "jquery": "^3.5.1",
     "jquery-ui": "^1.12.1",
-    "lodash": "^4.17.4",
-    "moment": "~2.18.1"
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
