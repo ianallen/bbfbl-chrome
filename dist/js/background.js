@@ -4,7 +4,7 @@ webpackJsonp([4],{
 /***/ (function(module, exports) {
 
 function checkTab(tabId, data, tab) {
-    if (tab.url && tab.url.indexOf('fantasysports.yahoo.com/nba/2662') > -1) {
+    if (tab.url && tab.url.indexOf('fantasysports.yahoo.com/nba/34679') > -1) {
         chrome.pageAction.show(tabId);
     }
 }

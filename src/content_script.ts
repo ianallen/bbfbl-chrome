@@ -49,7 +49,7 @@ $(function() {
 
             if (!href) return;
             const playerData = _.find(salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary19_20 : 0;
+            const value = playerData ? playerData.salary20_21 : 0;
             $this.append(renderSalary(value))
             $this.addClass('bbfbl-salaried');
             teamSalaries.push(value);
@@ -221,11 +221,11 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary19_20: s.salary19_20,
-                    salary20_21: s.salary20_21,
-                    salary21_22: s.salary21_22,
-                    salary22_23: s.salary22_23,
-                    salares: [s.salary19_20, s.salary20_21, s.salary21_22, s.salary22_23]
+                    salary19_20: s.salary20_21,
+                    salary20_21: s.salary21_22,
+                    salary21_22: s.salary22_23,
+                    salary22_23: s.salary23_24,
+                    salares: [s.salary20_21, s.salary21_22, s.salary22_23, s.salary23_24]
                 }
     })
     $(".player-input").autocomplete({
@@ -328,7 +328,7 @@ function prepopulateSalaryTool() {
         row.find(".player-col").append(wrapper)
         
         // Append salaries
-        var salares = [playerData.salary19_20, playerData.salary20_21, playerData.salary21_22, playerData.salary22_23]
+        var salares = [playerData.salary20_21, playerData.salary21_22, playerData.salary22_23, playerData.salary23_24]
         row.find("td.salary")
         .each(function(n, el) {
             $(el).text(toDollarFormat(salares[n]))
