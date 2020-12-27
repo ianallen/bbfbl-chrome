@@ -1,22 +1,37 @@
 import * as $ from 'jquery';
-import salaries from './salaries';
+import salariesLocal from './salaries';
 import * as _ from 'lodash';
 import "jquery-ui/ui/widgets/autocomplete";
 
 
-$(function() {
-    setInterval(renderBbfbl, 500)
+
+let bbfbl_salaries
+const MAX_SALARY_CUTOFF = 139000000
+$(async function() {
+    
     const playerSelector = '.ysf-player-name';
-    const salariedSelector = ".bbfbl-salaried";    
-    const MAX_SALARY_CUTOFF = 139000000
+    const salariedSelector = ".bbfbl-salaried";       
     let canDisplaySalaries = null
     let canDisplayTool = null
     let url = window.location.href
+    
+    setInterval(renderBbfbl, 500);
+    // fetchSalaries()
+    //     .then( _ =>  {
+    //         console.log("from then:", _)
+    //         bbfbl_salaries = _
+    //         setInterval(renderBbfbl, 500);
+    //     })
+
+    bbfbl_salaries = await fetchSalaries()
+
     
     function renderBbfbl() {
         if ($("body").hasClass('bbfbl') && url == window.location.href) {
             return;
         }
+        console.log("salaries:", bbfbl_salaries)
+        // bbfbl_salaries = salariesLocal;
         renderSalaries()
         renderSalaryTool()
         $("body").addClass('bbfbl')
@@ -48,7 +63,7 @@ $(function() {
             const href = $this.find('a').attr('href');
 
             if (!href) return;
-            const playerData = _.find(salaries, { yahoo_id: getId(href) });
+            const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
             const value = playerData ? playerData.salary20_21 : 0;
             $this.append(renderSalary(value))
             $this.addClass('bbfbl-salaried');
@@ -180,10 +195,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2019 - 2020</td>
                         <th>Salary 2020 - 2021</td>
                         <th>Salary 2021 - 2022</td>
-                        <th>Salary 2022 - 2023</td>            
+                        <th>Salary 2022 - 2023</td>
+                        <th>Salary 2023 - 2024</td>            
                     </tr>
                 </thead>
                 <tbody>`
@@ -191,10 +206,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-19"></td>
                         <td class="salary salary-20"></td>
                         <td class="salary salary-21"></td>
                         <td class="salary salary-22"></td>
+                        <td class="salary salary-23"></td>
                   </tr>`
         table += row
     }
@@ -203,10 +218,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-19-sum"></td>
                             <td class="salary-footer salary-20-sum"></td>
                             <td class="salary-footer salary-21-sum"></td>
                             <td class="salary-footer salary-22-sum"></td>
+                            <td class="salary-footer salary-23-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`
@@ -216,7 +231,7 @@ function renderToolBody() {
 }
 
 function setupAutoComplete() {
-    var source = salaries.map(s => {
+    var source = bbfbl_salaries.map(s => {
         return { 
                     label: s.name, 
                     value: s.name, 
@@ -258,7 +273,7 @@ function setupAutoComplete() {
 }
 
 function calculateSalaryForYear() {
-    var totals = [".salary-19", ".salary-20", ".salary-21", ".salary-22"]
+    var totals = [".salary-20", ".salary-21", ".salary-22", ".salary-23"]
 
     totals.forEach(function(year) {
         let sum = 0;
@@ -270,7 +285,7 @@ function calculateSalaryForYear() {
         })
         const sumEl = $(year + "-sum")
         sumEl.text(toDollarFormat(sum))
-        if (sum > 139000000) {
+        if (sum > MAX_SALARY_CUTOFF) {
             sumEl.addClass("warning")
         } else {
             sumEl.removeClass("warning")
@@ -281,7 +296,7 @@ function calculateSalaryForYear() {
 
 function setupCancelButton() {
     $(".player-col").on("click", ".cancel",  function() {
-        // const anchor = $(this).closest('.')
+
         const row = $(this).closest(".player-row")
         row.hide();
         row.find("input").show()
@@ -304,7 +319,7 @@ function getHref(el) {
 
 function getPlayerSalaryInfo(el) {
     const href = getHref(el)
-    return _.find(salaries, { yahoo_id: getId(href) });
+    return _.find(bbfbl_salaries, { yahoo_id: getId(href) });
 }
 
 function prepopulateSalaryTool() {
@@ -316,7 +331,7 @@ function prepopulateSalaryTool() {
             return
         }
         // Update row for player
-        const playerData = getPlayerSalaryInfo(this)
+        const playerData : any = getPlayerSalaryInfo(this)
         if (!playerData) {
             console.log("Missing salary for:", this, playerData)
             return
@@ -347,3 +362,48 @@ function generatePlayerWrapper(label) {
     return wrapper
 }
 
+function isExpired(d) {
+    const ttl = 1000 * 60 * 60 * 24;
+    let now = new Date().getTime();
+    return now - d > ttl
+}
+async function fetchSalaries() {
+    const cacheDate = new Date().getTime();
+    
+    return new Promise((resolve, reject) => {
+        chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function(result) {
+            if (result.bbfblSalaries && result.cacheDate && !isExpired(result.cacheDate)) {
+                bbfbl_salaries = result.bbfblSalaries;
+                resolve(bbfbl_salaries)
+                return bbfbl_salaries;
+            } else {
+                const url = "https://bbfbl-chrome.azurewebsites.net/salaries"
+                return fetch(url, {
+                    mode: "cors",     
+                    headers: {
+                        'Content-Type': 'application/json'
+                     }
+                  })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log("using remote salaries", data)
+                        chrome.storage.local.clear()
+                        chrome.storage.local.set({ bbfblSalaries: data, cacheDate: cacheDate }, function() {
+                            console.log("setting salaries to local storage")
+                            bbfbl_salaries = data
+                            resolve(data)
+                            return bbfbl_salaries
+                    })
+                })
+                .catch(err => {
+                    console.log(err)
+                    console.log("using salaries from extension")
+                    bbfbl_salaries = salariesLocal;
+                    resolve(bbfbl_salaries);
+                    return bbfbl_salaries
+                    
+                })         
+            }
+        })
+    })    
+}

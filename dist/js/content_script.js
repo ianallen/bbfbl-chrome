@@ -4232,114 +4232,134 @@ return $.ui.safeActiveElement = function( document ) {
 
 "use strict";
 
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const $ = __webpack_require__(0);
 const salaries_1 = __webpack_require__(2);
 const _ = __webpack_require__(12);
 __webpack_require__(14);
+let bbfbl_salaries;
+const MAX_SALARY_CUTOFF = 139000000;
 $(function () {
-    setInterval(renderBbfbl, 500);
-    const playerSelector = '.ysf-player-name';
-    const salariedSelector = ".bbfbl-salaried";
-    const MAX_SALARY_CUTOFF = 139000000;
-    let canDisplaySalaries = null;
-    let canDisplayTool = null;
-    let url = window.location.href;
-    function renderBbfbl() {
-        if ($("body").hasClass('bbfbl') && url == window.location.href) {
-            return;
-        }
-        renderSalaries();
-        renderSalaryTool();
-        $("body").addClass('bbfbl');
-        url = window.location.href;
-    }
-    function renderSalaries() {
-        if (canDisplaySalaries === null) {
-            const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
-            const isResearchPage = window.location.pathname.indexOf("/research") > 0;
-            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
-            if (isPlayerListPage || isResearchPage || isPlayerPage) {
-                canDisplaySalaries = true;
-            }
-            else {
-                canDisplaySalaries = false;
-            }
-        }
-        if (!canDisplaySalaries) {
-            return;
-        }
-        console.log("rendering bbfbl salary...");
-        const $players = $(playerSelector);
-        const teamSalaries = [];
-        $players.each(function () {
-            const $this = $(this);
-            const href = $this.find('a').attr('href');
-            if (!href)
+    return __awaiter(this, void 0, void 0, function* () {
+        const playerSelector = '.ysf-player-name';
+        const salariedSelector = ".bbfbl-salaried";
+        let canDisplaySalaries = null;
+        let canDisplayTool = null;
+        let url = window.location.href;
+        setInterval(renderBbfbl, 500);
+        // fetchSalaries()
+        //     .then( _ =>  {
+        //         console.log("from then:", _)
+        //         bbfbl_salaries = _
+        //         setInterval(renderBbfbl, 500);
+        //     })
+        bbfbl_salaries = yield fetchSalaries();
+        function renderBbfbl() {
+            if ($("body").hasClass('bbfbl') && url == window.location.href) {
                 return;
-            const playerData = _.find(salaries_1.default, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary20_21 : 0;
-            $this.append(renderSalary(value));
-            $this.addClass('bbfbl-salaried');
-            teamSalaries.push(value);
-        });
-        const hasSalaryDisplayed = $("#team-card-info .bbfbl-total-salary").length > 0;
-        if (!hasSalaryDisplayed) {
-            const totalSalary = sum(teamSalaries);
-            renderTotalSalary(totalSalary);
-        }
-        const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
-        $('td .Ov-h ').css('width', width);
-    }
-    function sum(values) {
-        return values.reduce((total, salary) => { return total + salary; }, 0);
-    }
-    function renderTotalSalary(total) {
-        const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
-        const css = {
-            'color': color,
-            'font-size': 10,
-            'font-weight': 500
-        };
-        const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
-        elem.css(css);
-        $('#team-card-info .Pstart-lg li')
-            .eq(0)
-            .append(elem);
-    }
-    function renderSalaryTool() {
-        console.log("rendering bbfbl tool...");
-        if (canDisplayTool === null) {
-            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
-            canDisplayTool = isPlayerPage;
-        }
-        if (!canDisplayTool) {
-            return;
-        }
-        const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
-        const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
-        setupContainer();
-        const triggerAnchor = $(".Bdrbot .Ta-end");
-        trigger.on("click", function (e) {
-            onSalaryToolTriggerClick(e);
-        });
-        triggerAnchor.append(trigger);
-        // Make it easy to dismiss
-        $("body *:not('.salary-tool-trigger')").on("click", function (e) {
-            const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
-            const isTrigger = $(e.target).hasClass("salary-tool-trigger");
-            const isCancel = $(e.target).hasClass("cancel");
-            if (!isWithinTool && !isTrigger && !isCancel) {
-                $(".salary-tool").removeClass("show");
-                $(".salary-tool-trigger").removeClass("active");
             }
-        });
-        renderToolBody();
-        setupAutoComplete();
-        setupCancelButton();
-        calculateSalaryForYear();
-        prepopulateSalaryTool();
-    }
+            console.log("salaries:", bbfbl_salaries);
+            // bbfbl_salaries = salariesLocal;
+            renderSalaries();
+            renderSalaryTool();
+            $("body").addClass('bbfbl');
+            url = window.location.href;
+        }
+        function renderSalaries() {
+            if (canDisplaySalaries === null) {
+                const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
+                const isResearchPage = window.location.pathname.indexOf("/research") > 0;
+                const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+                if (isPlayerListPage || isResearchPage || isPlayerPage) {
+                    canDisplaySalaries = true;
+                }
+                else {
+                    canDisplaySalaries = false;
+                }
+            }
+            if (!canDisplaySalaries) {
+                return;
+            }
+            console.log("rendering bbfbl salary...");
+            const $players = $(playerSelector);
+            const teamSalaries = [];
+            $players.each(function () {
+                const $this = $(this);
+                const href = $this.find('a').attr('href');
+                if (!href)
+                    return;
+                const playerData = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
+                const value = playerData ? playerData.salary20_21 : 0;
+                $this.append(renderSalary(value));
+                $this.addClass('bbfbl-salaried');
+                teamSalaries.push(value);
+            });
+            const hasSalaryDisplayed = $("#team-card-info .bbfbl-total-salary").length > 0;
+            if (!hasSalaryDisplayed) {
+                const totalSalary = sum(teamSalaries);
+                renderTotalSalary(totalSalary);
+            }
+            const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
+            $('td .Ov-h ').css('width', width);
+        }
+        function sum(values) {
+            return values.reduce((total, salary) => { return total + salary; }, 0);
+        }
+        function renderTotalSalary(total) {
+            const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
+            const css = {
+                'color': color,
+                'font-size': 10,
+                'font-weight': 500
+            };
+            const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
+            elem.css(css);
+            $('#team-card-info .Pstart-lg li')
+                .eq(0)
+                .append(elem);
+        }
+        function renderSalaryTool() {
+            console.log("rendering bbfbl tool...");
+            if (canDisplayTool === null) {
+                const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+                canDisplayTool = isPlayerPage;
+            }
+            if (!canDisplayTool) {
+                return;
+            }
+            const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
+            const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
+            setupContainer();
+            const triggerAnchor = $(".Bdrbot .Ta-end");
+            trigger.on("click", function (e) {
+                onSalaryToolTriggerClick(e);
+            });
+            triggerAnchor.append(trigger);
+            // Make it easy to dismiss
+            $("body *:not('.salary-tool-trigger')").on("click", function (e) {
+                const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
+                const isTrigger = $(e.target).hasClass("salary-tool-trigger");
+                const isCancel = $(e.target).hasClass("cancel");
+                if (!isWithinTool && !isTrigger && !isCancel) {
+                    $(".salary-tool").removeClass("show");
+                    $(".salary-tool-trigger").removeClass("active");
+                }
+            });
+            renderToolBody();
+            setupAutoComplete();
+            setupCancelButton();
+            calculateSalaryForYear();
+            prepopulateSalaryTool();
+        }
+    });
 });
 function renderSalary(str) {
     const css = {
@@ -4391,10 +4411,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2019 - 2020</td>
                         <th>Salary 2020 - 2021</td>
                         <th>Salary 2021 - 2022</td>
-                        <th>Salary 2022 - 2023</td>            
+                        <th>Salary 2022 - 2023</td>
+                        <th>Salary 2023 - 2024</td>            
                     </tr>
                 </thead>
                 <tbody>`;
@@ -4402,10 +4422,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) {
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-19"></td>
                         <td class="salary salary-20"></td>
                         <td class="salary salary-21"></td>
                         <td class="salary salary-22"></td>
+                        <td class="salary salary-23"></td>
                   </tr>`;
         table += row;
     }
@@ -4413,10 +4433,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-19-sum"></td>
                             <td class="salary-footer salary-20-sum"></td>
                             <td class="salary-footer salary-21-sum"></td>
                             <td class="salary-footer salary-22-sum"></td>
+                            <td class="salary-footer salary-23-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`;
@@ -4425,7 +4445,7 @@ function renderToolBody() {
     $(".salary-tool").append(contentContainer);
 }
 function setupAutoComplete() {
-    var source = salaries_1.default.map(s => {
+    var source = bbfbl_salaries.map(s => {
         return {
             label: s.name,
             value: s.name,
@@ -4462,7 +4482,7 @@ function setupAutoComplete() {
     });
 }
 function calculateSalaryForYear() {
-    var totals = [".salary-19", ".salary-20", ".salary-21", ".salary-22"];
+    var totals = [".salary-20", ".salary-21", ".salary-22", ".salary-23"];
     totals.forEach(function (year) {
         let sum = 0;
         $(year).each(function () {
@@ -4473,7 +4493,7 @@ function calculateSalaryForYear() {
         });
         const sumEl = $(year + "-sum");
         sumEl.text(toDollarFormat(sum));
-        if (sum > 139000000) {
+        if (sum > MAX_SALARY_CUTOFF) {
             sumEl.addClass("warning");
         }
         else {
@@ -4483,7 +4503,6 @@ function calculateSalaryForYear() {
 }
 function setupCancelButton() {
     $(".player-col").on("click", ".cancel", function () {
-        // const anchor = $(this).closest('.')
         const row = $(this).closest(".player-row");
         row.hide();
         row.find("input").show();
@@ -4503,7 +4522,7 @@ function getHref(el) {
 }
 function getPlayerSalaryInfo(el) {
     const href = getHref(el);
-    return _.find(salaries_1.default, { yahoo_id: getId(href) });
+    return _.find(bbfbl_salaries, { yahoo_id: getId(href) });
 }
 function prepopulateSalaryTool() {
     const playerSelector = '.ysf-player-name';
@@ -4540,6 +4559,52 @@ function generatePlayerWrapper(label) {
     const wrapper = $(`<div><span>${label}</span><span class="cancel">x</span></div>`);
     wrapper.addClass(wrapperClass);
     return wrapper;
+}
+function isExpired(d) {
+    const ttl = 1000 * 60 * 60 * 24;
+    let now = new Date().getTime();
+    return now - d > ttl;
+}
+function fetchSalaries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const cacheDate = new Date().getTime();
+        return new Promise((resolve, reject) => {
+            chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function (result) {
+                if (result.bbfblSalaries && result.cacheDate && !isExpired(result.cacheDate)) {
+                    bbfbl_salaries = result.bbfblSalaries;
+                    resolve(bbfbl_salaries);
+                    return bbfbl_salaries;
+                }
+                else {
+                    const url = "https://bbfbl-chrome.azurewebsites.net/salaries";
+                    return fetch(url, {
+                        mode: "cors",
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                        console.log("using remote salaries", data);
+                        chrome.storage.local.clear();
+                        chrome.storage.local.set({ bbfblSalaries: data, cacheDate: cacheDate }, function () {
+                            console.log("setting salaries to local storage");
+                            bbfbl_salaries = data;
+                            resolve(data);
+                            return bbfbl_salaries;
+                        });
+                    })
+                        .catch(err => {
+                        console.log(err);
+                        console.log("using salaries from extension");
+                        bbfbl_salaries = salaries_1.default;
+                        resolve(bbfbl_salaries);
+                        return bbfbl_salaries;
+                    });
+                }
+            });
+        });
+    });
 }
 
 
