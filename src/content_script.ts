@@ -5,15 +5,20 @@ import "jquery-ui/ui/widgets/autocomplete";
 
 
 
-let bbfbl_salaries
-const MAX_SALARY_CUTOFF = 139000000
+let bbfbl_salaries;
+const MAX_SALARY_CUTOFF = 139000000;
+const playerSelector = '.ysf-player-name'; 
 $(async function() {
     
-    const playerSelector = '.ysf-player-name'; 
+    
     let canDisplaySalaries = null
     let canDisplayTool = null
     let url = window.location.href
     
+
+    const isPlayerListPage = window.location.pathname.indexOf("/players") > 0
+    const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research") 
+    const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10))
 
     bbfbl_salaries = await fetchSalaries()
     setInterval(renderBbfbl, 500);
@@ -25,15 +30,16 @@ $(async function() {
 
         renderSalaries()
         renderSalaryTool()
+        if (isPlayerListPage) {
+            // alert("player Page")
+            renderSalaryFilter()
+        }
         $("body").addClass('bbfbl')
         url = window.location.href
     }
 
     function renderSalaries() {
         if (canDisplaySalaries === null) {
-            const isPlayerListPage = window.location.pathname.indexOf("/players") > 0
-            const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research") 
-            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10))
             const isSalariesLoaded = !!bbfbl_salaries
             if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
                 canDisplaySalaries = true
@@ -58,6 +64,7 @@ $(async function() {
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
             const value = playerData ? playerData.salary20_21 : 0;
             $this.append(renderSalary(value))
+            $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
             teamSalaries.push(value);
         })
@@ -158,6 +165,47 @@ function getId(href: string): number {
     return parseInt(fragments[fragments.length - 1])
 }
 
+
+function renderSalaryFilter() {
+    console.log("rendering filter")
+    renderSalaryFilterInput()
+    setupSalaryFiltering()
+}
+
+function renderSalaryFilterInput() {
+    if ($(".js-salary-filter-container").length > 0) {
+        return;
+    }
+    const template = $(`
+                <div class="Grid-u Mend-med js-salary-filter-container" style="margin-left: 15px;">
+                    <label for="bbfbl-salary" class="Control-label No-p">Max Salary</label>
+                    <input class="js-salary-filter Input Input-med" type="number" maxlength="9" min="0" style="width:125px;"  placeholder="Filter Salaries" />
+                </div>
+    `);
+    const anchor = $("#playerfilter .selects");
+    anchor.append(template);
+}
+ function setupSalaryFiltering() {
+     console.log("setting up filters")
+     function onFilterChange() {
+        let maxString = <string>$(this).val();
+        let max = parseInt(maxString)
+        if (!max) {
+            max = 80000000;
+        }
+        // console.log(max)
+        const players = $(playerSelector);
+        players.closest("tr").show();
+        players.filter(function () {
+            let salary = $(this).data("bbfbl-salary")
+            // console.log(salary, max)
+            return salary >= max
+        })
+        .closest("tr")
+        .hide();
+     }
+     $(".js-salary-filter").on("keyup", _.debounce(onFilterChange, 1500))
+ }
 
 
 function setupContainer() {

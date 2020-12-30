@@ -4084,12 +4084,15 @@ const _ = __webpack_require__(9);
 __webpack_require__(11);
 let bbfbl_salaries;
 const MAX_SALARY_CUTOFF = 139000000;
+const playerSelector = '.ysf-player-name';
 $(function () {
     return __awaiter(this, void 0, void 0, function* () {
-        const playerSelector = '.ysf-player-name';
         let canDisplaySalaries = null;
         let canDisplayTool = null;
         let url = window.location.href;
+        const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
+        const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research");
+        const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
         bbfbl_salaries = yield fetchSalaries();
         setInterval(renderBbfbl, 500);
         function renderBbfbl() {
@@ -4098,14 +4101,15 @@ $(function () {
             }
             renderSalaries();
             renderSalaryTool();
+            if (isPlayerListPage) {
+                // alert("player Page")
+                renderSalaryFilter();
+            }
             $("body").addClass('bbfbl');
             url = window.location.href;
         }
         function renderSalaries() {
             if (canDisplaySalaries === null) {
-                const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
-                const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research");
-                const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
                 const isSalariesLoaded = !!bbfbl_salaries;
                 if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
                     canDisplaySalaries = true;
@@ -4128,6 +4132,7 @@ $(function () {
                 const playerData = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
                 const value = playerData ? playerData.salary20_21 : 0;
                 $this.append(renderSalary(value));
+                $this.data("bbfbl-salary", value);
                 $this.addClass('bbfbl-salaried');
                 teamSalaries.push(value);
             });
@@ -4215,6 +4220,48 @@ function toDollarFormat(str) {
 function getId(href) {
     const fragments = href.split('/');
     return parseInt(fragments[fragments.length - 1]);
+}
+function renderSalaryFilter() {
+    console.log("rendering filter");
+    renderSalaryFilterInput();
+    setupSalaryFiltering();
+}
+function renderSalaryFilterInput() {
+    if ($(".js-salary-filter-container").length > 0) {
+        return;
+    }
+    const template = $(`
+                <div class="Grid-u Mend-med js-salary-filter-container" style="margin-left: 15px;">
+                    <label for="bbfbl-salary" class="Control-label No-p">Max Salary</label>
+                    <input class="js-salary-filter Input Input-med" type="number" maxlength="9" min="0" style="width:125px;"  placeholder="Filter Salaries" />
+                </div>
+    `);
+    const anchor = $("#playerfilter .selects");
+    anchor.append(template);
+}
+function setupSalaryFiltering() {
+    console.log("setting up filters");
+    function onFilterChange() {
+        let maxString = $(this).val();
+        let max = parseInt(maxString);
+        if (!max) {
+            max = 80000000;
+        }
+        console.log(max);
+        const players = $(playerSelector);
+        players.closest("tr").show();
+        players.filter(function () {
+            let salary = $(this).data("bbfbl-salary");
+            console.log(salary, max);
+            return salary >= max;
+        })
+            .closest("tr")
+            .hide();
+        // players.each(function() {
+        //     console.log($(this).data("bbfbl-salary"))
+        // })
+    }
+    $(".js-salary-filter").on("keyup", _.debounce(onFilterChange, 1500));
 }
 function setupContainer() {
     const toolContainer = $('<div class="js-salary-tool-container salary-tool arrow box"></div>');
