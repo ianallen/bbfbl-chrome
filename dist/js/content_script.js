@@ -51,8 +51,8 @@ exports.default = [
     {
         "name": "LeBron James",
         "salary20_21": 39219565,
-        "salary21_22": null,
-        "salary22_23": null,
+        "salary21_22": 41180544,
+        "salary22_23": 44474988,
         "salary23_24": null,
         "yahoo_id": 3704
     },
@@ -75,9 +75,9 @@ exports.default = [
     {
         "name": "Paul George",
         "salary20_21": 35450412,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 39344970,
+        "salary22_23": 42492568,
+        "salary23_24": 45640165,
         "yahoo_id": 4725
     },
     {
@@ -307,9 +307,9 @@ exports.default = [
     {
         "name": "Giannis Antetokounmpo",
         "salary20_21": 27528090,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 39344970,
+        "salary22_23": 42492568,
+        "salary23_24": 45640165,
         "yahoo_id": 5185
     },
     {
@@ -330,7 +330,7 @@ exports.default = [
     },
     {
         "name": "Nicolas Batum",
-        "salary20_21": 27130434,
+        "salary20_21": 29695187,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
@@ -339,9 +339,9 @@ exports.default = [
     {
         "name": "Rudy Gobert",
         "salary20_21": 26525281,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 35344828,
+        "salary22_23": 38172414,
+        "salary23_24": 41000000,
         "yahoo_id": 5197
     },
     {
@@ -425,20 +425,20 @@ exports.default = [
         "yahoo_id": 5667
     },
     {
-        "name": "Zach LaVine",
-        "salary20_21": 19500000,
-        "salary21_22": 19500000,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5324
-    },
-    {
         "name": "Danilo Gallinari",
         "salary20_21": 19500000,
         "salary21_22": 20475000,
         "salary22_23": 21450000,
         "salary23_24": null,
         "yahoo_id": 4468
+    },
+    {
+        "name": "Zach LaVine",
+        "salary20_21": 19500000,
+        "salary21_22": 19500000,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5324
     },
     {
         "name": "Gary Harris",
@@ -795,9 +795,9 @@ exports.default = [
     {
         "name": "Markelle Fultz",
         "salary20_21": 12288697,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 15432099,
+        "salary22_23": 16666667,
+        "salary23_24": 17901234,
         "yahoo_id": 5763
     },
     {
@@ -961,14 +961,6 @@ exports.default = [
         "yahoo_id": 5958
     },
     {
-        "name": "Paul Millsap",
-        "salary20_21": 10000000,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 4175
-    },
-    {
         "name": "Tomas Satoransky",
         "salary20_21": 10000000,
         "salary21_22": 10000000,
@@ -977,11 +969,19 @@ exports.default = [
         "yahoo_id": 5066
     },
     {
-        "name": "Jayson Tatum",
-        "salary20_21": 9897120,
+        "name": "Paul Millsap",
+        "salary20_21": 10000000,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
+        "yahoo_id": 4175
+    },
+    {
+        "name": "Jayson Tatum",
+        "salary20_21": 9897120,
+        "salary21_22": 28103550,
+        "salary22_23": 30351834,
+        "salary23_24": 32600118,
         "yahoo_id": 5765
     },
     {
@@ -1163,9 +1163,9 @@ exports.default = [
     {
         "name": "De'Aaron Fox",
         "salary20_21": 8099627,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 28103550,
+        "salary22_23": 30351834,
+        "salary23_24": 32600118,
         "yahoo_id": 5767
     },
     {
@@ -1275,9 +1275,9 @@ exports.default = [
     {
         "name": "Jonathan Isaac",
         "salary20_21": 7362566,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 17857143,
+        "salary22_23": 19285714,
+        "salary23_24": 20714286,
         "yahoo_id": 5768
     },
     {
@@ -1417,14 +1417,6 @@ exports.default = [
         "yahoo_id": 5821
     },
     {
-        "name": "DeMarre Carroll",
-        "salary20_21": 6167887,
-        "salary21_22": 1252127,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 4632
-    },
-    {
         "name": "Ish Smith",
         "salary20_21": 6146341,
         "salary21_22": null,
@@ -1539,25 +1531,25 @@ exports.default = [
     {
         "name": "Luke Kennard",
         "salary20_21": 5273826,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 12500000,
+        "salary22_23": 13500000,
+        "salary23_24": 14500000,
         "yahoo_id": 5825
     },
     {
         "name": "Donovan Mitchell",
         "salary20_21": 5195501,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 28103550,
+        "salary22_23": 30351834,
+        "salary23_24": 32600118,
         "yahoo_id": 5826
     },
     {
         "name": "Bam Adebayo",
         "salary20_21": 5115492,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 28103550,
+        "salary22_23": 30351834,
+        "salary23_24": 32600118,
         "yahoo_id": 5827
     },
     {
@@ -1585,20 +1577,20 @@ exports.default = [
         "yahoo_id": 5497
     },
     {
-        "name": "Mike Scott",
-        "salary20_21": 5005350,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5077
-    },
-    {
         "name": "Enes Kanter",
         "salary20_21": 5005350,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 4899
+    },
+    {
+        "name": "Mike Scott",
+        "salary20_21": 5005350,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5077
     },
     {
         "name": "Ed Davis",
@@ -1690,7 +1682,7 @@ exports.default = [
     },
     {
         "name": "Elfrid Payton",
-        "salary20_21": 4760000,
+        "salary20_21": 5760000,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
@@ -1753,14 +1745,6 @@ exports.default = [
         "yahoo_id": 6021
     },
     {
-        "name": "TJ Leaf",
-        "salary20_21": 4326825,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5831
-    },
-    {
         "name": "Jalen Smith",
         "salary20_21": 4245720,
         "salary21_22": 4458000,
@@ -1777,20 +1761,20 @@ exports.default = [
         "yahoo_id": 6173
     },
     {
-        "name": "Reggie Bullock",
-        "salary20_21": 4200000,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5195
-    },
-    {
         "name": "JaVale McGee",
         "salary20_21": 4200000,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 4480
+    },
+    {
+        "name": "Reggie Bullock",
+        "salary20_21": 4200000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5195
     },
     {
         "name": "Shai Gilgeous-Alexander",
@@ -1833,20 +1817,20 @@ exports.default = [
         "yahoo_id": 6174
     },
     {
-        "name": "Dorian Finney-Smith",
-        "salary20_21": 4000000,
-        "salary21_22": 4000000,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5693
-    },
-    {
         "name": "Willie Cauley-Stein",
         "salary20_21": 4000000,
         "salary21_22": 4200000,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5466
+    },
+    {
+        "name": "Dorian Finney-Smith",
+        "salary20_21": 4000000,
+        "salary21_22": 4000000,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5693
     },
     {
         "name": "Patrick McCaw",
@@ -1883,9 +1867,9 @@ exports.default = [
     {
         "name": "OG Anunoby",
         "salary20_21": 3872215,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 16071429,
+        "salary22_23": 17357143,
+        "salary23_24": 18642857,
         "yahoo_id": 5836
     },
     {
@@ -1919,14 +1903,6 @@ exports.default = [
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5678
-    },
-    {
-        "name": "Jerome Robinson",
-        "salary20_21": 3737520,
-        "salary21_22": 5340916,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6024
     },
     {
         "name": "Danuel House Jr.",
@@ -1987,9 +1963,9 @@ exports.default = [
     {
         "name": "Kyle Kuzma",
         "salary20_21": 3562178,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 12345679,
+        "salary22_23": 13333333,
+        "salary23_24": 14320988,
         "yahoo_id": 5840
     },
     {
@@ -2019,9 +1995,9 @@ exports.default = [
     {
         "name": "Derrick White",
         "salary20_21": 3516284,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 16294643,
+        "salary22_23": 17598214,
+        "salary23_24": 18901786,
         "yahoo_id": 5842
     },
     {
@@ -2089,14 +2065,6 @@ exports.default = [
         "yahoo_id": 6407
     },
     {
-        "name": "Zhaire Smith",
-        "salary20_21": 3204600,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6027
-    },
-    {
         "name": "Trey Burke",
         "salary20_21": 3174603,
         "salary21_22": 3333333,
@@ -2138,8 +2106,8 @@ exports.default = [
     },
     {
         "name": "Patrick Patterson",
-        "salary20_21": 3077701,
-        "salary21_22": null,
+        "salary20_21": 3814768,
+        "salary21_22": 737066,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 4729
@@ -2289,6 +2257,14 @@ exports.default = [
         "yahoo_id": 4325
     },
     {
+        "name": "Dwight Howard",
+        "salary20_21": 2564753,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 3818
+    },
+    {
         "name": "Udonis Haslem",
         "salary20_21": 2564753,
         "salary21_22": null,
@@ -2305,16 +2281,8 @@ exports.default = [
         "yahoo_id": 4300
     },
     {
-        "name": "Dwight Howard",
-        "salary20_21": 2564753,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 3818
-    },
-    {
         "name": "Nicolas Batum",
-        "salary20_21": 2564753,
+        "salary20_21": 29695187,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
@@ -2322,7 +2290,7 @@ exports.default = [
     },
     {
         "name": "Wayne Ellington",
-        "salary20_21": 2564753,
+        "salary20_21": 3005225,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
@@ -2343,14 +2311,6 @@ exports.default = [
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 4624
-    },
-    {
-        "name": "Gerald Green",
-        "salary20_21": 2564753,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 3944
     },
     {
         "name": "Grayson Allen",
@@ -2385,14 +2345,6 @@ exports.default = [
         "yahoo_id": 6033
     },
     {
-        "name": "Tyler Zeller",
-        "salary20_21": 2436046,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5023
-    },
-    {
         "name": "Darius Bazley",
         "salary20_21": 2399160,
         "salary21_22": 2513040,
@@ -2425,12 +2377,12 @@ exports.default = [
         "yahoo_id": 5726
     },
     {
-        "name": "Bismack Biyombo",
+        "name": "E'Twaun Moore",
         "salary20_21": 2331593,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 4888
+        "yahoo_id": 4937
     },
     {
         "name": "Markieff Morris",
@@ -2449,12 +2401,12 @@ exports.default = [
         "yahoo_id": 4906
     },
     {
-        "name": "E'Twaun Moore",
+        "name": "Bismack Biyombo",
         "salary20_21": 2331593,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 4937
+        "yahoo_id": 4888
     },
     {
         "name": "DeMarcus Cousins",
@@ -2673,14 +2625,6 @@ exports.default = [
         "yahoo_id": 6038
     },
     {
-        "name": "Tyler Johnson",
-        "salary20_21": 2028594,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5376
-    },
-    {
         "name": "Glenn Robinson III",
         "salary20_21": 2028594,
         "salary21_22": null,
@@ -2697,36 +2641,20 @@ exports.default = [
         "yahoo_id": 5388
     },
     {
+        "name": "Tyler Johnson",
+        "salary20_21": 2028594,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5376
+    },
+    {
         "name": "Bruno Caboclo",
         "salary20_21": 2028594,
         "salary21_22": 2283034,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5331
-    },
-    {
-        "name": "Nik Stauskas",
-        "salary20_21": 2028594,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5319
-    },
-    {
-        "name": "Dzanan Musa",
-        "salary20_21": 2002800,
-        "salary21_22": 3615054,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6040
-    },
-    {
-        "name": "Theo Maledon",
-        "salary20_21": 2000000,
-        "salary21_22": 2000000,
-        "salary22_23": 1900000,
-        "salary23_24": 1930681,
-        "yahoo_id": 6426
     },
     {
         "name": "Kenrich Williams",
@@ -2817,14 +2745,6 @@ exports.default = [
         "yahoo_id": 5434
     },
     {
-        "name": "Jakarr Sampson",
-        "salary20_21": 1882867,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5417
-    },
-    {
         "name": "Raul Neto",
         "salary20_21": 1882867,
         "salary21_22": null,
@@ -2833,28 +2753,12 @@ exports.default = [
         "yahoo_id": 5217
     },
     {
-        "name": "Jerian Grant",
+        "name": "Jakarr Sampson",
         "salary20_21": 1882867,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 5479
-    },
-    {
-        "name": "Justin Anderson",
-        "salary20_21": 1882867,
-        "salary21_22": 2130023,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5481
-    },
-    {
-        "name": "Frank Kaminsky",
-        "salary20_21": 1882867,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5469
+        "yahoo_id": 5417
     },
     {
         "name": "David Nwaba",
@@ -2897,20 +2801,20 @@ exports.default = [
         "yahoo_id": 6051
     },
     {
-        "name": "Furkan Korkmaz",
-        "salary20_21": 1762796,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5657
-    },
-    {
         "name": "Damion Lee",
         "salary20_21": 1762796,
         "salary21_22": 1910860,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5733
+    },
+    {
+        "name": "Furkan Korkmaz",
+        "salary20_21": 1762796,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5657
     },
     {
         "name": "Alfonzo McKinnie",
@@ -2921,20 +2825,20 @@ exports.default = [
         "yahoo_id": 5904
     },
     {
-        "name": "Semi Ojeleye",
-        "salary20_21": 1752950,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5850
-    },
-    {
         "name": "Abdel Nader",
         "salary20_21": 1752950,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5689
+    },
+    {
+        "name": "Semi Ojeleye",
+        "salary20_21": 1752950,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5850
     },
     {
         "name": "Damian Jones",
@@ -2951,14 +2855,6 @@ exports.default = [
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5652
-    },
-    {
-        "name": "Henry Ellenson",
-        "salary20_21": 1737145,
-        "salary21_22": 1977011,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5649
     },
     {
         "name": "Shake Milton",
@@ -2985,14 +2881,6 @@ exports.default = [
         "yahoo_id": 6102
     },
     {
-        "name": "Sindarius Thornwell",
-        "salary20_21": 1678854,
-        "salary21_22": 1824003,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5861
-    },
-    {
         "name": "Harry Giles III",
         "salary20_21": 1678854,
         "salary21_22": null,
@@ -3007,6 +2895,14 @@ exports.default = [
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5853
+    },
+    {
+        "name": "Sindarius Thornwell",
+        "salary20_21": 1678854,
+        "salary21_22": 1824003,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5861
     },
     {
         "name": "Torrey Craig",
@@ -3025,14 +2921,6 @@ exports.default = [
         "yahoo_id": 5859
     },
     {
-        "name": "Frank Jackson",
-        "salary20_21": 1678854,
-        "salary21_22": 1824003,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5844
-    },
-    {
         "name": "Shaquille Harrison",
         "salary20_21": 1678854,
         "salary21_22": null,
@@ -3043,18 +2931,10 @@ exports.default = [
     {
         "name": "Monte Morris",
         "salary20_21": 1663861,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
+        "salary21_22": 8333333,
+        "salary22_23": 9000000,
+        "salary23_24": 9666667,
         "yahoo_id": 5864
-    },
-    {
-        "name": "Mitchell Robinson",
-        "salary20_21": 1663861,
-        "salary21_22": 1802057,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6047
     },
     {
         "name": "Gary Trent Jr.",
@@ -3073,12 +2953,12 @@ exports.default = [
         "yahoo_id": 6056
     },
     {
-        "name": "Duncan Robinson",
+        "name": "Mitchell Robinson",
         "salary20_21": 1663861,
-        "salary21_22": null,
+        "salary21_22": 1802057,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 6073
+        "yahoo_id": 6047
     },
     {
         "name": "Kendrick Nunn",
@@ -3087,6 +2967,14 @@ exports.default = [
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 6114
+    },
+    {
+        "name": "Duncan Robinson",
+        "salary20_21": 1663861,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6073
     },
     {
         "name": "Svi Mykhailiuk",
@@ -3153,52 +3041,12 @@ exports.default = [
         "yahoo_id": 6092
     },
     {
-        "name": "Chimezie Metu",
-        "salary20_21": 1620564,
-        "salary21_22": 1762796,
-        "salary22_23": 1910860,
-        "salary23_24": null,
-        "yahoo_id": 6060
-    },
-    {
-        "name": "Jarrod Uthoff",
-        "salary20_21": 1620564,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5705
-    },
-    {
         "name": "Terance Mann",
         "salary20_21": 1517984,
         "salary21_22": 1782621,
         "salary22_23": 1930681,
         "salary23_24": null,
         "yahoo_id": 6236
-    },
-    {
-        "name": "Bruno Fernando",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6222
-    },
-    {
-        "name": "Carsen Edwards",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "yahoo_id": 6221
-    },
-    {
-        "name": "Cody Martin",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6224
     },
     {
         "name": "KZ Okpala",
@@ -3217,6 +3065,14 @@ exports.default = [
         "yahoo_id": 6229
     },
     {
+        "name": "Cody Martin",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6224
+    },
+    {
         "name": "Nicolas Claxton",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
@@ -3225,20 +3081,28 @@ exports.default = [
         "yahoo_id": 6219
     },
     {
-        "name": "Admiral Schofield",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6230
-    },
-    {
-        "name": "Isaiah Roby",
+        "name": "Carsen Edwards",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
         "salary22_23": 1930681,
         "salary23_24": null,
-        "yahoo_id": 6233
+        "yahoo_id": 6221
+    },
+    {
+        "name": "Bruno Fernando",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6222
+    },
+    {
+        "name": "Luguentz Dort",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "salary23_24": null,
+        "yahoo_id": 6254
     },
     {
         "name": "Justin James",
@@ -3249,6 +3113,14 @@ exports.default = [
         "yahoo_id": 6228
     },
     {
+        "name": "Isaiah Roby",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "salary23_24": null,
+        "yahoo_id": 6233
+    },
+    {
         "name": "Ignas Brazdeikis",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
@@ -3257,12 +3129,28 @@ exports.default = [
         "yahoo_id": 6235
     },
     {
+        "name": "Chris Silva",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6258
+    },
+    {
         "name": "Talen Horton-Tucker",
         "salary20_21": 1517981,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 6234
+    },
+    {
+        "name": "Jalen Lecque",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": 1930681,
+        "salary23_24": null,
+        "yahoo_id": 6251
     },
     {
         "name": "Daniel Gafford",
@@ -3281,44 +3169,12 @@ exports.default = [
         "yahoo_id": 6227
     },
     {
-        "name": "Luguentz Dort",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "yahoo_id": 6254
-    },
-    {
-        "name": "Chris Silva",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6258
-    },
-    {
         "name": "Matt Thomas",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 6264
-    },
-    {
-        "name": "Jalen Lecque",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "yahoo_id": 6251
-    },
-    {
-        "name": "Jaylen Nowell",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "yahoo_id": 6231
     },
     {
         "name": "Miye Oni",
@@ -3345,28 +3201,12 @@ exports.default = [
         "yahoo_id": 6253
     },
     {
-        "name": "Caleb Martin",
-        "salary20_21": 1517981,
-        "salary21_22": 1782621,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6275
-    },
-    {
-        "name": "Jalen McDaniels",
+        "name": "Jaylen Nowell",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
         "salary22_23": 1930681,
         "salary23_24": null,
-        "yahoo_id": 6240
-    },
-    {
-        "name": "Javonte Green",
-        "salary20_21": 1517981,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6269
+        "yahoo_id": 6231
     },
     {
         "name": "Chris Clemons",
@@ -3377,6 +3217,14 @@ exports.default = [
         "yahoo_id": 6312
     },
     {
+        "name": "Mychal Mulder",
+        "salary20_21": 1517981,
+        "salary21_22": 1782621,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6307
+    },
+    {
         "name": "Dean Wade",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
@@ -3385,20 +3233,28 @@ exports.default = [
         "yahoo_id": 6256
     },
     {
-        "name": "Juan Toscano-Anderson",
+        "name": "Jalen McDaniels",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
-        "salary22_23": null,
+        "salary22_23": 1930681,
         "salary23_24": null,
-        "yahoo_id": 6329
+        "yahoo_id": 6240
     },
     {
-        "name": "Mychal Mulder",
+        "name": "Caleb Martin",
         "salary20_21": 1517981,
         "salary21_22": 1782621,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 6307
+        "yahoo_id": 6275
+    },
+    {
+        "name": "Javonte Green",
+        "salary20_21": 1517981,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 6269
     },
     {
         "name": "Robert Woodard II",
@@ -3433,28 +3289,12 @@ exports.default = [
         "yahoo_id": 5856
     },
     {
-        "name": "Zach Norvell Jr.",
-        "salary20_21": 1445697,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6250
-    },
-    {
         "name": "Kelan Martin",
         "salary20_21": 1445697,
         "salary21_22": 1701593,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 6281
-    },
-    {
-        "name": "Oshae Brissett",
-        "salary20_21": 1445697,
-        "salary21_22": 1701593,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 6290
     },
     {
         "name": "Vernon Carey Jr.",
@@ -3482,19 +3322,11 @@ exports.default = [
     },
     {
         "name": "Elfrid Payton",
-        "salary20_21": 1000000,
+        "salary20_21": 5760000,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 5321
-    },
-    {
-        "name": "Quinn Cook",
-        "salary20_21": 1000000,
-        "salary21_22": null,
-        "salary22_23": null,
-        "salary23_24": null,
-        "yahoo_id": 5588
     },
     {
         "name": "Jahmi'us Ramsey",
@@ -3503,6 +3335,14 @@ exports.default = [
         "salary22_23": 1782621,
         "salary23_24": null,
         "yahoo_id": 6435
+    },
+    {
+        "name": "Quinn Cook",
+        "salary20_21": 1000000,
+        "salary21_22": null,
+        "salary22_23": null,
+        "salary23_24": null,
+        "yahoo_id": 5588
     },
     {
         "name": "Nick Richards",
@@ -3586,7 +3426,7 @@ exports.default = [
     },
     {
         "name": "Patrick Patterson",
-        "salary20_21": 737067,
+        "salary20_21": 3814768,
         "salary21_22": 737066,
         "salary22_23": null,
         "salary23_24": null,
@@ -3594,19 +3434,19 @@ exports.default = [
     },
     {
         "name": "Wayne Ellington",
-        "salary20_21": 440472,
+        "salary20_21": 3005225,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
         "yahoo_id": 4633
     },
     {
-        "name": "Rayjon Tucker",
-        "salary20_21": 340000,
+        "name": "Frank Jackson",
+        "salary20_21": 250000,
         "salary21_22": null,
         "salary22_23": null,
         "salary23_24": null,
-        "yahoo_id": 6337
+        "yahoo_id": 5844
     }
 ];
 
@@ -3614,8 +3454,7 @@ exports.default = [
 /***/ }),
 /* 3 */,
 /* 4 */,
-/* 5 */,
-/* 6 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -3669,7 +3508,7 @@ return $.ui.keyCode = {
 
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -4176,7 +4015,7 @@ return $.ui.position;
 
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;( function( factory ) {
@@ -4225,121 +4064,131 @@ return $.ui.safeActiveElement = function( document ) {
 
 
 /***/ }),
-/* 9 */,
-/* 10 */,
-/* 11 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const $ = __webpack_require__(0);
 const salaries_1 = __webpack_require__(2);
-const _ = __webpack_require__(12);
-__webpack_require__(14);
+const _ = __webpack_require__(9);
+__webpack_require__(11);
+let bbfbl_salaries;
+const MAX_SALARY_CUTOFF = 139000000;
 $(function () {
-    setInterval(renderBbfbl, 500);
-    const playerSelector = '.ysf-player-name';
-    const salariedSelector = ".bbfbl-salaried";
-    const MAX_SALARY_CUTOFF = 139000000;
-    let canDisplaySalaries = null;
-    let canDisplayTool = null;
-    let url = window.location.href;
-    function renderBbfbl() {
-        if ($("body").hasClass('bbfbl') && url == window.location.href) {
-            return;
-        }
-        renderSalaries();
-        renderSalaryTool();
-        $("body").addClass('bbfbl');
-        url = window.location.href;
-    }
-    function renderSalaries() {
-        if (canDisplaySalaries === null) {
-            const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
-            const isResearchPage = window.location.pathname.indexOf("/research") > 0;
-            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
-            if (isPlayerListPage || isResearchPage || isPlayerPage) {
-                canDisplaySalaries = true;
-            }
-            else {
-                canDisplaySalaries = false;
-            }
-        }
-        if (!canDisplaySalaries) {
-            return;
-        }
-        console.log("rendering bbfbl salary...");
-        const $players = $(playerSelector);
-        const teamSalaries = [];
-        $players.each(function () {
-            const $this = $(this);
-            const href = $this.find('a').attr('href');
-            if (!href)
+    return __awaiter(this, void 0, void 0, function* () {
+        const playerSelector = '.ysf-player-name';
+        let canDisplaySalaries = null;
+        let canDisplayTool = null;
+        let url = window.location.href;
+        bbfbl_salaries = yield fetchSalaries();
+        setInterval(renderBbfbl, 500);
+        function renderBbfbl() {
+            if ($("body").hasClass('bbfbl') && url == window.location.href) {
                 return;
-            const playerData = _.find(salaries_1.default, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary20_21 : 0;
-            $this.append(renderSalary(value));
-            $this.addClass('bbfbl-salaried');
-            teamSalaries.push(value);
-        });
-        const hasSalaryDisplayed = $("#team-card-info .bbfbl-total-salary").length > 0;
-        if (!hasSalaryDisplayed) {
-            const totalSalary = sum(teamSalaries);
-            renderTotalSalary(totalSalary);
-        }
-        const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
-        $('td .Ov-h ').css('width', width);
-    }
-    function sum(values) {
-        return values.reduce((total, salary) => { return total + salary; }, 0);
-    }
-    function renderTotalSalary(total) {
-        const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
-        const css = {
-            'color': color,
-            'font-size': 10,
-            'font-weight': 500
-        };
-        const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
-        elem.css(css);
-        $('#team-card-info .Pstart-lg li')
-            .eq(0)
-            .append(elem);
-    }
-    function renderSalaryTool() {
-        console.log("rendering bbfbl tool...");
-        if (canDisplayTool === null) {
-            const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
-            canDisplayTool = isPlayerPage;
-        }
-        if (!canDisplayTool) {
-            return;
-        }
-        const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
-        const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
-        setupContainer();
-        const triggerAnchor = $(".Bdrbot .Ta-end");
-        trigger.on("click", function (e) {
-            onSalaryToolTriggerClick(e);
-        });
-        triggerAnchor.append(trigger);
-        // Make it easy to dismiss
-        $("body *:not('.salary-tool-trigger')").on("click", function (e) {
-            const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
-            const isTrigger = $(e.target).hasClass("salary-tool-trigger");
-            const isCancel = $(e.target).hasClass("cancel");
-            if (!isWithinTool && !isTrigger && !isCancel) {
-                $(".salary-tool").removeClass("show");
-                $(".salary-tool-trigger").removeClass("active");
             }
-        });
-        renderToolBody();
-        setupAutoComplete();
-        setupCancelButton();
-        calculateSalaryForYear();
-        prepopulateSalaryTool();
-    }
+            renderSalaries();
+            renderSalaryTool();
+            $("body").addClass('bbfbl');
+            url = window.location.href;
+        }
+        function renderSalaries() {
+            if (canDisplaySalaries === null) {
+                const isPlayerListPage = window.location.pathname.indexOf("/players") > 0;
+                const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research");
+                const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+                const isSalariesLoaded = !!bbfbl_salaries;
+                if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
+                    canDisplaySalaries = true;
+                }
+                else {
+                    canDisplaySalaries = false;
+                }
+            }
+            if (!canDisplaySalaries) {
+                return;
+            }
+            console.log("rendering bbfbl salary...");
+            const $players = $(playerSelector);
+            const teamSalaries = [];
+            $players.each(function () {
+                const $this = $(this);
+                const href = $this.find('a').attr('href');
+                if (!href)
+                    return;
+                const playerData = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
+                const value = playerData ? playerData.salary20_21 : 0;
+                $this.append(renderSalary(value));
+                $this.addClass('bbfbl-salaried');
+                teamSalaries.push(value);
+            });
+            const hasSalaryDisplayed = $("#team-card-info .bbfbl-total-salary").length > 0;
+            if (!hasSalaryDisplayed) {
+                const totalSalary = sum(teamSalaries);
+                renderTotalSalary(totalSalary);
+            }
+            const width = window.location.href.indexOf('players') > 0 ? 230 : 255;
+            $('td .Ov-h ').css('width', width);
+        }
+        function sum(values) {
+            return values.reduce((total, salary) => { return total + salary; }, 0);
+        }
+        function renderTotalSalary(total) {
+            const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
+            const css = {
+                'color': color,
+                'font-size': 10,
+                'font-weight': 500
+            };
+            const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
+            elem.css(css);
+            $('#team-card-info .Pstart-lg li')
+                .eq(0)
+                .append(elem);
+        }
+        function renderSalaryTool() {
+            console.log("rendering bbfbl tool...");
+            if (canDisplayTool === null) {
+                const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+                canDisplayTool = isPlayerPage;
+            }
+            if (!canDisplayTool) {
+                return;
+            }
+            const buttonClasses = "Btn Btn-short Mend-med js-salary-tool-trigger salary-tool-trigger";
+            const trigger = $(`<a class="${buttonClasses}">Salary Worksheet</a>`);
+            setupContainer();
+            const triggerAnchor = $(".Bdrbot .Ta-end");
+            trigger.on("click", function (e) {
+                onSalaryToolTriggerClick(e);
+            });
+            triggerAnchor.append(trigger);
+            // Make it easy to dismiss
+            $("body *:not('.salary-tool-trigger')").on("click", function (e) {
+                const isWithinTool = $(e.target).closest(".salary-tool").length > 0 || $(e.target).closest(".player-col").length > 0;
+                const isTrigger = $(e.target).hasClass("salary-tool-trigger");
+                const isCancel = $(e.target).hasClass("cancel");
+                if (!isWithinTool && !isTrigger && !isCancel) {
+                    $(".salary-tool").removeClass("show");
+                    $(".salary-tool-trigger").removeClass("active");
+                }
+            });
+            renderToolBody();
+            setupAutoComplete();
+            setupCancelButton();
+            calculateSalaryForYear();
+            prepopulateSalaryTool();
+        }
+    });
 });
 function renderSalary(str) {
     const css = {
@@ -4375,12 +4224,6 @@ function setupContainer() {
 }
 function onSalaryToolTriggerClick(e) {
     $(e.target).toggleClass("active");
-    var activeCss = {
-        "height": 500
-    };
-    var hiddenCss = {
-        "height": 0
-    };
     var toolContainer = $(".salary-tool");
     toolContainer.toggleClass("show");
 }
@@ -4391,10 +4234,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2019 - 2020</td>
                         <th>Salary 2020 - 2021</td>
                         <th>Salary 2021 - 2022</td>
-                        <th>Salary 2022 - 2023</td>            
+                        <th>Salary 2022 - 2023</td>
+                        <th>Salary 2023 - 2024</td>            
                     </tr>
                 </thead>
                 <tbody>`;
@@ -4402,10 +4245,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) {
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-19"></td>
                         <td class="salary salary-20"></td>
                         <td class="salary salary-21"></td>
                         <td class="salary salary-22"></td>
+                        <td class="salary salary-23"></td>
                   </tr>`;
         table += row;
     }
@@ -4413,10 +4256,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-19-sum"></td>
                             <td class="salary-footer salary-20-sum"></td>
                             <td class="salary-footer salary-21-sum"></td>
                             <td class="salary-footer salary-22-sum"></td>
+                            <td class="salary-footer salary-23-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`;
@@ -4425,7 +4268,7 @@ function renderToolBody() {
     $(".salary-tool").append(contentContainer);
 }
 function setupAutoComplete() {
-    var source = salaries_1.default.map(s => {
+    var source = bbfbl_salaries.map(s => {
         return {
             label: s.name,
             value: s.name,
@@ -4462,7 +4305,7 @@ function setupAutoComplete() {
     });
 }
 function calculateSalaryForYear() {
-    var totals = [".salary-19", ".salary-20", ".salary-21", ".salary-22"];
+    var totals = [".salary-20", ".salary-21", ".salary-22", ".salary-23"];
     totals.forEach(function (year) {
         let sum = 0;
         $(year).each(function () {
@@ -4473,7 +4316,7 @@ function calculateSalaryForYear() {
         });
         const sumEl = $(year + "-sum");
         sumEl.text(toDollarFormat(sum));
-        if (sum > 139000000) {
+        if (sum > MAX_SALARY_CUTOFF) {
             sumEl.addClass("warning");
         }
         else {
@@ -4483,7 +4326,6 @@ function calculateSalaryForYear() {
 }
 function setupCancelButton() {
     $(".player-col").on("click", ".cancel", function () {
-        // const anchor = $(this).closest('.')
         const row = $(this).closest(".player-row");
         row.hide();
         row.find("input").show();
@@ -4503,7 +4345,7 @@ function getHref(el) {
 }
 function getPlayerSalaryInfo(el) {
     const href = getHref(el);
-    return _.find(salaries_1.default, { yahoo_id: getId(href) });
+    return _.find(bbfbl_salaries, { yahoo_id: getId(href) });
 }
 function prepopulateSalaryTool() {
     const playerSelector = '.ysf-player-name';
@@ -4541,10 +4383,57 @@ function generatePlayerWrapper(label) {
     wrapper.addClass(wrapperClass);
     return wrapper;
 }
+function isExpired(d) {
+    const ttl = 1000 * 60 * 60 * 24;
+    let now = new Date().getTime();
+    return now - d > ttl;
+}
+function fetchSalaries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const cacheDate = new Date().getTime();
+        console.log("fetching salaries...");
+        return new Promise((resolve, reject) => {
+            chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function (result) {
+                if (result.bbfblSalaries && result.cacheDate && !isExpired(result.cacheDate)) {
+                    console.log("bbfbl: using local storage salaries:", result.cacheDate);
+                    bbfbl_salaries = result.bbfblSalaries;
+                    resolve(bbfbl_salaries);
+                    return;
+                }
+                else {
+                    const url = "https://bbfbl-chrome.azurewebsites.net/salaries";
+                    console.log("sending request for salries...");
+                    return fetch(url, {
+                        mode: "cors",
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    })
+                        .then(res => res.json())
+                        .then(data => {
+                        console.log("bbfbl: using remote salaries", data);
+                        chrome.storage.local.clear();
+                        chrome.storage.local.set({ bbfblSalaries: data, cacheDate: cacheDate }, function () {
+                            console.log("bbfbl: setting salaries to local storage");
+                            bbfbl_salaries = data;
+                            resolve(data);
+                        });
+                    })
+                        .catch(err => {
+                        console.log(err);
+                        console.log("bbfbl: using salaries from extension");
+                        bbfbl_salaries = salaries_1.default;
+                        resolve(bbfbl_salaries);
+                    });
+                }
+            });
+        });
+    });
+}
 
 
 /***/ }),
-/* 12 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -21710,10 +21599,10 @@ function generatePlayerWrapper(label) {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(5)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10), __webpack_require__(4)(module)))
 
 /***/ }),
-/* 13 */
+/* 10 */
 /***/ (function(module, exports) {
 
 var g;
@@ -21740,7 +21629,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 14 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -21767,10 +21656,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 		// AMD. Register as an anonymous module.
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
 			__webpack_require__(0),
-			__webpack_require__(15),
+			__webpack_require__(12),
+			__webpack_require__(5),
 			__webpack_require__(6),
 			__webpack_require__(7),
-			__webpack_require__(8),
 			__webpack_require__(1),
 			__webpack_require__(3)
 		], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
@@ -22431,7 +22320,7 @@ return $.ui.autocomplete;
 
 
 /***/ }),
-/* 15 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -22458,10 +22347,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 		// AMD. Register as an anonymous module.
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
 			__webpack_require__(0),
+			__webpack_require__(5),
 			__webpack_require__(6),
 			__webpack_require__(7),
-			__webpack_require__(8),
-			__webpack_require__(16),
+			__webpack_require__(13),
 			__webpack_require__(1),
 			__webpack_require__(3)
 		], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
@@ -23113,7 +23002,7 @@ return $.widget( "ui.menu", {
 
 
 /***/ }),
-/* 16 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -23171,4 +23060,4 @@ return $.fn.extend( {
 
 
 /***/ })
-],[11]);
+],[8]);
