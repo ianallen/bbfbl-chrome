@@ -15,23 +15,15 @@ $(async function() {
     let canDisplayTool = null
     let url = window.location.href
     
-    setInterval(renderBbfbl, 500);
-    // fetchSalaries()
-    //     .then( _ =>  {
-    //         console.log("from then:", _)
-    //         bbfbl_salaries = _
-    //         setInterval(renderBbfbl, 500);
-    //     })
 
     bbfbl_salaries = await fetchSalaries()
-
+    setInterval(renderBbfbl, 500);
     
     function renderBbfbl() {
         if ($("body").hasClass('bbfbl') && url == window.location.href) {
             return;
         }
-        console.log("salaries:", bbfbl_salaries)
-        // bbfbl_salaries = salariesLocal;
+
         renderSalaries()
         renderSalaryTool()
         $("body").addClass('bbfbl')
@@ -41,9 +33,10 @@ $(async function() {
     function renderSalaries() {
         if (canDisplaySalaries === null) {
             const isPlayerListPage = window.location.pathname.indexOf("/players") > 0
-            const isResearchPage = window.location.pathname.indexOf("/research") > 0
+            const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research") 
             const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10))
-            if (isPlayerListPage || isResearchPage || isPlayerPage ) {
+            const isSalariesLoaded = !!bbfbl_salaries
+            if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
                 canDisplaySalaries = true
             } else {
                 canDisplaySalaries = false
@@ -369,15 +362,17 @@ function isExpired(d) {
 }
 async function fetchSalaries() {
     const cacheDate = new Date().getTime();
-    
+    console.log("fetching salaries...")
     return new Promise((resolve, reject) => {
         chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function(result) {
             if (result.bbfblSalaries && result.cacheDate && !isExpired(result.cacheDate)) {
+                console.log("bbfbl: using local storage salaries:", result.cacheDate)
                 bbfbl_salaries = result.bbfblSalaries;
                 resolve(bbfbl_salaries)
                 return bbfbl_salaries;
             } else {
                 const url = "https://bbfbl-chrome.azurewebsites.net/salaries"
+                console.log("sending request for salries...")
                 return fetch(url, {
                     mode: "cors",     
                     headers: {
@@ -386,10 +381,10 @@ async function fetchSalaries() {
                   })
                     .then(res => res.json())
                     .then(data => {
-                        console.log("using remote salaries", data)
+                        console.log("bbfbl: using remote salaries", data)
                         chrome.storage.local.clear()
                         chrome.storage.local.set({ bbfblSalaries: data, cacheDate: cacheDate }, function() {
-                            console.log("setting salaries to local storage")
+                            console.log("bbfbl: setting salaries to local storage")
                             bbfbl_salaries = data
                             resolve(data)
                             return bbfbl_salaries
@@ -397,11 +392,10 @@ async function fetchSalaries() {
                 })
                 .catch(err => {
                     console.log(err)
-                    console.log("using salaries from extension")
+                    console.log("bbfbl: using salaries from extension")
                     bbfbl_salaries = salariesLocal;
                     resolve(bbfbl_salaries);
                     return bbfbl_salaries
-                    
                 })         
             }
         })
