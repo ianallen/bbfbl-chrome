@@ -4066,8 +4066,7 @@ return $.ui.safeActiveElement = function( document ) {
 
 /***/ }),
 /* 9 */,
-/* 10 */,
-/* 11 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4083,14 +4082,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const $ = __webpack_require__(0);
 const salaries_1 = __webpack_require__(2);
-const _ = __webpack_require__(12);
-__webpack_require__(14);
+const _ = __webpack_require__(11);
+__webpack_require__(13);
 let bbfbl_salaries;
 const MAX_SALARY_CUTOFF = 139000000;
 $(function () {
     return __awaiter(this, void 0, void 0, function* () {
         const playerSelector = '.ysf-player-name';
-        const salariedSelector = ".bbfbl-salaried";
         let canDisplaySalaries = null;
         let canDisplayTool = null;
         let url = window.location.href;
@@ -4228,12 +4226,6 @@ function setupContainer() {
 }
 function onSalaryToolTriggerClick(e) {
     $(e.target).toggleClass("active");
-    var activeCss = {
-        "height": 500
-    };
-    var hiddenCss = {
-        "height": 0
-    };
     var toolContainer = $(".salary-tool");
     toolContainer.toggleClass("show");
 }
@@ -4445,7 +4437,7 @@ function fetchSalaries() {
 
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -21611,10 +21603,10 @@ function fetchSalaries() {
   }
 }.call(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13), __webpack_require__(5)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12), __webpack_require__(5)(module)))
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 var g;
@@ -21641,7 +21633,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -21668,7 +21660,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 		// AMD. Register as an anonymous module.
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
 			__webpack_require__(0),
-			__webpack_require__(15),
+			__webpack_require__(14),
 			__webpack_require__(6),
 			__webpack_require__(7),
 			__webpack_require__(8),
@@ -22332,7 +22324,7 @@ return $.ui.autocomplete;
 
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -22362,7 +22354,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 			__webpack_require__(6),
 			__webpack_require__(7),
 			__webpack_require__(8),
-			__webpack_require__(16),
+			__webpack_require__(15),
 			__webpack_require__(1),
 			__webpack_require__(3)
 		], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
@@ -23014,7 +23006,7 @@ return $.widget( "ui.menu", {
 
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -23072,4 +23064,4 @@ return $.fn.extend( {
 
 
 /***/ })
-],[11]);
+],[10]);

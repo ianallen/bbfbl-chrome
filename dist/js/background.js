@@ -1,6 +1,6 @@
-webpackJsonp([4],{
+webpackJsonp([3],{
 
-/***/ 17:
+/***/ 16:
 /***/ (function(module, exports) {
 
 function checkTab(tabId, data, tab) {
@@ -13,4 +13,4 @@ chrome.tabs.onUpdated.addListener(checkTab);
 
 /***/ })
 
-},[17]);
+},[16]);

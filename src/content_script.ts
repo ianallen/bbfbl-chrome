@@ -9,8 +9,7 @@ let bbfbl_salaries
 const MAX_SALARY_CUTOFF = 139000000
 $(async function() {
     
-    const playerSelector = '.ysf-player-name';
-    const salariedSelector = ".bbfbl-salaried";       
+    const playerSelector = '.ysf-player-name'; 
     let canDisplaySalaries = null
     let canDisplayTool = null
     let url = window.location.href
@@ -170,12 +169,6 @@ function setupContainer() {
 
 function onSalaryToolTriggerClick(e: JQuery.Event) {
     $(e.target).toggleClass("active")
-    var activeCss = {
-        "height": 500
-    }
-    var hiddenCss = {
-        "height": 0
-    }
     var toolContainer = $(".salary-tool")
     toolContainer.toggleClass("show")
 }
