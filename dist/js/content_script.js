@@ -4099,7 +4099,10 @@ $(function () {
             if ($("body").hasClass('bbfbl') && url == window.location.href) {
                 return;
             }
-            renderSalaries();
+            console.log("im about to try see if i can render a salary. Wish me luck!");
+            if (shouldRenderSalaries()) {
+                renderSalaries();
+            }
             renderSalaryTool();
             if (isPlayerListPage) {
                 // alert("player Page")
@@ -4108,7 +4111,13 @@ $(function () {
             $("body").addClass('bbfbl');
             url = window.location.href;
         }
+        function shouldRenderSalaries() {
+            let result = $(".bbfbl-salary").length;
+            console.log(result);
+            return result == 0;
+        }
         function renderSalaries() {
+            console.log("rendering salarues");
             if (canDisplaySalaries === null) {
                 const isSalariesLoaded = !!bbfbl_salaries;
                 if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
@@ -4156,9 +4165,17 @@ $(function () {
             };
             const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
             elem.css(css);
+            const remaining = MAX_SALARY_CUTOFF - total;
+            const remainingCss = _.extend(css, {
+                'padding-left': 5
+            });
+            const remainingElem = $(`<span class='bbfbl-total-salary'>(${toDollarFormat(remaining)} available)</span>`);
+            _.extend(css, { color: "#000" });
+            remainingElem.css(css);
             $('#team-card-info .Pstart-lg li')
                 .eq(0)
-                .append(elem);
+                .append(elem)
+                .append(remainingElem);
         }
         function renderSalaryTool() {
             console.log("rendering bbfbl tool...");
@@ -4201,7 +4218,7 @@ function renderSalary(str) {
         'font-size': 10,
         'font-weight': 500
     };
-    const $el = $(`<span>${toDollarFormat(str)}</span>`);
+    const $el = $(`<span class="bbfbl-salary">${toDollarFormat(str)}</span>`);
     $el.css(css);
     return $el;
 }
@@ -4231,37 +4248,61 @@ function renderSalaryFilterInput() {
         return;
     }
     const template = $(`
-                <div class="Grid-u Mend-med js-salary-filter-container" style="margin-left: 15px;">
+                <div class="Grid-u Mend-med js-salary-filter-container" style="margin-left: 20px;">
                     <label for="bbfbl-salary" class="Control-label No-p">Max Salary</label>
-                    <input class="js-salary-filter Input Input-med" type="number" maxlength="9" min="0" style="width:125px;"  placeholder="Filter Salaries" />
+                    <input class="js-salary-filter Input Input-med" type="number" maxlength="3" min="0" style="width:45px;margin-right:10px;"  placeholder="In Millions" />Million
                 </div>
     `);
     const anchor = $("#playerfilter .selects");
     anchor.append(template);
 }
+function onFilterChange() {
+    let value = $(this).val();
+    let max = parseInt(value);
+    if (!max) {
+        max = 50;
+    }
+    // console.log(max)
+    filterPlayers(max);
+    saveState(max);
+}
+function filterPlayers(maxSalary) {
+    const players = $(".players tr");
+    players.show();
+    players.filter(function () {
+        let salary = $(this).find(playerSelector).data("bbfbl-salary");
+        // console.log(salary, max)
+        return salary / 1000000 >= maxSalary;
+    })
+        .hide();
+}
+function saveState(value) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("maxSalary", value);
+    window.history.pushState({}, '', url.href);
+    chrome.storage.local.set({ 'bbfbl-salary-filter': value }, function () { });
+}
+function getSalaryFilterValue() {
+    const params = new URLSearchParams(window.location.search);
+    const maxSalary = params.get("maxSalary");
+    chrome.storage.local.get("bbfbl", function () {
+        // if salary
+        // set salary to value
+    });
+    if (!maxSalary) {
+        return 50;
+    }
+    return parseInt(maxSalary);
+}
 function setupSalaryFiltering() {
     console.log("setting up filters");
-    function onFilterChange() {
-        let maxString = $(this).val();
-        let max = parseInt(maxString);
-        if (!max) {
-            max = 80000000;
-        }
-        console.log(max);
-        const players = $(playerSelector);
-        players.closest("tr").show();
-        players.filter(function () {
-            let salary = $(this).data("bbfbl-salary");
-            console.log(salary, max);
-            return salary >= max;
-        })
-            .closest("tr")
-            .hide();
-        // players.each(function() {
-        //     console.log($(this).data("bbfbl-salary"))
-        // })
-    }
-    $(".js-salary-filter").on("keyup", _.debounce(onFilterChange, 1500));
+    const maxSalary = getSalaryFilterValue();
+    saveState(maxSalary);
+    filterPlayers(maxSalary);
+    const filter = $(".js-salary-filter");
+    filter.on("keyup change", _.debounce(onFilterChange, 1000));
+    filter.val(maxSalary);
+    $(window).on("popstate", function () { });
 }
 function setupContainer() {
     const toolContainer = $('<div class="js-salary-tool-container salary-tool arrow box"></div>');
