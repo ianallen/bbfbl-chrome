@@ -229,7 +229,6 @@ function onFilterChange() {
     players.show();
     players.filter(function () {
         let salary = $(this).find(playerSelector).data("bbfbl-salary")
-        // console.log(salary, max)
         return salary / 1000000 >= maxSalary
     })
     .hide();
@@ -246,8 +245,6 @@ function onFilterChange() {
     const params  = new URLSearchParams(window.location.search);
     const maxSalary = params.get("maxSalary")
     chrome.storage.local.get("bbfbl", function() {
-        // if salary
-        // set salary to value
     })
     if (!maxSalary) {
         return 50;
