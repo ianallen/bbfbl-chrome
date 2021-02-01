@@ -4105,7 +4105,6 @@ $(function () {
             }
             renderSalaryTool();
             if (isPlayerListPage) {
-                // alert("player Page")
                 renderSalaryFilter();
             }
             $("body").addClass('bbfbl');
@@ -4113,11 +4112,10 @@ $(function () {
         }
         function shouldRenderSalaries() {
             let result = $(".bbfbl-salary").length;
-            console.log(result);
             return result == 0;
         }
         function renderSalaries() {
-            console.log("rendering salarues");
+            console.log("rendering salaries");
             if (canDisplaySalaries === null) {
                 const isSalariesLoaded = !!bbfbl_salaries;
                 if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
@@ -4239,7 +4237,6 @@ function getId(href) {
     return parseInt(fragments[fragments.length - 1]);
 }
 function renderSalaryFilter() {
-    console.log("rendering filter");
     renderSalaryFilterInput();
     setupSalaryFiltering();
 }
@@ -4262,7 +4259,6 @@ function onFilterChange() {
     if (!max) {
         max = 50;
     }
-    // console.log(max)
     filterPlayers(max);
     saveState(max);
 }
@@ -4271,7 +4267,6 @@ function filterPlayers(maxSalary) {
     players.show();
     players.filter(function () {
         let salary = $(this).find(playerSelector).data("bbfbl-salary");
-        // console.log(salary, max)
         return salary / 1000000 >= maxSalary;
     })
         .hide();
@@ -4286,8 +4281,6 @@ function getSalaryFilterValue() {
     const params = new URLSearchParams(window.location.search);
     const maxSalary = params.get("maxSalary");
     chrome.storage.local.get("bbfbl", function () {
-        // if salary
-        // set salary to value
     });
     if (!maxSalary) {
         return 50;
