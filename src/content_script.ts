@@ -37,7 +37,6 @@ $(async function() {
         
         renderSalaryTool()
         if (isPlayerListPage) {
-            // alert("player Page")
             renderSalaryFilter()
         }
         $("body").addClass('bbfbl')
@@ -46,12 +45,11 @@ $(async function() {
 
     function shouldRenderSalaries() {
         let result = $(".bbfbl-salary").length
-        console.log(result)
         return result == 0
     }
 
     function renderSalaries() {
-        console.log("rendering salarues")
+        console.log("rendering salaries")
         if (canDisplaySalaries === null) {
             const isSalariesLoaded = !!bbfbl_salaries
             if (isSalariesLoaded && (isPlayerListPage || isResearchPage || isPlayerPage)) {
@@ -191,7 +189,6 @@ function getId(href: string): number {
 
 
 function renderSalaryFilter() {
-    console.log("rendering filter")
     renderSalaryFilterInput()
     setupSalaryFiltering()
 }
@@ -218,8 +215,6 @@ function onFilterChange() {
         max = 50;
     }
     
-
-    // console.log(max)
     filterPlayers(max)
     saveState(max)
  }
