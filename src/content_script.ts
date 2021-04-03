@@ -29,7 +29,7 @@ $(async function() {
             return;
         }
 
-        console.log("im about to try see if i can render a salary. Wish me luck!")
+        console.log("BBFBL: Attempting to render salaries...")
 
         if (shouldRenderSalaries()) {
             renderSalaries()
