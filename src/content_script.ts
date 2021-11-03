@@ -5,9 +5,8 @@ import "jquery-ui/ui/widgets/autocomplete";
 import { toPath } from 'lodash';
 
 
-
 let bbfbl_salaries;
-const MAX_SALARY_CUTOFF = 139000000;
+const MAX_SALARY_CUTOFF = 142000000;
 const playerSelector = '.ysf-player-name'; 
 $(async function() {
     
@@ -71,9 +70,12 @@ $(async function() {
             const $this = $(this);
             const href = $this.find('a').attr('href');
 
-            if (!href) return;
+            if (!href) {
+                return;
+            }
+
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary20_21 : 0;
+            const value = playerData ? playerData.salary21_22 : 0;
             $this.append(renderSalary(value))
             $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
@@ -281,10 +283,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2020 - 2021</td>
                         <th>Salary 2021 - 2022</td>
                         <th>Salary 2022 - 2023</td>
-                        <th>Salary 2023 - 2024</td>            
+                        <th>Salary 2023 - 2024</td> 
+                        <th>Salary 2024 - 2025</td>              
                     </tr>
                 </thead>
                 <tbody>`
@@ -292,10 +294,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-20"></td>
                         <td class="salary salary-21"></td>
                         <td class="salary salary-22"></td>
                         <td class="salary salary-23"></td>
+                        <td class="salary salary-24"></td>
                   </tr>`
         table += row
     }
@@ -304,10 +306,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-20-sum"></td>
                             <td class="salary-footer salary-21-sum"></td>
                             <td class="salary-footer salary-22-sum"></td>
                             <td class="salary-footer salary-23-sum"></td>
+                            <td class="salary-footer salary-24-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`
@@ -322,11 +324,11 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary19_20: s.salary20_21,
-                    salary20_21: s.salary21_22,
-                    salary21_22: s.salary22_23,
-                    salary22_23: s.salary23_24,
-                    salares: [s.salary20_21, s.salary21_22, s.salary22_23, s.salary23_24]
+                    salary19_20: s.salary21_22,
+                    salary20_21: s.salary22_23,
+                    salary21_22: s.salary23_24,
+                    salary22_23: s.salary24_25,
+                    salares: [s.salary21_22, s.salary22_23, s.salary23_24, s.salary24_25]
                 }
     })
     $(".player-input").autocomplete({
@@ -359,7 +361,7 @@ function setupAutoComplete() {
 }
 
 function calculateSalaryForYear() {
-    var totals = [".salary-20", ".salary-21", ".salary-22", ".salary-23"]
+    var totals = [".salary-21", ".salary-22", ".salary-23", ".salary-24"]
 
     totals.forEach(function(year) {
         let sum = 0;
@@ -455,6 +457,8 @@ function isExpired(d) {
 }
 async function fetchSalaries() {
     const cacheDate = new Date().getTime();
+    const cacheKey = "bbfblSalaries"
+    const cacheDateKey = "cacheDate"
     console.log("fetching salaries...");
     return new Promise((resolve, reject) => {
         chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function(result) {
@@ -464,7 +468,7 @@ async function fetchSalaries() {
                 resolve(bbfbl_salaries)
                 return;
             } else {
-                const url = "https://bbfbl-chrome.azurewebsites.net/salaries"
+                const url = "https://bbfbl-chrome.azurewebsites.net/salaries" // todo: make this a global
                 console.log("sending request for salries...")
                 return fetch(url, {
                     mode: "cors",     
