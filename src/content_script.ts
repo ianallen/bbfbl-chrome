@@ -324,10 +324,10 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary19_20: s.salary21_22,
-                    salary20_21: s.salary22_23,
-                    salary21_22: s.salary23_24,
-                    salary22_23: s.salary24_25,
+                    salary21_22: s.salary21_22,
+                    salary22_23: s.salary22_23,
+                    salary23_24: s.salary23_24,
+                    salary24_25: s.salary24_25,
                     salares: [s.salary21_22, s.salary22_23, s.salary23_24, s.salary24_25]
                 }
     })
@@ -431,7 +431,7 @@ function prepopulateSalaryTool() {
         row.find(".player-col").append(wrapper)
         
         // Append salaries
-        var salares = [playerData.salary20_21, playerData.salary21_22, playerData.salary22_23, playerData.salary23_24]
+        var salares = [playerData.salary21_22, playerData.salary22_23, playerData.salary23_24, playerData.salary24_25]
         row.find("td.salary")
         .each(function(n, el) {
             $(el).text(toDollarFormat(salares[n]))
@@ -457,14 +457,14 @@ function isExpired(d) {
 }
 async function fetchSalaries() {
     const cacheDate = new Date().getTime();
-    const cacheKey = "bbfblSalaries"
+    const cacheKey = "bbfblSalaries_x"
     const cacheDateKey = "cacheDate"
     console.log("fetching salaries...");
     return new Promise((resolve, reject) => {
-        chrome.storage.local.get(["bbfblSalaries", "cacheDate"], function(result) {
-            if (result.bbfblSalaries && result.cacheDate && !isExpired(result.cacheDate)) {
-                console.log("bbfbl: using local storage salaries:", result.cacheDate)
-                bbfbl_salaries = result.bbfblSalaries;
+        chrome.storage.local.get([cacheKey, cacheDateKey], function(result) {
+            if (result[cacheKey] && result[cacheDateKey] && !isExpired(result[cacheDateKey])) {
+                console.log("bbfbl: using cached salaries:", result[cacheDateKey])
+                bbfbl_salaries = result[cacheKey];
                 resolve(bbfbl_salaries)
                 return;
             } else {
@@ -479,8 +479,11 @@ async function fetchSalaries() {
                     .then(res => res.json())
                     .then(data => {
                         console.log("bbfbl: using remote salaries", data)
+                        const state = {}
+                        state[cacheKey] = data
+                        state[cacheDateKey] = cacheDate
                         chrome.storage.local.clear()
-                        chrome.storage.local.set({ bbfblSalaries: data, cacheDate: cacheDate }, function() {
+                        chrome.storage.local.set(state, function() {
                             console.log("bbfbl: setting salaries to local storage")
                             bbfbl_salaries = data
                             resolve(data);
