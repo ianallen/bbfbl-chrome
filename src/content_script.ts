@@ -6,7 +6,7 @@ import { toPath } from 'lodash';
 
 
 let bbfbl_salaries;
-const MAX_SALARY_CUTOFF = 142000000;
+const MAX_SALARY_CUTOFF = 154000000;
 const playerSelector = '.ysf-player-name'; 
 $(async function() {
     
@@ -17,7 +17,7 @@ $(async function() {
     
 
     const isPlayerListPage = window.location.pathname.indexOf("/players") > 0
-    const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research") 
+    const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research")
     const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10))
 
     bbfbl_salaries = await fetchSalaries()
@@ -75,7 +75,7 @@ $(async function() {
             }
 
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary21_22 : 0;
+            const value = playerData ? playerData.salary22_23 : 0;
             $this.append(renderSalary(value))
             $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
@@ -93,6 +93,7 @@ $(async function() {
     function sum(values: number[]) {
         return values.reduce((total, salary) => { return total + salary}, 0);
     }
+    
     function renderTotalSalary(total: number) {
         const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131'
         const css = {
@@ -283,10 +284,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2021 - 2022</td>
                         <th>Salary 2022 - 2023</td>
-                        <th>Salary 2023 - 2024</td> 
-                        <th>Salary 2024 - 2025</td>              
+                        <th>Salary 2023 - 2024</td>
+                        <th>Salary 2024 - 2025</td> 
+                        <th>Salary 2025 - 2026</td>              
                     </tr>
                 </thead>
                 <tbody>`
@@ -294,10 +295,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-21"></td>
                         <td class="salary salary-22"></td>
                         <td class="salary salary-23"></td>
                         <td class="salary salary-24"></td>
+                        <td class="salary salary-25"></td>
                   </tr>`
         table += row
     }
@@ -306,10 +307,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-21-sum"></td>
                             <td class="salary-footer salary-22-sum"></td>
                             <td class="salary-footer salary-23-sum"></td>
                             <td class="salary-footer salary-24-sum"></td>
+                            <td class="salary-footer salary-25-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`
@@ -324,11 +325,11 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary21_22: s.salary21_22,
                     salary22_23: s.salary22_23,
                     salary23_24: s.salary23_24,
                     salary24_25: s.salary24_25,
-                    salares: [s.salary21_22, s.salary22_23, s.salary23_24, s.salary24_25]
+                    salary25_26: s.salary25_26,
+                    salares: [s.salary22_23, s.salary23_24, s.salary24_25, s.salary25_26]
                 }
     })
     $(".player-input").autocomplete({
@@ -361,7 +362,7 @@ function setupAutoComplete() {
 }
 
 function calculateSalaryForYear() {
-    var totals = [".salary-21", ".salary-22", ".salary-23", ".salary-24"]
+    var totals = [".salary-22", ".salary-23", ".salary-24", ".salary-25"]
 
     totals.forEach(function(year) {
         let sum = 0;
@@ -431,7 +432,7 @@ function prepopulateSalaryTool() {
         row.find(".player-col").append(wrapper)
         
         // Append salaries
-        var salares = [playerData.salary21_22, playerData.salary22_23, playerData.salary23_24, playerData.salary24_25]
+        var salares = [playerData.salary22_23, playerData.salary23_24, playerData.salary24_25, playerData.salary25_26]
         row.find("td.salary")
         .each(function(n, el) {
             $(el).text(toDollarFormat(salares[n]))
@@ -493,6 +494,7 @@ async function fetchSalaries() {
                     console.log(err);
                     console.log("bbfbl: using salaries from extension");
                     bbfbl_salaries = salariesLocal;
+                    console.log("SALARIES:", bbfbl_salaries)
                     resolve(bbfbl_salaries);
                 })         
             }
