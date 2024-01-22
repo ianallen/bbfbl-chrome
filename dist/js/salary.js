@@ -8,4052 +8,4028 @@ webpackJsonp([1],{
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = [
     {
-        "name": "Vit Krejci",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": 1988598,
-        "salary25_26": null,
-        "yahoo_id": 6429
-    },
-    {
-        "name": "Aaron Holiday",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Keaton Wallace",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6034
+        "salary26_27": null,
+        "yahoo_id": 10053
     },
     {
-        "name": "Frank Kaminsky",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Mouhamed Gueye",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10069
+    },
+    {
+        "name": "Garrison Mathews",
+        "salary23_24": 2000000,
+        "salary24_25": 2230253,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6259
+    },
+    {
+        "name": "Wesley Matthews",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5469
+        "salary26_27": null,
+        "yahoo_id": 4694
+    },
+    {
+        "name": "Bruno Fernando",
+        "salary23_24": 2581522,
+        "salary24_25": 2717391,
+        "salary25_26": 2853260,
+        "salary26_27": null,
+        "yahoo_id": 6222
     },
     {
         "name": "Jalen Johnson",
-        "salary22_23": 2792640,
         "salary23_24": 2925360,
         "salary24_25": 4510905,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6562
     },
     {
         "name": "AJ Griffin",
-        "salary22_23": 3536160,
         "salary23_24": 3712920,
         "salary24_25": 3889920,
         "salary25_26": 5967137,
+        "salary26_27": null,
         "yahoo_id": 6706
     },
     {
-        "name": "Justin Holiday",
-        "salary22_23": 6292440,
-        "salary23_24": null,
+        "name": "Kobe Bufkin",
+        "salary23_24": 4094280,
+        "salary24_25": 4299000,
+        "salary25_26": 4503720,
+        "salary26_27": null,
+        "yahoo_id": 10105
+    },
+    {
+        "name": "Saddiq Bey",
+        "salary23_24": 4556983,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5142
+        "salary26_27": null,
+        "yahoo_id": 6411
+    },
+    {
+        "name": "Patty Mills",
+        "salary23_24": 6802950,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4660
     },
     {
         "name": "Onyeka Okongwu",
-        "salary22_23": 6395160,
         "salary23_24": 8109063,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6398
     },
     {
-        "name": "De'Andre Hunter",
-        "salary22_23": 9835881,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6166
-    },
-    {
         "name": "Dejounte Murray",
-        "salary22_23": 16571120,
-        "salary23_24": 17714000,
+        "salary23_24": 18214000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5660
     },
     {
         "name": "Bogdan Bogdanovic",
-        "salary22_23": 18000000,
-        "salary23_24": 18000000,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 18700000,
+        "salary24_25": 17260000,
+        "salary25_26": 16020000,
+        "salary26_27": null,
         "yahoo_id": 5338
     },
     {
+        "name": "De'Andre Hunter",
+        "salary23_24": 20089286,
+        "salary24_25": 21696429,
+        "salary25_26": 23303571,
+        "salary26_27": null,
+        "yahoo_id": 6166
+    },
+    {
         "name": "Clint Capela",
-        "salary22_23": 18206897,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 20616000,
+        "salary24_25": 22265280,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5336
     },
     {
-        "name": "John Collins",
-        "salary22_23": 23500000,
-        "salary23_24": 25340000,
-        "salary24_25": 26580000,
-        "salary25_26": 26580000,
-        "yahoo_id": 5832
-    },
-    {
         "name": "Trae Young",
-        "salary22_23": 37096500,
         "salary23_24": 40064220,
         "salary24_25": 43031940,
         "salary25_26": 45999660,
+        "salary26_27": null,
         "yahoo_id": 6016
     },
     {
-        "name": "Brodric Thomas",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Lamar Stevens",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6483
+        "salary26_27": null,
+        "yahoo_id": 6459
     },
     {
-        "name": "Justin Jackson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5828
-    },
-    {
-        "name": "Jake Layman",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5678
-    },
-    {
-        "name": "Noah Vonleh",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5320
+        "name": "Jordan Walsh",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10075
     },
     {
         "name": "Sam Hauser",
-        "salary22_23": 1637966,
         "salary23_24": 1927896,
         "salary24_25": 2092344,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6619
     },
     {
+        "name": "Dalano Banton",
+        "salary23_24": 2019706,
+        "salary24_25": 2196970,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6588
+    },
+    {
+        "name": "Svi Mykhailiuk",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6058
+    },
+    {
+        "name": "Oshae Brissett",
+        "salary23_24": 2165000,
+        "salary24_25": 2463946,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6290
+    },
+    {
         "name": "Luke Kornet",
-        "salary22_23": 2133278,
         "salary23_24": 2413304,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5903
     },
     {
         "name": "Payton Pritchard",
-        "salary22_23": 2239200,
         "salary23_24": 4037278,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6418
     },
     {
-        "name": "Grant Williams",
-        "salary22_23": 4306281,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6210
-    },
-    {
-        "name": "Danilo Gallinari",
-        "salary22_23": 6479000,
-        "salary23_24": 6802950,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4468
-    },
-    {
-        "name": "Robert Williams",
-        "salary22_23": 10937502,
-        "salary23_24": 11812501,
-        "salary24_25": 12687500,
-        "salary25_26": 13562500,
-        "yahoo_id": 6038
-    },
-    {
-        "name": "Derrick White",
-        "salary22_23": 16892857,
-        "salary23_24": 18107143,
-        "salary24_25": 19321429,
-        "salary25_26": null,
-        "yahoo_id": 5842
-    },
-    {
-        "name": "Marcus Smart",
-        "salary22_23": 17207142,
-        "salary23_24": 18583713,
-        "salary24_25": 19960285,
-        "salary25_26": 21336856,
-        "yahoo_id": 5317
-    },
-    {
-        "name": "Malcolm Brogdon",
-        "salary22_23": 22600000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5667
-    },
-    {
         "name": "Al Horford",
-        "salary22_23": 26500000,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 10000000,
+        "salary24_25": 9500000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4245
     },
     {
+        "name": "Derrick White",
+        "salary23_24": 18357143,
+        "salary24_25": 19571429,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5842
+    },
+    {
         "name": "Jaylen Brown",
-        "salary22_23": 28741071,
-        "salary23_24": 30723215,
+        "salary23_24": 31830357,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5602
     },
     {
         "name": "Jayson Tatum",
-        "salary22_23": 30351780,
         "salary23_24": 32600060,
         "salary24_25": 34848340,
         "salary25_26": 37096620,
+        "salary26_27": null,
         "yahoo_id": 5765
     },
     {
-        "name": "RaiQuan Gray",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Kristaps Porzingis",
+        "salary23_24": 36016200,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6601
+        "salary26_27": null,
+        "yahoo_id": 5464
     },
     {
-        "name": "Yuta Watanabe",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Jrue Holiday",
+        "salary23_24": 36861707,
+        "salary24_25": 39403893,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4622
+    },
+    {
+        "name": "Harry Giles III",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6132
+        "salary26_27": null,
+        "yahoo_id": 5833
     },
     {
-        "name": "Chris Chiozza",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Trendon Watford",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6119
+        "salary26_27": null,
+        "yahoo_id": 6604
     },
     {
-        "name": "Kessler Edwards",
-        "salary22_23": 1637966,
-        "salary23_24": 1927896,
+        "name": "Darius Bazley",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6586
+        "salary26_27": null,
+        "yahoo_id": 6211
     },
     {
-        "name": "T.J. Warren",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Lonnie Walker IV",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5325
-    },
-    {
-        "name": "Markieff Morris",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4894
-    },
-    {
-        "name": "Edmond Sumner",
-        "salary22_23": 1968175,
-        "salary23_24": 2239943,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5865
-    },
-    {
-        "name": "Day'Ron Sharpe",
-        "salary22_23": 2109480,
-        "salary23_24": 2210040,
-        "salary24_25": 3989122,
-        "salary25_26": null,
-        "yahoo_id": 6571
-    },
-    {
-        "name": "Cameron Thomas",
-        "salary22_23": 2138160,
-        "salary23_24": 2240160,
-        "salary24_25": 4041249,
-        "salary25_26": null,
-        "yahoo_id": 6569
-    },
-    {
-        "name": "Patty Mills",
-        "salary22_23": 6479000,
-        "salary23_24": 6802950,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4660
-    },
-    {
-        "name": "Seth Curry",
-        "salary22_23": 8496653,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5245
-    },
-    {
-        "name": "Nicolas Claxton",
-        "salary22_23": 8500000,
-        "salary23_24": 8750000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6219
-    },
-    {
-        "name": "Royce O'Neale",
-        "salary22_23": 9200000,
-        "salary23_24": 9500000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5905
-    },
-    {
-        "name": "Joe Harris",
-        "salary22_23": 18642857,
-        "salary23_24": 19928571,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5344
-    },
-    {
-        "name": "Ben Simmons",
-        "salary22_23": 35448672,
-        "salary23_24": 37893408,
-        "salary24_25": 40338144,
-        "salary25_26": null,
-        "yahoo_id": 5600
-    },
-    {
-        "name": "Kyrie Irving",
-        "salary22_23": 36934550,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4840
-    },
-    {
-        "name": "Kevin Durant",
-        "salary22_23": 44124845,
-        "salary23_24": 47654833,
-        "salary24_25": 51195821,
-        "salary25_26": 54714808,
-        "yahoo_id": 4244
-    },
-    {
-        "name": "Jaylen Sims",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6787
-    },
-    {
-        "name": "Anthony Duruji",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6788
-    },
-    {
-        "name": "Jalen Crutcher",
-        "salary22_23": 1017781,
-        "salary23_24": 1974999,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6661
-    },
-    {
-        "name": "LiAngelo Ball",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6495
+        "salary26_27": null,
+        "yahoo_id": 6029
     },
     {
         "name": "Dennis Smith Jr.",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5822
     },
     {
+        "name": "Day'Ron Sharpe",
+        "salary23_24": 2210040,
+        "salary24_25": 3989122,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6571
+    },
+    {
+        "name": "Cam Thomas",
+        "salary23_24": 2240160,
+        "salary24_25": 4041249,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6569
+    },
+    {
+        "name": "Dariq Whitehead",
+        "salary23_24": 2966040,
+        "salary24_25": 3114240,
+        "salary25_26": 3262560,
+        "salary26_27": null,
+        "yahoo_id": 10111
+    },
+    {
+        "name": "Noah Clowney",
+        "salary23_24": 3089520,
+        "salary24_25": 3244080,
+        "salary25_26": 3398640,
+        "salary26_27": null,
+        "yahoo_id": 10121
+    },
+    {
+        "name": "Royce O'Neale",
+        "salary23_24": 9500000,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5905
+    },
+    {
+        "name": "Nic Claxton",
+        "salary23_24": 9625000,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6219
+    },
+    {
+        "name": "Dorian Finney-Smith",
+        "salary23_24": 13930820,
+        "salary24_25": 14922980,
+        "salary25_26": 15378480,
+        "salary26_27": null,
+        "yahoo_id": 5693
+    },
+    {
+        "name": "Spencer Dinwiddie",
+        "salary23_24": 20357143,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5349
+    },
+    {
+        "name": "Mikal Bridges",
+        "salary23_24": 21700000,
+        "salary24_25": 23300000,
+        "salary25_26": 24900000,
+        "salary26_27": null,
+        "yahoo_id": 6021
+    },
+    {
+        "name": "Cameron Johnson",
+        "salary23_24": 25679348,
+        "salary24_25": 23625000,
+        "salary25_26": 21570652,
+        "salary26_27": null,
+        "yahoo_id": 6173
+    },
+    {
+        "name": "Ben Simmons",
+        "salary23_24": 37893408,
+        "salary24_25": 40338144,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5600
+    },
+    {
+        "name": "Nathan Mensah",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10208
+    },
+    {
+        "name": "RJ Hunter",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5488
+    },
+    {
+        "name": "Edmond Sumner",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5865
+    },
+    {
+        "name": "Bryce McGowens",
+        "salary23_24": 1719864,
+        "salary24_25": 2019699,
+        "salary25_26": 2187451,
+        "salary26_27": null,
+        "yahoo_id": 6730
+    },
+    {
         "name": "JT Thor",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": 1988598,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6579
     },
     {
-        "name": "Nick Richards",
-        "salary22_23": 1782621,
-        "salary23_24": null,
+        "name": "Frank Ntilikina",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6434
+        "salary26_27": null,
+        "yahoo_id": 5821
     },
     {
-        "name": "Jalen McDaniels",
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6240
+        "name": "Nick Smith Jr.",
+        "salary23_24": 2463960,
+        "salary24_25": 2587200,
+        "salary25_26": 2710680,
+        "salary26_27": null,
+        "yahoo_id": 10120
     },
     {
         "name": "Kai Jones",
-        "salary22_23": 2909040,
         "salary23_24": 3047880,
         "salary24_25": 4693735,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6561
     },
     {
         "name": "Mark Williams",
-        "salary22_23": 3722040,
         "salary23_24": 3908160,
         "salary24_25": 4094280,
         "salary25_26": 6276531,
+        "salary26_27": null,
         "yahoo_id": 6705
     },
     {
         "name": "James Bouknight",
-        "salary22_23": 4362240,
         "salary23_24": 4570080,
         "salary24_25": 6064497,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6553
     },
     {
-        "name": "PJ Washington",
-        "salary22_23": 5808435,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6174
+        "name": "Nick Richards",
+        "salary23_24": 5000000,
+        "salary24_25": 5000000,
+        "salary25_26": 5000000,
+        "salary26_27": null,
+        "yahoo_id": 6434
     },
     {
         "name": "Cody Martin",
-        "salary22_23": 7000000,
         "salary23_24": 7560000,
         "salary24_25": 8120000,
         "salary25_26": 8680000,
+        "salary26_27": null,
         "yahoo_id": 6224
     },
     {
+        "name": "Miles Bridges",
+        "salary23_24": 7921300,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6023
+    },
+    {
+        "name": "Brandon Miller",
+        "salary23_24": 10880400,
+        "salary24_25": 11424600,
+        "salary25_26": 11968800,
+        "salary26_27": null,
+        "yahoo_id": 10104
+    },
+    {
         "name": "LaMelo Ball",
-        "salary22_23": 8623920,
         "salary23_24": 10900635,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6395
     },
     {
-        "name": "Mason Plumlee",
-        "salary22_23": 9080417,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5192
-    },
-    {
-        "name": "Kelly Oubre Jr.",
-        "salary22_23": 12600000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5475
+        "name": "P.J. Washington",
+        "salary23_24": 16847826,
+        "salary24_25": 15500000,
+        "salary25_26": 14152174,
+        "salary26_27": null,
+        "yahoo_id": 6174
     },
     {
         "name": "Terry Rozier",
-        "salary22_23": 21486316,
         "salary23_24": 23205221,
         "salary24_25": 24924126,
         "salary25_26": 26643031,
+        "salary26_27": null,
         "yahoo_id": 5476
     },
     {
         "name": "Gordon Hayward",
-        "salary22_23": 30075000,
         "salary23_24": 31500000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4724
     },
     {
-        "name": "Carlik Jones",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Max Heidegger",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10200
+    },
+    {
+        "name": "Henri Drell",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10165
+    },
+    {
+        "name": "Quenton Jackson",
+        "salary23_24": 1801769,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6776
+    },
+    {
+        "name": "Julian Phillips",
+        "salary23_24": 1600000,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10083
+    },
+    {
+        "name": "Carlik Jones",
+        "salary23_24": 1927896,
+        "salary24_25": 2092344,
+        "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6639
     },
     {
-        "name": "Kostas Antetokounmpo",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Terry Taylor",
+        "salary23_24": 2019706,
+        "salary24_25": 2196970,
         "salary25_26": null,
-        "yahoo_id": 6071
+        "salary26_27": null,
+        "yahoo_id": 6609
     },
     {
-        "name": "Marko Simonovic",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": null,
+        "name": "Torrey Craig",
+        "salary23_24": 2528233,
+        "salary24_25": 2845342,
         "salary25_26": null,
-        "yahoo_id": 6436
-    },
-    {
-        "name": "Ayo Dosunmu",
-        "salary22_23": 1563518,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6580
-    },
-    {
-        "name": "Javonte Green",
-        "salary22_23": 1815677,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6269
-    },
-    {
-        "name": "Goran Dragic",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4507
-    },
-    {
-        "name": "Tony Bradley",
-        "salary22_23": 2036318,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5841
+        "salary26_27": null,
+        "yahoo_id": 5893
     },
     {
         "name": "Dalen Terry",
-        "salary22_23": 3191400,
         "salary23_24": 3350760,
         "salary24_25": 3510480,
         "salary25_26": 5399118,
+        "salary26_27": null,
         "yahoo_id": 6708
     },
     {
-        "name": "Derrick Jones Jr.",
-        "salary22_23": 3200000,
-        "salary23_24": 3360000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5747
-    },
-    {
         "name": "Andre Drummond",
-        "salary22_23": 3200000,
         "salary23_24": 3360000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5015
     },
     {
-        "name": "Coby White",
-        "salary22_23": 7413955,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6169
+        "name": "Jevon Carter",
+        "salary23_24": 6190476,
+        "salary24_25": 6500000,
+        "salary25_26": 6809524,
+        "salary26_27": null,
+        "yahoo_id": 6043
     },
     {
-        "name": "Patrick Williams",
-        "salary22_23": 7775400,
-        "salary23_24": 9835881,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6396
+        "name": "Ayo Dosunmu",
+        "salary23_24": 6481482,
+        "salary24_25": 7000000,
+        "salary25_26": 7518518,
+        "salary26_27": null,
+        "yahoo_id": 6580
     },
     {
         "name": "Alex Caruso",
-        "salary22_23": 9030000,
         "salary23_24": 9460000,
         "salary24_25": 9890000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5754
     },
     {
-        "name": "Lonzo Ball",
-        "salary22_23": 19534884,
-        "salary23_24": 20465117,
-        "salary24_25": 21395348,
+        "name": "Patrick Williams",
+        "salary23_24": 9835881,
+        "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5764
+        "salary26_27": null,
+        "yahoo_id": 6396
+    },
+    {
+        "name": "Coby White",
+        "salary23_24": 11111111,
+        "salary24_25": 12000000,
+        "salary25_26": 12888889,
+        "salary26_27": null,
+        "yahoo_id": 6169
     },
     {
         "name": "Nikola Vucevic",
-        "salary22_23": 22000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 18518519,
+        "salary24_25": 20000000,
+        "salary25_26": 21481481,
+        "salary26_27": null,
         "yahoo_id": 4897
     },
     {
+        "name": "Lonzo Ball",
+        "salary23_24": 20465117,
+        "salary24_25": 21395348,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5764
+    },
+    {
         "name": "DeMar DeRozan",
-        "salary22_23": 27300000,
         "salary23_24": 28600000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4614
     },
     {
         "name": "Zach LaVine",
-        "salary22_23": 37096500,
         "salary23_24": 40064220,
         "salary24_25": 43031940,
         "salary25_26": 45999660,
+        "salary26_27": null,
         "yahoo_id": 5324
     },
     {
-        "name": "Jamorko Pickett",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Justin Powell",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6644
+        "salary26_27": null,
+        "yahoo_id": 10167
+    },
+    {
+        "name": "Pete Nance",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10168
     },
     {
         "name": "Sharife Cooper",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6590
     },
     {
-        "name": "Nate Hinton",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Sam Merrill",
+        "salary23_24": 1997238,
+        "salary24_25": 2164993,
         "salary25_26": null,
-        "yahoo_id": 6472
+        "salary26_27": null,
+        "yahoo_id": 6452
     },
     {
-        "name": "Mamadi Diakite",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Tristan Thompson",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6456
+        "salary26_27": null,
+        "yahoo_id": 4884
     },
     {
-        "name": "Lamar Stevens",
-        "salary22_23": 1782621,
-        "salary23_24": 1930681,
-        "salary24_25": null,
+        "name": "Ty Jerome",
+        "salary23_24": 2439025,
+        "salary24_25": 2560975,
         "salary25_26": null,
-        "yahoo_id": 6459
+        "salary26_27": null,
+        "yahoo_id": 6212
     },
     {
-        "name": "Raul Neto",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Damian Jones",
+        "salary23_24": 2586665,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5217
-    },
-    {
-        "name": "Robin Lopez",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4477
+        "salary26_27": null,
+        "yahoo_id": 5661
     },
     {
         "name": "Dean Wade",
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 5709877,
+        "salary24_25": 6166667,
+        "salary25_26": 6623456,
+        "salary26_27": null,
         "yahoo_id": 6256
     },
     {
-        "name": "Dylan Windler",
-        "salary22_23": 4037278,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6214
-    },
-    {
         "name": "Ricky Rubio",
-        "salary22_23": 5853659,
         "salary23_24": 6146342,
         "salary24_25": 6439025,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4610
     },
     {
-        "name": "Isaac Okoro",
-        "salary22_23": 7040880,
-        "salary23_24": 8920795,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6397
-    },
-    {
-        "name": "Cedi Osman",
-        "salary22_23": 7426088,
-        "salary23_24": 6718842,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5491
+        "name": "Georges Niang",
+        "salary23_24": 8800000,
+        "salary24_25": 8500000,
+        "salary25_26": 8200000,
+        "salary26_27": null,
+        "yahoo_id": 5681
     },
     {
         "name": "Evan Mobley",
-        "salary22_23": 8478720,
         "salary23_24": 8882640,
         "salary24_25": 11227657,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6514
     },
     {
-        "name": "Darius Garland",
-        "salary22_23": 8920795,
-        "salary23_24": null,
+        "name": "Isaac Okoro",
+        "salary23_24": 8920795,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6167
+        "salary26_27": null,
+        "yahoo_id": 6397
+    },
+    {
+        "name": "Max Strus",
+        "salary23_24": 14487684,
+        "salary24_25": 15212068,
+        "salary25_26": 15936452,
+        "salary26_27": null,
+        "yahoo_id": 6267
     },
     {
         "name": "Caris LeVert",
-        "salary22_23": 18796296,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 15384616,
+        "salary24_25": 16615384,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5651
     },
     {
         "name": "Jarrett Allen",
-        "salary22_23": 20000000,
         "salary23_24": 20000000,
         "salary24_25": 20000000,
         "salary25_26": 20000000,
+        "salary26_27": null,
         "yahoo_id": 5835
     },
     {
-        "name": "Kevin Love",
-        "salary22_23": 28942830,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4391
-    },
-    {
         "name": "Donovan Mitchell",
-        "salary22_23": 30913750,
         "salary23_24": 33162030,
         "salary24_25": 35410310,
         "salary25_26": 37096620,
+        "salary26_27": null,
         "yahoo_id": 5826
     },
     {
-        "name": "Mouhamadou Gueye",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6773
+        "name": "Darius Garland",
+        "salary23_24": 34005250,
+        "salary24_25": 36725670,
+        "salary25_26": 39446090,
+        "salary26_27": null,
+        "yahoo_id": 6167
     },
     {
-        "name": "Marcus Bingham Jr.",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Jordan Walker",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6774
+        "salary26_27": null,
+        "yahoo_id": 10157
     },
     {
-        "name": "McKinley Wright IV",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Dexter Dennis",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6608
+        "salary26_27": null,
+        "yahoo_id": 10155
     },
     {
-        "name": "D.J. Stewart Jr.",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Joe Wieskamp",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6630
+        "salary26_27": null,
+        "yahoo_id": 6583
     },
     {
-        "name": "Tyler Hall",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Greg Brown III",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6503
+        "salary26_27": null,
+        "yahoo_id": 6585
     },
     {
         "name": "Jaden Hardy",
-        "salary22_23": 1017781,
         "salary23_24": 1719864,
         "salary24_25": 2019699,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6727
     },
     {
-        "name": "Theo Pinson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Derrick Jones Jr.",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6083
+        "salary26_27": null,
+        "yahoo_id": 5747
     },
     {
-        "name": "Frank Ntilikina",
-        "salary22_23": 2036318,
-        "salary23_24": null,
+        "name": "Markieff Morris",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5821
+        "salary26_27": null,
+        "yahoo_id": 4894
     },
     {
-        "name": "Josh Green",
-        "salary22_23": 3098400,
-        "salary23_24": 4765339,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6410
+        "name": "Olivier-Maxence Prosper",
+        "salary23_24": 2733720,
+        "salary24_25": 2870400,
+        "salary25_26": 3007080,
+        "salary26_27": null,
+        "yahoo_id": 10116
     },
     {
-        "name": "JaVale McGee",
-        "salary22_23": 5461219,
-        "salary23_24": 5734280,
-        "salary24_25": 6007341,
+        "name": "Dante Exum",
+        "salary23_24": 3000000,
+        "salary24_25": 3150000,
         "salary25_26": null,
-        "yahoo_id": 4480
-    },
-    {
-        "name": "Maxi Kleber",
-        "salary22_23": 9000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5892
-    },
-    {
-        "name": "Reggie Bullock",
-        "salary22_23": 10012800,
-        "salary23_24": 10489600,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5195
+        "salary26_27": null,
+        "yahoo_id": 5316
     },
     {
         "name": "Dwight Powell",
-        "salary22_23": 11080125,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 4000000,
+        "salary24_25": 4000000,
+        "salary25_26": 4000000,
+        "salary26_27": null,
         "yahoo_id": 5356
     },
     {
-        "name": "Dorian Finney-Smith",
-        "salary22_23": 12402000,
-        "salary23_24": 13394160,
-        "salary24_25": 14386320,
-        "salary25_26": 15378480,
-        "yahoo_id": 5693
+        "name": "Seth Curry",
+        "salary23_24": 4000000,
+        "salary24_25": 4000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5245
     },
     {
-        "name": "Christian Wood",
-        "salary22_23": 14317459,
-        "salary23_24": null,
+        "name": "Josh Green",
+        "salary23_24": 4765339,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5583
+        "salary26_27": null,
+        "yahoo_id": 6410
     },
     {
-        "name": "Davis Bertans",
-        "salary22_23": 16000000,
-        "salary23_24": 17000000,
-        "salary24_25": 16000000,
+        "name": "Dereck Lively II",
+        "salary23_24": 4775640,
+        "salary24_25": 5014560,
+        "salary25_26": 5253360,
+        "salary26_27": null,
+        "yahoo_id": 10097
+    },
+    {
+        "name": "Maxi Kleber",
+        "salary23_24": 11000000,
+        "salary24_25": 11000000,
+        "salary25_26": 11000000,
+        "salary26_27": null,
+        "yahoo_id": 5892
+    },
+    {
+        "name": "Richaun Holmes",
+        "salary23_24": 12046020,
+        "salary24_25": 12876780,
         "salary25_26": null,
-        "yahoo_id": 4926
+        "salary26_27": null,
+        "yahoo_id": 5497
+    },
+    {
+        "name": "Grant Williams",
+        "salary23_24": 12405000,
+        "salary24_25": 13025250,
+        "salary25_26": 13645500,
+        "salary26_27": null,
+        "yahoo_id": 6210
     },
     {
         "name": "Tim Hardaway Jr.",
-        "salary22_23": 19602273,
         "salary23_24": 17897728,
         "salary24_25": 16193183,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5194
     },
     {
-        "name": "Spencer Dinwiddie",
-        "salary22_23": 20171427,
-        "salary23_24": 21028570,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5349
+        "name": "Kyrie Irving",
+        "salary23_24": 37037037,
+        "salary24_25": 40000000,
+        "salary25_26": 42962963,
+        "salary26_27": null,
+        "yahoo_id": 4840
     },
     {
         "name": "Luka Doncic",
-        "salary22_23": 37096500,
         "salary23_24": 40064220,
         "salary24_25": 43031940,
         "salary25_26": 45999660,
+        "salary26_27": null,
         "yahoo_id": 6014
     },
     {
-        "name": "Kellan Grady",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Andrew Funk",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6794
+        "salary26_27": null,
+        "yahoo_id": 10198
+    },
+    {
+        "name": "Armaan Franklin",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10201
+    },
+    {
+        "name": "Souley Boum",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10156
+    },
+    {
+        "name": "Hunter Tyson",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10067
+    },
+    {
+        "name": "Jalen Pickett",
+        "salary23_24": 1708143,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10074
     },
     {
         "name": "DeAndre Jordan",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4497
     },
     {
-        "name": "Davon Reed",
-        "salary22_23": 1902133,
-        "salary23_24": 2066585,
+        "name": "Justin Holiday",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5845
-    },
-    {
-        "name": "Peyton Watson",
-        "salary22_23": 2193960,
-        "salary23_24": 2303520,
-        "salary24_25": 2413560,
-        "salary25_26": 4356476,
-        "yahoo_id": 6720
+        "salary26_27": null,
+        "yahoo_id": 5142
     },
     {
         "name": "Vlatko Cancar",
-        "salary22_23": 2234359,
         "salary23_24": 2234359,
         "salary24_25": 2346606,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5862
     },
     {
-        "name": "Zeke Nnaji",
-        "salary22_23": 2617800,
-        "salary23_24": 4306281,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6414
+        "name": "Peyton Watson",
+        "salary23_24": 2303520,
+        "salary24_25": 2413560,
+        "salary25_26": 4356476,
+        "salary26_27": null,
+        "yahoo_id": 6720
+    },
+    {
+        "name": "Julian Strawther",
+        "salary23_24": 2431080,
+        "salary24_25": 2552520,
+        "salary25_26": 2674200,
+        "salary26_27": null,
+        "yahoo_id": 10112
     },
     {
         "name": "Christian Braun",
-        "salary22_23": 2808600,
         "salary23_24": 2949120,
         "salary24_25": 3089640,
         "salary25_26": 4921797,
+        "salary26_27": null,
         "yahoo_id": 6711
     },
     {
-        "name": "Jeff Green",
-        "salary22_23": 4500000,
-        "salary23_24": null,
+        "name": "Zeke Nnaji",
+        "salary23_24": 4306281,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4247
+        "salary26_27": null,
+        "yahoo_id": 6414
     },
     {
-        "name": "Bruce Brown",
-        "salary22_23": 6479000,
-        "salary23_24": 6802950,
-        "salary24_25": null,
+        "name": "Reggie Jackson",
+        "salary23_24": 5000000,
+        "salary24_25": 5250000,
         "salary25_26": null,
-        "yahoo_id": 6053
+        "salary26_27": null,
+        "yahoo_id": 4906
     },
     {
         "name": "Kentavious Caldwell-Pope",
-        "salary22_23": 14004703,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 14704938,
+        "salary24_25": 15440185,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5159
     },
     {
         "name": "Aaron Gordon",
-        "salary22_23": 19690909,
-        "salary23_24": 21266182,
-        "salary24_25": 22841455,
-        "salary25_26": 22841455,
+        "salary23_24": 22266182,
+        "salary24_25": 23841455,
+        "salary25_26": 23841455,
+        "salary26_27": null,
         "yahoo_id": 5295
     },
     {
         "name": "Michael Porter Jr.",
-        "salary22_23": 30913750,
         "salary23_24": 33386850,
         "salary24_25": 35859950,
         "salary25_26": 38333050,
+        "salary26_27": null,
         "yahoo_id": 6025
     },
     {
         "name": "Jamal Murray",
-        "salary22_23": 31650600,
         "salary23_24": 33833400,
         "salary24_25": 36016200,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5638
     },
     {
         "name": "Nikola Jokic",
-        "salary22_23": 33047804,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 47607350,
+        "salary24_25": 51415938,
+        "salary25_26": 55224526,
+        "salary26_27": null,
         "yahoo_id": 5352
     },
     {
-        "name": "Stanley Umude",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Tosan Evbuomwan",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10199
+    },
+    {
+        "name": "Stanley Umude",
+        "salary23_24": 1801769,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6782
     },
     {
-        "name": "Jules Bernard",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Zavier Simpson",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6783
+        "salary26_27": null,
+        "yahoo_id": 6675
+    },
+    {
+        "name": "Buddy Boeheim",
+        "salary23_24": 1801769,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6752
+    },
+    {
+        "name": "Jontay Porter",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6354
     },
     {
         "name": "Isaiah Livers",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6584
     },
     {
-        "name": "Rodney McGruder",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5270
-    },
-    {
-        "name": "Saddiq Bey",
-        "salary22_23": 2959080,
-        "salary23_24": 4556983,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6411
-    },
-    {
-        "name": "Kevin Knox II",
-        "salary22_23": 3000000,
-        "salary23_24": 3000000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6020
-    },
-    {
-        "name": "Isaiah Stewart",
-        "salary22_23": 3433320,
-        "salary23_24": 5266713,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6408
+        "name": "Marcus Sasser",
+        "salary23_24": 2624040,
+        "salary24_25": 2755080,
+        "salary25_26": 2886720,
+        "salary26_27": null,
+        "yahoo_id": 10114
     },
     {
         "name": "Jalen Duren",
-        "salary22_23": 4124280,
         "salary23_24": 4330680,
         "salary24_25": 4536840,
         "salary25_26": 6483144,
+        "salary26_27": null,
         "yahoo_id": 6703
     },
     {
-        "name": "Cory Joseph",
-        "salary22_23": 5155000,
-        "salary23_24": null,
+        "name": "Isaiah Stewart",
+        "salary23_24": 5266713,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4911
-    },
-    {
-        "name": "Hamidou Diallo",
-        "salary22_23": 5200000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6056
+        "salary26_27": null,
+        "yahoo_id": 6408
     },
     {
         "name": "Killian Hayes",
-        "salary22_23": 5837760,
         "salary23_24": 7413955,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6399
     },
     {
         "name": "Jaden Ivey",
-        "salary22_23": 7252200,
         "salary23_24": 7614480,
         "salary24_25": 7977240,
         "salary25_26": 10107163,
+        "salary26_27": null,
         "yahoo_id": 6695
     },
     {
-        "name": "Kemba Walker",
-        "salary22_23": 9165471,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4890
+        "name": "Ausar Thompson",
+        "salary23_24": 7977480,
+        "salary24_25": 8376000,
+        "salary25_26": 8775000,
+        "salary26_27": null,
+        "yahoo_id": 10096
     },
     {
-        "name": "Nerlens Noel",
-        "salary22_23": 9240000,
-        "salary23_24": 9680000,
+        "name": "Monte Morris",
+        "salary23_24": 9800926,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5157
+        "salary26_27": null,
+        "yahoo_id": 5864
     },
     {
         "name": "Alec Burks",
-        "salary22_23": 10012800,
         "salary23_24": 10489600,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4893
     },
     {
         "name": "Cade Cunningham",
-        "salary22_23": 10552800,
         "salary23_24": 11055360,
         "salary24_25": 13940809,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6512
     },
     {
+        "name": "James Wiseman",
+        "salary23_24": 12119440,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6356
+    },
+    {
         "name": "Marvin Bagley III",
-        "salary22_23": 12500000,
         "salary23_24": 12500000,
         "salary24_25": 12500000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5959
     },
     {
-        "name": "Bojan Bogdanovic",
-        "salary22_23": 19550000,
-        "salary23_24": null,
+        "name": "Joe Harris",
+        "salary23_24": 19928571,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5344
+    },
+    {
+        "name": "Bojan Bogdanovic",
+        "salary23_24": 20000000,
+        "salary24_25": 19032850,
+        "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4913
     },
     {
-        "name": "Pat Spencer",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Kendric Davis",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6772
+        "salary26_27": null,
+        "yahoo_id": 10203
     },
     {
-        "name": "Jerome Robinson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Rodney McGruder",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6024
+        "salary26_27": null,
+        "yahoo_id": 5270
     },
     {
-        "name": "Ty Jerome",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Rudy Gay",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6212
+        "salary26_27": null,
+        "yahoo_id": 4136
     },
     {
-        "name": "Ryan Rollins",
-        "salary22_23": 1017781,
-        "salary23_24": 1719864,
-        "salary24_25": 2019699,
-        "salary25_26": null,
-        "yahoo_id": 6734
+        "name": "Trayce Jackson-Davis",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10080
     },
     {
-        "name": "JaMychal Green",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Dario Saric",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5262
+        "salary26_27": null,
+        "yahoo_id": 5323
     },
     {
-        "name": "Andre Iguodala",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Cory Joseph",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 3826
+        "salary26_27": null,
+        "yahoo_id": 4911
     },
     {
-        "name": "Patrick Baldwin Jr.",
-        "salary22_23": 2226000,
-        "salary23_24": 2337720,
-        "salary24_25": 2448840,
-        "salary25_26": 4420156,
-        "yahoo_id": 6718
+        "name": "Brandin Podziemski",
+        "salary23_24": 3352440,
+        "salary24_25": 3519960,
+        "salary25_26": 3687960,
+        "salary26_27": null,
+        "yahoo_id": 10115
     },
     {
         "name": "Moses Moody",
-        "salary22_23": 3740160,
         "salary23_24": 3918480,
         "salary24_25": 5803269,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6556
     },
     {
-        "name": "Jordan Poole",
-        "salary22_23": 3901399,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6216
-    },
-    {
-        "name": "Donte DiVincenzo",
-        "salary22_23": 4500000,
-        "salary23_24": 4725000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6028
-    },
-    {
         "name": "Jonathan Kuminga",
-        "salary22_23": 5739840,
         "salary23_24": 6012840,
         "salary24_25": 7636307,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6549
     },
     {
         "name": "Kevon Looney",
-        "salary22_23": 7000000,
         "salary23_24": 7500000,
         "salary24_25": 8000000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5490
     },
     {
-        "name": "James Wiseman",
-        "salary22_23": 9603360,
-        "salary23_24": 12119440,
-        "salary24_25": null,
+        "name": "Gary Payton II",
+        "salary23_24": 8715000,
+        "salary24_25": 9130000,
         "salary25_26": null,
-        "yahoo_id": 6356
+        "salary26_27": null,
+        "yahoo_id": 5739
     },
     {
         "name": "Draymond Green",
-        "salary22_23": 25806469,
-        "salary23_24": 27586225,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 22321429,
+        "salary24_25": 24107143,
+        "salary25_26": 25892857,
+        "salary26_27": null,
         "yahoo_id": 5069
     },
     {
         "name": "Andrew Wiggins",
-        "salary22_23": 33616770,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 24330357,
+        "salary24_25": 26276786,
+        "salary25_26": 28223215,
+        "salary26_27": null,
         "yahoo_id": 5292
     },
     {
+        "name": "Chris Paul",
+        "salary23_24": 30800000,
+        "salary24_25": 30000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 3930
+    },
+    {
         "name": "Klay Thompson",
-        "salary22_23": 40600080,
         "salary23_24": 43219440,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4892
     },
     {
         "name": "Stephen Curry",
-        "salary22_23": 48070014,
         "salary23_24": 51915615,
         "salary24_25": 55761216,
         "salary25_26": 59606817,
+        "salary26_27": null,
         "yahoo_id": 4612
     },
     {
-        "name": "Daishen Nix",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": 1988598,
-        "salary25_26": null,
-        "yahoo_id": 6626
-    },
-    {
-        "name": "Theo Maledon",
-        "salary22_23": 1900000,
-        "salary23_24": 1930681,
+        "name": "Matthew Mayer",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6426
+        "salary26_27": null,
+        "yahoo_id": 10204
     },
     {
-        "name": "Garrison Mathews",
-        "salary22_23": 2000000,
-        "salary23_24": 2000000,
-        "salary24_25": 2230253,
-        "salary25_26": null,
-        "yahoo_id": 6259
-    },
-    {
-        "name": "TyTy Washington Jr.",
-        "salary22_23": 2210040,
-        "salary23_24": 2320440,
-        "salary24_25": 2431080,
-        "salary25_26": 4388099,
-        "yahoo_id": 6719
-    },
-    {
-        "name": "Josh Christopher",
-        "salary22_23": 2372160,
-        "salary23_24": 2485200,
-        "salary24_25": 4346615,
-        "salary25_26": null,
-        "yahoo_id": 6566
-    },
-    {
-        "name": "Usman Garuba",
-        "salary22_23": 2471160,
-        "salary23_24": 2588400,
-        "salary24_25": 4392515,
-        "salary25_26": null,
-        "yahoo_id": 6565
-    },
-    {
-        "name": "Kevin Porter Jr.",
-        "salary22_23": 3217631,
-        "salary23_24": null,
+        "name": "Nate Hinton",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6218
+        "salary26_27": null,
+        "yahoo_id": 6472
+    },
+    {
+        "name": "Aaron Holiday",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6034
+    },
+    {
+        "name": "Boban Marjanovic",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5524
+    },
+    {
+        "name": "Cam Whitmore",
+        "salary23_24": 3218160,
+        "salary24_25": 3379080,
+        "salary25_26": 3539760,
+        "salary26_27": null,
+        "yahoo_id": 10118
     },
     {
         "name": "Tari Eason",
-        "salary22_23": 3359160,
         "salary23_24": 3527160,
         "salary24_25": 3695160,
         "salary25_26": 5675766,
+        "salary26_27": null,
         "yahoo_id": 6707
     },
     {
         "name": "Alperen Sengun",
-        "salary22_23": 3375360,
         "salary23_24": 3536280,
         "salary24_25": 5424654,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6558
     },
     {
-        "name": "Boban Marjanovic",
-        "salary22_23": 3500000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5524
-    },
-    {
-        "name": "Moe Harkless",
-        "salary22_23": 4564980,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5021
-    },
-    {
         "name": "Jae'Sean Tate",
-        "salary22_23": 7065217,
         "salary23_24": 6500000,
         "salary24_25": 7065217,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6463
     },
     {
-        "name": "Jabari Smith Jr",
-        "salary22_23": 8882640,
+        "name": "Jock Landale",
+        "salary23_24": 8000000,
+        "salary24_25": 8000000,
+        "salary25_26": 8000000,
+        "salary26_27": null,
+        "yahoo_id": 6614
+    },
+    {
+        "name": "Amen Thompson",
+        "salary23_24": 8809320,
+        "salary24_25": 9249960,
+        "salary25_26": 9690600,
+        "salary26_27": null,
+        "yahoo_id": 10108
+    },
+    {
+        "name": "Jabari Smith Jr.",
         "salary23_24": 9326520,
         "salary24_25": 9770880,
         "salary25_26": 12350392,
+        "salary26_27": null,
         "yahoo_id": 6693
     },
     {
+        "name": "Jeff Green",
+        "salary23_24": 9600000,
+        "salary24_25": 9600000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4247
+    },
+    {
         "name": "Jalen Green",
-        "salary22_23": 9441840,
         "salary23_24": 9891480,
         "salary24_25": 12483048,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6513
     },
     {
-        "name": "Derrick Favors",
-        "salary22_23": 10183800,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4718
+        "name": "Dillon Brooks",
+        "salary23_24": 22627671,
+        "salary24_25": 22255493,
+        "salary25_26": 21124110,
+        "salary26_27": null,
+        "yahoo_id": 5858
     },
     {
-        "name": "Eric Gordon",
-        "salary22_23": 19568360,
-        "salary23_24": 20917902,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4469
-    },
-    {
-        "name": "Deividas Sirvydis",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6225
-    },
-    {
-        "name": "James Johnson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4621
-    },
-    {
-        "name": "Terry Taylor",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6609
-    },
-    {
-        "name": "Langston Galloway",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5388
-    },
-    {
-        "name": "Oshae Brissett",
-        "salary22_23": 1846738,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6290
+        "name": "Fred VanVleet",
+        "salary23_24": 40806300,
+        "salary24_25": 42846615,
+        "salary25_26": 44886930,
+        "salary26_27": null,
+        "yahoo_id": 5727
     },
     {
         "name": "Andrew Nembhard",
-        "salary22_23": 2244111,
         "salary23_24": 2131905,
         "salary24_25": 2019699,
         "salary25_26": 2187451,
+        "salary26_27": null,
         "yahoo_id": 6721
     },
     {
+        "name": "Ben Sheppard",
+        "salary23_24": 2537160,
+        "salary24_25": 2663880,
+        "salary25_26": 2790720,
+        "salary26_27": null,
+        "yahoo_id": 10113
+    },
+    {
         "name": "Isaiah Jackson",
-        "salary22_23": 2573760,
         "salary23_24": 2696280,
         "salary24_25": 4435381,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6564
     },
     {
-        "name": "Aaron Nesmith",
-        "salary22_23": 3804360,
-        "salary23_24": 5634257,
+        "name": "Jordan Nwora",
+        "salary23_24": 3000000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6406
-    },
-    {
-        "name": "Chris Duarte",
-        "salary22_23": 3936960,
-        "salary23_24": 4124400,
-        "salary24_25": 5893768,
-        "salary25_26": null,
-        "yahoo_id": 6555
-    },
-    {
-        "name": "Tyrese Haliburton",
-        "salary22_23": 4215120,
-        "salary23_24": 5808435,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6404
+        "salary26_27": null,
+        "yahoo_id": 6437
     },
     {
         "name": "Jalen Smith",
-        "salary22_23": 4670160,
         "salary23_24": 5043773,
         "salary24_25": 5417386,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6402
     },
     {
-        "name": "Goga Bitadze",
-        "salary22_23": 4765339,
-        "salary23_24": null,
+        "name": "Aaron Nesmith",
+        "salary23_24": 5634257,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6206
+        "salary26_27": null,
+        "yahoo_id": 6406
+    },
+    {
+        "name": "Tyrese Haliburton",
+        "salary23_24": 5808435,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6404
+    },
+    {
+        "name": "Jarace Walker",
+        "salary23_24": 6059520,
+        "salary24_25": 6362520,
+        "salary25_26": 6665520,
+        "salary26_27": null,
+        "yahoo_id": 10103
+    },
+    {
+        "name": "Obi Toppin",
+        "salary23_24": 6803012,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6400
     },
     {
         "name": "Bennedict Mathurin",
-        "salary22_23": 6586800,
         "salary23_24": 6916080,
         "salary24_25": 7245720,
         "salary25_26": 9187573,
+        "salary26_27": null,
         "yahoo_id": 6696
     },
     {
         "name": "T.J. McConnell",
-        "salary22_23": 8100000,
         "salary23_24": 8700000,
         "salary24_25": 9300000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5582
     },
     {
         "name": "Daniel Theis",
-        "salary22_23": 8694369,
         "salary23_24": 9108386,
         "salary24_25": 9522404,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5880
     },
     {
-        "name": "Myles Turner",
-        "salary22_23": 18000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5471
-    },
-    {
         "name": "Buddy Hield",
-        "salary22_23": 21177750,
-        "salary23_24": 19279841,
+        "salary23_24": 19279843,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5637
     },
     {
-        "name": "Xavier Moon",
-        "salary22_23": 1637966,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Myles Turner",
+        "salary23_24": 20975000,
+        "salary24_25": 19928500,
         "salary25_26": null,
-        "yahoo_id": 6678
+        "salary26_27": null,
+        "yahoo_id": 5471
     },
     {
-        "name": "Moses Brown",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Bruce Brown",
+        "salary23_24": 22000000,
+        "salary24_25": 23000000,
         "salary25_26": null,
-        "yahoo_id": 6289
+        "salary26_27": null,
+        "yahoo_id": 6053
     },
     {
-        "name": "Jason Preston",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
+        "name": "Brodric Thomas",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6575
+        "salary26_27": null,
+        "yahoo_id": 6483
     },
     {
         "name": "Brandon Boston Jr.",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6593
     },
     {
-        "name": "Terance Mann",
-        "salary22_23": 1930681,
-        "salary23_24": null,
+        "name": "Kenyon Martin Jr.",
+        "salary23_24": 1930681,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6236
+        "salary26_27": null,
+        "yahoo_id": 6444
+    },
+    {
+        "name": "Kobe Brown",
+        "salary23_24": 2413320,
+        "salary24_25": 2533920,
+        "salary25_26": 2654880,
+        "salary26_27": null,
+        "yahoo_id": 10117
     },
     {
         "name": "Amir Coffey",
-        "salary22_23": 3395062,
         "salary23_24": 3666667,
         "salary24_25": 3938271,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6315
     },
     {
-        "name": "John Wall",
-        "salary22_23": 6479000,
-        "salary23_24": 6802950,
+        "name": "Russell Westbrook",
+        "salary23_24": 3835738,
+        "salary24_25": 4027525,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4390
+    },
+    {
+        "name": "Mason Plumlee",
+        "salary23_24": 5000000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4716
+        "salary26_27": null,
+        "yahoo_id": 5192
+    },
+    {
+        "name": "Terance Mann",
+        "salary23_24": 10576923,
+        "salary24_25": 11423077,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6236
     },
     {
         "name": "Ivica Zubac",
-        "salary22_23": 10123457,
         "salary23_24": 10933333,
         "salary24_25": 11743210,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5663
     },
     {
-        "name": "Nicolas Batum",
-        "salary22_23": 10843350,
-        "salary23_24": 11710818,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4487
-    },
-    {
-        "name": "Reggie Jackson",
-        "salary22_23": 11215260,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4906
-    },
-    {
         "name": "Robert Covington",
-        "salary22_23": 12307692,
         "salary23_24": 11692308,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5253
     },
     {
-        "name": "Luke Kennard",
-        "salary22_23": 14415545,
-        "salary23_24": 15418363,
-        "salary24_25": 15418363,
+        "name": "Nicolas Batum",
+        "salary23_24": 11710818,
+        "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5825
+        "salary26_27": null,
+        "yahoo_id": 4487
     },
     {
         "name": "Marcus Morris Sr.",
-        "salary22_23": 16372093,
         "salary23_24": 17116279,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4895
     },
     {
         "name": "Norman Powell",
-        "salary22_23": 16758621,
         "salary23_24": 18000000,
         "salary24_25": 19241379,
         "salary25_26": 20482758,
+        "salary26_27": null,
         "yahoo_id": 5506
     },
     {
         "name": "Kawhi Leonard",
-        "salary22_23": 42492492,
         "salary23_24": 45640084,
         "salary24_25": 48787676,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4896
     },
     {
         "name": "Paul George",
-        "salary22_23": 42492568,
-        "salary23_24": 45640165,
-        "salary24_25": 48787763,
+        "salary23_24": 45640084,
+        "salary24_25": 48787676,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4725
     },
     {
-        "name": "Matt Ryan",
-        "salary22_23": 1637966,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Damion Baugh",
+        "salary23_24": 1119563,
+        "salary24_25": 2181953,
         "salary25_26": null,
-        "yahoo_id": 6654
+        "salary26_27": null,
+        "yahoo_id": 10213
     },
     {
-        "name": "Jay Huff",
-        "salary22_23": 1637966,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6617
+        "name": "Maxwell Lewis",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10079
     },
     {
         "name": "Max Christie",
-        "salary22_23": 1017781,
         "salary23_24": 1719864,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6725
     },
     {
-        "name": "Austin Reaves",
-        "salary22_23": 1563518,
-        "salary23_24": null,
+        "name": "Cam Reddish",
+        "salary23_24": 2165000,
+        "salary24_25": 2463946,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6172
+    },
+    {
+        "name": "Jaxson Hayes",
+        "salary23_24": 2165000,
+        "salary24_25": 2463946,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6170
+    },
+    {
+        "name": "Christian Wood",
+        "salary23_24": 2709849,
+        "salary24_25": 3036040,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5583
+    },
+    {
+        "name": "Jalen Hood-Schifino",
+        "salary23_24": 3695040,
+        "salary24_25": 3879840,
+        "salary25_26": 4064640,
+        "salary26_27": null,
+        "yahoo_id": 10109
+    },
+    {
+        "name": "Taurean Prince",
+        "salary23_24": 4516000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5643
+    },
+    {
+        "name": "Jarred Vanderbilt",
+        "salary23_24": 4698000,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6052
+    },
+    {
+        "name": "Gabe Vincent",
+        "salary23_24": 10500000,
+        "salary24_25": 11000000,
+        "salary25_26": 11500000,
+        "salary26_27": null,
+        "yahoo_id": 6353
+    },
+    {
+        "name": "Austin Reaves",
+        "salary23_24": 12015150,
+        "salary24_25": 12976362,
+        "salary25_26": 13937574,
+        "salary26_27": null,
         "yahoo_id": 6606
     },
     {
-        "name": "Juan Toscano-Anderson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6329
+        "name": "Rui Hachimura",
+        "salary23_24": 15740741,
+        "salary24_25": 17000000,
+        "salary25_26": 18259259,
+        "salary26_27": null,
+        "yahoo_id": 6171
     },
     {
-        "name": "Troy Brown Jr.",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "D'Angelo Russell",
+        "salary23_24": 17307693,
+        "salary24_25": 18692307,
         "salary25_26": null,
-        "yahoo_id": 6026
-    },
-    {
-        "name": "Thomas Bryant",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5855
-    },
-    {
-        "name": "Dennis Schroder",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5187
-    },
-    {
-        "name": "Wenyen Gabriel",
-        "salary22_23": 1878720,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6092
-    },
-    {
-        "name": "Damian Jones",
-        "salary22_23": 2298385,
-        "salary23_24": 2586665,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5661
-    },
-    {
-        "name": "Kendrick Nunn",
-        "salary22_23": 5250000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6114
-    },
-    {
-        "name": "Lonnie Walker IV",
-        "salary22_23": 6479000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6029
-    },
-    {
-        "name": "Patrick Beverley",
-        "salary22_23": 13000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4647
+        "salary26_27": null,
+        "yahoo_id": 5433
     },
     {
         "name": "Anthony Davis",
-        "salary22_23": 37980720,
         "salary23_24": 40600080,
         "salary24_25": 43219440,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5007
     },
     {
         "name": "LeBron James",
-        "salary22_23": 44474988,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 47607350,
+        "salary24_25": 51415938,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 3704
     },
     {
-        "name": "Russell Westbrook",
-        "salary22_23": 47063478,
-        "salary23_24": null,
+        "name": "Matthew Hurt",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4390
+        "salary26_27": null,
+        "yahoo_id": 6611
     },
     {
-        "name": "Kennedy Chandler",
-        "salary22_23": 1200000,
+        "name": "Mychal Mulder",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6307
+    },
+    {
+        "name": "Shaquille Harrison",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5746
+    },
+    {
+        "name": "Kenneth Lofton Jr.",
         "salary23_24": 1719864,
         "salary24_25": 2019699,
         "salary25_26": 2187451,
-        "yahoo_id": 6728
+        "salary26_27": null,
+        "yahoo_id": 6758
     },
     {
         "name": "Xavier Tillman",
-        "salary22_23": 1782621,
         "salary23_24": 1930681,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6427
     },
     {
-        "name": "Killian Tillie",
-        "salary22_23": 1901625,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6460
-    },
-    {
         "name": "Santi Aldama",
-        "salary22_23": 2094120,
         "salary23_24": 2194200,
         "salary24_25": 3960531,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6572
     },
     {
-        "name": "Desmond Bane",
-        "salary22_23": 2130240,
-        "salary23_24": 3845083,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6422
-    },
-    {
         "name": "John Konchar",
-        "salary22_23": 2300000,
         "salary23_24": 2400000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6255
     },
     {
         "name": "David Roddy",
-        "salary22_23": 2588640,
         "salary23_24": 2718240,
         "salary24_25": 2847240,
         "salary25_26": 4831766,
+        "salary26_27": null,
         "yahoo_id": 6713
     },
     {
+        "name": "Derrick Rose",
+        "salary23_24": 3196448,
+        "salary24_25": 3356271,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4387
+    },
+    {
         "name": "Jake LaRavia",
-        "salary22_23": 3047640,
         "salary23_24": 3199920,
         "salary24_25": 3352680,
         "salary25_26": 5163127,
+        "salary26_27": null,
         "yahoo_id": 6709
     },
     {
-        "name": "Brandon Clarke",
-        "salary22_23": 4343920,
-        "salary23_24": null,
+        "name": "Desmond Bane",
+        "salary23_24": 3845083,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6209
+        "salary26_27": null,
+        "yahoo_id": 6422
     },
     {
         "name": "Ziaire Williams",
-        "salary22_23": 4591680,
         "salary23_24": 4810200,
         "salary24_25": 6133005,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6552
     },
     {
-        "name": "Danny Green",
-        "salary22_23": 10000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4651
-    },
-    {
-        "name": "Dillon Brooks",
-        "salary22_23": 11400000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5858
-    },
-    {
-        "name": "Ja Morant",
-        "salary22_23": 12119440,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6164
-    },
-    {
-        "name": "Tyus Jones",
-        "salary22_23": 15000000,
-        "salary23_24": 14000000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5484
+        "name": "Brandon Clarke",
+        "salary23_24": 12500000,
+        "salary24_25": 12500000,
+        "salary25_26": 12500000,
+        "salary26_27": null,
+        "yahoo_id": 6209
     },
     {
         "name": "Steven Adams",
-        "salary22_23": 17926829,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 12600000,
+        "salary24_25": 12600000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5163
     },
     {
+        "name": "Luke Kennard",
+        "salary23_24": 14763636,
+        "salary24_25": 14763636,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5825
+    },
+    {
+        "name": "Marcus Smart",
+        "salary23_24": 18833713,
+        "salary24_25": 20210285,
+        "salary25_26": 21586856,
+        "salary26_27": null,
+        "yahoo_id": 5317
+    },
+    {
         "name": "Jaren Jackson Jr.",
-        "salary22_23": 28946605,
         "salary23_24": 27102202,
         "salary24_25": 25257798,
         "salary25_26": 23413395,
+        "salary26_27": null,
         "yahoo_id": 6015
     },
     {
-        "name": "Dru Smith",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Ja Morant",
+        "salary23_24": 34005250,
+        "salary24_25": 36725670,
+        "salary25_26": 39446090,
+        "salary26_27": null,
+        "yahoo_id": 6164
+    },
+    {
+        "name": "Alondes Williams",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6652
+        "salary26_27": null,
+        "yahoo_id": 6749
+    },
+    {
+        "name": "Drew Peterson",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10206
+    },
+    {
+        "name": "Cole Swider",
+        "salary23_24": 1801769,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6799
+    },
+    {
+        "name": "Justin Champagnie",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6632
+    },
+    {
+        "name": "Cheick Diallo",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5664
     },
     {
         "name": "Orlando Robinson",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 1801769,
+        "salary24_25": 2120693,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6802
     },
     {
-        "name": "Jamaree Bouyea",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6800
-    },
-    {
-        "name": "Omer Yurtseven",
-        "salary22_23": 1752638,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6511
-    },
-    {
         "name": "Haywood Highsmith",
-        "salary22_23": 1752638,
         "salary23_24": 1902137,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6155
     },
     {
-        "name": "Gabe Vincent",
-        "salary22_23": 1815677,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6353
-    },
-    {
-        "name": "Max Strus",
-        "salary22_23": 1815677,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6267
-    },
-    {
-        "name": "Udonis Haslem",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 3765
-    },
-    {
         "name": "Nikola Jovic",
-        "salary22_23": 2239920,
         "salary23_24": 2352000,
         "salary24_25": 2464200,
         "salary25_26": 4445417,
+        "salary26_27": null,
         "yahoo_id": 6717
     },
     {
-        "name": "Dewayne Dedmon",
-        "salary22_23": 4700000,
-        "salary23_24": 4324000,
-        "salary24_25": null,
+        "name": "Thomas Bryant",
+        "salary23_24": 2528233,
+        "salary24_25": 2845342,
         "salary25_26": null,
-        "yahoo_id": 5256
+        "salary26_27": null,
+        "yahoo_id": 5855
     },
     {
-        "name": "Tyler Herro",
-        "salary22_23": 5722116,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Josh Richardson",
+        "salary23_24": 2891467,
+        "salary24_25": 3051153,
         "salary25_26": null,
-        "yahoo_id": 6175
+        "salary26_27": null,
+        "yahoo_id": 5500
+    },
+    {
+        "name": "Jaime Jaquez Jr.",
+        "salary23_24": 3510600,
+        "salary24_25": 3685800,
+        "salary25_26": 3861600,
+        "salary26_27": null,
+        "yahoo_id": 10092
+    },
+    {
+        "name": "Kevin Love",
+        "salary23_24": 3835738,
+        "salary24_25": 4027525,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4391
     },
     {
         "name": "Caleb Martin",
-        "salary22_23": 6479000,
         "salary23_24": 6802950,
         "salary24_25": 7126900,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6275
     },
     {
-        "name": "Victor Oladipo",
-        "salary22_23": 8750000,
-        "salary23_24": 9450000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5153
-    },
-    {
         "name": "Duncan Robinson",
-        "salary22_23": 16902000,
         "salary23_24": 18154000,
         "salary24_25": 19406000,
         "salary25_26": 19888000,
+        "salary26_27": null,
         "yahoo_id": 6073
     },
     {
+        "name": "Tyler Herro",
+        "salary23_24": 27000000,
+        "salary24_25": 29000000,
+        "salary25_26": 31000000,
+        "salary26_27": null,
+        "yahoo_id": 6175
+    },
+    {
         "name": "Kyle Lowry",
-        "salary22_23": 28333334,
         "salary23_24": 29682540,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4152
     },
     {
         "name": "Bam Adebayo",
-        "salary22_23": 30351780,
         "salary23_24": 32600060,
         "salary24_25": 34848340,
         "salary25_26": 37096620,
+        "salary26_27": null,
         "yahoo_id": 5827
     },
     {
         "name": "Jimmy Butler",
-        "salary22_23": 37653300,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 45183960,
+        "salary24_25": 48798677,
+        "salary25_26": 52413394,
+        "salary26_27": null,
         "yahoo_id": 4912
     },
     {
-        "name": "Lindell Wigginton",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Drew Timme",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6287
-    },
-    {
-        "name": "Luca Vildoza",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6509
+        "salary26_27": null,
+        "yahoo_id": 10141
     },
     {
         "name": "Marques Bolden",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6326
     },
     {
-        "name": "Wesley Matthews",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Cameron Payne",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4694
+        "salary26_27": null,
+        "yahoo_id": 5474
     },
     {
-        "name": "Serge Ibaka",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4486
+        "name": "Chris Livingston",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10088
+    },
+    {
+        "name": "Andre Jackson Jr.",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10082
+    },
+    {
+        "name": "A.J. Green",
+        "salary23_24": 1901769,
+        "salary24_25": 2120693,
+        "salary25_26": 2301587,
+        "salary26_27": null,
+        "yahoo_id": 6755
     },
     {
         "name": "Thanasis Antetokounmpo",
-        "salary22_23": 1878720,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5362
     },
     {
-        "name": "Jevon Carter",
-        "salary22_23": 2100000,
-        "salary23_24": 2239943,
+        "name": "Malik Beasley",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6043
+        "salary26_27": null,
+        "yahoo_id": 5650
     },
     {
-        "name": "Marjon Beauchamp",
-        "salary22_23": 2485200,
+        "name": "Robin Lopez",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4477
+    },
+    {
+        "name": "Jae Crowder",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5068
+    },
+    {
+        "name": "MarJon Beauchamp",
         "salary23_24": 2609400,
         "salary24_25": 2733720,
         "salary25_26": 4781276,
+        "salary26_27": null,
         "yahoo_id": 6714
     },
     {
-        "name": "Jordan Nwora",
-        "salary22_23": 3000000,
-        "salary23_24": 3200000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6437
-    },
-    {
-        "name": "George Hill",
-        "salary22_23": 4000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4488
-    },
-    {
         "name": "Pat Connaughton",
-        "salary22_23": 5728393,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 9423869,
+        "salary24_25": 9423869,
+        "salary25_26": 9423869,
+        "salary26_27": null,
         "yahoo_id": 5501
     },
     {
-        "name": "Joe Ingles",
-        "salary22_23": 6479000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5393
-    },
-    {
-        "name": "Grayson Allen",
-        "salary22_23": 8500000,
-        "salary23_24": 8500000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6032
-    },
-    {
         "name": "Bobby Portis",
-        "salary22_23": 10843350,
         "salary23_24": 11710818,
         "salary24_25": 12578286,
         "salary25_26": 13445754,
+        "salary26_27": null,
         "yahoo_id": 5482
     },
     {
         "name": "Brook Lopez",
-        "salary22_23": 13906976,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 25000000,
+        "salary24_25": 23000000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4472
     },
     {
-        "name": "Jrue Holiday",
-        "salary22_23": 33665040,
-        "salary23_24": 36158747,
-        "salary24_25": 38652453,
-        "salary25_26": null,
-        "yahoo_id": 4622
-    },
-    {
         "name": "Khris Middleton",
-        "salary22_23": 37948276,
-        "salary23_24": 40396552,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 29320988,
+        "salary24_25": 31666667,
+        "salary25_26": 34012345,
+        "salary26_27": null,
         "yahoo_id": 5073
     },
     {
+        "name": "Damian Lillard",
+        "salary23_24": 45640084,
+        "salary24_25": 48787676,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5012
+    },
+    {
         "name": "Giannis Antetokounmpo",
-        "salary22_23": 42492492,
         "salary23_24": 45640084,
         "salary24_25": 48787676,
         "salary25_26": 51935268,
+        "salary26_27": null,
         "yahoo_id": 5185
     },
     {
-        "name": "Luka Garza",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Tyrese Martin",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6594
+        "salary26_27": null,
+        "yahoo_id": 6741
     },
     {
-        "name": "CJ Elleby",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Trevor Keels",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6438
+        "salary26_27": null,
+        "yahoo_id": 6732
     },
     {
-        "name": "PJ Dozier",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Daishen Nix",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5886
+        "salary26_27": null,
+        "yahoo_id": 6626
+    },
+    {
+        "name": "Vit Krejci",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6429
     },
     {
         "name": "Josh Minott",
-        "salary22_23": 1017781,
         "salary23_24": 1719864,
         "salary24_25": 2019699,
         "salary25_26": 2187451,
+        "salary26_27": null,
         "yahoo_id": 6735
     },
     {
-        "name": "Nathan Knight",
-        "salary22_23": 1836090,
-        "salary23_24": 1997238,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6462
-    },
-    {
-        "name": "Bryn Forbes",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5726
-    },
-    {
-        "name": "Austin Rivers",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5016
-    },
-    {
-        "name": "Naz Reid",
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6253
-    },
-    {
-        "name": "Jaylen Nowell",
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6231
+        "name": "Leonard Miller",
+        "salary23_24": 1800000,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10050
     },
     {
         "name": "Jordan McLaughlin",
-        "salary22_23": 2160000,
         "salary23_24": 2320000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6133
     },
     {
-        "name": "Jaden McDaniels",
-        "salary22_23": 2161440,
-        "salary23_24": 3901399,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6420
-    },
-    {
         "name": "Wendell Moore Jr.",
-        "salary22_23": 2306520,
         "salary23_24": 2421720,
         "salary24_25": 2537040,
         "salary25_26": 4574283,
+        "salary26_27": null,
         "yahoo_id": 6716
     },
     {
-        "name": "Taurean Prince",
-        "salary22_23": 7295000,
-        "salary23_24": 7650000,
+        "name": "Jaden McDaniels",
+        "salary23_24": 3901399,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5643
+        "salary26_27": null,
+        "yahoo_id": 6420
+    },
+    {
+        "name": "Troy Brown Jr.",
+        "salary23_24": 4000000,
+        "salary24_25": 4000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6026
+    },
+    {
+        "name": "Nickeil Alexander-Walker",
+        "salary23_24": 4687500,
+        "salary24_25": 4312500,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6205
+    },
+    {
+        "name": "Shake Milton",
+        "salary23_24": 5000000,
+        "salary24_25": 5000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6065
     },
     {
         "name": "Kyle Anderson",
-        "salary22_23": 8780488,
         "salary23_24": 9219512,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5341
     },
     {
+        "name": "Naz Reid",
+        "salary23_24": 12950400,
+        "salary24_25": 13986432,
+        "salary25_26": 15022464,
+        "salary26_27": null,
+        "yahoo_id": 6253
+    },
+    {
         "name": "Anthony Edwards",
-        "salary22_23": 10733400,
         "salary23_24": 13534817,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6355
     },
     {
-        "name": "D'Angelo Russell",
-        "salary22_23": 31377750,
-        "salary23_24": null,
+        "name": "Mike Conley",
+        "salary23_24": 24360000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5433
+        "salary26_27": null,
+        "yahoo_id": 4246
     },
     {
         "name": "Karl-Anthony Towns",
-        "salary22_23": 33833400,
         "salary23_24": 36016200,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5432
     },
     {
         "name": "Rudy Gobert",
-        "salary22_23": 38172414,
         "salary23_24": 41000000,
         "salary24_25": 43827587,
         "salary25_26": 46655173,
+        "salary26_27": null,
         "yahoo_id": 5197
     },
     {
-        "name": "Daeqwon Plowden",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6786
-    },
-    {
-        "name": "Zylan Cheatham",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6266
+        "name": "E.J. Liddell",
+        "salary23_24": 1801769,
+        "salary24_25": 2120693,
+        "salary25_26": 2301587,
+        "salary26_27": null,
+        "yahoo_id": 6731
     },
     {
         "name": "Jose Alvarado",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": 1988598,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6613
     },
     {
         "name": "Naji Marshall",
-        "salary22_23": 1782621,
         "salary23_24": 1930681,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6499
     },
     {
-        "name": "Herbert Jones",
-        "salary22_23": 1785000,
-        "salary23_24": 1836096,
+        "name": "Cody Zeller",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6577
+        "salary26_27": null,
+        "yahoo_id": 5155
     },
     {
         "name": "Trey Murphy III",
-        "salary22_23": 3206520,
         "salary23_24": 3359280,
         "salary24_25": 5159855,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6559
     },
     {
+        "name": "Jordan Hawkins",
+        "salary23_24": 4310160,
+        "salary24_25": 4525680,
+        "salary25_26": 4741320,
+        "salary26_27": null,
+        "yahoo_id": 10098
+    },
+    {
         "name": "Kira Lewis Jr.",
-        "salary22_23": 4004280,
         "salary23_24": 5722116,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6405
     },
     {
-        "name": "Garrett Temple",
-        "salary22_23": 5155500,
-        "salary23_24": 5401000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4682
-    },
-    {
         "name": "Dyson Daniels",
-        "salary22_23": 5508600,
         "salary23_24": 5784120,
         "salary24_25": 6059520,
         "salary25_26": 7707709,
+        "salary26_27": null,
         "yahoo_id": 6698
     },
     {
-        "name": "Jaxson Hayes",
-        "salary22_23": 6803012,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6170
-    },
-    {
         "name": "Larry Nance Jr.",
-        "salary22_23": 9672727,
-        "salary23_24": null,
-        "salary24_25": null,
+        "salary23_24": 10375000,
+        "salary24_25": 11205000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5487
     },
     {
-        "name": "Devonte' Graham",
-        "salary22_23": 11550000,
-        "salary23_24": 12100000,
-        "salary24_25": 12650000,
-        "salary25_26": null,
-        "yahoo_id": 6045
-    },
-    {
-        "name": "Zion Williamson",
-        "salary22_23": 13534817,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6163
+        "name": "Herbert Jones",
+        "salary23_24": 12015150,
+        "salary24_25": 12976362,
+        "salary25_26": 13937574,
+        "salary26_27": null,
+        "yahoo_id": 6577
     },
     {
         "name": "Jonas Valanciunas",
-        "salary22_23": 14700000,
         "salary23_24": 15435000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4886
     },
     {
         "name": "Brandon Ingram",
-        "salary22_23": 31650600,
         "salary23_24": 33833400,
         "salary24_25": 36016200,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5601
     },
     {
+        "name": "Zion Williamson",
+        "salary23_24": 34005250,
+        "salary24_25": 36725670,
+        "salary25_26": 39446090,
+        "salary26_27": null,
+        "yahoo_id": 6163
+    },
+    {
         "name": "CJ McCollum",
-        "salary22_23": 33333333,
         "salary23_24": 35802469,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5161
     },
     {
-        "name": "Jalen Harris",
-        "salary22_23": 1637966,
-        "salary23_24": null,
+        "name": "Jacob Toppin",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6451
+        "salary26_27": null,
+        "yahoo_id": 10129
     },
     {
-        "name": "DaQuan Jeffries",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Duane Washington Jr.",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6276
+        "salary26_27": null,
+        "yahoo_id": 6607
     },
     {
         "name": "Ryan Arcidiacono",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5695
     },
     {
         "name": "Miles McBride",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6578
     },
     {
         "name": "Jericho Sims",
-        "salary22_23": 1637966,
         "salary23_24": 1927896,
         "salary24_25": 2092344,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6600
     },
     {
-        "name": "Svi Mykhailiuk",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Isaiah Roby",
+        "salary23_24": 2066585,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6058
+        "salary26_27": null,
+        "yahoo_id": 6233
+    },
+    {
+        "name": "DaQuan Jeffries",
+        "salary23_24": 2066585,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6276
     },
     {
         "name": "Quentin Grimes",
-        "salary22_23": 2277000,
         "salary23_24": 2385720,
         "salary24_25": 4296682,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6567
     },
     {
         "name": "Immanuel Quickley",
-        "salary22_23": 2316240,
         "salary23_24": 4171548,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6417
     },
     {
-        "name": "Obi Toppin",
-        "salary22_23": 5348280,
-        "salary23_24": 6803012,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6400
-    },
-    {
-        "name": "Cam Reddish",
-        "salary22_23": 5954454,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6172
-    },
-    {
         "name": "Isaiah Hartenstein",
-        "salary22_23": 7804879,
-        "salary23_24": 8195121,
+        "salary23_24": 9245121,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5856
     },
     {
-        "name": "RJ Barrett",
-        "salary22_23": 10900635,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6165
+        "name": "Donte DiVincenzo",
+        "salary23_24": 10900000,
+        "salary24_25": 11445000,
+        "salary25_26": 11990000,
+        "salary26_27": null,
+        "yahoo_id": 6028
     },
     {
-        "name": "Derrick Rose",
-        "salary22_23": 14520730,
-        "salary23_24": 15596339,
+        "name": "Josh Hart",
+        "salary23_24": 12960000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4387
+        "salary26_27": null,
+        "yahoo_id": 5843
     },
     {
         "name": "Mitchell Robinson",
-        "salary22_23": 17045454,
         "salary23_24": 15681818,
         "salary24_25": 14318182,
         "salary25_26": 12954546,
+        "salary26_27": null,
         "yahoo_id": 6047
     },
     {
         "name": "Evan Fournier",
-        "salary22_23": 18000000,
         "salary23_24": 18857143,
         "salary24_25": 19000000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5054
     },
     {
-        "name": "Julius Randle",
-        "salary22_23": 23760000,
-        "salary23_24": 25660800,
-        "salary24_25": 27561600,
-        "salary25_26": 29462400,
-        "yahoo_id": 5318
+        "name": "RJ Barrett",
+        "salary23_24": 23883929,
+        "salary24_25": 25794643,
+        "salary25_26": 27705357,
+        "salary26_27": null,
+        "yahoo_id": 6165
     },
     {
         "name": "Jalen Brunson",
-        "salary22_23": 27733332,
         "salary23_24": 26346666,
         "salary24_25": 24960001,
         "salary25_26": 24960001,
+        "salary26_27": null,
         "yahoo_id": 6044
     },
     {
+        "name": "Julius Randle",
+        "salary23_24": 28226880,
+        "salary24_25": 30317760,
+        "salary25_26": 32408640,
+        "salary26_27": null,
+        "yahoo_id": 5318
+    },
+    {
+        "name": "Jack White",
+        "salary23_24": 1801769,
+        "salary24_25": 2120693,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6765
+    },
+    {
         "name": "Aaron Wiggins",
-        "salary22_23": 1563518,
         "salary23_24": 1836096,
         "salary24_25": 1988598,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6597
     },
     {
-        "name": "Jaylin Williams",
-        "salary22_23": 2000000,
-        "salary23_24": 2000000,
-        "salary24_25": 2019699,
-        "salary25_26": 2187699,
-        "yahoo_id": 6724
-    },
-    {
-        "name": "Kenrich Williams",
-        "salary22_23": 2000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6076
-    },
-    {
         "name": "Jeremiah Robinson-Earl",
-        "salary22_23": 2000000,
         "salary23_24": 1900000,
         "salary24_25": 1988598,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6574
     },
     {
-        "name": "Marquese Chriss",
-        "salary22_23": 2193920,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Isaiah Joe",
+        "salary23_24": 1997238,
+        "salary24_25": 2164993,
         "salary25_26": null,
-        "yahoo_id": 5639
+        "salary26_27": null,
+        "yahoo_id": 6441
     },
     {
-        "name": "Sterling Brown",
-        "salary22_23": 3000000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5859
+        "name": "Jaylin Williams",
+        "salary23_24": 2000000,
+        "salary24_25": 2019699,
+        "salary25_26": 2187699,
+        "salary26_27": null,
+        "yahoo_id": 6724
     },
     {
         "name": "Tre Mann",
-        "salary22_23": 3046200,
         "salary23_24": 3191400,
         "salary24_25": 4908373,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6560
     },
     {
-        "name": "Aleksej Pokusevski",
-        "salary22_23": 3261480,
-        "salary23_24": 5009633,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6409
-    },
-    {
-        "name": "Mike Muscala",
-        "salary22_23": 3500000,
-        "salary23_24": 3500000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5214
-    },
-    {
-        "name": "Trey Burke",
-        "salary22_23": 3547500,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5160
-    },
-    {
-        "name": "Darius Bazley",
-        "salary22_23": 4264629,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6211
-    },
-    {
         "name": "Jalen Williams",
-        "salary22_23": 4341480,
         "salary23_24": 4558680,
         "salary24_25": 4775760,
         "salary25_26": 6580997,
+        "salary26_27": null,
         "yahoo_id": 6702
     },
     {
         "name": "Ousmane Dieng",
-        "salary22_23": 4569840,
         "salary23_24": 4798440,
         "salary24_25": 5027040,
         "salary25_26": 6670882,
+        "salary26_27": null,
         "yahoo_id": 6701
     },
     {
-        "name": "David Nwaba",
-        "salary22_23": 5022000,
-        "salary23_24": 5394000,
+        "name": "Aleksej Pokusevski",
+        "salary23_24": 5009633,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5762
+        "salary26_27": null,
+        "yahoo_id": 6409
+    },
+    {
+        "name": "Cason Wallace",
+        "salary23_24": 5291400,
+        "salary24_25": 5555880,
+        "salary25_26": 5820240,
+        "salary26_27": null,
+        "yahoo_id": 10107
+    },
+    {
+        "name": "Kenrich Williams",
+        "salary23_24": 6175000,
+        "salary24_25": 6669000,
+        "salary25_26": 7163000,
+        "salary26_27": null,
+        "yahoo_id": 6076
     },
     {
         "name": "Josh Giddey",
-        "salary22_23": 6287400,
         "salary23_24": 6587040,
         "salary24_25": 8352367,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6548
     },
     {
+        "name": "Vasilije Micic",
+        "salary23_24": 7723000,
+        "salary24_25": 7723000,
+        "salary25_26": 8109150,
+        "salary26_27": null,
+        "yahoo_id": 5363
+    },
+    {
+        "name": "Victor Oladipo",
+        "salary23_24": 9450000,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5153
+    },
+    {
         "name": "Chet Holmgren",
-        "salary22_23": 9891240,
         "salary23_24": 10386000,
         "salary24_25": 10880640,
         "salary25_26": 13731368,
+        "salary26_27": null,
         "yahoo_id": 6692
     },
     {
         "name": "Luguentz Dort",
-        "salary22_23": 15277778,
         "salary23_24": 15277778,
         "salary24_25": 16500000,
         "salary25_26": 17722222,
+        "salary26_27": null,
         "yahoo_id": 6254
     },
     {
+        "name": "Davis Bertans",
+        "salary23_24": 17000000,
+        "salary24_25": 16000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4926
+    },
+    {
         "name": "Shai Gilgeous-Alexander",
-        "salary22_23": 30913750,
         "salary23_24": 33386850,
         "salary24_25": 35859950,
         "salary25_26": 38333050,
+        "salary26_27": null,
         "yahoo_id": 6022
     },
     {
-        "name": "Devin Cannady",
-        "salary22_23": 1752638,
-        "salary23_24": 1902137,
+        "name": "Brandon Williams",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6342
+        "salary26_27": null,
+        "yahoo_id": 6679
     },
     {
-        "name": "Moritz Wagner",
-        "salary22_23": 1878720,
-        "salary23_24": null,
+        "name": "Trevelin Queen",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6036
+        "salary26_27": null,
+        "yahoo_id": 6500
+    },
+    {
+        "name": "Mac McClung",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6628
+    },
+    {
+        "name": "D.J. Wilson",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5830
     },
     {
         "name": "Caleb Houstan",
-        "salary22_23": 2000000,
         "salary23_24": 2000000,
         "salary24_25": 2019699,
         "salary25_26": 2187699,
+        "salary26_27": null,
         "yahoo_id": 6722
     },
     {
-        "name": "Bol Bol",
-        "salary22_23": 2200000,
-        "salary23_24": 2200000,
+        "name": "Goga Bitadze",
+        "salary23_24": 2066585,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6232
+        "salary26_27": null,
+        "yahoo_id": 6206
     },
     {
-        "name": "R.J. Hampton",
-        "salary22_23": 2412840,
-        "salary23_24": 4220057,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6416
+        "name": "Jett Howard",
+        "salary23_24": 5026800,
+        "salary24_25": 5278320,
+        "salary25_26": 5529720,
+        "salary26_27": null,
+        "yahoo_id": 10106
     },
     {
         "name": "Chuma Okeke",
-        "salary22_23": 3433320,
         "salary23_24": 5266713,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6204
     },
     {
-        "name": "Cole Anthony",
-        "salary22_23": 3613680,
-        "salary23_24": 5539771,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6407
-    },
-    {
         "name": "Franz Wagner",
-        "salary22_23": 5258280,
         "salary23_24": 5508720,
         "salary24_25": 7007092,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6550
     },
     {
+        "name": "Cole Anthony",
+        "salary23_24": 5539771,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6407
+    },
+    {
+        "name": "Anthony Black",
+        "salary23_24": 7245480,
+        "salary24_25": 7607760,
+        "salary25_26": 7970280,
+        "salary26_27": null,
+        "yahoo_id": 10095
+    },
+    {
         "name": "Jalen Suggs",
-        "salary22_23": 6922320,
         "salary23_24": 7252080,
         "salary24_25": 9188385,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6516
     },
     {
-        "name": "Mo Bamba",
-        "salary22_23": 10300000,
-        "salary23_24": 10300000,
-        "salary24_25": null,
+        "name": "Moritz Wagner",
+        "salary23_24": 8000000,
+        "salary24_25": 8000000,
         "salary25_26": null,
-        "yahoo_id": 6017
+        "salary26_27": null,
+        "yahoo_id": 6036
+    },
+    {
+        "name": "Joe Ingles",
+        "salary23_24": 11000000,
+        "salary24_25": 11000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5393
     },
     {
         "name": "Paolo Banchero",
-        "salary22_23": 11055120,
         "salary23_24": 11608080,
         "salary24_25": 12160800,
         "salary25_26": 15334769,
+        "salary26_27": null,
         "yahoo_id": 6691
     },
     {
-        "name": "Terrence Ross",
-        "salary22_23": 11500000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5014
-    },
-    {
-        "name": "Gary Harris",
-        "salary22_23": 13000000,
-        "salary23_24": 13000000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5330
-    },
-    {
         "name": "Wendell Carter Jr.",
-        "salary22_23": 14150000,
         "salary23_24": 13050000,
         "salary24_25": 11950000,
         "salary25_26": 10850000,
+        "salary26_27": null,
         "yahoo_id": 6018
     },
     {
         "name": "Markelle Fultz",
-        "salary22_23": 16500000,
         "salary23_24": 17000000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5763
     },
     {
         "name": "Jonathan Isaac",
-        "salary22_23": 17400000,
         "salary23_24": 17400000,
         "salary24_25": 17400000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5768
     },
     {
-        "name": "Michael Foster",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Javonte Smart",
+        "salary23_24": 1801769,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6793
+        "salary26_27": null,
+        "yahoo_id": 6653
     },
     {
-        "name": "Charles Bassey",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
+        "name": "David Duke Jr.",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6595
+        "salary26_27": null,
+        "yahoo_id": 6624
     },
     {
-        "name": "Paul Reed",
-        "salary22_23": 1782621,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Filip Petrusev",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
         "salary25_26": null,
-        "yahoo_id": 6450
+        "salary26_27": null,
+        "yahoo_id": 6592
     },
     {
-        "name": "Isaiah Joe",
-        "salary22_23": 1782621,
-        "salary23_24": null,
+        "name": "Mo Bamba",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6441
+        "salary26_27": null,
+        "yahoo_id": 6017
     },
     {
-        "name": "Shake Milton",
-        "salary22_23": 1997718,
-        "salary23_24": null,
+        "name": "Kelly Oubre Jr.",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6065
+        "salary26_27": null,
+        "yahoo_id": 5475
     },
     {
         "name": "Montrezl Harrell",
-        "salary22_23": 2463490,
-        "salary23_24": 2760026,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5492
     },
     {
-        "name": "Tyrese Maxey",
-        "salary22_23": 2726880,
-        "salary23_24": 4343920,
+        "name": "Danny Green",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6413
+        "salary26_27": null,
+        "yahoo_id": 4651
     },
     {
-        "name": "Georges Niang",
-        "salary22_23": 3465000,
-        "salary23_24": null,
+        "name": "Patrick Beverley",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5681
+        "salary26_27": null,
+        "yahoo_id": 4647
+    },
+    {
+        "name": "Jaden Springer",
+        "salary23_24": 2226240,
+        "salary24_25": 4018363,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6570
     },
     {
         "name": "Danuel House Jr.",
-        "salary22_23": 4105000,
         "salary23_24": 4310250,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5728
     },
     {
-        "name": "Matisse Thybulle",
-        "salary22_23": 4379527,
-        "salary23_24": null,
+        "name": "Tyrese Maxey",
+        "salary23_24": 4343920,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6208
+        "salary26_27": null,
+        "yahoo_id": 6413
     },
     {
         "name": "Furkan Korkmaz",
-        "salary22_23": 5000000,
         "salary23_24": 5370370,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5657
     },
     {
+        "name": "Paul Reed",
+        "salary23_24": 7723000,
+        "salary24_25": 7723000,
+        "salary25_26": 8109150,
+        "salary26_27": null,
+        "yahoo_id": 6450
+    },
+    {
         "name": "De'Anthony Melton",
-        "salary22_23": 8250000,
         "salary23_24": 8000000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6057
     },
     {
         "name": "P.J. Tucker",
-        "salary22_23": 10490000,
         "salary23_24": 11014500,
         "salary24_25": 11539000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4163
     },
     {
         "name": "James Harden",
-        "salary22_23": 33000000,
         "salary23_24": 35640000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4563
     },
     {
-        "name": "Joel Embiid",
-        "salary22_23": 33616770,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5294
-    },
-    {
         "name": "Tobias Harris",
-        "salary22_23": 37633050,
         "salary23_24": 39270150,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4901
     },
     {
-        "name": "Frank Jackson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Joel Embiid",
+        "salary23_24": 47607350,
+        "salary24_25": 51415938,
+        "salary25_26": 55224526,
+        "salary26_27": null,
+        "yahoo_id": 5294
+    },
+    {
+        "name": "Jordan Goodwin",
+        "salary23_24": 1927896,
+        "salary24_25": 2092344,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6616
+    },
+    {
+        "name": "Bol Bol",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5844
+        "salary26_27": null,
+        "yahoo_id": 6232
     },
     {
-        "name": "Timoth\u00e9 Luwawu-Cabarrot",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Yuta Watanabe",
+        "salary23_24": 2019706,
+        "salary24_25": 2654644,
         "salary25_26": null,
-        "yahoo_id": 5655
-    },
-    {
-        "name": "Jock Landale",
-        "salary22_23": 1563518,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6614
-    },
-    {
-        "name": "Josh Okogie",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6031
-    },
-    {
-        "name": "Damion Lee",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5733
-    },
-    {
-        "name": "Bismack Biyombo",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4888
-    },
-    {
-        "name": "Torrey Craig",
-        "salary22_23": 5121951,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5893
-    },
-    {
-        "name": "Cameron Johnson",
-        "salary22_23": 5887899,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6173
-    },
-    {
-        "name": "Cameron Payne",
-        "salary22_23": 6000000,
-        "salary23_24": 6500000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5474
-    },
-    {
-        "name": "Dario Saric",
-        "salary22_23": 9240000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5323
-    },
-    {
-        "name": "Landry Shamet",
-        "salary22_23": 9500000,
-        "salary23_24": 10250000,
-        "salary24_25": 11000000,
-        "salary25_26": 11750000,
-        "yahoo_id": 6037
-    },
-    {
-        "name": "Jae Crowder",
-        "salary22_23": 10183800,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5068
-    },
-    {
-        "name": "Mikal Bridges",
-        "salary22_23": 21000000,
-        "salary23_24": 21700000,
-        "salary24_25": 23300000,
-        "salary25_26": 24900000,
-        "yahoo_id": 6021
-    },
-    {
-        "name": "Chris Paul",
-        "salary22_23": 28400000,
-        "salary23_24": 30800000,
-        "salary24_25": 30000000,
-        "salary25_26": null,
-        "yahoo_id": 3930
-    },
-    {
-        "name": "Deandre Ayton",
-        "salary22_23": 30913750,
-        "salary23_24": 32459438,
-        "salary24_25": 34005126,
-        "salary25_26": 35550814,
-        "yahoo_id": 5958
-    },
-    {
-        "name": "Devin Booker",
-        "salary22_23": 33833400,
-        "salary23_24": 36016200,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5473
-    },
-    {
-        "name": "Jared Rhoden",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6803
-    },
-    {
-        "name": "Isaiah Miller",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6646
-    },
-    {
-        "name": "Olivier Sarr",
-        "salary22_23": 1637966,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6673
-    },
-    {
-        "name": "Jabari Walker",
-        "salary22_23": 1017781,
-        "salary23_24": 1719864,
-        "salary24_25": 2019699,
-        "salary25_26": null,
-        "yahoo_id": 6747
-    },
-    {
-        "name": "Trendon Watford",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": 1988598,
-        "salary25_26": null,
-        "yahoo_id": 6604
-    },
-    {
-        "name": "Greg Brown",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6585
-    },
-    {
-        "name": "Drew Eubanks",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6109
-    },
-    {
-        "name": "Keon Johnson",
-        "salary22_23": 2681040,
-        "salary23_24": 2808720,
-        "salary24_25": 4474291,
-        "salary25_26": null,
-        "yahoo_id": 6563
-    },
-    {
-        "name": "Justise Winslow",
-        "salary22_23": 4097561,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5470
-    },
-    {
-        "name": "Nassir Little",
-        "salary22_23": 4171548,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6213
-    },
-    {
-        "name": "Shaedon Sharpe",
-        "salary22_23": 6012960,
-        "salary23_24": 6313800,
-        "salary24_25": 6614160,
-        "salary25_26": 8399983,
-        "yahoo_id": 6697
-    },
-    {
-        "name": "Gary Payton II",
-        "salary22_23": 8300000,
-        "salary23_24": 8715000,
-        "salary24_25": 9130000,
-        "salary25_26": null,
-        "yahoo_id": 5739
-    },
-    {
-        "name": "Josh Hart",
-        "salary22_23": 12960000,
-        "salary23_24": 12960000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5843
-    },
-    {
-        "name": "Jusuf Nurkic",
-        "salary22_23": 15625000,
-        "salary23_24": 16875000,
-        "salary24_25": 18125000,
-        "salary25_26": 19375000,
-        "yahoo_id": 5327
-    },
-    {
-        "name": "Jerami Grant",
-        "salary22_23": 20955000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5350
-    },
-    {
-        "name": "Anfernee Simons",
-        "salary22_23": 22321429,
-        "salary23_24": 24107143,
-        "salary24_25": 25892857,
-        "salary25_26": 27678571,
-        "yahoo_id": 6035
-    },
-    {
-        "name": "Damian Lillard",
-        "salary22_23": 42492492,
-        "salary23_24": 45640084,
-        "salary24_25": 48787676,
-        "salary25_26": null,
-        "yahoo_id": 5012
-    },
-    {
-        "name": "Sam Merrill",
-        "salary22_23": 1836090,
-        "salary23_24": 1997238,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6452
-    },
-    {
-        "name": "Quinn Cook",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5588
-    },
-    {
-        "name": "Chima Moneke",
-        "salary22_23": 1017781,
-        "salary23_24": 1719864,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6764
-    },
-    {
-        "name": "Matthew Dellavedova",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5249
-    },
-    {
-        "name": "Kent Bazemore",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5102
-    },
-    {
-        "name": "KZ Okpala",
-        "salary22_23": 1902133,
-        "salary23_24": 2066585,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6220
+        "salary26_27": null,
+        "yahoo_id": 6132
     },
     {
         "name": "Chimezie Metu",
-        "salary22_23": 1910860,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6060
     },
     {
-        "name": "Trey Lyles",
-        "salary22_23": 2625000,
-        "salary23_24": null,
+        "name": "Drew Eubanks",
+        "salary23_24": 2346614,
+        "salary24_25": 2654644,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6109
+    },
+    {
+        "name": "Keita Bates-Diop",
+        "salary23_24": 2346614,
+        "salary24_25": 2654644,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6059
+    },
+    {
+        "name": "Damion Lee",
+        "salary23_24": 2528233,
+        "salary24_25": 2845342,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5733
+    },
+    {
+        "name": "Keon Johnson",
+        "salary23_24": 2808720,
+        "salary24_25": 4474291,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6563
+    },
+    {
+        "name": "Josh Okogie",
+        "salary23_24": 2815937,
+        "salary24_25": 2956734,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6031
+    },
+    {
+        "name": "Eric Gordon",
+        "salary23_24": 3196448,
+        "salary24_25": 3356271,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4469
+    },
+    {
+        "name": "Nassir Little",
+        "salary23_24": 6250000,
+        "salary24_25": 6750000,
+        "salary25_26": 7250000,
+        "salary26_27": null,
+        "yahoo_id": 6213
+    },
+    {
+        "name": "Grayson Allen",
+        "salary23_24": 8925000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5472
+        "salary26_27": null,
+        "yahoo_id": 6032
+    },
+    {
+        "name": "Jusuf Nurkic",
+        "salary23_24": 16875000,
+        "salary24_25": 18125000,
+        "salary25_26": 19375000,
+        "salary26_27": null,
+        "yahoo_id": 5327
+    },
+    {
+        "name": "Devin Booker",
+        "salary23_24": 36016200,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5473
+    },
+    {
+        "name": "Bradley Beal",
+        "salary23_24": 46741590,
+        "salary24_25": 50203930,
+        "salary25_26": 53666270,
+        "salary26_27": null,
+        "yahoo_id": 5009
+    },
+    {
+        "name": "Kevin Durant",
+        "salary23_24": 47649433,
+        "salary24_25": 51179021,
+        "salary25_26": 54708609,
+        "salary26_27": null,
+        "yahoo_id": 4244
+    },
+    {
+        "name": "Duop Reath",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10164
+    },
+    {
+        "name": "Antoine Davis",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10212
+    },
+    {
+        "name": "Justin Minaya",
+        "salary23_24": 1801769,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10061
+    },
+    {
+        "name": "Kevin Knox II",
+        "salary23_24": 2346614,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6020
+    },
+    {
+        "name": "Rayan Rupert",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10064
+    },
+    {
+        "name": "Toumani Camara",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10065
+    },
+    {
+        "name": "Jabari Walker",
+        "salary23_24": 1719864,
+        "salary24_25": 2019699,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6747
+    },
+    {
+        "name": "Moses Brown",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6289
+    },
+    {
+        "name": "Kris Murray",
+        "salary23_24": 2847480,
+        "salary24_25": 2990040,
+        "salary25_26": 3132000,
+        "salary26_27": null,
+        "yahoo_id": 10119
+    },
+    {
+        "name": "Shaedon Sharpe",
+        "salary23_24": 6313800,
+        "salary24_25": 6614160,
+        "salary25_26": 8399983,
+        "salary26_27": null,
+        "yahoo_id": 6697
+    },
+    {
+        "name": "Scoot Henderson",
+        "salary23_24": 9770880,
+        "salary24_25": 10259160,
+        "salary25_26": 10748040,
+        "salary26_27": null,
+        "yahoo_id": 10048
+    },
+    {
+        "name": "Matisse Thybulle",
+        "salary23_24": 10500000,
+        "salary24_25": 11025000,
+        "salary25_26": 11550000,
+        "salary26_27": null,
+        "yahoo_id": 6208
+    },
+    {
+        "name": "Robert Williams III",
+        "salary23_24": 11571429,
+        "salary24_25": 12428571,
+        "salary25_26": 13285713,
+        "salary26_27": null,
+        "yahoo_id": 6038
+    },
+    {
+        "name": "Malcolm Brogdon",
+        "salary23_24": 22500000,
+        "salary24_25": 22500000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5667
+    },
+    {
+        "name": "Anfernee Simons",
+        "salary23_24": 24107143,
+        "salary24_25": 25892857,
+        "salary25_26": 27678571,
+        "salary26_27": null,
+        "yahoo_id": 6035
+    },
+    {
+        "name": "Jerami Grant",
+        "salary23_24": 27586207,
+        "salary24_25": 29793104,
+        "salary25_26": 32000001,
+        "salary26_27": null,
+        "yahoo_id": 5350
+    },
+    {
+        "name": "Deandre Ayton",
+        "salary23_24": 32459438,
+        "salary24_25": 34005126,
+        "salary25_26": 35550814,
+        "salary26_27": null,
+        "yahoo_id": 5958
+    },
+    {
+        "name": "Chance Comanche",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 10062
+    },
+    {
+        "name": "Deonte Burton",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6072
+    },
+    {
+        "name": "Jaylen Nowell",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6231
+    },
+    {
+        "name": "Kessler Edwards",
+        "salary23_24": 1927896,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6586
+    },
+    {
+        "name": "Colby Jones",
+        "salary23_24": 2019706,
+        "salary24_25": 2120693,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10087
+    },
+    {
+        "name": "JaVale McGee",
+        "salary23_24": 2019706,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 4480
     },
     {
         "name": "Alex Len",
-        "salary22_23": 3918600,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5156
     },
     {
-        "name": "Terence Davis",
-        "salary22_23": 4000000,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Chris Duarte",
+        "salary23_24": 4124400,
+        "salary24_25": 5893768,
         "salary25_26": null,
-        "yahoo_id": 6280
+        "salary26_27": null,
+        "yahoo_id": 6555
     },
     {
         "name": "Davion Mitchell",
-        "salary22_23": 4833600,
         "salary23_24": 5063640,
         "salary24_25": 6451077,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6551
     },
     {
+        "name": "Trey Lyles",
+        "salary23_24": 8000000,
+        "salary24_25": 8000000,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5472
+    },
+    {
         "name": "Keegan Murray",
-        "salary22_23": 8008440,
         "salary23_24": 8409000,
         "salary24_25": 8809560,
         "salary25_26": 11144093,
+        "salary26_27": null,
         "yahoo_id": 6694
     },
     {
         "name": "Malik Monk",
-        "salary22_23": 9472219,
         "salary23_24": 9945830,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5824
     },
     {
-        "name": "Richaun Holmes",
-        "salary22_23": 11215260,
-        "salary23_24": 12046020,
-        "salary24_25": 12876780,
-        "salary25_26": null,
-        "yahoo_id": 5497
-    },
-    {
         "name": "Kevin Huerter",
-        "salary22_23": 14508929,
         "salary23_24": 15669643,
         "salary24_25": 16830357,
         "salary25_26": 17991071,
+        "salary26_27": null,
         "yahoo_id": 6030
     },
     {
         "name": "Harrison Barnes",
-        "salary22_23": 18352273,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 17000000,
+        "salary24_25": 18000000,
+        "salary25_26": 19000000,
+        "salary26_27": null,
         "yahoo_id": 5013
     },
     {
         "name": "Domantas Sabonis",
-        "salary22_23": 18500000,
-        "salary23_24": 19400000,
+        "salary23_24": 30600000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5642
     },
     {
         "name": "De'Aaron Fox",
-        "salary22_23": 30351780,
         "salary23_24": 32600060,
         "salary24_25": 34848340,
         "salary25_26": 37096620,
+        "salary26_27": null,
         "yahoo_id": 5767
     },
     {
-        "name": "Alize Johnson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Charles Bediako",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6061
+        "salary26_27": null,
+        "yahoo_id": 10210
     },
     {
-        "name": "Tre Jones",
-        "salary22_23": 1782621,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6433
+        "name": "Sidy Cissoko",
+        "salary23_24": 1119563,
+        "salary24_25": 1891857,
+        "salary25_26": 2221677,
+        "salary26_27": null,
+        "yahoo_id": 10051
     },
     {
-        "name": "Gorgui Dieng",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Sandro Mamukelashvili",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5191
+        "salary26_27": null,
+        "yahoo_id": 6596
     },
     {
-        "name": "Keita Bates-Diop",
-        "salary22_23": 1878720,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6059
-    },
-    {
-        "name": "Isaiah Roby",
-        "salary22_23": 1930681,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6233
-    },
-    {
-        "name": "Joe Wieskamp",
-        "salary22_23": 2175000,
-        "salary23_24": 2200000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6583
+        "name": "Charles Bassey",
+        "salary23_24": 2500000,
+        "salary24_25": 2600000,
+        "salary25_26": 2600000,
+        "salary26_27": null,
+        "yahoo_id": 6595
     },
     {
         "name": "Blake Wesley",
-        "salary22_23": 2385480,
         "salary23_24": 2504640,
         "salary24_25": 2624280,
         "salary25_26": 4726328,
+        "salary26_27": null,
         "yahoo_id": 6715
     },
     {
+        "name": "Julian Champagnie",
+        "salary23_24": 3000000,
+        "salary24_25": 3000000,
+        "salary25_26": 3000000,
+        "salary26_27": null,
+        "yahoo_id": 6754
+    },
+    {
         "name": "Malaki Branham",
-        "salary22_23": 2925600,
         "salary23_24": 3071880,
         "salary24_25": 3217920,
         "salary25_26": 4962033,
+        "salary26_27": null,
         "yahoo_id": 6710
     },
     {
-        "name": "Keldon Johnson",
-        "salary22_23": 3873025,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6217
-    },
-    {
-        "name": "Joshua Primo",
-        "salary22_23": 4144320,
-        "salary23_24": 4341600,
-        "salary24_25": 5982725,
-        "salary25_26": null,
-        "yahoo_id": 6554
-    },
-    {
-        "name": "Devin Vassell",
-        "salary22_23": 4437000,
-        "salary23_24": 5887899,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6403
-    },
-    {
         "name": "Jeremy Sochan",
-        "salary22_23": 5063520,
         "salary23_24": 5316960,
         "salary24_25": 5570040,
         "salary25_26": 7096231,
+        "salary26_27": null,
         "yahoo_id": 6699
     },
     {
-        "name": "Romeo Langford",
-        "salary22_23": 5634257,
-        "salary23_24": null,
+        "name": "Devin Vassell",
+        "salary23_24": 5887899,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6176
+        "salary26_27": null,
+        "yahoo_id": 6403
+    },
+    {
+        "name": "Cedi Osman",
+        "salary23_24": 6718842,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5491
+    },
+    {
+        "name": "Khem Birch",
+        "salary23_24": 6985000,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 5390
     },
     {
         "name": "Zach Collins",
-        "salary22_23": 7350000,
         "salary23_24": 7700000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5823
     },
     {
-        "name": "Jakob Poeltl",
-        "salary22_23": 9398148,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Tre Jones",
+        "salary23_24": 9895833,
+        "salary24_25": 9104167,
         "salary25_26": null,
-        "yahoo_id": 5640
+        "salary26_27": null,
+        "yahoo_id": 6433
     },
     {
-        "name": "Josh Richardson",
-        "salary22_23": 12196094,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Devonte' Graham",
+        "salary23_24": 12100000,
+        "salary24_25": 12650000,
         "salary25_26": null,
-        "yahoo_id": 5500
+        "salary26_27": null,
+        "yahoo_id": 6045
+    },
+    {
+        "name": "Victor Wembanyama",
+        "salary23_24": 12160680,
+        "salary24_25": 12768960,
+        "salary25_26": 13376880,
+        "salary26_27": null,
+        "yahoo_id": 10094
     },
     {
         "name": "Doug McDermott",
-        "salary22_23": 13750000,
         "salary23_24": 13750000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5322
     },
     {
-        "name": "Gabe Brown",
-        "salary22_23": 1017781,
-        "salary23_24": null,
+        "name": "Keldon Johnson",
+        "salary23_24": 20000000,
+        "salary24_25": 19000000,
+        "salary25_26": 17500000,
+        "salary26_27": null,
+        "yahoo_id": 6217
+    },
+    {
+        "name": "Makur Maker",
+        "salary23_24": 1119563,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6790
+        "salary26_27": null,
+        "yahoo_id": 6777
+    },
+    {
+        "name": "Mouhamadou Gueye",
+        "salary23_24": 1119563,
+        "salary24_25": null,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6773
     },
     {
         "name": "Christian Koloko",
-        "salary22_23": 1500000,
         "salary23_24": 1719864,
         "salary24_25": 2019699,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6723
     },
     {
-        "name": "Dalano Banton",
-        "salary22_23": 1563518,
-        "salary23_24": null,
+        "name": "Jeff Dowtin Jr.",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6588
+        "salary26_27": null,
+        "yahoo_id": 6636
     },
     {
-        "name": "Justin Champagnie",
-        "salary22_23": 1637966,
-        "salary23_24": 1927896,
+        "name": "Garrett Temple",
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6632
-    },
-    {
-        "name": "Josh Jackson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5766
-    },
-    {
-        "name": "Juancho Hernang\u00f3mez",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5646
-    },
-    {
-        "name": "D.J. Wilson",
-        "salary22_23": 2133278,
-        "salary23_24": 2413304,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5830
+        "salary26_27": null,
+        "yahoo_id": 4682
     },
     {
         "name": "Malachi Flynn",
-        "salary22_23": 2145720,
         "salary23_24": 3873025,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6421
     },
     {
         "name": "Precious Achiuwa",
-        "salary22_23": 2840160,
         "salary23_24": 4379527,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6412
     },
     {
+        "name": "Jalen McDaniels",
+        "salary23_24": 4516000,
+        "salary24_25": 4741800,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6240
+    },
+    {
+        "name": "Gradey Dick",
+        "salary23_24": 4536720,
+        "salary24_25": 4763760,
+        "salary25_26": 4990560,
+        "salary26_27": null,
+        "yahoo_id": 10101
+    },
+    {
         "name": "Otto Porter Jr.",
-        "salary22_23": 6000000,
         "salary23_24": 6300000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5154
     },
     {
-        "name": "Khem Birch",
-        "salary22_23": 6667500,
-        "salary23_24": 6985000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5390
-    },
-    {
-        "name": "Scottie Barnes",
-        "salary22_23": 7644600,
-        "salary23_24": 8008680,
-        "salary24_25": 10130980,
-        "salary25_26": null,
-        "yahoo_id": 6515
-    },
-    {
         "name": "Thaddeus Young",
-        "salary22_23": 8150000,
-        "salary23_24": 8150000,
+        "salary23_24": 8000000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4290
     },
     {
+        "name": "Scottie Barnes",
+        "salary23_24": 8008680,
+        "salary24_25": 10130980,
+        "salary25_26": null,
+        "salary26_27": null,
+        "yahoo_id": 6515
+    },
+    {
         "name": "Chris Boucher",
-        "salary22_23": 12690000,
         "salary23_24": 11750000,
         "salary24_25": 10810000,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5894
     },
     {
-        "name": "OG Anunoby",
-        "salary22_23": 17357143,
-        "salary23_24": 18642857,
-        "salary24_25": 19928571,
+        "name": "Dennis Schroder",
+        "salary23_24": 12405000,
+        "salary24_25": 13025250,
         "salary25_26": null,
-        "yahoo_id": 5836
+        "salary26_27": null,
+        "yahoo_id": 5187
     },
     {
         "name": "Gary Trent Jr.",
-        "salary22_23": 17505000,
-        "salary23_24": 18785000,
+        "salary23_24": 18560000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6048
     },
     {
-        "name": "Fred VanVleet",
-        "salary22_23": 21250000,
-        "salary23_24": 22824074,
-        "salary24_25": null,
+        "name": "O.G. Anunoby",
+        "salary23_24": 18642857,
+        "salary24_25": 19928571,
         "salary25_26": null,
-        "yahoo_id": 5727
+        "salary26_27": null,
+        "yahoo_id": 5836
+    },
+    {
+        "name": "Jakob Poeltl",
+        "salary23_24": 19500000,
+        "salary24_25": 19500000,
+        "salary25_26": 19500000,
+        "salary26_27": null,
+        "yahoo_id": 5640
     },
     {
         "name": "Pascal Siakam",
-        "salary22_23": 35448672,
         "salary23_24": 37893408,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5658
     },
     {
-        "name": "Cody Zeller",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "name": "Luka Samanic",
+        "salary23_24": 2066585,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5155
+        "salary26_27": null,
+        "yahoo_id": 6207
     },
     {
-        "name": "Jared Butler",
-        "salary22_23": 1563518,
-        "salary23_24": null,
+        "name": "Brice Sensabaugh",
+        "salary23_24": 2448600,
+        "salary24_25": 2571480,
+        "salary25_26": 2693760,
+        "salary26_27": null,
+        "yahoo_id": 10122
+    },
+    {
+        "name": "Kris Dunn",
+        "salary23_24": 2586484,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6582
+        "salary26_27": null,
+        "yahoo_id": 5636
     },
     {
-        "name": "Udoka Azubuike",
-        "salary22_23": 2174880,
-        "salary23_24": 3923484,
-        "salary24_25": null,
+        "name": "Omer Yurtseven",
+        "salary23_24": 2800000,
+        "salary24_25": 2660000,
         "salary25_26": null,
-        "yahoo_id": 6419
-    },
-    {
-        "name": "Stanley Johnson",
-        "salary22_23": 2351521,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5468
-    },
-    {
-        "name": "Leandro Bolmaro",
-        "salary22_23": 2471160,
-        "salary23_24": 2588400,
-        "salary24_25": 4392515,
-        "salary25_26": null,
-        "yahoo_id": 6415
+        "salary26_27": null,
+        "yahoo_id": 6511
     },
     {
         "name": "Walker Kessler",
-        "salary22_23": 2696400,
         "salary23_24": 2831160,
         "salary24_25": 2965920,
         "salary25_26": 4878938,
+        "salary26_27": null,
         "yahoo_id": 6712
     },
     {
         "name": "Simone Fontecchio",
-        "salary22_23": 3205128,
         "salary23_24": 3044872,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6766
     },
     {
+        "name": "Keyonte George",
+        "salary23_24": 3889800,
+        "salary24_25": 4084200,
+        "salary25_26": 4278960,
+        "salary26_27": null,
+        "yahoo_id": 10100
+    },
+    {
         "name": "Ochai Agbaji",
-        "salary22_23": 3918360,
         "salary23_24": 4114200,
         "salary24_25": 4310280,
         "salary25_26": 6383525,
+        "salary26_27": null,
         "yahoo_id": 6704
     },
     {
-        "name": "Jarred Vanderbilt",
-        "salary22_23": 4374000,
-        "salary23_24": 4698000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6052
-    },
-    {
-        "name": "Nickeil Alexander-Walker",
-        "salary22_23": 5009633,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6205
-    },
-    {
-        "name": "Rudy Gay",
-        "salary22_23": 6184500,
-        "salary23_24": 6479000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 4136
+        "name": "Taylor Hendricks",
+        "salary23_24": 5569920,
+        "salary24_25": 5848680,
+        "salary25_26": 6127080,
+        "salary26_27": null,
+        "yahoo_id": 10110
     },
     {
         "name": "Talen Horton-Tucker",
-        "salary22_23": 10260000,
         "salary23_24": 11020000,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6234
     },
     {
         "name": "Kelly Olynyk",
-        "salary22_23": 12804878,
         "salary23_24": 12195122,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5164
     },
     {
-        "name": "Jordan Clarkson",
-        "salary22_23": 13340000,
-        "salary23_24": 14260000,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5357
-    },
-    {
-        "name": "Malik Beasley",
-        "salary22_23": 15558035,
-        "salary23_24": 16524106,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5650
-    },
-    {
         "name": "Lauri Markkanen",
-        "salary22_23": 16475454,
         "salary23_24": 17259999,
         "salary24_25": 18044544,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5769
     },
     {
         "name": "Collin Sexton",
-        "salary22_23": 16500000,
         "salary23_24": 17325000,
         "salary24_25": 18150000,
         "salary25_26": 18975000,
+        "salary26_27": null,
         "yahoo_id": 6019
     },
     {
-        "name": "Mike Conley",
-        "salary22_23": 22680000,
-        "salary23_24": 24360000,
+        "name": "Jordan Clarkson",
+        "salary23_24": 23487629,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 4246
+        "salary26_27": null,
+        "yahoo_id": 5357
     },
     {
-        "name": "Quenton Jackson",
-        "salary22_23": 1017781,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6776
+        "name": "John Collins",
+        "salary23_24": 25340000,
+        "salary24_25": 26580000,
+        "salary25_26": 26580000,
+        "salary26_27": null,
+        "yahoo_id": 5832
     },
     {
-        "name": "Jordan Goodwin",
-        "salary22_23": 1637966,
-        "salary23_24": null,
-        "salary24_25": null,
+        "name": "Ryan Rollins",
+        "salary23_24": 1719864,
+        "salary24_25": 2019699,
         "salary25_26": null,
-        "yahoo_id": 6616
+        "salary26_27": null,
+        "yahoo_id": 6734
     },
     {
-        "name": "Devon Dotson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6454
-    },
-    {
-        "name": "Isaiah Todd",
-        "salary22_23": 1563518,
-        "salary23_24": 1836096,
-        "salary24_25": 1988598,
-        "salary25_26": null,
-        "yahoo_id": 6573
-    },
-    {
-        "name": "Vernon Carey Jr.",
-        "salary22_23": 1782621,
-        "salary23_24": 1930681,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 6424
+        "name": "Xavier Cooks",
+        "salary23_24": 1719864,
+        "salary24_25": 2019699,
+        "salary25_26": 2187451,
+        "salary26_27": null,
+        "yahoo_id": 10058
     },
     {
         "name": "Anthony Gill",
-        "salary22_23": 1836090,
         "salary23_24": 1997238,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6471
     },
     {
         "name": "Taj Gibson",
-        "salary22_23": 1836090,
-        "salary23_24": null,
+        "salary23_24": 2019706,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 4631
     },
     {
-        "name": "Daniel Gafford",
-        "salary22_23": 1930681,
-        "salary23_24": null,
+        "name": "Patrick Baldwin Jr.",
+        "salary23_24": 2337720,
+        "salary24_25": 2448840,
+        "salary25_26": 4420156,
+        "salary26_27": null,
+        "yahoo_id": 6718
+    },
+    {
+        "name": "Mike Muscala",
+        "salary23_24": 3500000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6226
+        "salary26_27": null,
+        "yahoo_id": 5214
     },
     {
         "name": "Corey Kispert",
-        "salary22_23": 3552840,
         "salary23_24": 3722040,
         "salary24_25": 5705888,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6557
     },
     {
         "name": "Johnny Davis",
-        "salary22_23": 4810320,
         "salary23_24": 5050800,
         "salary24_25": 5291160,
         "salary25_26": 6746229,
+        "salary26_27": null,
         "yahoo_id": 6700
     },
     {
         "name": "Deni Avdija",
-        "salary22_23": 4916160,
         "salary23_24": 6263188,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 6401
     },
     {
-        "name": "Rui Hachimura",
-        "salary22_23": 6263188,
-        "salary23_24": null,
+        "name": "Bilal Coulibaly",
+        "salary23_24": 6614280,
+        "salary24_25": 6945240,
+        "salary25_26": 7275600,
+        "salary26_27": null,
+        "yahoo_id": 10099
+    },
+    {
+        "name": "Danilo Gallinari",
+        "salary23_24": 6802950,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 6171
+        "salary26_27": null,
+        "yahoo_id": 4468
     },
     {
         "name": "Delon Wright",
-        "salary22_23": 7804878,
         "salary23_24": 8195122,
         "salary24_25": null,
         "salary25_26": null,
+        "salary26_27": null,
         "yahoo_id": 5480
     },
     {
-        "name": "Monte Morris",
-        "salary22_23": 9125000,
-        "salary23_24": 9800926,
+        "name": "Landry Shamet",
+        "salary23_24": 10250000,
+        "salary24_25": 11000000,
+        "salary25_26": 11750000,
+        "salary26_27": null,
+        "yahoo_id": 6037
+    },
+    {
+        "name": "Daniel Gafford",
+        "salary23_24": 12402000,
+        "salary24_25": 13394160,
+        "salary25_26": 14386320,
+        "salary26_27": null,
+        "yahoo_id": 6226
+    },
+    {
+        "name": "Tyus Jones",
+        "salary23_24": 14000000,
         "salary24_25": null,
         "salary25_26": null,
-        "yahoo_id": 5864
+        "salary26_27": null,
+        "yahoo_id": 5484
     },
     {
         "name": "Kyle Kuzma",
-        "salary22_23": 13000000,
-        "salary23_24": 13000000,
-        "salary24_25": null,
-        "salary25_26": null,
+        "salary23_24": 25568182,
+        "salary24_25": 23522727,
+        "salary25_26": 21477273,
+        "salary26_27": null,
         "yahoo_id": 5840
     },
     {
-        "name": "Will Barton",
-        "salary22_23": 14375000,
-        "salary23_24": null,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5074
-    },
-    {
-        "name": "Kristaps Porzingis",
-        "salary22_23": 33833400,
-        "salary23_24": 36016200,
-        "salary24_25": null,
-        "salary25_26": null,
-        "yahoo_id": 5464
-    },
-    {
-        "name": "Bradley Beal",
-        "salary22_23": 43279250,
-        "salary23_24": 46741590,
-        "salary24_25": 50203930,
-        "salary25_26": 53666270,
-        "yahoo_id": 5009
+        "name": "Jordan Poole",
+        "salary23_24": 27955357,
+        "salary24_25": 30151786,
+        "salary25_26": 32348215,
+        "salary26_27": null,
+        "yahoo_id": 6216
     }
 ];
 

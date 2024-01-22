@@ -6,10 +6,10 @@ import { toPath } from 'lodash';
 
 
 let bbfbl_salaries;
-const MAX_SALARY_CUTOFF = 154000000;
+const MAX_SALARY_CUTOFF = 166000000;
 const playerSelector = '.ysf-player-name'; 
+const SALARY_FILTER_DEFAULT = 65
 $(async function() {
-    
     
     let canDisplaySalaries = null
     let canDisplayTool = null
@@ -75,7 +75,7 @@ $(async function() {
             }
 
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary22_23 : 0;
+            const value = playerData ? playerData.salary23_24 : 0;
             $this.append(renderSalary(value))
             $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
@@ -245,7 +245,7 @@ function onFilterChange() {
     chrome.storage.local.get("bbfbl", function() {
     })
     if (!maxSalary) {
-        return 50;
+        return SALARY_FILTER_DEFAULT;
     }
     return parseInt(maxSalary)
  }
@@ -284,10 +284,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2022 - 2023</td>
                         <th>Salary 2023 - 2024</td>
-                        <th>Salary 2024 - 2025</td> 
-                        <th>Salary 2025 - 2026</td>              
+                        <th>Salary 2024 - 2025</td>
+                        <th>Salary 2025 - 2026</td> 
+                        <th>Salary 2026 - 2027</td>              
                     </tr>
                 </thead>
                 <tbody>`
@@ -295,10 +295,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-22"></td>
                         <td class="salary salary-23"></td>
                         <td class="salary salary-24"></td>
                         <td class="salary salary-25"></td>
+                        <td class="salary salary-26"></td>
                   </tr>`
         table += row
     }
@@ -307,10 +307,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-22-sum"></td>
                             <td class="salary-footer salary-23-sum"></td>
                             <td class="salary-footer salary-24-sum"></td>
                             <td class="salary-footer salary-25-sum"></td>
+                            <td class="salary-footer salary-26-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`
@@ -325,11 +325,11 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary22_23: s.salary22_23,
                     salary23_24: s.salary23_24,
                     salary24_25: s.salary24_25,
                     salary25_26: s.salary25_26,
-                    salares: [s.salary22_23, s.salary23_24, s.salary24_25, s.salary25_26]
+                    salary26_27: s.salary26_27,
+                    salares: [s.salary23_24, s.salary24_25, s.salary25_26, s.salary26_27]
                 }
     })
     $(".player-input").autocomplete({
@@ -362,7 +362,7 @@ function setupAutoComplete() {
 }
 
 function calculateSalaryForYear() {
-    var totals = [".salary-22", ".salary-23", ".salary-24", ".salary-25"]
+    var totals = [".salary-23", ".salary-24", ".salary-25", ".salary-26"]
 
     totals.forEach(function(year) {
         let sum = 0;
@@ -432,7 +432,7 @@ function prepopulateSalaryTool() {
         row.find(".player-col").append(wrapper)
         
         // Append salaries
-        var salares = [playerData.salary22_23, playerData.salary23_24, playerData.salary24_25, playerData.salary25_26]
+        var salares = [playerData.salary23_24, playerData.salary24_25, playerData.salary25_26, playerData.salary26_27]
         row.find("td.salary")
         .each(function(n, el) {
             $(el).text(toDollarFormat(salares[n]))
