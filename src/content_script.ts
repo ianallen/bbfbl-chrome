@@ -44,6 +44,7 @@ $(async function() {
 
     function shouldRenderSalaries() {
         let result = $(".bbfbl-salary").length
+        console.log(result)
         return result == 0
     }
 
@@ -95,26 +96,31 @@ $(async function() {
     }
     
     function renderTotalSalary(total: number) {
+        const remaining = MAX_SALARY_CUTOFF - total;
         const color = total < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131'
         const css = {
             'color': color,
             'font-size': 10,
             'font-weight': 500
         }
-        const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
+        // const elem = $(`<span class='bbfbl-total-salary'>${toDollarFormat(total)}</span>`);
+        const elem = $(`<li class="Inlineblock Mend-lg Ta-c">
+        <span class="Fw-b Fz-35">${toDollarFormat(total)}</span>
+        <em class="Block F-shade Fz-xs">Total Salary - (${toDollarFormat(remaining)} available)</em>
+    </li>`)
         elem.css(css);
 
-        const remaining = MAX_SALARY_CUTOFF - total;
+
         const remainingCss = _.extend(css, {
             'padding-left': 5
         })
         const remainingElem = $(`<span class='bbfbl-total-salary'>(${toDollarFormat(remaining)} available)</span>`);
         _.extend(css, {color: "#000"})
-        remainingElem.css(css);
-        $('#team-card-info .Pstart-lg li')
-        .eq(0)
+        // remainingElem.css(css);
+        $('#team-card .team-card-stats')
+        // .eq(0)
         .append(elem)
-        .append(remainingElem)
+        // .append(remainingElem)
 
 
     }
