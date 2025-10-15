@@ -6,9 +6,9 @@ import { toPath } from 'lodash';
 
 
 let bbfbl_salaries;
-const MAX_SALARY_CUTOFF = 166000000;
+const MAX_SALARY_CUTOFF = 171000000;
 const playerSelector = '.ysf-player-name'; 
-const SALARY_FILTER_DEFAULT = 65
+const SALARY_FILTER_DEFAULT = 75
 $(async function() {
     
     let canDisplaySalaries = null
@@ -76,7 +76,7 @@ $(async function() {
             }
 
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary23_24 : 0;
+            const value = playerData ? playerData.salary24_25 : 0;
             $this.append(renderSalary(value))
             $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
@@ -290,10 +290,10 @@ function renderToolBody() {
                 <thead>
                     <tr>
                         <th>Player</td>
-                        <th>Salary 2023 - 2024</td>
                         <th>Salary 2024 - 2025</td>
-                        <th>Salary 2025 - 2026</td> 
-                        <th>Salary 2026 - 2027</td>              
+                        <th>Salary 2025 - 2026</td>
+                        <th>Salary 2026 - 2027</td> 
+                        <th>Salary 2027 - 2028</td>              
                     </tr>
                 </thead>
                 <tbody>`
@@ -301,10 +301,10 @@ function renderToolBody() {
     for (var i = 0; i < $players.length; i++) { 
         let row = `<tr class="player-row player-row-${i}">
                         <td class="player-col"><input class="player-input player-${i}"></td>
-                        <td class="salary salary-23"></td>
                         <td class="salary salary-24"></td>
                         <td class="salary salary-25"></td>
                         <td class="salary salary-26"></td>
+                        <td class="salary salary-27"></td>
                   </tr>`
         table += row
     }
@@ -313,10 +313,10 @@ function renderToolBody() {
                     <tfoot>
                         <tr>
                             <td class="salary-footer xt"><strong>Total</strong></td>
-                            <td class="salary-footer salary-23-sum"></td>
                             <td class="salary-footer salary-24-sum"></td>
                             <td class="salary-footer salary-25-sum"></td>
                             <td class="salary-footer salary-26-sum"></td>
+                            <td class="salary-footer salary-27-sum"></td>
                         </tr>
                     </tfoot>
                     </table>`
@@ -331,11 +331,11 @@ function setupAutoComplete() {
                     label: s.name, 
                     value: s.name, 
                     id: s.yahoo_id, 
-                    salary23_24: s.salary23_24,
                     salary24_25: s.salary24_25,
                     salary25_26: s.salary25_26,
                     salary26_27: s.salary26_27,
-                    salares: [s.salary23_24, s.salary24_25, s.salary25_26, s.salary26_27]
+                    salary27_28: s.salary27_28,
+                    salares: [s.salary24_25, s.salary25_26, s.salary26_27, s.salary27_28]
                 }
     })
     $(".player-input").autocomplete({
@@ -368,7 +368,7 @@ function setupAutoComplete() {
 }
 
 function calculateSalaryForYear() {
-    var totals = [".salary-23", ".salary-24", ".salary-25", ".salary-26"]
+    var totals = [".salary-24", ".salary-25", ".salary-26", ".salary-27"]
 
     totals.forEach(function(year) {
         let sum = 0;
@@ -438,7 +438,7 @@ function prepopulateSalaryTool() {
         row.find(".player-col").append(wrapper)
         
         // Append salaries
-        var salares = [playerData.salary23_24, playerData.salary24_25, playerData.salary25_26, playerData.salary26_27]
+        var salares = [playerData.salary24_25, playerData.salary25_26, playerData.salary26_27, playerData.salary27_28]
         row.find("td.salary")
         .each(function(n, el) {
             $(el).text(toDollarFormat(salares[n]))
@@ -464,7 +464,7 @@ function isExpired(d) {
 }
 async function fetchSalaries() {
     const cacheDate = new Date().getTime();
-    const cacheKey = "bbfblSalaries_x"
+    const cacheKey = "bbfblSalaries_xu"
     const cacheDateKey = "cacheDate"
     console.log("fetching salaries...");
     return new Promise((resolve, reject) => {
@@ -476,7 +476,9 @@ async function fetchSalaries() {
                 return;
             } else {
                 const url = "https://bbfbl-chrome.azurewebsites.net/salaries" // todo: make this a global
-                console.log("sending request for salries...")
+                // const url = "http://localhost:5000/salaries"
+                console.log("sending request for salaries...")
+                // throw new Error("Not implemented")
                 return fetch(url, {
                     mode: "cors",     
                     headers: {

@@ -3,7 +3,7 @@
 
   "name": "BBFBL Mode",
   "description": "UI Enhancements for The Boom Boom Fantasy Basketball League on Yahoo! Fantasy Sports",
-  "version": "6.1.0.3",
+  "version": "6.2.0.0",
 
   "icons": {
     "128": "icon128.png",
@@ -17,7 +17,7 @@
 
   "content_scripts": [
       {
-          "matches": ["https://basketball.fantasysports.yahoo.com/nba/36698/*"], 
+          "matches": ["https://basketball.fantasysports.yahoo.com/nba/13457/*"], 
           "js": ["js/vendor.js", "js/content_script.js"],
           "css": ["styles/styles.css", "styles/ui.css", "styles/fontawesome/css/all.css"],
           "run_at": "document_start"
