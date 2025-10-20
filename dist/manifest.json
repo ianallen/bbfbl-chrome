@@ -17,7 +17,7 @@
 
   "content_scripts": [
       {
-          "matches": ["https://basketball.fantasysports.yahoo.com/nba/13457/*"], 
+          "matches": ["https://basketball.fantasysports.yahoo.com/nba/*"], 
           "js": ["js/vendor.js", "js/content_script.js"],
           "css": ["styles/styles.css", "styles/ui.css", "styles/fontawesome/css/all.css"],
           "run_at": "document_start"

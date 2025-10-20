@@ -10,7 +10,7 @@ const MAX_SALARY_CUTOFF = 171000000;
 const playerSelector = '.ysf-player-name'; 
 const SALARY_FILTER_DEFAULT = 75
 $(async function() {
-    
+    console.log("BBFBL: Content script loaded")
     let canDisplaySalaries = null
     let canDisplayTool = null
     let url = window.location.href
@@ -20,7 +20,8 @@ $(async function() {
     const isResearchPage = window.location.pathname.indexOf("/buzzindex") > 0 || window.location.pathname.indexOf("/research")
     const isPlayerPage = !isNaN(parseInt(window.location.pathname.split("/")[3], 10))
 
-    bbfbl_salaries = await fetchSalaries()
+    await fetchSalariesFromRemote()
+    // bbfbl_salaries = await fetchSalaries()
     setInterval(renderBbfbl, 500);
     
     function renderBbfbl() {
@@ -33,8 +34,10 @@ $(async function() {
         if (shouldRenderSalaries()) {
             renderSalaries()
         }
+
         
-        renderSalaryTool()
+        
+        // renderSalaryTool()
         if (isPlayerListPage) {
             renderSalaryFilter()
         }
@@ -71,12 +74,18 @@ $(async function() {
             const $this = $(this);
             const href = $this.find('a').attr('href');
 
+            // console.log(`BBFBL: Href found for player - ${$this.text()} - ${href}`)
+
             if (!href) {
+                console.log(`BBFBL: No href found for player - ${$this.text()}`)
                 return;
             }
 
             const playerData : any = _.find(bbfbl_salaries, { yahoo_id: getId(href) });
-            const value = playerData ? playerData.salary24_25 : 0;
+            // console.log(`BBFBL: Player ID - ${getId(href)} - ${JSON.stringify(playerData)}`)
+            const value = playerData ? playerData.salary25_26 : 0;
+            // console.log(`BBFBL: Salary found for player - ${$this.text()} - ${value}`)
+            // console.log(`BBFBL: Player data - ${JSON.stringify(playerData)}`)
             $this.append(renderSalary(value))
             $this.data("bbfbl-salary", value);
             $this.addClass('bbfbl-salaried');
@@ -200,6 +209,19 @@ function getId(href: string): number {
 function renderSalaryFilter() {
     renderSalaryFilterInput()
     setupSalaryFiltering()
+}
+
+function setupSalarySorting() {
+    // render sort button
+    // setup sorting logic
+}
+
+function renderSortButton() {
+    const template = $(`
+        <button class="js-salary-sort-button">Sort</button>
+    `);
+    const anchor = $("#playerfilter .selects");
+    anchor.append(template);
 }
 
 function renderSalaryFilterInput() {
@@ -462,12 +484,34 @@ function isExpired(d) {
     let now = new Date().getTime();
     return now - d > ttl
 }
+
+async function fetchSalariesFromRemote() {
+    const url = "https://docs.google.com/spreadsheets/d/1Z2Ui53FiZGP1sMSdjQP5q2i5o2sjVCl1OQUc648LKRs/export?format=csv" // todo: make this a global
+    // const url = "http://localhost:5000/salaries"
+    const response = await fetch(url);
+    const data = await response.text();
+    // console.log("BBFBL: Raw data from remote:", data)
+    const rows = data.split("\n").map(row => row.split(","));
+    rows.shift() // remove the header row
+    bbfbl_salaries = rows.map(row => {
+        return {
+            name: row[0].trim(),
+            salary25_26: parseInt(row[1].trim()),
+            yahoo_id: parseInt(row[5].trim())
+        }
+    })
+    console.log("BBFBL: Salaries from remote:", bbfbl_salaries)
+    return bbfbl_salaries;
+}
+
+
 async function fetchSalaries() {
     const cacheDate = new Date().getTime();
     const cacheKey = "bbfblSalaries_xu"
     const cacheDateKey = "cacheDate"
     console.log("fetching salaries...");
     return new Promise((resolve, reject) => {
+        chrome.storage.local.clear()
         chrome.storage.local.get([cacheKey, cacheDateKey], function(result) {
             if (result[cacheKey] && result[cacheDateKey] && !isExpired(result[cacheDateKey])) {
                 console.log("bbfbl: using cached salaries:", result[cacheDateKey])
@@ -475,8 +519,9 @@ async function fetchSalaries() {
                 resolve(bbfbl_salaries)
                 return;
             } else {
-                const url = "https://bbfbl-chrome.azurewebsites.net/salaries" // todo: make this a global
+                const url = "https://bbfbl-chrome.azurewebsites.net/salaries-zsc" // todo: make this a global
                 // const url = "http://localhost:5000/salaries"
+                chrome.storage.local.clear()
                 console.log("sending request for salaries...")
                 // throw new Error("Not implemented")
                 return fetch(url, {
