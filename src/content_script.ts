@@ -10,6 +10,12 @@ const RENDER_INTERVAL_MS = 500;
 const DEBOUNCE_DELAY_MS = 1000;
 const CACHE_TTL_MS = 1000 * 60 * 60 * 24; // 24 hours
 
+// Games Played Constants (from league rules)
+const MIN_GAMES_PLAYED = 730; // Minimum games required (Competitive Balance)
+const MAX_GAMES_PER_POSITION = 80; // Max games per position
+const MAX_ACTIVE_POSITIONS = 10; // Active player positions
+const MAX_TOTAL_GAMES = MAX_GAMES_PER_POSITION * MAX_ACTIVE_POSITIONS; // 800 total games
+
 // DOM Selectors
 const SELECTORS = {
     PLAYER: '.ysf-player-name',
@@ -19,7 +25,12 @@ const SELECTORS = {
     SALARY_TOOL: '.salary-tool',
     TEAM_CARD_STATS: '#team-card .team-card-stats',
     PLAYER_FILTER_SELECTS: '#playerfilter .selects',
-    PLAYERS_TABLE: '.players tr'
+    PLAYERS_TABLE: '.players tr',
+    GAMES_PLAYED_CELL: 'td[data-stat="gp"]', // Games played column
+    TEAM_PAGE: '.team-page', // Team page identifier
+    ROSTER_TABLE: '.roster-table, .players-table', // Roster/players table
+    MAX_GAMES_TABLE: '#position-caps-roto table', // Maximum games table
+    MAX_GAMES_PLAYED_CELL: '#position-caps-roto table tbody tr td:nth-child(2)' // "Played" column cells
 };
 
 // URLs
@@ -114,6 +125,13 @@ class PageDetector {
 
     static isPlayerPage(): boolean {
         return !isNaN(parseInt(window.location.pathname.split("/")[3], 10));
+    }
+
+    static isTeamPage(): boolean {
+        return window.location.pathname.indexOf("/team") > 0 || 
+               $(SELECTORS.TEAM_PAGE).length > 0 ||
+               $(SELECTORS.ROSTER_TABLE).length > 0 ||
+               $(SELECTORS.MAX_GAMES_TABLE).length > 0; // Maximum Games table indicates team page
     }
 }
 
@@ -392,6 +410,124 @@ class SalaryTool {
     }
 }
 
+// Games Played Tracker Class
+class GamesPlayedTracker {
+    static renderGamesPlayedIndicator() {
+        if ($(".bbfbl-games-indicator").length > 0) {
+            return; // Already rendered
+        }
+
+        const totalGames = this.calculateTotalGamesPlayed();
+        const progress = this.calculateProgress(totalGames);
+        
+        const indicator = this.createGamesPlayedIndicator(totalGames, progress);
+        $(SELECTORS.TEAM_CARD_STATS).append(indicator);
+    }
+
+    static calculateTotalGamesPlayed(): number {
+        let totalGames = 0;
+        
+        // First try the Maximum Games table (most reliable)
+        const $maxGamesTable = $(SELECTORS.MAX_GAMES_TABLE);
+        if ($maxGamesTable.length > 0) {
+            const $playedCells = $(SELECTORS.MAX_GAMES_PLAYED_CELL);
+            $playedCells.each(function() {
+                const gamesText = $(this).text().trim();
+                const games = parseInt(gamesText);
+                if (!isNaN(games)) {
+                    totalGames += games;
+                }
+            });
+            return totalGames;
+        }
+        
+        // Fallback to other selectors if Maximum Games table not found
+        const gamesSelectors = [
+            'td[data-stat="gp"]', // Standard data-stat attribute
+            'td:nth-child(3)', // Common position for games played
+            '.gp', // Games played class
+            'td[title*="games"]', // Title attribute containing "games"
+            'td[title*="Games"]' // Case variation
+        ];
+
+        for (const selector of gamesSelectors) {
+            const $gamesCells = $(selector);
+            if ($gamesCells.length > 0) {
+                $gamesCells.each(function() {
+                    const gamesText = $(this).text().trim();
+                    const games = parseInt(gamesText);
+                    if (!isNaN(games)) {
+                        totalGames += games;
+                    }
+                });
+                break; // Use first successful selector
+            }
+        }
+
+        return totalGames;
+    }
+
+    static calculateProgress(totalGames: number) {
+        const minProgress = Math.min((totalGames / MIN_GAMES_PLAYED) * 100, 100);
+        const maxProgress = Math.min((totalGames / MAX_TOTAL_GAMES) * 100, 100);
+        
+        return {
+            minProgress,
+            maxProgress,
+            isAboveMin: totalGames >= MIN_GAMES_PLAYED,
+            isNearMax: totalGames >= MAX_TOTAL_GAMES * 0.9, // 90% of max
+            isAtMax: totalGames >= MAX_TOTAL_GAMES
+        };
+    }
+
+    static createGamesPlayedIndicator(totalGames: number, progress: any): JQuery<HTMLElement> {
+        const statusColor = progress.isAboveMin ? '#0d8d40' : '#f33131';
+        const minPosition = (MIN_GAMES_PLAYED / MAX_TOTAL_GAMES) * 100; // Position of min line as percentage
+        const currentPosition = (totalGames / MAX_TOTAL_GAMES) * 100; // Current position as percentage
+        
+        const indicator = $(`
+            <li class="Inlineblock Mend-lg Ta-c bbfbl-games-indicator">
+                <div class="games-progress-container" style="margin: 10px 0;">
+                    <div class="games-stats" style="margin-bottom: 8px;">
+                        <span class="Fw-b Fz-24" style="color: ${statusColor};">${totalGames}</span>
+                        <em class="Block F-shade Fz-xs">Total Games Played</em>
+                    </div>
+                    <div class="progress-container" style="width: 200px; margin: 0 auto; position: relative;">
+                        <div class="progress-bar" style="width: 100%; height: 12px; background: #e0e0e0; border-radius: 6px; overflow: hidden; position: relative;">
+                            <div class="progress-fill" style="height: 100%; background: ${statusColor}; width: ${currentPosition}%; transition: width 0.3s ease;"></div>
+                            <div class="min-line" style="position: absolute; left: ${minPosition}%; top: 0; width: 2px; height: 100%; background: #666; z-index: 2;"></div>
+                        </div>
+                        <div class="progress-labels" style="display: flex; justify-content: space-between; font-size: 10px; color: #666; margin-top: 4px;">
+                            <span>Min: ${MIN_GAMES_PLAYED}</span>
+                            <span>Max: ${MAX_TOTAL_GAMES}</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        `);
+
+        return indicator;
+    }
+
+    static updateGamesPlayedIndicator() {
+        const $indicator = $(".bbfbl-games-indicator");
+        if ($indicator.length === 0) return;
+
+        const totalGames = this.calculateTotalGamesPlayed();
+        const progress = this.calculateProgress(totalGames);
+        
+        const statusColor = progress.isAboveMin ? '#0d8d40' : '#f33131';
+        const currentPosition = (totalGames / MAX_TOTAL_GAMES) * 100;
+        
+        // Update the display
+        $indicator.find('.games-stats .Fw-b').text(totalGames).css('color', statusColor);
+        $indicator.find('.progress-fill').css({
+            'width': currentPosition + '%',
+            'background': statusColor
+        });
+    }
+}
+
 // Global state
 let bbfbl_salaries: PlayerSalary[] = [];
 $(async function() {
@@ -420,6 +556,12 @@ $(async function() {
         if (PageDetector.isPlayerListPage()) {
             SalaryFilter.renderFilterInput();
             SalaryFilter.setupFiltering();
+        }
+
+        if (PageDetector.isTeamPage()) {
+            GamesPlayedTracker.renderGamesPlayedIndicator();
+            // Update the indicator if it already exists
+            GamesPlayedTracker.updateGamesPlayedIndicator();
         }
         
         $("body").addClass('bbfbl');
