@@ -30,7 +30,10 @@ const SELECTORS = {
     TEAM_PAGE: '.team-page', // Team page identifier
     ROSTER_TABLE: '.roster-table, .players-table', // Roster/players table
     MAX_GAMES_TABLE: '#position-caps-roto table', // Maximum games table
-    MAX_GAMES_PLAYED_CELL: '#position-caps-roto table tbody tr td:nth-child(2)' // "Played" column cells
+    MAX_GAMES_PLAYED_CELL: '#position-caps-roto table tbody tr td:nth-child(2)', // "Played" column cells
+    ROSTERS_PAGE: 'table.Table', // Roster tables on startingrosters page
+    ROSTER_TEAM_NAME: 'p.W-100.Fz-med.Ta-c a', // Team name/owner name
+    ROSTER_PLAYER_NAME: 'a.name.F-link.playernote' // Player name links in roster
 };
 
 // URLs
@@ -132,6 +135,10 @@ class PageDetector {
                $(SELECTORS.TEAM_PAGE).length > 0 ||
                $(SELECTORS.ROSTER_TABLE).length > 0 ||
                $(SELECTORS.MAX_GAMES_TABLE).length > 0; // Maximum Games table indicates team page
+    }
+
+    static isRostersPage(): boolean {
+        return window.location.pathname.indexOf("/startingrosters") > 0;
     }
 }
 
@@ -410,6 +417,86 @@ class SalaryTool {
     }
 }
 
+// Rosters Page Salary Renderer Class
+class RostersSalaryRenderer {
+    static renderRostersSalaries() {
+        console.log("BBFBL: Rendering rosters salaries...");
+        
+        const $rosterTables = $(SELECTORS.ROSTERS_PAGE);
+        if ($rosterTables.length === 0) {
+            console.log("BBFBL: No roster tables found");
+            return;
+        }
+
+        $rosterTables.each(function() {
+            const $table = $(this);
+            const $teamNameElement = $table.prev('p.W-100.Fz-med.Ta-c').find('a').first();
+            const teamName = $teamNameElement.text().trim();
+            
+            console.log(`BBFBL: Found table, team name: "${teamName}", processed: ${$table.hasClass('bbfbl-processed')}`);
+            
+            if (teamName && !$table.hasClass('bbfbl-processed')) {
+                console.log(`BBFBL: Processing roster for team: ${teamName}`);
+                
+                const teamSalaries: number[] = [];
+                const $playerRows = $table.find('tbody tr');
+                
+                $playerRows.each(function() {
+                    const $row = $(this);
+                    const $playerLink = $row.find(SELECTORS.ROSTER_PLAYER_NAME);
+                    
+                    if ($playerLink.length > 0) {
+                        const href = $playerLink.attr('href');
+                        if (href) {
+                            const playerId = Utils.getId(href);
+                            const playerData = _.find(bbfbl_salaries, { yahoo_id: playerId });
+                            
+                            if (playerData) {
+                                const salary = playerData.salary25_26;
+                                teamSalaries.push(salary);
+                                
+                                // Add salary display next to player name
+                                if (!$row.find('.bbfbl-salary').length) {
+                                    const $salaryElement = SalaryRenderer.renderSalary(salary);
+                                    $playerLink.after(' ').after($salaryElement);
+                                }
+                            } else {
+                                console.log(`BBFBL: No salary data found for player ID: ${playerId}`);
+                            }
+                        }
+                    }
+                });
+                
+                // Add team total salary next to team name
+                if (teamSalaries.length > 0) {
+                    const totalSalary = Utils.sum(teamSalaries);
+                    const remaining = MAX_SALARY_CUTOFF - totalSalary;
+                    const color = totalSalary < MAX_SALARY_CUTOFF ? '#0d8d40' : '#f33131';
+                    
+                    console.log(`BBFBL: Team ${teamName} total salary: ${Utils.toDollarFormat(totalSalary)}, remaining: ${Utils.toDollarFormat(remaining)}`);
+                    
+                    const teamSalaryElement = $(`
+                        <span class="bbfbl-team-salary" style="color: ${color}; font-size: 12px; font-weight: 500; margin-left: 10px;">
+                            ${Utils.toDollarFormat(totalSalary)}
+                        </span>
+                    `);
+                    
+                    if (!$teamNameElement.find('.bbfbl-team-salary').length) {
+                        $teamNameElement.after(teamSalaryElement);
+                        console.log(`BBFBL: Added team salary display for ${teamName}`);
+                    } else {
+                        console.log(`BBFBL: Team salary display already exists for ${teamName}`);
+                    }
+                } else {
+                    console.log(`BBFBL: No salaries found for team ${teamName}`);
+                }
+                
+                $table.addClass('bbfbl-processed');
+            }
+        });
+    }
+}
+
 // Games Played Tracker Class
 class GamesPlayedTracker {
     static renderGamesPlayedIndicator() {
@@ -563,6 +650,10 @@ $(async function() {
             // Update the indicator if it already exists
             GamesPlayedTracker.updateGamesPlayedIndicator();
         }
+
+        if (PageDetector.isRostersPage()) {
+            RostersSalaryRenderer.renderRostersSalaries();
+        }
         
         $("body").addClass('bbfbl');
         pageState.url = window.location.href;
@@ -582,7 +673,8 @@ $(async function() {
             const shouldDisplay = isSalariesLoaded && (
                 PageDetector.isPlayerListPage() || 
                 PageDetector.isResearchPage() || 
-                PageDetector.isPlayerPage()
+                PageDetector.isPlayerPage() ||
+                PageDetector.isRostersPage()
             );
             pageState.canDisplaySalaries = shouldDisplay;
         }
