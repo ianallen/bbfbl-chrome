@@ -33,7 +33,9 @@ const SELECTORS = {
     MAX_GAMES_PLAYED_CELL: '#position-caps-roto table tbody tr td:nth-child(2)', // "Played" column cells
     ROSTERS_PAGE: 'table.Table', // Roster tables on startingrosters page
     ROSTER_TEAM_NAME: 'p.W-100.Fz-med.Ta-c a', // Team name/owner name
-    ROSTER_PLAYER_NAME: 'a.name.F-link.playernote' // Player name links in roster
+    ROSTER_PLAYER_NAME: 'a.name.F-link.playernote', // Player name links in roster
+    TRANSACTIONS_PAGE: '.Tst-transaction-table', // Transactions table
+    TRANSACTIONS_PLAYER_LINKS: '.Tst-transaction-table a[href*="/players/"]' // Player links in transactions
 };
 
 // URLs
@@ -140,6 +142,10 @@ class PageDetector {
     static isRostersPage(): boolean {
         return window.location.pathname.indexOf("/startingrosters") > 0;
     }
+
+    static isTransactionsPage(): boolean {
+        return window.location.pathname.indexOf("/transactions") > 0;
+    }
 }
 
 // Salary Renderer Class
@@ -197,28 +203,27 @@ class SalaryFilter {
         this.filterPlayers(maxSalary);
 
         const filter = $(SELECTORS.SALARY_FILTER_INPUT);
-        filter.on("keyup change", _.debounce(this.onFilterChange, DEBOUNCE_DELAY_MS));
+        filter.on("keyup change", _.debounce(() => {
+            const value = filter.val() as string;
+            let max = parseInt(value);
+            if (!max) {
+                max = 50;
+            }
+            
+            this.filterPlayers(max);
+            this.saveState(max);
+        }, DEBOUNCE_DELAY_MS));
         filter.val(maxSalary);
         $(window).on("popstate", function() {});
     }
 
-    static onFilterChange() {
-        const value = $(this).val() as string;
-        let max = parseInt(value);
-        if (!max) {
-            max = 50;
-        }
-        
-        this.filterPlayers(max);
-        this.saveState(max);
-    }
 
     static filterPlayers(maxSalary: number) {
         const players = $(SELECTORS.PLAYERS_TABLE);
         players.show();
         players.filter(function () {
             const salary = $(this).find(SELECTORS.PLAYER).data("bbfbl-salary");
-            return salary / 1000000 >= maxSalary;
+            return salary / 1000000 > maxSalary;
         }).hide();
     }
 
@@ -497,6 +502,55 @@ class RostersSalaryRenderer {
     }
 }
 
+// Transactions Page Salary Renderer Class
+class TransactionsSalaryRenderer {
+    static renderTransactionsSalaries() {
+        console.log("BBFBL: Rendering transactions salaries...");
+        
+        const $transactionTable = $(SELECTORS.TRANSACTIONS_PAGE);
+        if ($transactionTable.length === 0) {
+            console.log("BBFBL: No transactions table found");
+            return;
+        }
+
+        // Check if already processed
+        if ($transactionTable.hasClass('bbfbl-processed')) {
+            return;
+        }
+
+        console.log("BBFBL: Processing transactions table");
+        
+        const $playerLinks = $(SELECTORS.TRANSACTIONS_PLAYER_LINKS);
+        let processedCount = 0;
+        
+        $playerLinks.each(function() {
+            const $link = $(this);
+            const href = $link.attr('href');
+            
+            if (href && !$link.find('.bbfbl-salary').length) {
+                const playerId = Utils.getId(href);
+                const playerData = _.find(bbfbl_salaries, { yahoo_id: playerId });
+                
+                if (playerData) {
+                    const salary = playerData.salary25_26;
+                    const $salaryElement = SalaryRenderer.renderSalary(salary);
+                    
+                    // Add salary after the player name, before position/injury info
+                    $link.after(' ').after($salaryElement);
+                    processedCount++;
+                    
+                    console.log(`BBFBL: Added salary for ${playerData.name}: ${Utils.toDollarFormat(salary)}`);
+                } else {
+                    console.log(`BBFBL: No salary data found for player ID: ${playerId}`);
+                }
+            }
+        });
+        
+        console.log(`BBFBL: Processed ${processedCount} player salaries in transactions`);
+        $transactionTable.addClass('bbfbl-processed');
+    }
+}
+
 // Games Played Tracker Class
 class GamesPlayedTracker {
     static renderGamesPlayedIndicator() {
@@ -654,6 +708,10 @@ $(async function() {
         if (PageDetector.isRostersPage()) {
             RostersSalaryRenderer.renderRostersSalaries();
         }
+
+        if (PageDetector.isTransactionsPage()) {
+            TransactionsSalaryRenderer.renderTransactionsSalaries();
+        }
         
         $("body").addClass('bbfbl');
         pageState.url = window.location.href;
@@ -674,7 +732,8 @@ $(async function() {
                 PageDetector.isPlayerListPage() || 
                 PageDetector.isResearchPage() || 
                 PageDetector.isPlayerPage() ||
-                PageDetector.isRostersPage()
+                PageDetector.isRostersPage() ||
+                PageDetector.isTransactionsPage()
             );
             pageState.canDisplaySalaries = shouldDisplay;
         }
