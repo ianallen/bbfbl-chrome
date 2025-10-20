@@ -136,3 +136,7 @@
 .warning {
   color: darkred;
 }
+
+.js-salary-filter.Input.Input-med {
+  width: 70px !important;
+}

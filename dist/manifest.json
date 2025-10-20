@@ -1,23 +1,23 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "BBFBL Mode",
   "description": "UI Enhancements for The Boom Boom Fantasy Basketball League on Yahoo! Fantasy Sports",
-  "version": "5.0.0.1",
+  "version": "6.2.0.0",
 
   "icons": {
     "128": "icon128.png",
     "24": "icon24.png"
   },
 
-  "page_action": {
+  "action": {
     "default_icon": "icon24.png",
     "default_title": "BBFBL"
   },
 
   "content_scripts": [
       {
-          "matches": ["https://basketball.fantasysports.yahoo.com/nba/39835/*"], 
+          "matches": ["https://basketball.fantasysports.yahoo.com/nba/*"], 
           "js": ["js/vendor.js", "js/content_script.js"],
           "css": ["styles/styles.css", "styles/ui.css", "styles/fontawesome/css/all.css"],
           "run_at": "document_start"
@@ -26,9 +26,15 @@
 
   "permissions": [ "storage", "unlimitedStorage" ],
 
-  "background": {
-    "scripts": ["js/vendor.js", "js/background.js"]
-  },
 
-  "web_accessible_resources": ["styles/styles.css"]
+
+  "host_permissions": ["https://basketball.fantasysports.yahoo.com/"],
+
+  "web_accessible_resources": [{
+    "resources":  ["styles/styles.css"],
+    "matches": ["https://basketball.fantasysports.yahoo.com/*"],
+    "extension_ids": []
+  }]
+  
+ 
 }
