@@ -146,6 +146,9 @@ class PageDetector {
     static isTransactionsPage(): boolean {
         return window.location.pathname.indexOf("/transactions") > 0;
     }
+    static isAddPlayerPage(): boolean {
+        return window.location.pathname.indexOf("/addplayer") > 0;
+    }
 }
 
 // Salary Renderer Class
@@ -170,10 +173,23 @@ class SalaryRenderer {
             'font-weight': 500
         };
         
-        const elem = $(`<li class="Inlineblock Mend-lg Ta-c">
-            <span class="Fw-b Fz-35">${Utils.toDollarFormat(total)}</span>
-            <em class="Block F-shade Fz-xs">Total Salary - (${Utils.toDollarFormat(remaining)} available)</em>
-        </li>`);
+        // const elem = $(`<li class="Inlineblock Mend-lg Ta-c">
+        //     <span class="Fw-b Fz-35">${Utils.toDollarFormat(total)}</span>
+        //     <em class="Block F-shade Fz-xs">${Utils.toDollarFormat(remaining)} available</em>
+        // </li>`);
+
+        let elem
+        if (remaining < 0) {
+            elem = $(`<li class="Inlineblock Mend-lg Ta-c">
+                <span class="Fw-b Fz-35 warning">${Utils.toDollarFormat(total)}</span>
+                <em class="Block F-shade Fz-xs">${Utils.toDollarFormat(remaining * -1)} over</em>
+            </li>`);
+        } else {
+            elem = $(`<li class="Inlineblock Mend-lg Ta-c">
+                <span class="Fw-b Fz-35">${Utils.toDollarFormat(total)}</span>
+                <em class="Block F-shade Fz-xs">${Utils.toDollarFormat(remaining)} available</em>
+            </li>`);
+        }
         elem.css(css);
 
         $(SELECTORS.TEAM_CARD_STATS).append(elem);
@@ -558,8 +574,13 @@ class GamesPlayedTracker {
             return; // Already rendered
         }
 
-        const totalGames = this.calculateTotalGamesPlayed();
+        const totalGames = 80
+        
+        console.log(totalGames, "totalGames");
         const progress = this.calculateProgress(totalGames);
+        console.log(progress, "progress");
+
+    
         
         const indicator = this.createGamesPlayedIndicator(totalGames, progress);
         $(SELECTORS.TEAM_CARD_STATS).append(indicator);
@@ -622,25 +643,47 @@ class GamesPlayedTracker {
     }
 
     static createGamesPlayedIndicator(totalGames: number, progress: any): JQuery<HTMLElement> {
+        // Explicitly coerce to number in case something odd is happening:
+        const totalGamesNum = Number(totalGames);
+        const minGamesNum = Number(MIN_GAMES_PLAYED);
+        const maxGamesNum = Number(MAX_TOTAL_GAMES);
+
         const statusColor = progress.isAboveMin ? '#0d8d40' : '#f33131';
-        const minPosition = (MIN_GAMES_PLAYED / MAX_TOTAL_GAMES) * 100; // Position of min line as percentage
-        const currentPosition = (totalGames / MAX_TOTAL_GAMES) * 100; // Current position as percentage
-        
+        const minPosition = (minGamesNum / maxGamesNum) * 100; // Position of min line as percentage
+        const currentPosition = (totalGamesNum / maxGamesNum) * 100; // Current position as percentage
+
+        // Create gradient background based on progress
+        let gradientBackground;
+        if (totalGamesNum >= minGamesNum) {
+            // Green when at or above minimum
+            gradientBackground = 'linear-gradient(90deg, #0d8d40 0%, #0d8d40 100%)';
+        } else {
+            // Red to yellow to green gradient based on progress toward minimum
+            const progressToMin = (totalGamesNum / minGamesNum) * 100;
+            if (progressToMin <= 50) {
+                // Red to yellow (0-50% of way to minimum)
+                gradientBackground = `linear-gradient(90deg, #f33131 0%, #ffa500 100%)`;
+            } else {
+                // Yellow to green (50-100% of way to minimum)
+                gradientBackground = `linear-gradient(90deg, #ffa500 0%, #0d8d40 100%)`;
+            }
+        }
+
         const indicator = $(`
             <li class="Inlineblock Mend-lg Ta-c bbfbl-games-indicator">
                 <div class="games-progress-container" style="margin: 10px 0;">
                     <div class="games-stats" style="margin-bottom: 8px;">
-                        <span class="Fw-b Fz-24" style="color: ${statusColor};">${totalGames}</span>
+                        <span class="Fw-b Fz-24" style="color: ${statusColor};">${totalGamesNum}</span>
                         <em class="Block F-shade Fz-xs">Total Games Played</em>
                     </div>
                     <div class="progress-container" style="width: 200px; margin: 0 auto; position: relative;">
                         <div class="progress-bar" style="width: 100%; height: 12px; background: #e0e0e0; border-radius: 6px; overflow: hidden; position: relative;">
-                            <div class="progress-fill" style="height: 100%; background: ${statusColor}; width: ${currentPosition}%; transition: width 0.3s ease;"></div>
+                            <div class="progress-fill" style="height: 100%; background: ${gradientBackground}; width: ${currentPosition}%; transition: width 0.3s ease;"></div>
                             <div class="min-line" style="position: absolute; left: ${minPosition}%; top: 0; width: 2px; height: 100%; background: #666; z-index: 2;"></div>
                         </div>
                         <div class="progress-labels" style="display: flex; justify-content: space-between; font-size: 10px; color: #666; margin-top: 4px;">
-                            <span>Min: ${MIN_GAMES_PLAYED}</span>
-                            <span>Max: ${MAX_TOTAL_GAMES}</span>
+                            <span>Min: ${minGamesNum}</span>
+                            <span>Max: ${maxGamesNum}</span>
                         </div>
                     </div>
                 </div>
@@ -659,12 +702,29 @@ class GamesPlayedTracker {
         
         const statusColor = progress.isAboveMin ? '#0d8d40' : '#f33131';
         const currentPosition = (totalGames / MAX_TOTAL_GAMES) * 100;
+
+        // Create gradient background based on progress
+        let gradientBackground;
+        if (totalGames >= MIN_GAMES_PLAYED) {
+            // Green when at or above minimum
+            gradientBackground = 'linear-gradient(90deg, #0d8d40 0%, #0d8d40 100%)';
+        } else {
+            // Red to yellow to green gradient based on progress toward minimum
+            const progressToMin = (totalGames / MIN_GAMES_PLAYED) * 100;
+            if (progressToMin <= 50) {
+                // Red to yellow (0-50% of way to minimum)
+                gradientBackground = `linear-gradient(90deg, #f33131 0%, #ffa500 100%)`;
+            } else {
+                // Yellow to green (50-100% of way to minimum)
+                gradientBackground = `linear-gradient(90deg, #ffa500 0%, #0d8d40 100%)`;
+            }
+        }
         
         // Update the display
         $indicator.find('.games-stats .Fw-b').text(totalGames).css('color', statusColor);
         $indicator.find('.progress-fill').css({
             'width': currentPosition + '%',
-            'background': statusColor
+            'background': gradientBackground
         });
     }
 }
@@ -733,7 +793,8 @@ $(async function() {
                 PageDetector.isResearchPage() || 
                 PageDetector.isPlayerPage() ||
                 PageDetector.isRostersPage() ||
-                PageDetector.isTransactionsPage()
+                PageDetector.isTransactionsPage() ||
+                PageDetector.isAddPlayerPage()
             );
             pageState.canDisplaySalaries = shouldDisplay;
         }
