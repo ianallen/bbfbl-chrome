@@ -54,10 +54,7 @@ const STORAGE_KEYS = {
 // TypeScript Interfaces
 interface PlayerSalary {
     name: string;
-    salary24_25: number;
     salary25_26: number;
-    salary26_27: number;
-    salary27_28: number;
     yahoo_id: number;
 }
 
@@ -65,10 +62,7 @@ interface AutocompleteItem {
     label: string;
     value: string;
     id: number;
-    salary24_25: number;
     salary25_26: number;
-    salary26_27: number;
-    salary27_28: number;
     salares: number[];
 }
 
@@ -283,22 +277,18 @@ class SalaryTool {
                 <thead>
                     <tr>
                         <th>Player</th>
-                        <th>Salary 2024 - 2025</th>
-                        <th>Salary 2025 - 2026</th>
-                        <th>Salary 2026 - 2027</th> 
-                        <th>Salary 2027 - 2028</th>              
+                        <th>Salary 2025 - 2026</th>             
                     </tr>
                 </thead>
                 <tbody>`;
         
         const $players = $(SELECTORS.PLAYER);
-        for (let i = 0; i < $players.length; i++) { 
+        console.log($players, "players");
+        for (let i = 0; i < $players.length; i++) {
+            console.log($players[i], "player");
             const row = `<tr class="player-row player-row-${i}">
                             <td class="player-col"><input class="player-input player-${i}"></td>
-                            <td class="salary salary-24"></td>
                             <td class="salary salary-25"></td>
-                            <td class="salary salary-26"></td>
-                            <td class="salary salary-27"></td>
                         </tr>`;
             table += row;
         }
@@ -307,10 +297,7 @@ class SalaryTool {
                         <tfoot>
                             <tr>
                                 <td class="salary-footer xt"><strong>Total</strong></td>
-                                <td class="salary-footer salary-24-sum"></td>
                                 <td class="salary-footer salary-25-sum"></td>
-                                <td class="salary-footer salary-26-sum"></td>
-                                <td class="salary-footer salary-27-sum"></td>
                             </tr>
                         </tfoot>
                         </table>`;
@@ -324,14 +311,11 @@ class SalaryTool {
             label: s.name, 
             value: s.name, 
             id: s.yahoo_id, 
-            salary24_25: s.salary24_25,
             salary25_26: s.salary25_26,
-            salary26_27: s.salary26_27,
-            salary27_28: s.salary27_28,
-            salares: [s.salary24_25, s.salary25_26, s.salary26_27, s.salary27_28]
+            salares: [s.salary25_26]
         }));
         
-        $(".player-input").autocomplete({
+        $(".salary-tool .player-input").autocomplete({
             source: source,
             minLength: 2,
             select: function(event, ui) {
@@ -763,6 +747,8 @@ $(async function() {
             GamesPlayedTracker.renderGamesPlayedIndicator();
             // Update the indicator if it already exists
             GamesPlayedTracker.updateGamesPlayedIndicator();
+
+            // renderSalaryTool(pageState);
         }
 
         if (PageDetector.isRostersPage()) {
