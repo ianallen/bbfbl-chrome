@@ -16,7 +16,7 @@
   "dependencies": {
     "@types/jqueryui": "^1.12.8",
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "lodash": "^4.17.20",
     "moment": "^2.29.1"
   },
